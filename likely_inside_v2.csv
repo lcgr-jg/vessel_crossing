@@ -1,0 +1,161 @@
+imo,vessel_name,vessel_key,flag,afra_class,dwt,fleet,is_dark_fleet,n_crossings,n_enter,n_exit,first_enter,last_enter,last_exit,last_direction,last_crossing_date,last_crossing_type,last_loading_state_xing,last_cargo_type_xing,next_port_xing,in_out,days_since_enter,days_since_exit
+1014876,IMOLA,IMOLA,LIBERIA,LR2,156906,clean fleet,False,1,1,0,2026-07-10,2026-07-10,,Entered MEG,2026-07-10,Dark/Unknown Route,Ballast,,Al Basrah,in,4.0,
+1017048,METRO MISTRAL,METRO MISTRAL,GREECE,LR1,74949,clean fleet,False,1,1,0,2026-07-09,2026-07-09,,Entered MEG,2026-07-09,Dark/Unknown Route,Ballast,,Jubail Industrial Port,in,5.0,
+1030052,NAUTILUS,NAUTILUS,LIBERIA,LR1,74916,clean fleet,False,1,1,0,2026-07-09,2026-07-09,,Entered MEG,2026-07-09,Dark/Unknown Route,Ballast,,Ras Tanura,in,5.0,
+1034747,LARGO ATOM,LARGO ATOM,LIBERIA,LR1,49740,clean fleet,False,1,1,0,2026-07-04,2026-07-04,,Entered MEG,2026-07-04,Dark/Unknown Route,Ballast,,Ras Laffan,in,10.0,
+8806321,MIB 1,MIB 1,NICARAGUA,Below GP,1266,clean fleet,False,1,1,0,2026-07-04,2026-07-04,,Entered MEG,2026-07-04,Dark/Unknown Route,Ballast,,,in,10.0,
+9112117,QUAR,QUAR,COMOROS,LR1,46166,clean fleet,False,1,1,0,2026-04-04,2026-04-04,,Entered MEG,2026-04-04,Dark/Unknown Route,Ballast,,Mideast Gulf,in,101.0,
+9125724,BLOOMING DALE,BLOOMING DALE,ARUBA,GP,12083,dark fleet,True,2,1,1,2026-04-13,2026-04-13,2026-04-02,Entered MEG,2026-04-13,Dark/Unknown Route,Laden,DPP,Bandar Abbas,in,92.0,103.0
+9175535,JORYA,JORYA,HONG KONG,GP,22377,clean fleet,False,1,1,0,2026-04-05,2026-04-05,,Entered MEG,2026-04-05,Iranian Route,Laden,Veg/Bio,Jubail Industrial Port,in,100.0,
+9177155,DESTINY,DESTINY,IRAN,VLCC,281050,dark fleet,True,1,1,0,2026-03-05,2026-03-05,,Entered MEG,2026-03-05,Dark/Unknown Route,Ballast,,South Pars,in,131.0,
+9181194,FELIX,FELIX,GABON,VLCC,308491,dark fleet,True,1,1,0,2026-07-08,2026-07-08,,Entered MEG,2026-07-08,Iranian Route,Ballast,,Khor Al Zubair Port,in,6.0,
+9184055,AROLIA,AROLIA,GAMBIA,Below GP,6690,clean fleet,False,1,1,0,2026-06-22,2026-06-22,,Entered MEG,2026-06-22,Iranian Route,Laden,DPP,Sharjah,in,22.0,
+9187667,ARGO I,ARGO I,IRAN,AFRA,99094,dark fleet,True,1,1,0,2026-03-30,2026-03-30,,Entered MEG,2026-03-30,Dark/Unknown Route,Ballast,,Iran,in,106.0,
+9196448,ROCKY,ROCKY,MALI,GP,12180,dark fleet,True,1,1,0,2026-07-08,2026-07-08,,Entered MEG,2026-07-08,Dark/Unknown Route,Ballast,,,in,6.0,
+9197909,ARHIMEDA,ARHIMEDA,MALAWI,VLCC,309498,dark fleet,True,1,1,0,2026-04-09,2026-04-09,,Entered MEG,2026-04-09,Iranian Route,Ballast,,Kharg Island,in,96.0,
+9203277,LEXIE,LEXIE,BOTSWANA,VLCC,298911,dark fleet,True,1,1,0,2026-06-01,2026-06-01,,Entered MEG,2026-06-01,Dark/Unknown Route,Ballast,,,in,43.0,
+9208215,RHN,RHN,CURACAO,VLCC,298920,dark fleet,True,1,1,0,2026-04-15,2026-04-15,,Entered MEG,2026-04-15,Iranian Route,Ballast,,,in,90.0,
+9212759,OLYM,OLYM,GUYANA,VLCC,160383,dark fleet,True,3,2,1,2026-03-16,2026-07-12,2026-04-04,Entered MEG,2026-07-12,Dark/Unknown Route,Ballast,,,in,2.0,101.0
+9212917,HASNA,HASNA,IRAN,VLCC,299229,dark fleet,True,2,1,1,2026-07-02,2026-07-02,2026-03-10,Entered MEG,2026-07-02,Dark/Unknown Route,Ballast,,,in,12.0,126.0
+9216559,VENTURA,VENTURA,GUYANA,LR1,68467,dark fleet,True,1,1,0,2026-07-07,2026-07-07,,Entered MEG,2026-07-07,Dark/Unknown Route,Ballast,,Bandar Mahshahr,in,7.0,
+9218454,DEVON,DEVON,IRAN,VLCC,299500,dark fleet,True,1,1,0,2026-04-01,2026-04-01,,Entered MEG,2026-04-01,Dark/Unknown Route,Ballast,,,in,104.0,
+9218466,DOVER,DOVER,IRAN,VLCC,296977,dark fleet,True,1,1,0,2026-03-01,2026-03-01,,Entered MEG,2026-03-01,Dark/Unknown Route,Ballast,,Soroosh,in,135.0,
+9218480,DOWNY,DOWNY,IRAN,VLCC,296977,dark fleet,True,1,1,0,2026-07-06,2026-07-06,,Entered MEG,2026-07-06,Iranian Route,Ballast,,,in,8.0,
+9221970,SOBAR,SOBAR,IRAN,VLCC,160183,dark fleet,True,1,1,0,2026-06-23,2026-06-23,,Entered MEG,2026-06-23,Iranian Route,Ballast,,,in,21.0,
+9226968,SARAK,SARAK,IRAN,LR2,159885,dark fleet,True,1,1,0,2026-06-23,2026-06-23,,Entered MEG,2026-06-23,Iranian Route,Ballast,,,in,21.0,
+9233973,NEBULA DRIFT,NEBULA DRIFT,PALAU,LR1,45763,dark fleet,True,1,1,0,2026-04-09,2026-04-09,,Entered MEG,2026-04-09,Dark/Unknown Route,Laden,CPP,Iran,in,96.0,
+9235464,SITA,SITA,CURACAO,GP,22820,dark fleet,True,1,1,0,2026-03-01,2026-03-01,,Entered MEG,2026-03-01,Dark/Unknown Route,Ballast,,,in,135.0,
+9235737,COBA,COBA,CURACAO,VLCC,319360,dark fleet,True,1,1,0,2026-03-29,2026-03-29,,Entered MEG,2026-03-29,Iranian Route,Ballast,,Kharg Island,in,107.0,
+9237797,TIMA,TIMA,GUYANA,VLCC,317000,dark fleet,True,1,1,0,2026-07-08,2026-07-08,,Entered MEG,2026-07-08,Iranian Route,Ballast,,,in,6.0,
+9241085,YOKO 1,YOKO 1,PANAMA,LR1,46684,clean fleet,False,1,1,0,2026-07-10,2026-07-10,,Entered MEG,2026-07-10,Iranian Route,Ballast,,Khor Al Zubair Port,in,4.0,
+9242481,MIRAAN,MIRAAN,CURACAO,MR,37296,dark fleet,True,4,2,2,2026-06-06,2026-07-03,2026-06-21,Entered MEG,2026-07-03,Iranian Route,Ballast,,Iran,in,11.0,23.0
+9246279,ANABEL,ANABEL,GAMBIA,VLCC,299997,dark fleet,True,3,2,1,2026-03-17,2026-07-14,2026-03-27,Entered MEG,2026-07-14,Iranian Route,Ballast,,,in,0.0,109.0
+9246803,SWIFT FALCON,SWIFT FALCON,PANAMA,LR1,46308,dark fleet,True,2,1,1,2026-07-04,2026-07-04,2026-05-14,Entered MEG,2026-07-04,Iranian Route,Laden,CPP,Hamriya,in,10.0,61.0
+9247778,BREEZ,BREEZ,COMOROS,LR1,47038,dark fleet,True,3,2,1,2026-03-11,2026-06-21,2026-06-02,Entered MEG,2026-06-21,Dark/Unknown Route,Ballast,,,in,23.0,42.0
+9247986,AVA 10,AVA 10,COMOROS,AFRA,105674,dark fleet,True,1,1,0,2026-05-28,2026-05-28,,Entered MEG,2026-05-28,Dark/Unknown Route,Ballast,,Bandar Mahshahr,in,47.0,
+9248473,AQUA,AQUA,MALAWI,VLCC,299152,dark fleet,True,1,1,0,2026-04-05,2026-04-05,,Entered MEG,2026-04-05,Iranian Route,Ballast,,Kharg Island,in,100.0,
+9251884,LOANNA,LOANNA,CURACAO,LR1,46764,dark fleet,True,1,1,0,2026-03-01,2026-03-01,,Entered MEG,2026-03-01,Dark/Unknown Route,Ballast,,,in,135.0,
+9251896,MARAL,MARAL,CURACAO,LR1,46764,dark fleet,True,2,1,1,2026-07-11,2026-07-11,2026-04-20,Entered MEG,2026-07-11,Iranian Route,Laden,CPP,,in,3.0,85.0
+9252072,FAROG,FAROG,CURACAO,LR1,47355,dark fleet,True,1,1,0,2026-03-01,2026-03-01,,Entered MEG,2026-03-01,Dark/Unknown Route,Ballast,,,in,135.0,
+9256298,ALFONSO,ALFONSO,BARBADOS,MR,38877,clean fleet,False,5,3,2,2026-06-14,2026-07-10,2026-07-06,Entered MEG,2026-07-10,Dark/Unknown Route,Ballast,,Hamriya,in,4.0,8.0
+9257503,ATLANTIS II,ATLANTIS II,IRAN,LR1,73004,dark fleet,True,2,1,1,2026-04-30,2026-04-30,2026-04-22,Entered MEG,2026-04-30,Iranian Route,Ballast,,Bandar Abbas,in,75.0,83.0
+9258466,ASHLEY,ASHLEY,ANTIGUA AND BARBUDA,LR1,68524,clean fleet,False,2,1,1,2026-06-30,2026-06-30,2026-06-20,Entered MEG,2026-06-30,Dark/Unknown Route,Ballast,,Khor Al Zubair Light.,in,14.0,24.0
+9258521,LAUREN II,LAUREN II,PANAMA,VLCC,298564,dark fleet,True,1,1,0,2026-06-18,2026-06-18,,Entered MEG,2026-06-18,Dark/Unknown Route,Ballast,,Kharg Island,in,26.0,
+9258870,UMA,UMA,GUYANA,AFRA,114761,dark fleet,True,1,1,0,2026-03-31,2026-03-31,,Entered MEG,2026-03-31,Iranian Route,Ballast,,Soroosh,in,105.0,
+9260067,OSTRIA,OSTRIA,BOTSWANA,MR,40271,dark fleet,True,4,2,2,2026-06-17,2026-07-14,2026-06-30,Entered MEG,2026-07-14,Iranian Route,Laden,CPP,Khor Al Zubair Port,in,0.0,14.0
+9261841,GREEN LINE,GREEN LINE,PALAU,GP,10018,clean fleet,False,1,1,0,2026-06-20,2026-06-20,,Entered MEG,2026-06-20,Iranian Route,Laden,CPP,,in,24.0,
+9263954,HEMERA,HEMERA,PALAU,Below GP,9214,dark fleet,True,1,1,0,2026-07-03,2026-07-03,,Entered MEG,2026-07-03,Iranian Route,Ballast,,,in,11.0,
+9273002,STARBOUND EXPLORER,STARBOUND EXPLORER,MADAGASCAR,Below GP,7717,dark fleet,True,4,2,2,2026-05-11,2026-06-08,2026-06-03,Entered MEG,2026-06-08,Iranian Route,Ballast,,Iran,in,36.0,41.0
+9273650,SEAWAY,SEAWAY,PANAMA,LR1,46101,clean fleet,False,6,3,3,2026-04-30,2026-07-01,2026-06-22,Entered MEG,2026-07-01,Iranian Route,Ballast,,Sohar,in,13.0,22.0
+9273832,EPIK,EPIK,PANAMA,LR1,46719,clean fleet,False,3,2,1,2026-03-30,2026-06-24,2026-04-12,Entered MEG,2026-06-24,IMO Route,Ballast,,Hamriya,in,20.0,93.0
+9274654,TONDA,TONDA,MARSHALL ISLANDS,MR,36803,clean fleet,False,1,1,0,2026-07-11,2026-07-11,,Entered MEG,2026-07-11,Dark/Unknown Route,Ballast,,Jubail Industrial Port,in,3.0,
+9281554,LOUIZA,LOUIZA,CURACAO,LR1,45557,dark fleet,True,5,3,2,2026-03-31,2026-06-19,2026-06-04,Entered MEG,2026-06-19,Iranian Route,Ballast,,Assaluyeh,in,25.0,40.0
+9281566,BLAZE,BLAZE,PALAU,LR1,45592,clean fleet,False,2,1,1,2026-06-27,2026-06-27,2026-04-18,Entered MEG,2026-06-27,Omani Route,Ballast,,Iran,in,17.0,87.0
+9281695,ALICIA,ALICIA,CURACAO,VLCC,281396,dark fleet,True,1,1,0,2026-04-14,2026-04-14,,Entered MEG,2026-04-14,Iranian Route,Ballast,,,in,91.0,
+9282041,KAVIZ,KAVIZ,COMOROS,AFRA,115390,dark fleet,True,1,1,0,2026-04-28,2026-04-28,,Entered MEG,2026-04-28,Dark/Unknown Route,Ballast,,Kharg Island,in,77.0,
+9282522,KUSH,KUSH,COMOROS,LR1,46866,dark fleet,True,2,1,1,2026-03-30,2026-03-30,2026-03-25,Entered MEG,2026-03-30,Dark/Unknown Route,Ballast,,,in,106.0,111.0
+9285823,KIARA M,KIARA M,SAN MARINO,VLCC,319247,clean fleet,False,7,4,3,2026-04-26,2026-07-04,2026-06-26,Entered MEG,2026-07-04,Dark/Unknown Route,Ballast,,Al Basrah,in,10.0,18.0
+9286437,SELENIA,SELENIA,PALAU,Below GP,5765,clean fleet,False,2,1,1,2026-05-08,2026-05-08,2026-02-28,Entered MEG,2026-05-08,Dark/Unknown Route,Ballast,,Khor Al Zubair Port,in,67.0,136.0
+9287883,ASPHALT ALLIANCE,ASPHALT ALLIANCE,PANAMA,Below GP,5895,clean fleet,False,1,1,0,2026-06-27,2026-06-27,,Entered MEG,2026-06-27,Omani Route,Ballast,,Khor Al Zubair Port,in,17.0,
+9288095,LAN JING,LAN JING,CURACAO,VLCC,298972,dark fleet,True,2,1,1,2026-06-26,2026-06-26,2026-03-11,Entered MEG,2026-06-26,Dark/Unknown Route,Ballast,,Mideast Gulf,in,18.0,125.0
+9289491,BELMA,BELMA,CURACAO,ULCC,320821,dark fleet,True,1,1,0,2026-07-14,2026-07-14,,Entered MEG,2026-07-14,Iranian Route,Ballast,,,in,0.0,
+9289726,MADESTAR,MADESTAR,CAMEROON,VLCC,319180,dark fleet,True,1,1,0,2026-07-11,2026-07-11,,Entered MEG,2026-07-11,Iranian Route,Ballast,,,in,3.0,
+9289740,WORLD COURAGE,WORLD COURAGE,CURACAO,LR1,46992,dark fleet,True,1,1,0,2026-03-13,2026-03-13,,Entered MEG,2026-03-13,Dark/Unknown Route,Ballast,,,in,123.0,
+9292486,GOLDCREST,GOLDCREST,MOZAMBIQUE,VLCC,306998,dark fleet,True,1,1,0,2026-05-30,2026-05-30,,Entered MEG,2026-05-30,Dark/Unknown Route,Ballast,,Kharg Island,in,45.0,
+9293155,BENEDICT,BENEDICT,CAMEROON,AFRA,106062,dark fleet,True,1,1,0,2026-07-14,2026-07-14,,Entered MEG,2026-07-14,Iranian Route,Ballast,,Khor Al Zubair Port,in,0.0,
+9297436,FELICITY,FELICITY,NORWAY,LR1,70955,clean fleet,False,2,2,0,2026-05-23,2026-06-29,,Entered MEG,2026-06-29,Iranian Route,Ballast,,Umm Qasr South,in,15.0,
+9299111,ELKA APOLLON,ELKA APOLLON,LIBERIA,AFRA,101970,clean fleet,False,1,1,0,2026-02-28,2026-02-28,,Entered MEG,2026-02-28,IMO Route,Ballast,,Jebel Ali,in,136.0,
+9300996,SHEN ZHOU,SHEN ZHOU,CURACAO,LR1,51303,dark fleet,True,1,1,0,2026-06-29,2026-06-29,,Entered MEG,2026-06-29,Iranian Route,Ballast,,Khor Al Zubair Port,in,15.0,
+9302011,ADAMARIS,ADAMARIS,SAINT KITTS AND NEVIS,Below GP,1773,clean fleet,False,1,1,0,2026-05-23,2026-05-23,,Entered MEG,2026-05-23,Dark/Unknown Route,Ballast,,,in,52.0,
+9304588,PEACE GULF,PEACE GULF,PANAMA,LR1,49999,clean fleet,False,3,2,1,2026-04-14,2026-05-11,2026-04-25,Entered MEG,2026-05-11,Iranian Route,Ballast,,Hamriya,in,64.0,80.0
+9305051,MUSIK,MUSIK,BAHAMAS,LR1,46792,clean fleet,False,6,3,3,2026-04-22,2026-07-03,2026-06-16,Entered MEG,2026-07-03,Iranian Route,Ballast,,Bandar Mahshahr,in,11.0,28.0
+9305403,BRAVO,BRAVO,LIBERIA,GP,10052,clean fleet,False,1,1,0,2026-07-09,2026-07-09,,Entered MEG,2026-07-09,Iranian Route,Laden,DPP,,in,5.0,
+9306469,CELE,CELE,BARBADOS,LR1,46720,clean fleet,False,1,1,0,2026-05-12,2026-05-12,,Entered MEG,2026-05-12,Dark/Unknown Route,Laden,Veg/Bio,,in,63.0,
+9308778,AMIL,AMIL,MOZAMBIQUE,LR1,47999,dark fleet,True,1,1,0,2026-06-01,2026-06-01,,Entered MEG,2026-06-01,Dark/Unknown Route,Ballast,,Kharg Island,in,43.0,
+9313761,STELLA,STELLA,NORWAY,LR1,45737,clean fleet,False,2,1,1,2026-06-19,2026-06-19,2026-05-10,Entered MEG,2026-06-19,Iranian Route,Ballast,,Khor Al Zubair Port,in,25.0,65.0
+9315147,ECUADOR PROSPERITY,ECUADOR PROSPERITY,LIBERIA,VLCC,317826,clean fleet,False,1,1,0,2026-06-29,2026-06-29,,Entered MEG,2026-06-29,Dark/Unknown Route,Ballast,,Al Basrah,in,15.0,
+9315159,CAMEROON PROSPERITY,CAMEROON PROSPERITY,LIBERIA,VLCC,317713,clean fleet,False,9,5,4,2026-05-17,2026-07-03,2026-06-27,Entered MEG,2026-07-03,Omani Route,Ballast,,Zirku,in,11.0,17.0
+9315161,ROMANIA PROSPERITY,ROMANIA PROSPERITY,LIBERIA,VLCC,317794,clean fleet,False,5,3,2,2026-05-19,2026-06-14,2026-06-07,Entered MEG,2026-06-14,Dark/Unknown Route,Ballast,,Al Basrah,in,30.0,37.0
+9327114,BAHAMAS PROSPERITY,BAHAMAS PROSPERITY,LIBERIA,VLCC,300246,clean fleet,False,1,1,0,2026-07-02,2026-07-02,,Entered MEG,2026-07-02,Dark/Unknown Route,Ballast,,Dubai Area,in,12.0,
+9329693,KAZIMAH III,KAZIMAH III,KUWAIT,VLCC,317250,clean fleet,False,1,1,0,2026-05-25,2026-05-25,,Entered MEG,2026-05-25,Dark/Unknown Route,Ballast,,Mina Al-Ahmadi,in,50.0,
+9329796,KIKU,KIKU,PANAMA,VLCC,300866,clean fleet,False,3,2,1,2026-06-18,2026-07-12,2026-06-27,Entered MEG,2026-07-12,Dark/Unknown Route,Ballast,,Ras Laffan,in,2.0,17.0
+9331244,NATSUMI,NATSUMI,BARBADOS,VLCC,299235,clean fleet,False,1,1,0,2026-06-26,2026-06-26,,Entered MEG,2026-06-26,Iranian Route,Ballast,,Sharjah,in,18.0,
+9333228,SEA ELEGANT,SEA ELEGANT,HONG KONG,GP,19734,clean fleet,False,1,1,0,2026-07-04,2026-07-04,,Entered MEG,2026-07-04,Iranian Route,Ballast,,Jubail Industrial Port,in,10.0,
+9340415,AL MAHBOOBAH,AL MAHBOOBAH,SAUDI ARABIA,GP,19982,clean fleet,False,1,1,0,2026-06-29,2026-06-29,,Entered MEG,2026-06-29,Omani Route,Ballast,,Jubail Industrial Port,in,15.0,
+9340635,TORKEL,TORKEL,HONG KONG,VLCC,297259,clean fleet,False,1,1,0,2026-07-08,2026-07-08,,Entered MEG,2026-07-08,Dark/Unknown Route,Ballast,,,in,6.0,
+9357377,SALINA,SALINA,IRAN,VLCC,164154,dark fleet,True,3,2,1,2026-03-11,2026-07-02,2026-04-01,Entered MEG,2026-07-02,Iranian Route,Ballast,,,in,12.0,104.0
+9360398,Y L W,Y L W,BARBADOS,Below GP,6012,clean fleet,False,1,1,0,2026-07-05,2026-07-05,,Entered MEG,2026-07-05,Iranian Route,Ballast,,Khalifa Industrial Zone,in,9.0,
+9362061,HAWK,HAWK,IRAN,VLCC,317367,dark fleet,True,3,2,1,2026-03-16,2026-06-27,2026-03-30,Entered MEG,2026-06-27,Iranian Route,Ballast,,Mideast Gulf,in,17.0,106.0
+9364112,TOUR 2,TOUR 2,IRAN,LR2,158817,dark fleet,True,3,2,1,2026-04-02,2026-07-06,2026-04-09,Entered MEG,2026-07-06,Iranian Route,Ballast,,Mideast Gulf,in,8.0,96.0
+9376749,SURINAME PROSPERITY,SURINAME PROSPERITY,LIBERIA,VLCC,297556,clean fleet,False,1,1,0,2026-07-01,2026-07-01,,Entered MEG,2026-07-01,Dark/Unknown Route,Ballast,,Al Basrah,in,13.0,
+9376751,FINLAND PROSPERITY,FINLAND PROSPERITY,LIBERIA,VLCC,297573,clean fleet,False,1,1,0,2026-07-01,2026-07-01,,Entered MEG,2026-07-01,Omani Route,Ballast,,Ras Tanura,in,13.0,
+9377418,BARBADOS PROSPERITY,BARBADOS PROSPERITY,PANAMA,VLCC,297958,clean fleet,False,1,1,0,2026-07-01,2026-07-01,,Entered MEG,2026-07-01,Dark/Unknown Route,Ballast,,Al Basrah,in,13.0,
+9377585,SUN RISE I,SUN RISE I,PANAMA,Below GP,7695,clean fleet,False,2,1,1,2026-04-01,2026-04-01,2026-03-01,Entered MEG,2026-04-01,Iranian Route,Ballast,,Khor Al Zubair Port,in,104.0,135.0
+9379313,NEW FUTURE,NEW FUTURE,MARSHALL ISLANDS,LR1,50922,clean fleet,False,2,1,1,2026-07-03,2026-07-03,2026-04-13,Entered MEG,2026-07-03,Iranian Route,Laden,CPP,Hamriya,in,11.0,92.0
+9387566,BULGARIA PROSPERITY,BULGARIA PROSPERITY,LIBERIA,VLCC,318325,clean fleet,False,1,1,0,2026-07-03,2026-07-03,,Entered MEG,2026-07-03,Dark/Unknown Route,Ballast,,,in,11.0,
+9387578,NUSHEN,NUSHEN,BARBADOS,VLCC,299999,clean fleet,False,1,1,0,2026-04-04,2026-04-04,,Entered MEG,2026-04-04,Dark/Unknown Route,Ballast,,,in,101.0,
+9389021,ARGENTINA B,ARGENTINA B,LIBERIA,VLCC,299999,clean fleet,False,9,5,4,2026-04-14,2026-07-12,2026-07-05,Entered MEG,2026-07-12,Dark/Unknown Route,Ballast,,Al Basrah,in,2.0,9.0
+9389899,BRUNEI PROSPERITY,BRUNEI PROSPERITY,LIBERIA,ULCC,321300,clean fleet,False,1,1,0,2026-07-05,2026-07-05,,Entered MEG,2026-07-05,Dark/Unknown Route,Ballast,,Al Basrah,in,9.0,
+9390264,RAFFLES PROSPERITY,RAFFLES PROSPERITY,PANAMA,Below GP,9210,clean fleet,False,2,1,1,2026-07-03,2026-07-03,2026-06-24,Entered MEG,2026-07-03,Iranian Route,Ballast,,Mesaieed,in,11.0,20.0
+9390927,KERALA,KERALA,LIBERIA,LR1,74999,clean fleet,False,7,4,3,2026-03-02,2026-07-07,2026-07-02,Entered MEG,2026-07-07,Dark/Unknown Route,Ballast,,Dubai Light.,in,7.0,12.0
+9391775,BASRAH ENERGY,BASRAH ENERGY,PANAMA,VLCC,301583,clean fleet,False,9,5,4,2026-04-14,2026-06-18,2026-06-14,Entered MEG,2026-06-18,Dark/Unknown Route,Ballast,,Zirku,in,26.0,30.0
+9395317,GERMANY B,GERMANY B,LIBERIA,VLCC,296681,clean fleet,False,1,1,0,2026-07-02,2026-07-02,,Entered MEG,2026-07-02,Dark/Unknown Route,Ballast,,Al Basrah,in,12.0,
+9395496,DOMINICA PROSPERITY,DOMINICA PROSPERITY,LIBERIA,VLCC,297274,clean fleet,False,1,1,0,2026-07-02,2026-07-02,,Entered MEG,2026-07-02,Omani Route,Ballast,,Ras Tanura,in,12.0,
+9399478,STALLION,STALLION,LIBERIA,LR2,157048,clean fleet,False,1,1,0,2026-02-28,2026-02-28,,Entered MEG,2026-02-28,IMO Route,Ballast,,Mina Al-Ahmadi,in,136.0,
+9404950,OTTOMAN EQUITY,OTTOMAN EQUITY,TURKIYE,LR2,149999,clean fleet,False,3,2,1,2026-05-27,2026-07-03,2026-06-21,Entered MEG,2026-07-03,Omani Route,Ballast,,Dubai Area,in,11.0,23.0
+9414931,TANZANIA PROSPERITY,TANZANIA PROSPERITY,LIBERIA,VLCC,296800,clean fleet,False,1,1,0,2026-07-05,2026-07-05,,Entered MEG,2026-07-05,Dark/Unknown Route,Ballast,,,in,9.0,
+9417464,TANI,TANI,COMOROS,AFRA,105188,dark fleet,True,1,1,0,2026-06-20,2026-06-20,,Entered MEG,2026-06-20,Dark/Unknown Route,Ballast,,Bandar Mahshahr,in,24.0,
+9418066,PERU PROSPERITY,PERU PROSPERITY,LIBERIA,VLCC,318080,clean fleet,False,1,1,0,2026-07-02,2026-07-02,,Entered MEG,2026-07-02,Dark/Unknown Route,Ballast,,Ras Tanura,in,12.0,
+9430296,AL REEM,AL REEM,MARSHALL ISLANDS,LR1,46046,clean fleet,False,1,1,0,2026-07-05,2026-07-05,,Entered MEG,2026-07-05,Dark/Unknown Route,Ballast,,Ruwais,in,9.0,
+9430715,LUMINA OCEAN,LUMINA OCEAN,CURACAO,GP,13937,dark fleet,True,5,3,2,2026-04-11,2026-07-08,2026-06-22,Entered MEG,2026-07-08,Iranian Route,Ballast,,,in,6.0,22.0
+9438274,PUFFIN TWO,PUFFIN TWO,LIBERIA,Below GP,7022,clean fleet,False,2,1,1,2026-03-02,2026-03-02,2026-03-01,Entered MEG,2026-03-02,IMO Route,Ballast,,,in,134.0,135.0
+9448152,APNOIA,APNOIA,MALTA,LR1,74812,clean fleet,False,1,1,0,2026-07-12,2026-07-12,,Entered MEG,2026-07-12,Dark/Unknown Route,Ballast,,Jubail Industrial Port,in,2.0,
+9455703,IKARIOTIKOS,IKARIOTIKOS,LIBERIA,LR1,51678,clean fleet,False,1,1,0,2026-07-05,2026-07-05,,Entered MEG,2026-07-05,Dark/Unknown Route,Laden,DPP,Hamriya,in,9.0,
+9477177,TREND,TREND,TOGO,Below GP,7119,clean fleet,False,4,2,2,2026-06-08,2026-07-02,2026-06-24,Entered MEG,2026-07-02,Iranian Route,Ballast,,Khor Al Zubair Port,in,12.0,20.0
+9482861,NAVIG8 MONTIEL,NAVIG8 MONTIEL,SINGAPORE,LR1,75571,clean fleet,False,3,2,1,2026-05-20,2026-06-13,2026-05-29,Entered MEG,2026-06-13,Dark/Unknown Route,Ballast,,Ruwais,in,31.0,46.0
+9487249,BANI YAS,BANI YAS,LIBERIA,LR1,74913,clean fleet,False,2,2,0,2026-06-06,2026-06-11,,Entered MEG,2026-06-11,Dark/Unknown Route,Laden,CPP,Jebel Ali,in,33.0,
+9487251,DIYYINAH I,DIYYINAH I,LIBERIA,LR1,74954,clean fleet,False,3,2,1,2026-05-12,2026-06-14,2026-05-20,Entered MEG,2026-06-14,Dark/Unknown Route,Ballast,,Ruwais,in,30.0,55.0
+9487263,YAMILAH III,YAMILAH III,LIBERIA,LR1,74866,clean fleet,False,1,1,0,2026-06-16,2026-06-16,,Entered MEG,2026-06-16,Dark/Unknown Route,Ballast,,,in,28.0,
+9487275,MEZAIRA'A,MEZAIRA'A,LIBERIA,LR1,74854,clean fleet,False,3,2,1,2026-05-27,2026-06-18,2026-06-05,Entered MEG,2026-06-18,Dark/Unknown Route,Ballast,,Dubai Light.,in,26.0,39.0
+9508859,ROTTERDAM ENERGY,ROTTERDAM ENERGY,LIBERIA,VLCC,296659,clean fleet,False,6,3,3,2026-06-16,2026-07-10,2026-07-01,Entered MEG,2026-07-10,Dark/Unknown Route,Ballast,,Zirku,in,4.0,13.0
+9511179,PONTUS,PONTUS,PALAU,Below GP,5752,clean fleet,False,2,1,1,2026-06-24,2026-06-24,2026-02-28,Entered MEG,2026-06-24,IMO Route,Laden,DPP,Jebel Ali,in,20.0,136.0
+9516947,NEW GIANT,NEW GIANT,LIBERIA,VLCC,319611,clean fleet,False,1,1,0,2026-07-13,2026-07-13,,Entered MEG,2026-07-13,Dark/Unknown Route,Ballast,,Al Basrah,in,1.0,
+9521485,MADHURI,MADHURI,ANTIGUA AND BARBUDA,Below GP,7058,clean fleet,False,1,1,0,2026-06-12,2026-06-12,,Entered MEG,2026-06-12,Dark/Unknown Route,Ballast,,Khor Al Zubair Port,in,32.0,
+9523471,UNITED VENTURE,UNITED VENTURE,SIERRA LEONE,Below GP,6365,clean fleet,False,1,1,0,2026-06-29,2026-06-29,,Entered MEG,2026-06-29,Dark/Unknown Route,Ballast,,,in,15.0,
+9526461,SOUTH AFRICA PROSPERITY,SOUTH AFRICA PROSPERITY,LIBERIA,VLCC,299992,clean fleet,False,1,1,0,2026-06-22,2026-06-22,,Entered MEG,2026-06-22,Omani Route,Ballast,,Al Basrah,in,22.0,
+9532159,MACARENA,MACARENA,MARSHALL ISLANDS,AFRA,108993,clean fleet,False,1,1,0,2026-07-06,2026-07-06,,Entered MEG,2026-07-06,Dark/Unknown Route,Ballast,,Jubail Industrial Port,in,8.0,
+9534004,EGYPT PROSPERITY,EGYPT PROSPERITY,LIBERIA,VLCC,318663,clean fleet,False,1,1,0,2026-07-05,2026-07-05,,Entered MEG,2026-07-05,Dark/Unknown Route,Ballast,,Al Basrah,in,9.0,
+9534808,AL RIQQA,AL RIQQA,KUWAIT,VLCC,319704,clean fleet,False,3,2,1,2026-05-27,2026-06-10,2026-06-04,Entered MEG,2026-06-10,Dark/Unknown Route,Ballast,,Mina Al-Ahmadi,in,34.0,40.0
+9534858,COSTA RICA PROSPERITY,COSTA RICA PROSPERITY,LIBERIA,VLCC,297136,clean fleet,False,1,1,0,2026-06-30,2026-06-30,,Entered MEG,2026-06-30,Dark/Unknown Route,Ballast,,Al Basrah,in,14.0,
+9546722,OCEANJET,OCEANJET,NICARAGUA,Below GP,9965,dark fleet,True,4,2,2,2026-04-30,2026-05-24,2026-05-21,Entered MEG,2026-05-24,Iranian Route,Ballast,,Iran,in,51.0,54.0
+9548990,ATEELA 1,ATEELA 1,IRAN,Below GP,6500,dark fleet,True,1,1,0,2026-05-29,2026-05-29,,Entered MEG,2026-05-29,Iranian Route,Laden,CPP,,in,46.0,
+9561368,EL BELLA,EL BELLA,PANAMA,LR1,47975,clean fleet,False,1,1,0,2026-07-07,2026-07-07,,Entered MEG,2026-07-07,Omani Route,Ballast,,Mina Al-Ahmadi,in,7.0,
+9569645,SERENA,SERENA,IRAN,VLCC,317536,dark fleet,True,2,1,1,2026-07-02,2026-07-02,2026-03-16,Entered MEG,2026-07-02,Iranian Route,Ballast,,,in,12.0,120.0
+9569700,DERYA,DERYA,IRAN,VLCC,319295,dark fleet,True,3,2,1,2026-03-24,2026-07-07,2026-04-03,Entered MEG,2026-07-07,Dark/Unknown Route,Ballast,,,in,7.0,102.0
+9645786,VELOS TURQUOISE,VELOS TURQUOISE,MARSHALL ISLANDS,LR1,49990,clean fleet,False,1,1,0,2026-06-27,2026-06-27,,Entered MEG,2026-06-27,Omani Route,Ballast,,Jubail Industrial Port,in,17.0,
+9653410,AL DERWAZAH,AL DERWAZAH,KUWAIT,VLCC,316884,clean fleet,False,1,1,0,2026-06-13,2026-06-13,,Entered MEG,2026-06-13,Dark/Unknown Route,Ballast,,Mina Al-Ahmadi,in,31.0,
+9656034,BUBYAN,BUBYAN,KUWAIT,LR1,46320,clean fleet,False,1,1,0,2026-06-02,2026-06-02,,Entered MEG,2026-06-02,Dark/Unknown Route,Ballast,,Al Zour,in,42.0,
+9659672,THE DIPLOMAT,THE DIPLOMAT,MARSHALL ISLANDS,MR,31281,clean fleet,False,2,1,1,2026-07-04,2026-07-04,2026-02-28,Entered MEG,2026-07-04,Dark/Unknown Route,Laden,DPP,Jebel Ali,in,10.0,136.0
+9660413,KAWAKAWA,KAWAKAWA,SAINT KITTS AND NEVIS,Below GP,4800,clean fleet,False,1,1,0,2026-06-27,2026-06-27,,Entered MEG,2026-06-27,Iranian Route,Ballast,,,in,17.0,
+9667382,OAK,OAK,COMOROS,Below GP,3285,clean fleet,False,2,1,1,2026-06-26,2026-06-26,2026-05-10,Entered MEG,2026-06-26,Dark/Unknown Route,Ballast,,,in,18.0,65.0
+9722649,HELLAS NEMESIS,HELLAS NEMESIS,MALTA,LR1,49994,clean fleet,False,1,1,0,2026-06-29,2026-06-29,,Entered MEG,2026-06-29,Dark/Unknown Route,Laden,CPP,Ruwais,in,15.0,
+9722924,SPAIN B,SPAIN B,LIBERIA,VLCC,299446,clean fleet,False,1,1,0,2026-07-01,2026-07-01,,Entered MEG,2026-07-01,Dark/Unknown Route,Ballast,,Ras Tanura,in,13.0,
+9722936,KUWAIT PROSPERITY,KUWAIT PROSPERITY,LIBERIA,VLCC,299533,clean fleet,False,1,1,0,2026-06-27,2026-06-27,,Entered MEG,2026-06-27,Dark/Unknown Route,Ballast,,Al Basrah,in,17.0,
+9723071,FUJAIRAH ENERGY,FUJAIRAH ENERGY,LIBERIA,VLCC,299999,clean fleet,False,4,2,2,2026-06-03,2026-06-24,2026-06-19,Entered MEG,2026-06-24,Dark/Unknown Route,Ballast,,Fateh Field,in,20.0,25.0
+9732553,COLOMBIA PROSPERITY,COLOMBIA PROSPERITY,LIBERIA,VLCC,299010,clean fleet,False,1,1,0,2026-06-30,2026-06-30,,Entered MEG,2026-06-30,Dark/Unknown Route,Ballast,,Ras Tanura,in,14.0,
+9746190,SC FALCON,SC FALCON,HONG KONG,MR,33984,clean fleet,False,1,1,0,2026-07-11,2026-07-11,,Entered MEG,2026-07-11,Iranian Route,Ballast,,Mina Al-Ahmadi,in,3.0,
+9760885,BAVAN,BAVAN,IRAN,Below GP,4261,clean fleet,False,2,1,1,2026-04-20,2026-04-20,2026-04-09,Entered MEG,2026-04-20,Iranian Route,Ballast,,,in,85.0,96.0
+9792266,CONGO PROSPERITY,CONGO PROSPERITY,LIBERIA,VLCC,300853,clean fleet,False,1,1,0,2026-06-30,2026-06-30,,Entered MEG,2026-06-30,Dark/Unknown Route,Ballast,,Al Basrah,in,14.0,
+9820324,DALIA,DALIA,IRAN,LR1,49000,dark fleet,True,8,4,4,2026-03-08,2026-07-02,2026-06-25,Entered MEG,2026-07-02,Iranian Route,Ballast,,Lavan,in,12.0,19.0
+9820336,PETUNIA,PETUNIA,IRAN,LR1,49288,dark fleet,True,2,1,1,2026-07-08,2026-07-08,2026-07-02,Entered MEG,2026-07-08,Iranian Route,Ballast,,Bandar Mahshahr,in,6.0,12.0
+9823546,JARNAIN,JARNAIN,LIBERIA,AFRA,114831,clean fleet,False,5,3,2,2026-06-14,2026-07-11,2026-07-03,Entered MEG,2026-07-11,Dark/Unknown Route,Ballast,,Ruwais,in,3.0,11.0
+9825025,MONJASA SHIPPER,MONJASA SHIPPER,LIBERIA,Below GP,7991,clean fleet,False,2,1,1,2026-06-05,2026-06-05,2026-02-28,Entered MEG,2026-06-05,Dark/Unknown Route,Ballast,,,in,39.0,136.0
+9834507,CARLYNA,CARLYNA,PANAMA,Below GP,1076,clean fleet,False,1,1,0,2026-07-01,2026-07-01,,Entered MEG,2026-07-01,Omani Route,Ballast,,,in,13.0,
+9854507,DAS,DAS,LIBERIA,VLCC,299995,clean fleet,False,9,5,4,2026-05-18,2026-07-12,2026-07-07,Entered MEG,2026-07-12,Dark/Unknown Route,Ballast,,Zirku,in,2.0,7.0
+9858486,SANAM,SANAM,SAUDI ARABIA,VLCC,299999,clean fleet,False,1,1,0,2026-07-07,2026-07-07,,Entered MEG,2026-07-07,Dark/Unknown Route,Ballast,,Ras Tanura,in,7.0,
+9901348,MARAN ANTIOPE,MARAN ANTIOPE,GREECE,VLCC,318600,clean fleet,False,1,1,0,2026-07-02,2026-07-02,,Entered MEG,2026-07-02,Dark/Unknown Route,Ballast,,,in,12.0,
+9917804,LORA,LORA,SAUDI ARABIA,LR1,55202,clean fleet,False,2,1,1,2026-06-08,2026-06-08,2026-06-01,Entered MEG,2026-06-08,Dark/Unknown Route,Ballast,,Jubail Industrial Port,in,36.0,43.0
+9920758,NISSOS KEA,NISSOS KEA,MARSHALL ISLANDS,VLCC,300323,clean fleet,False,3,2,1,2026-06-23,2026-07-09,2026-06-29,Entered MEG,2026-07-09,Dark/Unknown Route,Ballast,,Mesaieed,in,5.0,15.0
+9940459,IXORA,IXORA,LIBERIA,AFRA,111006,clean fleet,False,1,1,0,2026-06-25,2026-06-25,,Entered MEG,2026-06-25,Dark/Unknown Route,Ballast,,Mina Al-Ahmadi,in,19.0,
+9956707,MARINE CHARGE,MARINE CHARGE,SINGAPORE,Below GP,8285,clean fleet,False,1,1,0,2026-02-28,2026-02-28,,Entered MEG,2026-02-28,IMO Route,Ballast,,,in,136.0,
+9989027,SC CITRINE,SC CITRINE,HONG KONG,MR,26734,clean fleet,False,1,1,0,2026-07-05,2026-07-05,,Entered MEG,2026-07-05,Iranian Route,Ballast,,Mina Al-Ahmadi,in,9.0,

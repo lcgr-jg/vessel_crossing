@@ -1,0 +1,6 @@
+﻿.env
+sdn_advanced_2026-07-13.xml
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

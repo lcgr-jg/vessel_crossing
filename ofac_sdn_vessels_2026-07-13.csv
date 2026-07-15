@@ -1,0 +1,1498 @@
+profile_id,fixed_ref,identity_id,vessel_name,programs,first_listed_date,imo,mmsi,call_sign,vessel_type,flag,former_flag,year_built,linked_entity_name,iran_classification
+4238,4238,1663,MAR AZUL,['CUBA'],1989-01-05,,,CL2192,Tug,Cuba,,,,not_iran
+4243,4243,1668,ANA I,['CUBA'],1996-06-26,7406784,,,General Cargo,Panama,,,,not_iran
+4249,4249,1674,TIFON,['CUBA'],1989-01-05,7206512,,CL2059,Tug,Cuba,,,,not_iran
+15036,15036,6780,ARTAVIL,['IRAN'],2012-07-12,9187629,572469210,T2EU4,Crude/Oil Products Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15037,15037,6781,ARK III,['IRAN'],2012-07-12,9187655,,,Crude/Oil Products Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15038,15038,6782,ARGO I,['IRAN'],2012-07-12,9187667,,T2EM4,Crude/Oil Products Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15039,15039,6783,ARNICA,['IRAN'],2012-07-12,9187643,572467210,T2ES4,Crude/Oil Products Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15040,15040,6784,APAMA,['IRAN'],2012-07-12,9187631,256845000,9HDS9,Crude/Oil Products Tanker,Iran,Tuvalu,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15041,15041,6785,BANEH,['IRAN'],2012-07-12,8508462,422141000,EQKF,Landing Craft,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15042,15042,6786,DIAMOND II,['IRAN'],2012-07-12,9218478,256865000,9HEG9,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15043,15043,6787,DREAM II,['IRAN'],2012-07-12,9356593,677049200,5IM 592,Crude Oil Tanker,Iran,Cyprus,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15044,15044,6788,DEEP SEA,['IRAN'],2012-07-12,9218492,256862000,9HEE9,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15045,15045,6789,DORE,['IRAN'],2012-07-12,9357717,677049300,5IM 593,Crude Oil Tanker,Iran,Cyprus,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15046,15046,6790,DOVER,['IRAN'],2012-07-12,9218466,256872000,9HEU9,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15047,15047,6791,DEVON,['IRAN'],2012-07-12,9218454,256864000,9HEF9,Crude Oil Tanker,None Identified,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15048,15048,6792,DOWNY,['IRAN'],2012-07-12,9218480,256861000,9HED9,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15049,15049,6793,FOREST,['IRAN'],2012-07-12,9283760,572438210,T2DM4,Chemical/Products Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15050,15050,6794,HERO II,['IRAN'],2012-07-12,9362073,572459210,T2EJ4,Crude Oil Tanker,Iran,Cyprus,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15051,15051,6795,HENNA,['IRAN'],2012-07-12,9212929,572465210,T2EQ4,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15052,15052,6796,AMBER,['IRAN'],2012-07-12,9357406,677049700,5IM 597,Crude Oil Tanker,Iran,Cyprus,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15053,15053,6797,HASNA,['IRAN'],2012-07-12,9212917,677050000,5IM600,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15054,15054,6798,HUGE,['IRAN'],2012-07-12,9357183,212256000,T2EG4,Crude Oil Tanker,Iran,Cyprus,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15055,15055,6799,HAPPINESS I,"['IRAN', 'SDGT']",2012-07-12,9212905,256875000,T2ER4,Crude Oil Tanker,Iran,Malta,,Hokoul SAL Offshore,iran_specific
+15056,15056,6800,HELM,['IRAN'],2012-07-12,9357391,572450210,T2DZ4,Crude Oil Tanker,Iran,Cyprus,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15057,15057,6801,HERBY,['IRAN'],2012-07-12,9362059,572458210,T2EH4,Crude Oil Tanker,Iran,Cyprus,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15058,15058,6802,HILDA I,['IRAN'],2012-07-12,9357389,677049600,5IM 596,Crude Oil Tanker,Iran,Cyprus,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15059,15059,6803,Hawk,['IRAN'],2012-07-12,9362061,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15060,15060,6804,HALTI,['IRAN'],2012-07-12,9212890,256870000,9HEK9,Crude Oil Tanker,Iran,Tuvalu,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15061,15061,6805,HEDY,['IRAN'],2012-07-12,9212888,256869000,9HEJ9,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15062,15062,6806,IMICO NEKA 455,['IRAN'],2012-07-12,9404546,,,Shuttle Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15068,15068,6812,FORTUNE,['IRAN'],2012-07-12,9283746,422303000,9BAC,Chemical/Products Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15070,15070,6814,MARIVAN,['IRAN'],2012-07-12,8517243,422143000,EQKH,Bunkering Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15073,15073,6817,NASHA,['IRAN'],2012-07-12,9079107,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15074,15074,6818,NAVARZ,['IRAN'],2012-07-12,9079078,572441210,T2DQ4,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15075,15075,6819,Naroon,['IRAN'],2012-07-12,9079066,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15076,15076,6820,SEA STAR III,['IRAN'],2012-07-12,9569205,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15077,15077,6821,SABITI,['IRAN'],2012-07-12,9172040,677049100,5IM591,Crude Oil Tanker,Panama,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15078,15078,6822,SARDASHT,['IRAN'],2012-07-12,8517231,422142000,EQKG,Landing Craft,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15079,15079,6823,SALINA,['IRAN'],2012-07-12,9357377,249257000,9HNZ9,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15080,15080,6824,SILVIA I,['IRAN'],2012-07-12,9172052,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15081,15081,6825,Sanan,['IRAN'],2012-07-12,9171462,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15082,15082,6826,STARK I,['IRAN'],2012-07-12,9171450,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15084,15084,6828,Sevin,['IRAN'],2012-07-12,9357353,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15085,15085,6829,SONIA I,['IRAN'],2012-07-12,9357365,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15086,15086,6830,SEA CLIFF,['IRAN'],2012-07-12,9569657,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15087,15087,6831,STREAM,['IRAN'],2012-07-12,9569633,,,Crude Oil Tanker,Iran,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15088,15088,6832,SERENA,['IRAN'],2012-07-12,9569645,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15089,15089,6833,SNOW,['IRAN'],2012-07-12,9569619,,,Crude Oil Tanker,Panama,Malta,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15090,15090,6834,SINOPA,"['IRAN', 'SDGT']",2012-07-12,9172038,677048400,5IM584,Crude Oil Tanker,Iran,Malta,,Hokoul SAL Offshore,iran_specific
+15091,15091,6835,TOLOU,['IRAN'],2012-07-12,8318178,,EQOD,Crew/Supply Vessel,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15092,15092,6836,VALFAJR2,['IRAN'],2012-07-12,8400103,,EQOX,Tug,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15093,15093,6837,YAGHOUB,['IRAN'],2012-07-12,8316168,422150000,EQOE,Platform Supply Ship,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15095,15095,6839,YOUSEF,['IRAN'],2012-07-12,8316106,422144000,EQOG,Offshore Tug/Supply Ship,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15725,15725,7469,DESTINY,"['IRAN', 'SDGT']",2013-02-14,9177155,,,Crude Oil Tanker,Iran,Liberia,,Hokoul SAL Offshore,iran_specific
+15727,15727,7471,FELICITY,['IRAN'],2013-02-14,9183934,,,Crude Oil Tanker,Iran,Panama,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15729,15729,7473,HUMANITY,['IRAN'],2013-02-14,9180281,,,Crude Oil Tanker,Iran,Panama,,,iran_specific
+15859,15859,7603,BADR,['IRAN'],2013-05-09,8407345,,EQJU,,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15902,15902,7646,STARLA,['IRAN'],2013-05-09,9569621,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15903,15903,7647,DANIEL,['IRAN'],2013-05-09,9569683,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15904,15904,7648,DINO I,['IRAN'],2013-05-09,9569671,,5IM411,Crude Oil Tanker,Iran,Tanzania,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15905,15905,7649,MARIA III,['IRAN'],2013-05-09,9615092,,,LPG Tanker,Panama,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15906,15906,7650,DORENA,['IRAN'],2013-05-09,9569669,,5IM632,Crude Oil Tanker,Iran,Tanzania,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15907,15907,7651,YOUNES,['IRAN'],2013-05-09,8212465,,EQYY,Platform Supply Ship,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+15908,15908,7652,DAN,['IRAN'],2013-05-09,9357729,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+17069,17069,8813,Chong Chon Gang,['DPRK'],2014-07-30,7937317,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17084,17084,8828,Am Nok Gang,['DPRK'],2014-07-30,8132835,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17085,17085,8829,BAEK MA KANG,['DPRK'],2014-07-30,7944683,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17086,17086,8830,Dai Hong Dan,['DPRK'],2014-07-30,7944695,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17087,17087,8831,Hwang Gum San 2,['DPRK'],2014-07-30,8405270,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17088,17088,8832,HYOK SIN 2,['DPRK'],2014-07-30,8018900,,,Bulk Carrier,Democratic People's Republic of Korea,,,,not_iran
+17089,17089,8833,JANG JA SAN CHONG NYON HO,['DPRK'],2014-07-30,8133530,,,Bulk Carrier,Democratic People's Republic of Korea,,,,not_iran
+17090,17090,8834,JON JIN 2,['DPRK'],2014-07-30,8018912,,,Bulk Carrier,Democratic People's Republic of Korea,,,,not_iran
+17091,17091,8835,DOK CHON,['DPRK'],2014-07-30,7411260,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17092,17092,8836,MU DU BONG,['DPRK'],2014-07-30,8328197,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17093,17093,8837,O UN CHONG NYON HO,['DPRK'],2014-07-30,8330815,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17094,17094,8838,PO Thong Gang,['DPRK'],2014-07-30,8829555,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17095,17095,8839,PHO THAE,['DPRK'],2014-07-30,7632955,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17096,17096,8840,Pi Ruy Gang,['DPRK'],2014-07-30,8829593,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17102,17102,8846,RAK WON 2,['DPRK'],2014-07-30,8819017,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17103,17103,8847,Ryong Gang 2,['DPRK'],2014-07-30,7640378,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17104,17104,8848,Ryong Gun Bong,['DPRK'],2014-07-30,8606173,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+17105,17105,8849,Tae Dong Gang,['DPRK'],2014-07-30,7738656,,,General Cargo,Democratic People's Republic of Korea,,,,not_iran
+18346,18346,10070,Dawnlight,['DPRK'],2015-07-23,9110236,,,General Cargo,Mongolia,,,,not_iran
+19570,19570,11294,EVER BRIGHT 88,['DPRK'],2016-03-16,8914934,,,,Sierra Leone,,,Ocean Maritime Management Company Limited,not_iran
+19572,19572,11296,GOLD STAR 3,['DPRK'],2016-03-16,8405402,,,,Cambodia,,,Ocean Maritime Management Company Limited,not_iran
+19573,19573,11297,JH 86,['DPRK'],2016-03-16,8602531,,,,Cambodia,,,Ocean Maritime Management Company Limited,not_iran
+19575,19575,11299,JIN TAI,['DPRK'],2016-03-16,9163154,,,,Sierra Leone,,,Ocean Maritime Management Company Limited,not_iran
+19577,19577,11301,JIN TENG,['DPRK'],2016-03-16,9163166,,,,Sierra Leone,,,Ocean Maritime Management Company Limited,not_iran
+19578,19578,11302,ORION STAR,['DPRK'],2016-03-16,9333589,,,,,,,Ocean Maritime Management Company Limited,not_iran
+19582,19582,11306,SOUTH HILL 2,['DPRK'],2016-03-16,8412467,,,,Sierra Leone,,,Ocean Maritime Management Company Limited,not_iran
+19584,19584,11308,SOUTH HILL 5,['DPRK'],2016-03-16,9138680,,,,Palau,,,Ocean Maritime Management Company Limited,not_iran
+19585,19585,11309,GRAND KARO,['DPRK'],2016-03-16,8511823,,,,Cambodia,,,Ocean Maritime Management Company Limited,not_iran
+19588,19588,11312,Chong Bong,['DPRK3'],2016-03-16,8909575,,,,Democratic People's Republic of Korea,,,Chongbong Shipping Co Ltd,not_iran
+19589,19589,11313,Chong Rim 2,['DPRK3'],2016-03-16,8916293,,,,Democratic People's Republic of Korea,,,Ocean Bunkering JV CO,not_iran
+19590,19590,11314,Victory 2,['DPRK3'],2016-03-16,8312227,,,,Mongolia,,,Korean Buyon Shipping Co. Ltd.,not_iran
+19591,19591,11315,HOE RYONG,['DPRK3'],2016-03-16,9041552,,,,Democratic People's Republic of Korea,,,Hoeryong Shipping Co Ltd,not_iran
+19592,19592,11316,MI RIM,['DPRK3'],2016-03-16,8713471,,,,Democratic People's Republic of Korea,,,Mirim Shipping Co Ltd,not_iran
+19593,19593,11317,MI RIM 2,['DPRK3'],2016-03-16,9361407,,,,Democratic People's Republic of Korea,,,Mirim Shipping Co Ltd,not_iran
+19594,19594,11318,RA NAM 2,['DPRK3'],2016-03-16,8625545,,,,Democratic People's Republic of Korea,,,Korea Samilpo Shipping Co,not_iran
+19595,19595,11319,RA NAM 3,['DPRK3'],2016-03-16,9314650,,,,Democratic People's Republic of Korea,,,Korea Samilpo Shipping Co,not_iran
+19596,19596,11320,RYO MYONG,['DPRK3'],2016-03-16,8987333,,,,Democratic People's Republic of Korea,,,Korean Polish Shpg Co Ltd,not_iran
+19597,19597,11321,THAE PYONG SAN,['DPRK3'],2016-03-16,9009085,,,,Democratic People's Republic of Korea,,,Thaephyongsan Shipping Co Ltd,not_iran
+19598,19598,11322,TONG HUNG 1,['DPRK3'],2016-03-16,8661575,,,,Democratic People's Republic of Korea,,,Korea Zuzagbong Maritime Ltd,not_iran
+21115,21115,12819,Marshal Zhukov,['UKRAINE-EO13685'],2016-12-20,9690224,,,,Russia,,,Trans-Flot JSC,not_iran
+21118,21118,12822,Stalingrad,['UKRAINE-EO13685'],2016-12-20,9690212,,,,Russia,,,Trans-Flot JSC,not_iran
+23150,23150,14854,WON SAN 2,['DPRK4'],2017-11-21,9159787,,,,Democratic People's Republic of Korea,,,YUSONG SHIPPING CO,not_iran
+23155,23155,14859,ZA RYOK 2,['DPRK4'],2017-11-21,8898738,,,,Democratic People's Republic of Korea,,,YUSONG SHIPPING CO,not_iran
+23156,23156,14860,7-28,['DPRK4'],2017-11-21,8898831,,,,Democratic People's Republic of Korea,,,YUSONG SHIPPING CO,not_iran
+23157,23157,14861,YU SONG 12,['DPRK4'],2017-11-21,9096791,,,,Democratic People's Republic of Korea,,,YUSONG SHIPPING CO,not_iran
+23158,23158,14862,YU SONG 7,['DPRK4'],2017-11-21,8400854,,,,Democratic People's Republic of Korea,,,YUSONG SHIPPING CO,not_iran
+23159,23159,14863,JANG GYONG,['DPRK4'],2017-11-21,8203933,,,,Democratic People's Republic of Korea,,,DAWN MARINE MANAGEMENT CO LTD,not_iran
+23160,23160,14864,KUM SONG 3,['DPRK4'],2017-11-21,8661850,,,,Democratic People's Republic of Korea,,,DAWN MARINE MANAGEMENT CO LTD,not_iran
+23161,23161,14865,KUM SONG 5,['DPRK4'],2017-11-21,8661719,,,,Democratic People's Republic of Korea,,,DAWN MARINE MANAGEMENT CO LTD,not_iran
+23162,23162,14866,KUM SONG 7,['DPRK4'],2017-11-21,8739396,,,,Democratic People's Republic of Korea,,,DAWN MARINE MANAGEMENT CO LTD,not_iran
+23163,23163,14867,KUM UN SAN 3,['DPRK4'],2017-11-21,8705539,,,,Democratic People's Republic of Korea,,,DAWN MARINE MANAGEMENT CO LTD,not_iran
+23164,23164,14868,RAK RANG,['DPRK4'],2017-11-21,7506118,,,,Democratic People's Republic of Korea,,,KOREA DAEBONG SHIPPING CO,not_iran
+23165,23165,14869,PU HUNG 1,['DPRK4'],2017-11-21,8703933,,,,Democratic People's Republic of Korea,,,KOREA RUNGRADO SHIPPING CO,not_iran
+23166,23166,14870,RUNG RA DO,['DPRK4'],2017-11-21,8989795,,,,Democratic People's Republic of Korea,,,KOREA RUNGRADO SHIPPING CO,not_iran
+23167,23167,14871,YANG GAK DO,['DPRK4'],2017-11-21,6401828,,,,Democratic People's Republic of Korea,,,KOREA RUNGRADO SHIPPING CO,not_iran
+23168,23168,14872,RUNG RA 1,['DPRK4'],2017-11-21,8713457,,,,Democratic People's Republic of Korea,,,KOREA RUNGRADO RYONGAK TRADING CO,not_iran
+23169,23169,14873,RUNG RA 2,['DPRK4'],2017-11-21,9020534,,,,Democratic People's Republic of Korea,,,KOREA RUNGRADO RYONGAK TRADING CO,not_iran
+23184,23184,14888,Kang Song 1,['DPRK4'],2017-11-21,6908096,,,,Democratic People's Republic of Korea,,,Korea Kumbyol Trading Company,not_iran
+23185,23185,14889,Ku Bong Ryong,['DPRK4'],2017-11-21,8983404,,,,Democratic People's Republic of Korea,,,Korea Kumbyol Trading Company,not_iran
+23186,23186,14890,Rye Song Gang 1,['DPRK4'],2017-11-21,7389704,,,,Democratic People's Republic of Korea,,,Korea Kumbyol Trading Company,not_iran
+23187,23187,14891,So Baek San,['DPRK4'],2017-11-21,8658267,,,,Democratic People's Republic of Korea,,,Korea Kumbyol Trading Company,not_iran
+23422,23422,15126,Theodoros,['LIBYA3'],2018-02-26,6421660,,,,,,,ADJ Trading Limited,not_iran
+23423,23423,15127,PROGRES,['LIBYA3'],2018-02-26,8023670,,9HB4398,,Malta,,,Andrea Martina Limited,not_iran
+23424,23424,15128,BONU 5,['LIBYA3'],2018-02-26,15411,,,,Malta,,,Andrea Martina Limited,not_iran
+23425,23425,15129,Marie De Lourdes,['LIBYA3'],2018-02-26,8688171,249000882,9HB3103,,Malta,,,World Water Fisheries Limited,not_iran
+23426,23426,15130,Marie De Lourdes I,['LIBYA3'],2018-02-26,8688183,248000368,9HB3737,,Malta,,,World Water Fisheries Limited,not_iran
+23427,23427,15131,Marie De Lourdes V,['LIBYA3'],2018-02-26,9809277,215000818,9HB5604,,Malta,,,World Water Fisheries Limited,not_iran
+23428,23428,15132,Zeus,['LIBYA3'],2018-02-26,8799619,,9H5319,Fishing Vessel,Malta,,,Andrea Martina Limited,not_iran
+23511,23511,15215,Goo Ryong,['DPRK4'],2018-01-24,8201870,,,,Democratic People's Republic of Korea,,,Gooryong Shipping Co Ltd,not_iran
+23514,23514,15218,Hwa Song,['DPRK4'],2018-01-24,8217685,,,,Democratic People's Republic of Korea,,,Hwasong Shipping Co Ltd,not_iran
+23517,23517,15221,Kum Un San,['DPRK4'],2018-01-24,8720436,,,,Democratic People's Republic of Korea,,,Korea Kumunsan Shipping Co,not_iran
+23521,23521,15225,Un Ryul,['DPRK4'],2018-01-24,8514409,,,,Democratic People's Republic of Korea,,,Korea Marine & Industrial Trdg,not_iran
+23522,23522,15226,Ever Glory,['DPRK4'],2018-01-24,8909915,,,,Democratic People's Republic of Korea,,,Korea Marine & Industrial Trdg,not_iran
+23525,23525,15229,Ul Ji Bong 6,['DPRK4'],2018-01-24,9114555,,,,Democratic People's Republic of Korea,,,CK International LTD,not_iran
+23726,23726,15430,Chon Myong 1,['DPRK4'],2018-02-23,8712362,,,,Democratic People's Republic of Korea,,,Chonmyong Shipping Co,not_iran
+23727,23727,15431,Nam San 8,['DPRK4'],2018-02-23,8122347,,,,Democratic People's Republic of Korea,,,Hapjanggang Shipping Corp,not_iran
+23728,23728,15432,Hap Jang Gang 6,['DPRK4'],2018-02-23,9066540,,,,Democratic People's Republic of Korea,,,Hapjanggang Shipping Corp,not_iran
+23729,23729,15433,Chon Ma San,['DPRK4'],2018-02-23,8660313,,,,Democratic People's Republic of Korea,,,Korea Achim Shipping Co,not_iran
+23730,23730,15434,An San 1,['DPRK4'],2018-02-23,7303803,,,,Democratic People's Republic of Korea,,,Korea Ansan Shipping Company,not_iran
+23731,23731,15435,Kum Gang 3,['DPRK4'],2018-02-23,8966535,,,,Democratic People's Republic of Korea,,,Korea Unpha Shipping & Trading,not_iran
+23732,23732,15436,Yu Phyong 5,['DPRK4'],2018-02-23,8605026,,,,Democratic People's Republic of Korea,,,Korea Myongdok Shipping Co,not_iran
+23733,23733,15437,Sam Jong 1,['DPRK4'],2018-02-23,8405311,,,,Democratic People's Republic of Korea,,,Korea Samjong Shipping Co,not_iran
+23734,23734,15438,Sam Jong 2,['DPRK4'],2018-02-23,7408873,,,,Democratic People's Republic of Korea,,,Korea Samjong Shipping Co,not_iran
+23735,23735,15439,Sam Ma 2,['DPRK4'],2018-02-23,8106496,,,,Democratic People's Republic of Korea,,,Korea Samma Shpg Co,not_iran
+23736,23736,15440,Yu Jong 2,['DPRK4'],2018-02-23,8604917,,,,Democratic People's Republic of Korea,,,Korea Yujong Shipping Co Ltd,not_iran
+23737,23737,15441,Paek Ma,['DPRK4'],2018-02-23,9066978,,,,Democratic People's Republic of Korea,,,First Oil JV Co Ltd,not_iran
+23738,23738,15442,Ji Song 6,['DPRK4'],2018-02-23,8898740,,,,Democratic People's Republic of Korea,,,Phyongchon Shipping & Marine,not_iran
+23739,23739,15443,Ji Song 8,['DPRK4'],2018-02-23,8503228,,,,Democratic People's Republic of Korea,,,Phyongchon Shipping & Marine,not_iran
+23740,23740,15444,Woory Star,['DPRK4'],2018-02-23,8408595,,,,Democratic People's Republic of Korea,,,Phyongchon Shipping & Marine,not_iran
+23741,23741,15445,Po Chon,['DPRK4'],2018-02-23,8848276,,,,Democratic People's Republic of Korea,,,Pochon Shipping & Management,not_iran
+23742,23742,15446,Song Won,['DPRK4'],2018-02-23,8613360,,,,Democratic People's Republic of Korea,,,Songwon Shipping & Management,not_iran
+23743,23743,15447,tong hung 5,['DPRK4'],2018-02-23,8151415,,,,Democratic People's Republic of Korea,,,Tonghung Shipping & Trading Co,not_iran
+23744,23744,15448,Yu Son,['DPRK4'],2018-02-23,8691702,,,,Democratic People's Republic of Korea,,,Myohyang Shipping Co,not_iran
+23764,23764,15468,Hua Fu,['DPRK4'],2018-02-23,9020003,,,,Panama,,,Chang An Shipping & Technology,not_iran
+23766,23766,15470,Oriental Treasure,['DPRK4'],2018-02-23,9115028,,,,Comoros,,,Hongxiang Marine Hong Kong LTD,not_iran
+23770,23770,15474,Hao Fan 2,['DPRK4'],2018-02-23,8747604,,,,,,,Shen Zhong International Shpg,not_iran
+23771,23771,15475,Hao Fan 6,['DPRK4'],2018-02-23,8628597,,,,,,,Shen Zhong International Shpg,not_iran
+23776,23776,15480,Xin Guang Hai,['DPRK4'],2018-02-23,9004700,,,,,,,Weihai World-Shipping Freight,not_iran
+23778,23778,15482,Asia Bridge 1,['DPRK4'],2018-02-23,8916580,,,,,,,Huaxin Shipping Hongkong LTD,not_iran
+23780,23780,15484,Dong Feng 6,['DPRK4'],2018-02-23,9008201,,,,Tanzania,,,Shanghai Dongfeng Shpg CO LTD,not_iran
+23786,23786,15490,Koti,['DPRK4'],2018-02-23,9417115,,,,Panama,,,Koti Corp,not_iran
+23788,23788,15492,Yuk Tung,['DPRK4'],2018-02-23,9030591,,,,,,,Yuk Tung Energy PTE LTD,not_iran
+24508,24508,16212,Patriot,['DPRK4'],2018-08-21,9003550,,,,Russia,,,Gudzon Shipping Co LLC,not_iran
+24509,24509,16213,Neptun,['DPRK4'],2018-08-21,8404991,,,,Russia,,,Gudzon Shipping Co LLC,not_iran
+24510,24510,16214,Bella,['DPRK4'],2018-08-21,8808264,,,,Russia,,,Gudzon Shipping Co LLC,not_iran
+24511,24511,16215,Bogatyr,['DPRK4'],2018-08-21,9085730,,,,Russia,,,Gudzon Shipping Co LLC,not_iran
+24512,24512,16216,Partizan,['DPRK4'],2018-08-21,9113020,,,,Russia,,,Gudzon Shipping Co LLC,not_iran
+24513,24513,16217,Sevastopol,['DPRK4'],2018-08-21,9235127,,,,Russia,,,Gudzon Shipping Co LLC,not_iran
+25257,25257,16961,DORITA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8605234,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25258,25258,16962,GILDA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9367982,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25259,25259,16963,KADOS,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9137258,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25260,25260,16964,KASMA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8721351,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25261,25261,16965,NARDIS,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9137246,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25262,25262,16966,PARAND,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9118551,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25263,25263,16967,PARIN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9076478,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25264,25264,16968,PARMIS,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9245316,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25265,25265,16969,PATRIS,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9137210,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25266,25266,16970,SABRINA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8215742,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25267,25267,16971,SANIA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9367994,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25268,25268,16972,SARINA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8203608,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25269,25269,16973,SARIR,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9368003,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25270,25270,16974,SOMIA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9368015,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25271,25271,16975,TARADIS,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9245304,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25272,25272,16976,VIANA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9010723,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25273,25273,16977,VISTA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9010711,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25277,25277,16981,AAJ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8984484,,,Crew/Supply Vessel,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25278,25278,16982,AYNAZ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9683570,,,Tug,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25279,25279,16983,BRELYAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9138056,,,Passenger,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25280,25280,16984,FIROUZEH,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9103099,,,Passenger,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25281,25281,16985,IRAN HORMUZ 25,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8422072,,,Roll-on Roll-off,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25282,25282,16986,HORMUZ 2,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,7904580,,,Passenger,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25283,25283,16987,IRAN HORMUZ 12,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9005596,,,Passenger,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25284,25284,16988,IRAN HORMUZ 14,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9020778,,,Passenger,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25285,25285,16989,IRAN SHAHED,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9184691,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25286,25286,16990,NEGEEN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9071519,,,Passenger,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25287,25287,16991,IRAN SHALAMCHEH,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8820925,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25288,25288,16992,TABAN 1,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9420368,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25289,25289,16993,SHAYAN 1,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9420356,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25290,25290,16994,YARAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9420370,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25291,25291,16995,ZOMOROUD,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9138044,,,Passenger,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25292,25292,16996,ALVAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9165798,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25293,25293,16997,ARIES,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9369722,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25294,25294,16998,ARTABAZ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9283007,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25295,25295,16999,ARTAM,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9284154,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25296,25296,17000,ARTENOS,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9283021,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25297,25297,17001,ARTIN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9305221,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25298,25298,17002,ARZIN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9284142,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25299,25299,17003,AYSAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9165803,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25300,25300,17004,AZARGOUN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9283019,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25301,25301,17005,BASHT,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9346536,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25302,25302,17006,BEHDAD,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9051636,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25303,25303,17007,BEHNAVAZ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9346548,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25304,25304,17008,ELYANA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9165827,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25305,25305,17009,GOLAFRUZ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9323833,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25306,25306,17010,GOLSAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9165815,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25307,25307,17011,GOLSAR,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9193185,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25309,25309,17013,JAIRAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9167291,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25310,25310,17014,MAHNAM,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9213387,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25311,25311,17015,NESHAT,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9167277,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25312,25312,17016,PARNIA,"['IRAN', 'NPWMD', 'IFSR', 'IRAN-CON-ARMS-EO']",2018-11-05,9167265,,,General Cargo,Iran,,1999,Islamic Republic of Iran Shipping Lines,iran_specific
+25313,25313,17017,SHABGOUN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9346524,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25314,25314,17018,SHAHR E KORD,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9270684,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25315,25315,17019,TOUSKA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9328900,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25316,25316,17020,HAMD,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9036052,,,Bunkering Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25317,25317,17021,CANREACH,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9820271,,,Container Ship,Hong Kong,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25319,25319,17023,HYUNDAI MIPO 2655,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9820312,,,Products Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25320,25320,17024,HYUNDAI MIPO 2656,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9820324,,,Products Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25322,25322,17026,HYUNDAI MIPO 2657,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9820336,,,Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25323,25323,17027,IRAN CHARAK,"['NPWMD', 'IRAN', 'IFSR']",2018-11-05,8322076,,,Bunkering Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25335,25335,17039,IRAN HORMUZ 22,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8314275,,,Passenger,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25336,25336,17040,IRAN PARAK,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8322064,,,Bunkering Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25337,25337,17041,IRAN SHALAK,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8319940,,,Bunkering Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25338,25338,17042,IRAN YOUSHAT,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8319952,,,Bunkering Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25339,25339,17043,KASHAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9270696,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25340,25340,17044,SOBHAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9036935,,,Bunkering Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25341,25341,17045,ABBA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9051624,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25342,25342,17046,ABTIN 1,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9379636,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25343,25343,17047,ABYAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9349667,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25344,25344,17048,ANDIA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9193197,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25345,25345,17049,ARDAVAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9465863,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25346,25346,17050,ARTAVAND,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9193214,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25347,25347,17051,ARVIN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9193202,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25349,25349,17053,BAHJAT,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9405954,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25350,25350,17054,FANREACH,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9820269,,,Container Ship,Hong Kong,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25351,25351,17055,BATIS,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9465760,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25352,25352,17056,BEHDOKHT,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9405978,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25353,25353,17057,GOLBON,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9283033,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25354,25354,17058,HAMGAM,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9226956,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25355,25355,17059,KHURAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9032666,,,Products Tanker,Togo,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25356,25356,17060,MIAMI PRIDE,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9274941,,,Bulk Carrier,Togo,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25357,25357,17061,OURA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9387815,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25358,25358,17062,GOODREACH,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9820257,,,Container Ship,Hong Kong,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25359,25359,17063,TENREACH,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9820245,,,Container Ship,Hong Kong,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25360,25360,17064,ROSHAK,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9405966,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25361,25361,17065,SHAMIM,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9270658,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25362,25362,17066,SHIBA,"['IRAN', 'IFSR', 'NPWMD']",2018-11-05,9270646,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25363,25363,17067,AMINA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9305192,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25364,25364,17068,AREZOO,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9165786,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25365,25365,17069,ARSHAM,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9386500,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25366,25366,17070,ARTARIA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9226944,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25367,25367,17071,ARTMAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9405930,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25368,25368,17072,AVANG,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9465746,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25369,25369,17073,BASKAR,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9405942,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25370,25370,17074,BAVAND,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9387798,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25371,25371,17075,BEHSHAD,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9167289,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25372,25372,17076,BEHTA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9349590,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25373,25373,17077,CASPIA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9125126,,,Chemical/Products Tanker,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25374,25374,17078,DARYABAR,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9369710,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25375,25375,17079,DELICE,"['NPWMD', 'IRAN', 'IFSR', 'SDGT']",2018-11-05,9125138,,,Chemical/Products Tanker,Iran,Panama,,Hokoul SAL Offshore,iran_specific
+25376,25376,17080,DELNAVAZ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9387803,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25377,25377,17081,DELRUBA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9305207,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25378,25378,17082,DEVREZ,"['NPWMD', 'IRAN', 'IFSR', 'SDGT']",2018-11-05,9120994,,,Chemical/Products Tanker,Iran,Panama,,KHADIJA SHIP MANAGEMENT PRIVATE LIMITED,iran_specific
+25379,25379,17083,GANJ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9305219,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25380,25380,17084,KIAZAND,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9465758,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25381,25381,17085,MENA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8909472,,,Crude/Oil Products Tanker,Togo,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25382,25382,17086,NEGAR,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9165839,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25383,25383,17087,NOOR 1,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9506320,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25384,25384,17088,PARISAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9465851,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25385,25385,17089,PARSHAD,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9387786,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25386,25386,17090,PARSHAN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9051648,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25387,25387,17091,PERARIN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9209350,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25388,25388,17092,SARVIN,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9209348,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25389,25389,17093,SAVIZ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9167253,,,General Cargo,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25390,25390,17094,SHABDIS,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9349588,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25391,25391,17095,SHAHRAZ,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9349576,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25392,25392,17096,TABUK,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,8917467,,,Crude/Oil Products Tanker,Togo,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25393,25393,17097,TERMEH,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9213399,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25394,25394,17098,WARTA,"['IRAN', 'NPWMD', 'IFSR']",2018-11-05,9465849,,,Bulk Carrier,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25395,25395,17099,ZARDIS,"['NPWMD', 'IRAN', 'IFSR']",2018-11-05,9349679,,,Container Ship,Iran,,,Islamic Republic of Iran Shipping Lines,iran_specific
+25689,25689,17393,Nymex Star,['DPRK'],2018-10-25,9078191,,,,Singapore,,,WT Marine Pte Ltd,not_iran
+25708,25708,17412,FAXON,['IRAN'],2018-11-05,9283758,,,Chemical/Products Tanker,Panama,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+25714,25714,17418,DERYA,['IRAN'],2018-11-05,9569700,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+25729,25729,17433,DIONA,['IRAN'],2018-11-05,9569695,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+25736,25736,17440,DUNE,['IRAN'],2018-11-05,9569712,,,Crude Oil Tanker,Iran,,,NATIONAL IRANIAN TANKER COMPANY,iran_specific
+26623,26623,18327,URDANETA,['VENEZUELA-EO13850'],2019-04-05,7912111,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26624,26624,18328,GP-21,['VENEZUELA-EO13850'],2019-04-05,8767953,,,Drilling Ship,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26625,26625,18329,BICENTENARIO XIV,['VENEZUELA-EO13850'],2019-04-05,9513270,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26626,26626,18330,GP-23,['VENEZUELA-EO13850'],2019-04-05,8767977,,,Drilling Ship,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26627,26627,18331,BICENTENARIO XII,['VENEZUELA-EO13850'],2019-04-05,9513282,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26628,26628,18332,L-409,['VENEZUELA-EO13850'],2019-04-05,8772049,,,Drilling Ship,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26629,26629,18333,BICENTENARIO XIII,['VENEZUELA-EO13850'],2019-04-05,9513294,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26630,26630,18334,BICENTENARIO XVI,['VENEZUELA-EO13850'],2019-04-05,9513309,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26631,26631,18335,Amuay,['VENEZUELA-EO13850'],2019-04-05,9432658,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26632,26632,18336,BICENTENARIO XI,['VENEZUELA-EO13850'],2019-04-05,9513311,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26633,26633,18337,BICENTENARIO II,['VENEZUELA-EO13850'],2019-04-05,9513323,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26636,26636,18340,BICENTENARIO V,['VENEZUELA-EO13850'],2019-04-05,9542518,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26637,26637,18341,BICENTENARIO IV,['VENEZUELA-EO13850'],2019-04-05,9556947,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26638,26638,18342,BICENTENARIO VI,['VENEZUELA-EO13850'],2019-04-05,9557549,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26639,26639,18343,BICENTENARIO IX,['VENEZUELA-EO13850'],2019-04-05,9557915,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26640,26640,18344,PDVSA Cardon,['VENEZUELA-EO13850'],2019-04-05,9432660,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26641,26641,18345,CUMANAGOTO,['VENEZUELA-EO13850'],2019-04-05,9540883,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26642,26642,18346,CARIBE,['VENEZUELA-EO13850'],2019-04-05,9540895,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26643,26643,18347,JAZMIN,['VENEZUELA-EO13850'],2019-04-05,9662643,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26644,26644,18348,SABANETA,['VENEZUELA-EO13850'],2019-04-05,9667813,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26645,26645,18349,MANAURE,['VENEZUELA-EO13850'],2019-04-05,9670987,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26646,26646,18350,MARA,['VENEZUELA-EO13850'],2019-04-05,9670999,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26647,26647,18351,MARGARITA 1,['VENEZUELA-EO13850'],2019-04-05,9671668,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26649,26649,18353,YORACO,['VENEZUELA-EO13850'],2019-04-05,9688790,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26650,26650,18354,CAYAURIMA,['VENEZUELA-EO13850'],2019-04-05,9688805,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26651,26651,18355,TRIBILIN,['VENEZUELA-EO13850'],2019-04-05,9693240,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26652,26652,18356,AMAPOLA 1,['VENEZUELA-EO13850'],2019-04-05,9717357,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26653,26653,18357,GARDENIA,['VENEZUELA-EO13850'],2019-04-05,9739898,,,Tug,Panama,,,"Petroleos De Venezuela, S.A.",not_iran
+26655,26655,18359,BICENTENARIO X,['VENEZUELA-EO13850'],2019-04-05,9564126,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26657,26657,18361,BICENTENARIO VIII,['VENEZUELA-EO13850'],2019-04-05,9564695,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26659,26659,18363,BICENTENARIO I,['VENEZUELA-EO13850'],2019-04-05,9584762,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26660,26660,18364,BICENTENARIO XV,['VENEZUELA-EO13850'],2019-04-05,9513268,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26661,26661,18365,BICENTENARIO III,['VENEZUELA-EO13850'],2019-04-05,9585819,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26662,26662,18366,BICENTENARIO VII,['VENEZUELA-EO13850'],2019-04-05,9588990,,,Tug,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+26688,26688,18392,S-TROTTER,['VENEZUELA-EO13850'],2019-04-12,9216547,,,Oil Products Tanker,Panama,,,Large Range Limited,not_iran
+26704,26704,18408,ESPERANZA,['VENEZUELA-EO13850'],2019-04-12,9289166,,,Crude Oil Tanker,Cuba,Greece,,CAROIL TRANSPORT MARINE LTD,not_iran
+26933,26933,18637,Shang Yuan Bao,['DPRK4'],2019-08-30,8126070,,,,Panama,,,Jui Zong Ship Management Co Ltd,not_iran
+27147,27147,18851,YAZ,['UKRAINE-EO13685'],2019-09-26,9735323,,,,Russia,,,Transpetrochart Co Ltd,not_iran
+27148,27148,18852,SIG,['UKRAINE-EO13685'],2019-09-26,9735335,,,,Russia,,,Transpetrochart Co Ltd,not_iran
+27149,27149,18853,SUDAK,['UKRAINE-EO13685'],2019-09-26,8943155,,,,Russia,,,Transpetrochart Co Ltd,not_iran
+27151,27151,18855,PASSAT,['UKRAINE-EO13685'],2019-09-26,8523242,,,,Russia,,,Transpetrochart Co Ltd,not_iran
+27152,27152,18856,OT-2077,['UKRAINE-EO13685'],2019-09-26,9025778,,,,Russia,,,Transpetrochart Co Ltd,not_iran
+27200,27200,18904,St. Vitamin,"['CYBER2', 'ELECTION-EO13848', 'UKRAINE-EO13661']",2019-09-30,,375311000,,Pleasure Craft,St. Vincent and the Grenadines,,,Beratex Group Limited,not_iran
+27279,27279,18983,Sarak,['SDGT'],2019-09-04,9226968,,,Crude Oil Tanker,Iran,,,MEHDI GROUP,broad_tag_only_REVIEW
+27280,27280,18984,Sobar,['SDGT'],2019-09-04,9221970,,,Crude Oil Tanker,Iran,,,MEHDI GROUP,broad_tag_only_REVIEW
+27282,27282,18986,Tour 2,['SDGT'],2019-09-04,9364112,,,Crude Oil Tanker,Panama,,,KHADIJA SHIP MANAGEMENT PRIVATE LIMITED,broad_tag_only_REVIEW
+27304,27304,19008,Adrian Darya 1,['SDGT'],2019-08-30,9116412,,,Crude Oil Tanker,Iran,Panama,,,broad_tag_only_REVIEW
+27408,27408,19112,ASIA BRIDGE,['DPRK4'],2020-12-08,9010022,,,General Cargo,,,,WEIHAI HUIJIANG TRADE LIMITED,not_iran
+27425,27425,19129,GIRALT,['VENEZUELA-EO13850'],2019-09-24,9259692,,,Crude Oil Tanker,Panama,,,BLUELANE OVERSEAS SA,not_iran
+27431,27431,19135,Carlota C,['VENEZUELA-EO13850'],2019-09-24,9502453,,,Chemical/Products Tanker,Panama,,,CAROIL TRANSPORT MARINE LTD,not_iran
+27432,27432,19136,Sandino,['VENEZUELA-EO13850'],2019-09-24,9441178,,,Chemical/Products Tanker,Panama,,,TOVASE DEVELOPMENT CORP,not_iran
+27433,27433,19137,Petion,['VENEZUELA-EO13850'],2019-09-24,9295098,,,Products Tanker,Panama,,,TROCANA WORLD INC.,not_iran
+27528,27528,19232,LUCKY STAR,['DPRK4'],2020-12-08,9015278,,,General Cargo,,,,WEIHAI HUIJIANG TRADE LIMITED,not_iran
+27529,27529,19233,CALM BRIDGE,['DPRK4'],2020-12-08,8318867,,,General Cargo,,,,SILVER BRIDGE SHIPPING CO-HKG,not_iran
+28012,28012,19696,ICARO,['VENEZUELA-EO13884'],2019-12-03,9038842,,,Crude Oil Tanker,Panama,,,"Petroleos De Venezuela, S.A.",not_iran
+28013,28013,19697,LUISA CACERES DE ARISMENDI,['VENEZUELA-EO13884'],2019-12-03,9117478,,,Products Tanker,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+28014,28014,19698,MANUELA SAENZ,['VENEZUELA-EO13884'],2019-12-03,9117492,,,Products Tanker,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+28015,28015,19699,PARAMACONI,['VENEZUELA-EO13884'],2019-12-03,9543512,,,Crude Oil Tanker,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+28016,28016,19700,TEREPAIMA,['VENEZUELA-EO13884'],2019-12-03,9552496,,,Crude Oil Tanker,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+28017,28017,19701,YARE,['VENEZUELA-EO13884'],2019-12-03,9543500,,,Crude Oil Tanker,Venezuela,,,"Petroleos De Venezuela, S.A.",not_iran
+28105,28105,19789,Genava 12,"['SDGT', 'IFSR']",2019-12-11,9776523,,EPDA4,,Iran,,,Khedri Jahan Darya Co,broad_tag_only_REVIEW
+28106,28106,19790,Genava 11,"['SDGT', 'IFSR']",2019-12-11,9804617,,EPDE7,,Iran,,,Khedri Jahan Darya Co,broad_tag_only_REVIEW
+28301,28301,19985,Maraya,['LIBYA3'],2020-08-06,7514517,,,Palletized Cargo Ship,Samoa,,,Alwefaq Ltd,not_iran
+28323,28323,20007,Hong Xun,['IRAN-EO13871'],2020-01-10,9588885,636016459,D5GG9,,Liberia,,,Hongyuan Marine Co Ltd,not_iran
+28716,28716,20400,Star 18,['DPRK4'],2020-12-08,9020015,,,General Cargo,Vietnam,,,Thinh Cuong Company Limited,not_iran
+29483,29483,21167,BALITA,['VENEZUELA-EO13850'],2021-01-19,9176773,,,Crude/Oil Products Tanker,Cameroon,,,FIDES SHIP MANAGEMENT LLC,not_iran
+29484,29484,21168,LIA,"['VENEZUELA-EO13850', 'SDGT']",2021-01-19,9041057,,,Crude Oil Tanker,Guyana,,,FIDES SHIP MANAGEMENT LLC,broad_tag_only_REVIEW
+29486,29486,21170,MAKSIM GORKY,['VENEZUELA-EO13850'],2021-01-19,9590008,,,Crude Oil Tanker,Russia,,,INSTITUTO NACIONAL DE LOS ESPACIOS ACUATICOS E INSULARES,not_iran
+29487,29487,21171,SIERRA,['VENEZUELA-EO13850'],2021-01-19,9147447,,,Crude/Oil Products Tanker,Russia,,,RUSTANKER LLC,not_iran
+29790,29790,21474,Longbow Lake,"['SDGT', 'IFSR']",2020-10-26,9237539,,,Crude Oil Tanker,Honduras,,,NIOC,broad_tag_only_REVIEW
+29791,29791,21475,Wu Xian,"['SDGT', 'IFSR']",2020-10-26,9102239,,,Crude Oil Tanker,Panama,,,NIOC,broad_tag_only_REVIEW
+30395,30395,22079,Bosco Gilan,['IRAN-EO13876'],2020-11-18,9188752,,EPAE3,General Cargo,Iran,,,Bonyad Shipping Agencies Company,not_iran
+30823,30823,22507,Fiona,"['CAATSA - RUSSIA', 'PEESA-EO14039', 'RUSSIA-EO14024']",2021-01-19,8674156,,UBDP8,Service Vessel,Russia,,,KVT-RUS,not_iran
+30862,30862,22546,BALIAR,['VENEZUELA-EO13850'],2021-01-19,9192258,,,Crude/Oil Products Tanker,Liberia,,,FIDES SHIP MANAGEMENT LLC,not_iran
+31794,31794,23438,Hermes,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-05-21,9338230,,UFYE,Offshore Tug/Supply Ship,Russia,,,LLC Koksokhimtrans,not_iran
+31795,31795,23439,Antey,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-05-21,9310018,,UEKQ,Anchor Handling Vessel,Russia,,,LLC Koksokhimtrans,not_iran
+31920,31920,23564,Akademik Cherskiy,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,8770261,,UDQB,Pipe-laying Vessel,Russia,,,,not_iran
+31930,31930,23574,BALTIYSKIY ISSLEDOVATEL,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9572020,,UBAQ4,Supply Vessel,Russia,,,,not_iran
+31931,31931,23575,UMKA,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9171620,,UBXP5,Offshore Tug,Russia,,,,not_iran
+31932,31932,23576,ARTEMIS OFFSHORE,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9747194,,UBRS8,Offshore Support Vessel,Russia,,,,not_iran
+31934,31934,23578,FINVAL,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9272412,,UBSU4,Offshore Tug/Supply Ship,Russia,,,,not_iran
+31935,31935,23579,NARVAL,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9171876,,UBVQ9,Offshore Tug,Russia,,,,not_iran
+31936,31936,23580,SIVUCH,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9157820,,UBWQ2,Offshore Tug/Supply Ship,Russia,,,FEDERAL STATE BUDGETARY INSTITUTION MARINE RESCUE SERVICE,not_iran
+31938,31938,23582,KAPITAN BEKLEMISHEV,"['RUSSIA-EO14024', 'PEESA-EO14039']",2021-08-20,8724080,,UBSJ,Tug,Russia,,,,not_iran
+31940,31940,23584,SPASATEL KAREV,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9497531,,UBKI6,Salvage Ship,Russia,,,,not_iran
+31943,31943,23587,BAKHTEMIR,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9797577,,UBYQ7,Salvage Ship,Russia,,,,not_iran
+31944,31944,23588,MURMAN,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9682423,,UBAN4,Salvage Ship,Russia,,,FEDERAL STATE BUDGETARY INSTITUTION MARINE RESCUE SERVICE,not_iran
+32173,32173,23817,Triple Success,['SDGT'],2021-06-10,9167148,,TRA025,Products Tanker,Gabon,,,Al-Jamal,broad_tag_only_REVIEW
+32971,32971,24595,Ostap Sheremeta,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9624225,,UBCS9,Service Vessel,Russia,,,,not_iran
+32972,32972,24596,Ivan Sidorenko,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-08-20,9624213,,UHLC,Service Vessel,Russia,,,,not_iran
+33681,33681,25305,FU YUAN YU 7876,['GLOMAG'],2022-12-09,8537097,,,Fishing Vessel,China,,,,not_iran
+33682,33682,25306,FU YUAN YU 7877,['GLOMAG'],2022-12-09,8537102,,,Fishing Vessel,China,,,,not_iran
+33683,33683,25307,FU YUAN YU 7861,['GLOMAG'],2022-12-09,9828663,,,Fishing Vessel,China,,,,not_iran
+33684,33684,25308,FU YUAN YU 7862,['GLOMAG'],2022-12-09,9828675,,,Fishing Vessel,China,,,,not_iran
+33685,33685,25309,FU YUAN YU 7864,['GLOMAG'],2022-12-09,9828687,,,Fishing Vessel,China,,,,not_iran
+33686,33686,25310,FU YUAN YU 7863,['GLOMAG'],2022-12-09,9828699,,,Fishing Vessel,China,,,,not_iran
+33687,33687,25311,FU YUAN YU 7882,['GLOMAG'],2022-12-09,9828754,,,Fishing Vessel,China,,,,not_iran
+33688,33688,25312,FU YUAN YU 7883,['GLOMAG'],2022-12-09,9828766,,,Fishing Vessel,China,,,,not_iran
+33689,33689,25313,FU YUAN YU 7886,['GLOMAG'],2022-12-09,9842293,,,Fishing Vessel,China,,,,not_iran
+33690,33690,25314,FU YUAN YU 7887,['GLOMAG'],2022-12-09,9842308,,,Fishing Vessel,China,,,,not_iran
+33691,33691,25315,FU YUAN YU 005,['GLOMAG'],2022-12-09,7815246,,,Fishing Vessel,China,,,,not_iran
+33692,33692,25316,FU YUAN YU 008,['GLOMAG'],2022-12-09,8403698,,,Fishing Vessel,China,,,,not_iran
+33693,33693,25317,FU YUAN YU F91,['GLOMAG'],2022-12-09,8414295,,,Refrigerated Cargo Ship,China,,,,not_iran
+33694,33694,25318,FU YUAN YU 8672,['GLOMAG'],2022-12-09,9869291,,,Fishing Vessel,China,,,,not_iran
+33695,33695,25319,FU YUAN YU 8673,['GLOMAG'],2022-12-09,9869473,,,Fishing Vessel,China,,,,not_iran
+33696,33696,25320,FU YUAN YU 8674,['GLOMAG'],2022-12-09,9869485,,,Fishing Vessel,China,,,,not_iran
+33697,33697,25321,FU YUAN YU 557,['GLOMAG'],2022-12-09,8820509,,,Fishing Vessel,China,,,,not_iran
+33698,33698,25322,FU YUAN YU 8675,['GLOMAG'],2022-12-09,9869497,,,Fishing Vessel,China,,,,not_iran
+33699,33699,25323,MIN FUZHOU YU F009,['GLOMAG'],2022-12-09,8994013,,,Fish Carrier,China,,,,not_iran
+33700,33700,25324,FU YUAN YU 8676,['GLOMAG'],2022-12-09,9870123,,,Fishing Vessel,China,,,,not_iran
+33701,33701,25325,FU YUAN YU 559,['GLOMAG'],2022-12-09,9016571,,,Fishing Vessel,China,,,,not_iran
+33702,33702,25326,FU YUAN YU 558,['GLOMAG'],2022-12-09,9031947,,,Fishing Vessel,China,,,,not_iran
+33703,33703,25327,FU YUAN YU F30,['GLOMAG'],2022-12-09,9096507,,,Refrigerated Cargo Ship,China,,,,not_iran
+33704,33704,25328,FU YUAN YU 8677,['GLOMAG'],2022-12-09,9870238,,,Fishing Vessel,China,,,,not_iran
+33705,33705,25329,HONG FENG 1 HAO,['GLOMAG'],2022-12-09,9756573,,,Fish Carrier,China,,,,not_iran
+33706,33706,25330,FU YUAN YU 8678,['GLOMAG'],2022-12-09,9870240,,,Fishing Vessel,China,,,,not_iran
+33707,33707,25331,FU YUAN YU 7865,['GLOMAG'],2022-12-09,9828704,,,Fishing Vessel,China,,,,not_iran
+33708,33708,25332,FU YUAN YU 7866,['GLOMAG'],2022-12-09,9828716,,,Fishing Vessel,China,,,,not_iran
+33709,33709,25333,FU YUAN YU 7884,['GLOMAG'],2022-12-09,9842279,,,Fishing Vessel,China,,,,not_iran
+33710,33710,25334,FU YUAN YU 7885,['GLOMAG'],2022-12-09,9842281,,,Fishing Vessel,China,,,,not_iran
+33711,33711,25335,FU YUAN YU 8660,['GLOMAG'],2022-12-09,9870111,,,Fishing Vessel,China,,,,not_iran
+33712,33712,25336,FU YUAN YU 8661,['GLOMAG'],2022-12-09,9870587,,,Fishing Vessel,China,,,,not_iran
+33713,33713,25337,FU YUAN YU 7894,['GLOMAG'],2022-12-09,9871232,,,Fishing Vessel,China,,,,not_iran
+33714,33714,25338,FU YUAN YU 8662,['GLOMAG'],2022-12-09,9870599,,,Fishing Vessel,China,,,,not_iran
+33715,33715,25339,FU YUAN YU 7888,['GLOMAG'],2022-12-09,9872561,,,Fishing Vessel,China,,,,not_iran
+33716,33716,25340,FU YUAN YU 7889,['GLOMAG'],2022-12-09,9872573,,,Fishing Vessel,China,,,,not_iran
+33717,33717,25341,FU YUAN YU 7895,['GLOMAG'],2022-12-09,9871244,,,Fishing Vessel,China,,,,not_iran
+33718,33718,25342,FU YUAN YU 7900,['GLOMAG'],2022-12-09,9888273,,,Fishing Vessel,China,,,,not_iran
+33719,33719,25343,FU YUAN YU 7901,['GLOMAG'],2022-12-09,9888285,,,Fishing Vessel,China,,,,not_iran
+33720,33720,25344,FU YUAN YU 7896,['GLOMAG'],2022-12-09,9872224,,,Fishing Vessel,China,,,,not_iran
+33721,33721,25345,FU YUAN YU 7902,['GLOMAG'],2022-12-09,9888297,,,Fishing Vessel,China,,,,not_iran
+33722,33722,25346,FU YUAN YU YUN 993,['GLOMAG'],2022-12-09,9897066,,,Fish Carrier,China,,,,not_iran
+33723,33723,25347,FU YUAN YU 8696,['GLOMAG'],2022-12-09,9916654,,,Fishing Vessel,China,,,,not_iran
+33724,33724,25348,FU YUAN YU 7897,['GLOMAG'],2022-12-09,9872262,,,Fishing Vessel,China,,,,not_iran
+33725,33725,25349,FU YUAN YU 8695,['GLOMAG'],2022-12-09,9916692,,,Fishing Vessel,China,,,,not_iran
+33726,33726,25350,FU YUAN YU 8697,['GLOMAG'],2022-12-09,9916707,,,Fishing Vessel,China,,,,not_iran
+33727,33727,25351,FU YUAN YU 8698,['GLOMAG'],2022-12-09,9916721,,,Fishing Vessel,China,,,,not_iran
+33728,33728,25352,FU YUAN YU YUN 991,['GLOMAG'],2022-12-09,9920954,,,Fish Carrier,China,,,,not_iran
+33729,33729,25353,FU YUAN YU 8636,['GLOMAG'],2022-12-09,9933717,,,Fishing Vessel,China,,,,not_iran
+33730,33730,25354,FU YUAN YU 7898,['GLOMAG'],2022-12-09,9872274,,,Fishing Vessel,China,,,,not_iran
+33731,33731,25355,FU YUAN YU 8637,['GLOMAG'],2022-12-09,9933729,,,Fishing Vessel,China,,,,not_iran
+33732,33732,25356,FU YUAN YU 8638,['GLOMAG'],2022-12-09,9933731,,,Fishing Vessel,China,,,,not_iran
+33733,33733,25357,FU YUAN YU 7899,['GLOMAG'],2022-12-09,9872286,,,Fishing Vessel,China,,,,not_iran
+33734,33734,25358,FU YUAN YU 8635,['GLOMAG'],2022-12-09,9934503,,,Fishing Vessel,China,,,,not_iran
+33735,33735,25359,FU YUAN YU 7868,['GLOMAG'],2022-12-09,9872585,,,Fishing Vessel,China,,,,not_iran
+33736,33736,25360,FU YUAN YU 8639,['GLOMAG'],2022-12-09,9934515,,,Fishing Vessel,China,,,,not_iran
+33737,33737,25361,FU YUAN YU 8640,['GLOMAG'],2022-12-09,9934527,,,Fishing Vessel,China,,,,not_iran
+33738,33738,25362,FU YUAN YU 8641,['GLOMAG'],2022-12-09,9934539,,,Fishing Vessel,China,,,,not_iran
+33739,33739,25363,FU YUAN YU 8642,['GLOMAG'],2022-12-09,9934541,,,Fishing Vessel,China,,,,not_iran
+33740,33740,25364,FU YUAN YU 7869,['GLOMAG'],2022-12-09,9872602,,,Fishing Vessel,China,,,,not_iran
+33741,33741,25365,FU YUAN YU 8643,['GLOMAG'],2022-12-09,9934553,,,Fishing Vessel,China,,,,not_iran
+33742,33742,25366,FU YUAN YU 7872,['GLOMAG'],2022-12-09,9874064,,,Fishing Vessel,China,,,,not_iran
+33743,33743,25367,FU YUAN YU 8644,['GLOMAG'],2022-12-09,9934565,,,Fishing Vessel,China,,,,not_iran
+33744,33744,25368,FU YUAN YU 7870,['GLOMAG'],2022-12-09,9874131,,,Fishing Vessel,China,,,,not_iran
+33745,33745,25369,FU YUAN YU 8645,['GLOMAG'],2022-12-09,9934577,,,Fishing Vessel,China,,,,not_iran
+33746,33746,25370,FU YUAN YU 7871,['GLOMAG'],2022-12-09,9874155,,,Fishing Vessel,China,,,,not_iran
+33747,33747,25371,FU YUAN YU 8646,['GLOMAG'],2022-12-09,9934589,,,Fishing Vessel,China,,,,not_iran
+33748,33748,25372,FU YUAN YU 7873,['GLOMAG'],2022-12-09,9874167,,,Fishing Vessel,China,,,,not_iran
+33749,33749,25373,FU YUAN YU 7890,['GLOMAG'],2022-12-09,9878761,,,Fishing Vessel,China,,,,not_iran
+33750,33750,25374,FU YUAN YU 8647,['GLOMAG'],2022-12-09,9940497,,,Fishing Vessel,China,,,,not_iran
+33751,33751,25375,FU YUAN YU 7891,['GLOMAG'],2022-12-09,9878773,,,Fishing Vessel,China,,,,not_iran
+33752,33752,25376,FU YUAN YU 7893,['GLOMAG'],2022-12-09,9878785,,,Fishing Vessel,China,,,,not_iran
+33753,33753,25377,FU YUAN YU 7892,['GLOMAG'],2022-12-09,9879686,,,Fishing Vessel,China,,,,not_iran
+33754,33754,25378,FU YUAN YU 7874,['GLOMAG'],2022-12-09,9879715,,,Fishing Vessel,China,,,,not_iran
+33755,33755,25379,FU YUAN YU 8648,['GLOMAG'],2022-12-09,9940538,,,Fishing Vessel,China,,,,not_iran
+33756,33756,25380,FU YUAN YU 7875,['GLOMAG'],2022-12-09,9879727,,,Fishing Vessel,China,,,,not_iran
+33757,33757,25381,FU YUAN YU 8649,['GLOMAG'],2022-12-09,9940540,,,Fishing Vessel,China,,,,not_iran
+33758,33758,25382,FU YUAN YU YUN 995,['GLOMAG'],2022-12-09,9887152,,,Fish Carrier,China,,,,not_iran
+33759,33759,25383,FU YUAN YU 8650,['GLOMAG'],2022-12-09,9940552,,,Fishing Vessel,China,,,,not_iran
+33760,33760,25384,FU YUAN YU 8651,['GLOMAG'],2022-12-09,9940576,,,Fishing Vessel,China,,,,not_iran
+33761,33761,25385,FU YUAN YU 8652,['GLOMAG'],2022-12-09,9940590,,,Fishing Vessel,China,,,,not_iran
+33762,33762,25386,FU YUAN YU 8653,['GLOMAG'],2022-12-09,9940617,,,Fishing Vessel,China,,,,not_iran
+33763,33763,25387,FU YUAN YU 8654,['GLOMAG'],2022-12-09,9940629,,,Fishing Vessel,China,,,,not_iran
+33764,33764,25388,FU YUAN YU YUN 997,['GLOMAG'],2022-12-09,9887853,,,Fish Carrier,China,,,,not_iran
+33765,33765,25389,FU YUAN YU 7601,['GLOMAG'],2022-12-09,9891476,,,Fishing Vessel,China,,,,not_iran
+33766,33766,25390,FU YUAN YU 7602,['GLOMAG'],2022-12-09,9891488,,,Fishing Vessel,China,,,,not_iran
+33767,33767,25391,FU YUAN YU 7603,['GLOMAG'],2022-12-09,9891490,,,Fishing Vessel,China,,,,not_iran
+33769,33769,25393,FU YUAN YU 7604,['GLOMAG'],2022-12-09,9891505,,,Fishing Vessel,China,,,,not_iran
+33771,33771,25395,LONG XING 601,['GLOMAG'],2022-12-09,8828329,,,Fishing Vessel,China,,,,not_iran
+33772,33772,25396,LONG XING 602,['GLOMAG'],2022-12-09,8011055,,,Fishing Vessel,China,,,,not_iran
+33773,33773,25397,LONG XING 603,['GLOMAG'],2022-12-09,7416349,,,Fishing Vessel,China,,,,not_iran
+33774,33774,25398,LONG XING 605,['GLOMAG'],2022-12-09,8682490,,,Fishing Vessel,China,,,,not_iran
+33775,33775,25399,LONG XING 606,['GLOMAG'],2022-12-09,8682505,,,Fishing Vessel,China,,,,not_iran
+33776,33776,25400,LONG XING 607,['GLOMAG'],2022-12-09,8682517,,,Fishing Vessel,China,,,,not_iran
+33777,33777,25401,LONG XING 608,['GLOMAG'],2022-12-09,8682529,,,Fishing Vessel,China,,,,not_iran
+33778,33778,25402,LONG XING 609,['GLOMAG'],2022-12-09,9004449,,,Fishing Vessel,China,,,,not_iran
+33779,33779,25403,LONG XING 610,['GLOMAG'],2022-12-09,8713421,,,Fishing Vessel,China,,,,not_iran
+33780,33780,25404,LONG XING 611,['GLOMAG'],2022-12-09,9037678,,,Fishing Vessel,China,,,,not_iran
+33781,33781,25405,LONG XING 612,['GLOMAG'],2022-12-09,9038294,,,Fishing Vessel,China,,,,not_iran
+33782,33782,25406,LONG XING 621,['GLOMAG'],2022-12-09,8909769,,,Fishing Vessel,China,,,,not_iran
+33783,33783,25407,LONG XING 622,['GLOMAG'],2022-12-09,8915158,,,Fishing Vessel,China,,,,not_iran
+33784,33784,25408,LONG XING 623,['GLOMAG'],2022-12-09,8910976,,,Fishing Vessel,China,,,,not_iran
+33785,33785,25409,LONG XING 625,['GLOMAG'],2022-12-09,9036777,,,Fishing Vessel,China,,,,not_iran
+33786,33786,25410,LONG XING 626,['GLOMAG'],2022-12-09,9031935,,,Fishing Vessel,China,,,,not_iran
+33787,33787,25411,LONG XING 627,['GLOMAG'],2022-12-09,9016258,,,Fishing Vessel,China,,,,not_iran
+33788,33788,25412,LONG XING 628,['GLOMAG'],2022-12-09,9016246,,,Fishing Vessel,China,,,,not_iran
+33789,33789,25413,LONG XING 629,['GLOMAG'],2022-12-09,8687268,,,Fishing Vessel,China,,,,not_iran
+33790,33790,25414,LONG XING 630,['GLOMAG'],2022-12-09,8687270,,,Fishing Vessel,China,,,,not_iran
+33791,33791,25415,LONG XING 635,['GLOMAG'],2022-12-09,8648145,,,Fishing Vessel,China,,,,not_iran
+33792,33792,25416,FU YUAN YU 7605,['GLOMAG'],2022-12-09,9891608,,,Fishing Vessel,China,,,,not_iran
+33793,33793,25417,LONG XING 636,['GLOMAG'],2022-12-09,8648157,,,Fishing Vessel,China,,,,not_iran
+33794,33794,25418,FU YUAN YU 7606,['GLOMAG'],2022-12-09,9891610,,,Fishing Vessel,China,,,,not_iran
+33795,33795,25419,LONG XING 637,['GLOMAG'],2022-12-09,8648169,,,Fishing Vessel,China,,,,not_iran
+33796,33796,25420,LONG XING 638,['GLOMAG'],2022-12-09,8648171,,,Fishing Vessel,China,,,,not_iran
+33797,33797,25421,LONG XING 801,['GLOMAG'],2022-12-09,8529442,,,Fishing Vessel,China,,,,not_iran
+33798,33798,25422,FU YUAN YU 8679,['GLOMAG'],2022-12-09,9892365,,,Fishing Vessel,China,,,,not_iran
+33799,33799,25423,LONG XING 802,['GLOMAG'],2022-12-09,8529428,,,Fishing Vessel,China,,,,not_iran
+33800,33800,25424,TIAN XIANG 7,['GLOMAG'],2022-12-09,8407802,,,Fishing Vessel,China,,,,not_iran
+33801,33801,25425,TIAN XIANG 8,['GLOMAG'],2022-12-09,8430562,,,Fishing Vessel,China,,,,not_iran
+33802,33802,25426,TIAN XIANG 16,['GLOMAG'],2022-12-09,8947553,,,Fishing Vessel,China,,,,not_iran
+33803,33803,25427,FU YUAN YU 8680,['GLOMAG'],2022-12-09,9892377,,,Fishing Vessel,China,,,,not_iran
+33804,33804,25428,TIAN XIANG 18,['GLOMAG'],2022-12-09,8603690,,,Fishing Vessel,China,,,,not_iran
+33805,33805,25429,FU YUAN YU 8681,['GLOMAG'],2022-12-09,9893137,,,Fishing Vessel,China,,,,not_iran
+33806,33806,25430,TIAN YU 7,['GLOMAG'],2022-12-09,8651283,,,Fishing Vessel,China,,,,not_iran
+33807,33807,25431,TIAN YU 8,['GLOMAG'],2022-12-09,8651295,,,Fishing Vessel,China,,,,not_iran
+33808,33808,25432,FU YUAN YU 8682,['GLOMAG'],2022-12-09,9893149,,,Fishing Vessel,China,,,,not_iran
+33809,33809,25433,FU YUAN YU 8683,['GLOMAG'],2022-12-09,9894387,,,Fishing Vessel,China,,,,not_iran
+33810,33810,25434,FU YUAN YU 8686,['GLOMAG'],2022-12-09,9894399,,,Fishing Vessel,China,,,,not_iran
+33811,33811,25435,FU YUAN YU 8684,['GLOMAG'],2022-12-09,9894492,,,Fishing Vessel,China,,,,not_iran
+33812,33812,25436,FU YUAN YU 8685,['GLOMAG'],2022-12-09,9894507,,,Fishing Vessel,China,,,,not_iran
+33813,33813,25437,FU YUAN YU 8687,['GLOMAG'],2022-12-09,9894519,,,Fishing Vessel,China,,,,not_iran
+33814,33814,25438,FU YUAN YU 7611,['GLOMAG'],2022-12-09,9896294,,,Fishing Vessel,China,,,,not_iran
+33815,33815,25439,FU YUAN YU 7612,['GLOMAG'],2022-12-09,9896309,,,Fishing Vessel,China,,,,not_iran
+33816,33816,25440,FU YUAN YU 7613,['GLOMAG'],2022-12-09,9896323,,,Fishing Vessel,China,,,,not_iran
+33817,33817,25441,FU YUAN YU 7614,['GLOMAG'],2022-12-09,9896335,,,Fishing Vessel,China,,,,not_iran
+33818,33818,25442,FU YUAN YU 7615,['GLOMAG'],2022-12-09,9896347,,,Fishing Vessel,China,,,,not_iran
+33819,33819,25443,FU YUAN YU 7616,['GLOMAG'],2022-12-09,9896361,,,Fishing Vessel,China,,,,not_iran
+33820,33820,25444,FU YUAN YU 7617,['GLOMAG'],2022-12-09,9896373,,,Fishing Vessel,China,,,,not_iran
+33821,33821,25445,FU YUAN YU 7618,['GLOMAG'],2022-12-09,9896397,,,Fishing Vessel,China,,,,not_iran
+33822,33822,25446,FU YUAN YU 7630,['GLOMAG'],2022-12-09,9914785,,,Fishing Vessel,China,,,,not_iran
+33823,33823,25447,FU YUAN YU 7629,['GLOMAG'],2022-12-09,9914761,,,Fishing Vessel,China,,,,not_iran
+33824,33824,25448,FU YUAN YU 7619,['GLOMAG'],2022-12-09,9896402,,,Fishing Vessel,China,,,,not_iran
+33825,33825,25449,FU YUAN YU 7628,['GLOMAG'],2022-12-09,9914759,,,Fishing Vessel,China,,,,not_iran
+33826,33826,25450,FU YUAN YU 8688,['GLOMAG'],2022-12-09,9899052,,,Fishing Vessel,China,,,,not_iran
+33827,33827,25451,FU YUAN YU 7627,['GLOMAG'],2022-12-09,9914747,,,Fishing Vessel,China,,,,not_iran
+33828,33828,25452,FU YUAN YU 8689,['GLOMAG'],2022-12-09,9899064,,,Fishing Vessel,China,,,,not_iran
+33829,33829,25453,FU YUAN YU 7626,['GLOMAG'],2022-12-09,9914735,,,Fishing Vessel,China,,,,not_iran
+33830,33830,25454,FU YUAN YU 8690,['GLOMAG'],2022-12-09,9899076,,,Fishing Vessel,China,,,,not_iran
+33831,33831,25455,FU YUAN YU 7625,['GLOMAG'],2022-12-09,9914723,,,Fishing Vessel,China,,,,not_iran
+33832,33832,25456,FU YUAN YU 7624,['GLOMAG'],2022-12-09,9914606,,,Fishing Vessel,China,,,,not_iran
+33833,33833,25457,FU YUAN YU 8691,['GLOMAG'],2022-12-09,9899088,,,Fishing Vessel,China,,,,not_iran
+33834,33834,25458,FU YUAN YU 7622,['GLOMAG'],2022-12-09,9914591,,,Fishing Vessel,China,,,,not_iran
+33835,33835,25459,FU YUAN YU 7621,['GLOMAG'],2022-12-09,9914589,,,Fishing Vessel,China,,,,not_iran
+33836,33836,25460,FU YUAN YU 7620,['GLOMAG'],2022-12-09,9914577,,,Fishing Vessel,China,,,,not_iran
+33837,33837,25461,FU YUAN YU 8692,['GLOMAG'],2022-12-09,9899105,,,Fishing Vessel,China,,,,not_iran
+33838,33838,25462,FU YUAN YU 8693,['GLOMAG'],2022-12-09,9899117,,,Fishing Vessel,China,,,,not_iran
+33839,33839,25463,FU YUAN YU YUN 992,['GLOMAG'],2022-12-09,9910909,,,Fish Carrier,China,,,,not_iran
+33917,33917,25541,LAMANTIN,"['PEESA-EO14039', 'RUSSIA-EO14024']",2021-11-23,9396854,,UBNV2,Offshore Support Vessel,Russia,,,TRANSADRIA LTD,not_iran
+34940,34940,26564,Baltic Leader,['RUSSIA-EO14024'],2022-02-22,9220639,,,Roll-on Roll-off,Russia,,,PSB Lizing OOO,not_iran
+34942,34942,26566,Pegas,['RUSSIA-EO14024'],2022-02-22,9256860,,,Crude Oil Tanker,Russia,,,PSB Lizing OOO,not_iran
+34977,34977,26601,Light Moon,['SDGT'],2022-02-23,9109550,,V4EO4,Bulk Carrier,St. Kitts and Nevis,,,Mahamud,broad_tag_only_REVIEW
+35301,35301,26925,Dilbar,['RUSSIA-EO14024'],2022-03-03,9661792,,ZGFO,Yacht,Cayman Islands,,,Usmanov,not_iran
+35740,35740,27364,TANGO,['RUSSIA-EO14024'],2022-03-11,1010703,518100626,E5U3540,Yacht,Cook Islands,,,VEKSELBERG,not_iran
+35963,35963,27587,Lena,['RUSSIA-EO14024'],2022-03-24,9594339,,ZJL8309,Yacht,British Virgin Islands,,,Timchenko,not_iran
+36072,36072,27696,Clipper,['SDGT'],2022-12-08,9102198,,,LPG Tanker,Guyana,,,Elvegard Shipping Ltd,broad_tag_only_REVIEW
+36276,36276,27900,Sea Rhapsody,['UKRAINE-EO13661'],2022-06-02,1010648,538071180,V7VR9,Yacht,Marshall Islands,,,,not_iran
+36399,36399,28023,Lady Leila,['RUSSIA-EO14024'],2022-04-06,9683740,273340060,UCGL,Products Tanker,Russia,,,ALFA-LIZING OOO,not_iran
+36400,36400,28024,Lady Rania,['RUSSIA-EO14024'],2022-04-06,9784893,273382620,UBBO9,Chemical/Oil Tanker,Russia,,,ALFA-LIZING OOO,not_iran
+36401,36401,28025,Lady Sevda,['RUSSIA-EO14024'],2022-04-06,9683738,273342180,UBWL7,Products Tanker,Russia,,,ALFA-LIZING OOO,not_iran
+36402,36402,28026,Sv Konstantin,['RUSSIA-EO14024'],2022-04-06,9203710,273450880,UBUS4,General Cargo,Russia,,,ALFA-LIZING OOO,not_iran
+36696,36696,28320,Sparta II,['RUSSIA-EO14024'],2022-05-08,9160994,,,Roll-on Roll-off,Russia,,,OBORONLOGISTIKA OOO,not_iran
+36697,36697,28321,Ambal,['RUSSIA-EO14024'],2022-05-08,8807416,,,Roll-on Roll-off,Russia,,,OBORONLOGISTIKA OOO,not_iran
+36716,36716,28340,Maria E,['RUSSIA-EO14024'],2022-05-08,9617923,,,Roll-on Roll-off,Togo,,,OBORONLOGISTIKA OOO,not_iran
+37026,37026,28650,Pizhma,['RUSSIA-EO14024'],2022-05-08,8814354,,,General Cargo,Russia,,,SC South LLC,not_iran
+37027,37027,28651,Sparta,['RUSSIA-EO14024'],2022-05-08,9268710,,,Roll-on Roll-off,Russia,,,SC South LLC,not_iran
+37028,37028,28652,Sparta III,['RUSSIA-EO14024'],2022-05-08,9538892,,,General Cargo,Russia,,,SC South LLC,not_iran
+37029,37029,28653,Sparta IV,['RUSSIA-EO14024'],2022-05-08,9743033,,,General Cargo,Russia,,,SC South LLC,not_iran
+37031,37031,28655,Belomorskiy,['RUSSIA-EO14024'],2022-05-08,8305781,,,Dredger,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37032,37032,28656,Chizhovka,['RUSSIA-EO14024'],2022-05-08,8730455,,,Hopper Barge,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37033,37033,28657,Dvinskiy Zaliv,['RUSSIA-EO14024'],2022-05-08,8922486,,,Dredger,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37034,37034,28658,Inzhener Trubin,['RUSSIA-EO14024'],2022-05-08,8502080,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37035,37035,28659,Inzhener Veshnyakov,['RUSSIA-EO14024'],2022-05-08,8502107,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37037,37037,28661,Iohann Mahmastal,['RUSSIA-EO14024'],2022-05-08,8603406,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37038,37038,28662,Kapitan Kokovin,['RUSSIA-EO14024'],2022-05-08,9279422,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37039,37039,28663,Kapitan Ryntsyn,['RUSSIA-EO14024'],2022-05-08,8618073,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37040,37040,28664,Kapitan Sakharov,['RUSSIA-EO14024'],2022-05-08,9279434,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37041,37041,28665,Kholmogory,['RUSSIA-EO14024'],2022-05-08,9109081,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37042,37042,28666,Lapominka,['RUSSIA-EO14024'],2022-05-08,8928143,,,Hopper Barge,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37043,37043,28667,Mekhanik Brilin,['RUSSIA-EO14024'],2022-05-08,8904408,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37044,37044,28668,Mekhanik Kottsov,['RUSSIA-EO14024'],2022-05-08,8904410,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37045,37045,28669,Mekhanik Kraskovskiy,['RUSSIA-EO14024'],2022-05-08,8904458,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37046,37046,28670,Mekhanik Makarin,['RUSSIA-EO14024'],2022-05-08,8904379,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37047,37047,28671,Mekhanik Pustoshnyy,['RUSSIA-EO14024'],2022-05-08,8904422,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37048,37048,28672,Mekhanik Pyatlin,['RUSSIA-EO14024'],2022-05-08,8904434,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37050,37050,28674,Mekhanik Yartsev,['RUSSIA-EO14024'],2022-05-08,8904367,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37051,37051,28675,Mikhail Lomonosov,['RUSSIA-EO14024'],2022-05-08,9216482,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37052,37052,28676,S. Kuznetsov,['RUSSIA-EO14024'],2022-05-08,9210359,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37053,37053,28677,Siyanie Severa,['RUSSIA-EO14024'],2022-05-08,9250385,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37054,37054,28678,SMP Arkhangelsk,['RUSSIA-EO14024'],2022-05-08,9240550,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37055,37055,28679,SMP Novodvinsk,['RUSSIA-EO14024'],2022-05-08,9398046,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37056,37056,28680,SMP Severodvinsk,['RUSSIA-EO14024'],2022-05-08,9376440,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37057,37057,28681,Adler,['RUSSIA-EO14024'],2022-05-08,9179854,,,Roll-on Roll-off,Russia,,,M Leasing LLC,not_iran
+37058,37058,28682,Teriberka,['RUSSIA-EO14024'],2022-05-08,8931748,273913200,,Hopper Barge,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37059,37059,28683,Angara,['RUSSIA-EO14024'],2022-05-08,9179842,,,Roll-on Roll-off,Russia,,,M Leasing LLC,not_iran
+37060,37060,28684,Ascalon,['RUSSIA-EO14024'],2022-05-08,9198226,,,Roll-on Roll-off,Russia,,,M Leasing LLC,not_iran
+37061,37061,28685,Polar Rock,['RUSSIA-EO14024'],2022-05-08,9116632,,,Crude Oil Tanker,Russia,,,Marine Trans Shipping LLC,not_iran
+37063,37063,28687,ENISEY,['RUSSIA-EO14024'],2022-05-08,9079169,,,Bulk Carrier,Russia,,,Nord Project LLC Transport Company,not_iran
+37064,37064,28688,NP DIKSON,['RUSSIA-EO14024'],2022-05-08,9255270,,,Chemical/Oil Tanker,Russia,,,Nord Project LLC Transport Company,not_iran
+37067,37067,28691,Anastasiia,['RUSSIA-EO14024'],2022-05-08,9349291,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37068,37068,28692,Askar-sarydzha,['RUSSIA-EO14024'],2022-05-08,9082142,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37069,37069,28693,SAPFIR,['RUSSIA-EO14024'],2022-05-08,8700010,273355400,UBIG5,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37071,37071,28695,Gasret Aliev,['RUSSIA-EO14024'],2022-05-08,9083330,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37072,37072,28696,NP DUDINKA,['RUSSIA-EO14024'],2022-05-08,9183831,,,Chemical/Oil Tanker,Russia,,,Nord Project LLC Transport Company,not_iran
+37073,37073,28697,RZK CONSTANTA,['RUSSIA-EO14024'],2022-05-08,8711289,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37074,37074,28698,SEVERNIY PROECT,['RUSSIA-EO14024'],2022-05-08,9202053,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37075,37075,28699,Triton,['RUSSIA-EO14024'],2022-05-08,7236141,,,Tug,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37076,37076,28700,Genrikh Gasanov,['RUSSIA-EO14024'],2022-05-08,9083196,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37077,37077,28701,Viktor Zabelin,['RUSSIA-EO14024'],2022-05-08,9210256,,,General Cargo,Russia,,,Joint Stock Company Northern Shipping Company,not_iran
+37078,37078,28702,SIBERIA,['RUSSIA-EO14024'],2022-05-08,9239458,,,Bulk Carrier,Russia,,,Nord Project LLC Transport Company,not_iran
+37080,37080,28704,TAIBOLA,['RUSSIA-EO14024'],2022-05-08,9086253,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37081,37081,28705,Kompozitor Gasanov,['RUSSIA-EO14024'],2022-05-08,8606628,,,Roll-on Roll-off,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37082,37082,28706,TAIMYR,['RUSSIA-EO14024'],2022-05-08,8821797,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37083,37083,28707,TAMBEY,['RUSSIA-EO14024'],2022-05-08,9014872,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37085,37085,28709,Lady D,['RUSSIA-EO14024'],2022-05-08,9349289,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37086,37086,28710,TERSKIY BEREG,['RUSSIA-EO14024'],2022-05-08,9081368,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37088,37088,28712,TIKSY,['RUSSIA-EO14024'],2022-05-08,8821802,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37089,37089,28713,Lady Mariia,['RUSSIA-EO14024'],2022-05-08,9220641,,,Roll-on Roll-off,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37091,37091,28715,TURUKHAN,['RUSSIA-EO14024'],2022-05-08,9081332,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37095,37095,28719,Lady R,['RUSSIA-EO14024'],2022-05-08,9161003,,,Roll-on Roll-off,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37098,37098,28722,Maia-1,['RUSSIA-EO14024'],2022-05-08,9358010,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37100,37100,28724,Olga,['RUSSIA-EO14024'],2022-05-08,8700046,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37101,37101,28725,UTRENNIY,['RUSSIA-EO14024'],2022-05-08,9347059,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37102,37102,28726,SABETTA,['RUSSIA-EO14024'],2022-05-08,9347061,,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37103,37103,28727,Port Olya-1,['RUSSIA-EO14024'],2022-05-08,9481922,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37104,37104,28728,Port Olya-2,['RUSSIA-EO14024'],2022-05-08,9481881,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37105,37105,28729,Rasul Gamzatov,['RUSSIA-EO14024'],2022-05-08,8861058,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37106,37106,28730,Sona,['RUSSIA-EO14024'],2022-05-08,8700060,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37107,37107,28731,Valentin Emirov,['RUSSIA-EO14024'],2022-05-08,8866591,,,General Cargo,Russia,,,MG-FLOT LIMITED LIABILITY COMPANY,not_iran
+37136,37136,28760,Teriberka,['RUSSIA-EO14024'],2022-05-08,9081291,273211090,,General Cargo,Russia,,,Nord Project LLC Transport Company,not_iran
+37444,37444,29068,Graceful,['RUSSIA-EO14024'],2022-06-02,1011551,,UBGV8,Yacht,Russia,,,,not_iran
+37445,37445,29069,Olympia,['RUSSIA-EO14024'],2022-06-02,1006960,319766000,ZCGR,Yacht,Cayman Islands,,,,not_iran
+37454,37454,29078,Madame Gu,"['RUSSIA-EO14024', 'UKRAINE-EO13661']",2022-06-02,1011331,,ZGCW7,Yacht,Cayman Islands,,,,not_iran
+37479,37479,29103,SHELLEST,['RUSSIA-EO14024'],2022-06-02,150443,273385420,UBAO8,Yacht,Russia,,,,not_iran
+37482,37482,29106,NEGA,['RUSSIA-EO14024'],2022-06-02,130280,273337970,J8Y4483,Yacht,Russia,,,,not_iran
+37932,37932,29556,SUMMER 5,['IRAN-EO13846'],2022-07-06,9204805,356746000,3FLY5,Chemical/Oil Tanker,Panama,,,Truong Phat Loc Shipping Trading Joint Stock Company,iran_specific
+37933,37933,29557,BS BRAVO,['IRAN-EO13846'],2022-07-06,9294795,626061000,TRA065,Chemical/Oil Tanker,Gabon,,,,iran_specific
+38245,38245,29869,Nirvana,['RUSSIA-EO14024'],2022-12-15,1011202,,ZGBM,Yacht,Cayman Islands,,2012,Potanin,not_iran
+38418,38418,30042,GLORY HARVEST,['IRAN-EO13846'],2022-08-01,9143506,356978000,3FYH7,LPG Tanker,Panama,,,,iran_specific
+39276,39276,30900,AKOYA GAS,['IRAN-EO13846'],2022-09-29,9142150,352898800,5IM779,Chemical/Oil Tanker,Tanzania,,,,iran_specific
+39685,39685,31309,B Luminosa,['SDGT'],2022-11-03,9256016,621819076,,Oil Products Tanker,Djibouti,,,,broad_tag_only_REVIEW
+39686,39686,31310,ZEPHYR I,['SDGT'],2022-11-03,9255880,511100663,,Crude Oil Tanker,Panama,Palau,,,broad_tag_only_REVIEW
+39687,39687,31311,Boceanica,['SDGT'],2022-11-03,9267132,621819060,,Oil Products Tanker,Djibouti,Palau,,,broad_tag_only_REVIEW
+39688,39688,31312,Rain Drop,['SDGT'],2022-11-03,9233208,518998461,,Crude Oil Tanker,Cook Islands,,,,broad_tag_only_REVIEW
+39692,39692,31316,Adisa,['SDGT'],2022-11-03,9304667,353024000,,Oil Products Tanker,Panama,,,,broad_tag_only_REVIEW
+39693,39693,31317,SAINT LIGHT,['SDGT'],2022-11-03,9194127,750514000,8RAR1,Oil Products Tanker,Guyana,,,,broad_tag_only_REVIEW
+40560,40560,32184,Anatta,['RUSSIA-EO14024'],2023-01-26,1011159,319025900,ZGB15,Yacht,Cayman Islands,,2011,,not_iran
+40716,40716,32340,IRIS MAKRAN,['IRAN'],2023-02-03,9486910,,,Naval Auxiliary Vessel,Iran,,,,iran_specific
+40717,40717,32341,IRIS DENA,['IRAN'],2023-02-03,4743313,,,Frigate,Iran,,,,iran_specific
+40885,40885,32509,Dolphin,['IRAN-EO13846'],2023-03-02,9052331,668116145,,LPG Tanker,Sao Tome and Principe,,,,iran_specific
+40886,40886,32510,Lauren,['IRAN-EO13846'],2023-03-02,9249685,572330220,,LPG Tanker,Tuvalu,,,,iran_specific
+40888,40888,32512,Golden Bridge,['IRAN-EO13846'],2023-03-02,9218301,357648000,,Bulk Carrier,Panama,,,,iran_specific
+40890,40890,32514,Golden Phoenix,['IRAN-EO13846'],2023-03-02,9224790,374811000,,Bulk Carrier,Panama,,,,iran_specific
+40892,40892,32516,Jamaica,['IRAN-EO13846'],2023-03-02,9230098,574004860,,Crude Oil Tanker,Vietnam,,,,iran_specific
+40894,40894,32518,Golden Light 09,['IRAN-EO13846'],2023-03-02,9445057,574004770,,Bulk Carrier,Vietnam,,,,iran_specific
+40895,40895,32519,Gas Cathar,['IRAN-EO13846'],2023-03-02,9250505,352448000,,LPG Tanker,Panama,,,,iran_specific
+40897,40897,32521,Yong Xiang 29,['IRAN-EO13846'],2023-03-02,8744107,412437840,,Chemical/Products Tanker,China,,,,iran_specific
+40899,40899,32523,Forever Rich,['IRAN-EO13846'],2023-03-02,9203928,477232400,,Chemical/Products Tanker,Hong Kong,,,,iran_specific
+40900,40900,32524,Yong Xin,['IRAN-EO13846'],2023-03-02,9203930,477237100,,Chemical/Products Tanker,Hong Kong,,,,iran_specific
+40902,40902,32526,Liang Sheng,['IRAN-EO13846'],2023-03-02,9526693,477978800,,Chemical/Products Tanker,Hong Kong,,,,iran_specific
+40904,40904,32528,Full Star,['IRAN-EO13846'],2023-03-02,9773301,477948300,,Chemical/Products Tanker,Hong Kong,,,,iran_specific
+40905,40905,32529,Amias,['IRAN-EO13846'],2023-03-02,9342786,574004850,,Chemical/Products Tanker,Vietnam,,,,iran_specific
+41041,41041,32665,POLA HARITA,['RUSSIA-EO14024'],2023-02-24,9888792,,UBLL,General Cargo,,,,Pola Raiz OOO,not_iran
+41085,41085,32709,POLA DUDINKA,['RUSSIA-EO14024'],2023-02-24,9190107,,UBNW5,General Cargo,,,,Pola Raiz OOO,not_iran
+41086,41086,32710,POLA SEVASTIANA,['RUSSIA-EO14024'],2023-02-24,9691785,,UBDG,General Cargo,,,,Pola Raiz OOO,not_iran
+41087,41087,32711,POLA MAKARIA,['RUSSIA-EO14024'],2023-02-24,9849423,,UBZX,General Cargo,,,,Pola Raiz OOO,not_iran
+41088,41088,32712,POLA FILOFEIA,['RUSSIA-EO14024'],2023-02-24,9849435,,UBAV,General Cargo,,,,Pola Raiz OOO,not_iran
+41089,41089,32713,POLA SOFIA,['RUSSIA-EO14024'],2023-02-24,9849459,,UBFI,General Cargo,,,,Pola Raiz OOO,not_iran
+41090,41090,32714,POLA FEODOSIA,['RUSSIA-EO14024'],2023-02-24,9849461,,UHNY,General Cargo,,,,Pola Raiz OOO,not_iran
+41091,41091,32715,POLA FIVA,['RUSSIA-EO14024'],2023-02-24,9849473,,UBRR,General Cargo,,,,Pola Raiz OOO,not_iran
+41092,41092,32716,POLA ANATOLIA,['RUSSIA-EO14024'],2023-02-24,9851103,,UCQV,General Cargo,,,,Pola Raiz OOO,not_iran
+41093,41093,32717,POLA ANFISA,['RUSSIA-EO14024'],2023-02-24,9851115,,UBXR7,General Cargo,,,,Pola Raiz OOO,not_iran
+41094,41094,32718,POLA GALI,['RUSSIA-EO14024'],2023-02-24,9851127,,UBVC2,General Cargo,,,,Pola Raiz OOO,not_iran
+41099,41099,32723,POLA MIROPIA,['RUSSIA-EO14024'],2023-02-24,9903877,,UBYU3,General Cargo,,,,Pola Raiz OOO,not_iran
+41100,41100,32724,ASTROL-1,['RUSSIA-EO14024'],2023-02-24,9906544,,UBXU4,General Cargo,,,,Pola Raiz OOO,not_iran
+41131,41131,32755,POLA PELAGIA,['RUSSIA-EO14024'],2023-02-24,9888807,,UDRW,General Cargo,,,,Pola Raiz OOO,not_iran
+41132,41132,32756,ALEKSANDR SOKOLOV,['RUSSIA-EO14024'],2023-02-24,9889198,,UBKK,General Cargo,,,,Pola Raiz OOO,not_iran
+41133,41133,32757,POLA ANASTASIA,['RUSSIA-EO14024'],2023-02-24,9897690,,UFON,General Cargo,,,,Pola Raiz OOO,not_iran
+41135,41135,32759,POLA MARIA,['RUSSIA-EO14024'],2023-02-24,9897705,,UDHN,General Cargo,,,,Pola Raiz OOO,not_iran
+41136,41136,32760,POLA YAROSLAVA,['RUSSIA-EO14024'],2023-02-24,9903827,,UDJO,General Cargo,,,,Pola Raiz OOO,not_iran
+41138,41138,32762,POLA VARVARA,['RUSSIA-EO14024'],2023-02-24,9903839,,UBFU2,General Cargo,,,,Pola Raiz OOO,not_iran
+41139,41139,32763,POLA AGATA,['RUSSIA-EO14024'],2023-02-24,9903841,,UBJU8,General Cargo,,,,Pola Raiz OOO,not_iran
+41140,41140,32764,POLA ALEXIA,['RUSSIA-EO14024'],2023-02-24,9903853,,UBUU3,General Cargo,,,,Pola Raiz OOO,not_iran
+41141,41141,32765,POLA MARINA,['RUSSIA-EO14024'],2023-02-24,9903865,,UBVU5,General Cargo,,,,Pola Raiz OOO,not_iran
+42137,42137,33761,BALTIYSK,['RUSSIA-EO14024'],2023-04-12,8318130,,UHMA,Roll-on Roll-off,Russia,,,,not_iran
+42138,42138,33762,Avrora Altair,['RUSSIA-EO14024'],2023-04-12,9300348,,UBYS,Oil Products Tanker,Russia,,,,not_iran
+42140,42140,33764,Avrora Regul,['RUSSIA-EO14024'],2023-04-12,9300350,,UGGU,Oil Products Tanker,Russia,,,,not_iran
+42180,42180,33804,Avrora Sirius,['RUSSIA-EO14024'],2023-04-12,9313589,,UHSW,Oil Products Tanker,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42181,42181,33805,Navis 6,['RUSSIA-EO14024'],2023-04-12,9868807,,UAQK,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42182,42182,33806,Petrotrans 5902,['RUSSIA-EO14024'],2023-04-12,9900514,,UBXT9,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42183,42183,33807,Vladimir Latyshev,['RUSSIA-EO14024'],2023-04-12,9921996,,UBEV8,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42185,42185,33809,Victor Andryukhin,['RUSSIA-EO14024'],2023-04-12,9922110,,UBIV4,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42187,42187,33811,Leonid Pestrikov,['RUSSIA-EO14024'],2023-04-12,9922122,,UBJV2,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42189,42189,33813,Nikolai Leonov,['RUSSIA-EO14024'],2023-04-12,9922134,,UBLV9,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42190,42190,33814,Alpha Helios,['RUSSIA-EO14024'],2023-04-12,9924340,,UBSV3,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42192,42192,33816,Alpha Hermes,['RUSSIA-EO14024'],2023-04-12,9924352,,UBDW5,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42199,42199,33823,Alexandr Deev,['RUSSIA-EO14024'],2023-04-12,9940186,,UBSX6,Passenger,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42202,42202,33826,Nikolay Anishchenkov,['RUSSIA-EO14024'],2023-04-12,9942392,,,General Cargo,Russia,,,Joint Stock Company State Transportation Leasing Company,not_iran
+42208,42208,33832,Alara,['RUSSIA-EO14024'],2023-04-12,9741724,,TCA7253,Bulk Carrier,Turkey,,,Pola Raiz OOO,not_iran
+42210,42210,33834,Ipsala,['RUSSIA-EO14024'],2023-04-12,9759666,,TCA7254,Bulk Carrier,Turkey,,,Pola Raiz OOO,not_iran
+42214,42214,33838,Ula,['RUSSIA-EO14024'],2023-04-12,9780940,,TCA7252,Bulk Carrier,Turkey,,,Pola Raiz OOO,not_iran
+43258,43258,34882,Ivan Kireev,['RUSSIA-EO14024'],2023-05-19,7423275,,UCYO,Research Vessel,Russia,,,,not_iran
+43259,43259,34883,Aleksey Maryshev,['RUSSIA-EO14024'],2023-05-19,8909329,,UCRD,Research Vessel,Russia,,,,not_iran
+43260,43260,34884,Grigoriy Mikheyev,['RUSSIA-EO14024'],2023-05-19,8909331,,UCRE,Passenger,Russia,,,,not_iran
+43261,43261,34885,Yuri Babaev,['RUSSIA-EO14024'],2023-05-19,9912696,,UBPW4,Research Vessel,Russia,,,,not_iran
+43285,43285,34909,Pawell,['RUSSIA-EO14024'],2023-05-19,8315499,,,General Cargo,Syria,,,PAWELL SHIPPING CO LLP,not_iran
+44212,44212,35836,SASCO ALDAN,['RUSSIA-EO14024'],2023-07-20,9358034,,UBOV4,General Cargo,Russia,,,,not_iran
+44214,44214,35838,SASCO AVACHA,['RUSSIA-EO14024'],2023-07-20,9246140,,UBMO9,Container Ship,Russia,,,,not_iran
+44245,44245,35869,SASCO Angara,['RUSSIA-EO14024'],2023-07-20,9242986,,UBUO6,Container Ship,Russia,,,,not_iran
+44246,44246,35870,SASCO ANIVA,['RUSSIA-EO14024'],2023-07-20,9255402,,UBBO5,Container Ship,Russia,,,,not_iran
+44248,44248,35872,Patria,['RUSSIA-EO14024'],2023-07-20,9159921,,UBVP6,Roll-on Roll-off,Russia,,,,not_iran
+44250,44250,35874,ZEYA,['RUSSIA-EO14024'],2023-07-20,9118355,,UHMI,Container Ship,Russia,,,,not_iran
+44251,44251,35875,KUNASHIR,['RUSSIA-EO14024'],2023-07-20,9142588,,UBSI9,General Cargo,Russia,,,,not_iran
+44253,44253,35877,PARAMUSHIR,['RUSSIA-EO14024'],2023-07-20,9190286,,UGZM,General Cargo,Russia,,,,not_iran
+44255,44255,35879,SELENGA,['RUSSIA-EO14024'],2023-07-20,8714657,,UBSH8,General Cargo,Russia,,,,not_iran
+44256,44256,35880,SHANTAR,['RUSSIA-EO14024'],2023-07-20,9190274,,UBNJ7,General Cargo,Russia,,,,not_iran
+44273,44273,35897,Simushir,['RUSSIA-EO14024'],2023-07-20,9179385,,UBRI5,General Cargo,Russia,,,,not_iran
+44276,44276,35900,Sakhalin 8,['RUSSIA-EO14024'],2023-07-20,8330516,,UERK,Passenger,Russia,,,,not_iran
+44278,44278,35902,Sakhalin 9,['RUSSIA-EO14024'],2023-07-20,8728543,,UCEE,Passenger,Russia,,,PUBLIC JOINT STOCK COMPANY SAKHALIN SHIPPING COMPANY,not_iran
+44279,44279,35903,Sakhalin 10,['RUSSIA-EO14024'],2023-07-20,8857667,,UCDL,Passenger,Russia,,,PUBLIC JOINT STOCK COMPANY SAKHALIN SHIPPING COMPANY,not_iran
+45007,45007,36631,Koryak FSU,['RUSSIA-EO14024'],2023-09-14,9915105,,3E2333,Floating Storage Tanker,Panama,,,,not_iran
+45034,45034,36658,SAAM FSU,['RUSSIA-EO14024'],2023-09-14,9915090,,3E2557,Floating Storage Tanker,Panama,,,,not_iran
+45330,45330,36954,Kazan,['RUSSIA-EO14024'],2023-11-16,9258002,636011916,A8CE6,Crude Oil Tanker,Liberia,,,,not_iran
+45555,45555,37179,SCF Primorye,['RUSSIA-EO14024'],2023-10-12,9421960,636014308,A8SW6,Crude Oil Tanker,Liberia,,,,not_iran
+46288,46288,37912,Ligovsky Prospect,['RUSSIA-EO14024'],2023-11-16,9256066,636011641,A8AP5,Crude Oil Tanker,Liberia,,,Progress Shipping Company Limited,not_iran
+46290,46290,37914,NS Century,['RUSSIA-EO14024'],2023-11-16,9306782,636012853,A8IJ8,Crude Oil Tanker,Liberia,,,Gallion Navigation Incorporated,not_iran
+46610,46610,38234,NS Champion,['RUSSIA-EO14024'],2023-12-01,9299719,636012384,A8FD9,Crude Oil Tanker,Liberia,,,,not_iran
+46611,46611,38235,Viktor Bakaev,['RUSSIA-EO14024'],2023-12-01,9610810,636015565,D5BN6,Crude Oil Tanker,Liberia,,,,not_iran
+46613,46613,38237,HS Atlantica,['RUSSIA-EO14024'],2023-12-01,9322839,636022401,5LIP5,Crude Oil Tanker,Liberia,,,,not_iran
+46771,46771,38395,CAPTAIN YAKUBOVICH,['RUSSIA-EO14024'],2023-12-12,8318740,,UBCG2,General Cargo,Russia,,1984,,not_iran
+46773,46773,38397,MARIA,['RUSSIA-EO14024'],2023-12-12,8517839,,UBRH7,General Cargo,Russia,,1986,,not_iran
+46775,46775,38399,ARKADIY CHERNYSHEV,['RUSSIA-EO14024'],2023-12-12,8714695,,UBSH5,General Cargo,Russia,,1988,,not_iran
+46957,46957,38581,ANATOLY KOLODKIN,['RUSSIA-EO14024'],2024-02-23,9610808,352003372,3E7525,Crude Oil Tanker,Panama,,,,not_iran
+46972,46972,38596,NS ANTARCTIC,['RUSSIA-EO14024'],2024-02-23,9413559,626372000,TRBF3,Crude Oil Tanker,Gabon,,,,not_iran
+46976,46976,38600,NS LION,['RUSSIA-EO14024'],2024-02-23,9339313,626393000,TRBH8,Crude Oil Tanker,Gabon,,,,not_iran
+46991,46991,38615,GEORGY MASLOV,['RUSSIA-EO14024'],2024-02-23,9610793,626362000,TRBD9,Crude Oil Tanker,Gabon,,,,not_iran
+47003,47003,38627,NS CONSUL,['RUSSIA-EO14024'],2024-02-23,9341093,626388000,TRBH3,Crude Oil Tanker,Gabon,,,,not_iran
+47006,47006,38630,NS BURGAS,['RUSSIA-EO14024'],2024-02-23,9411020,626378000,TRBF9,Crude Oil Tanker,Gabon,,,,not_iran
+47007,47007,38631,NS CAPTAIN,['RUSSIA-EO14024'],2024-02-23,9341067,626379000,TRBG2,Crude Oil Tanker,Gabon,,,,not_iran
+47009,47009,38633,NS COLUMBUS,['RUSSIA-EO14024'],2024-02-23,9312884,626382000,TRBG5,Crude Oil Tanker,Gabon,,,,not_iran
+47015,47015,38639,SAKHALIN ISLAND,['RUSSIA-EO14024'],2024-02-23,9249128,352002202,3E4139,Crude Oil Tanker,Panama,,,,not_iran
+47022,47022,38646,NEVSKIY PROSPECT,['RUSSIA-EO14024'],2024-02-23,9256054,626369000,TRBE8,Crude Oil Tanker,Gabon,,,,not_iran
+47034,47034,38658,LITEYNY PROSPECT,['RUSSIA-EO14024'],2024-02-23,9256078,626367000,TRBE6,Crude Oil Tanker,Gabon,,,,not_iran
+47037,47037,38661,Krymsk,['RUSSIA-EO14024'],2024-02-23,9270529,626364000,TRBE3,Crude Oil Tanker,Gabon,,,,not_iran
+47041,47041,38665,SANAR 15,['RUSSIA-EO14024'],2023-12-20,9777670,273375360,UALW,Oil Products Tanker,Russia,,,,not_iran
+47046,47046,38670,NS Creation,['RUSSIA-EO14024'],2024-02-23,9312896,626390000,TRBH5,Crude Oil Tanker,Gabon,,,,not_iran
+47053,47053,38677,NS Bravo,['RUSSIA-EO14024'],2024-02-23,9412359,626377000,TRBF8,Crude Oil Tanker,Gabon,,,,not_iran
+47190,47190,38814,Mehle,['SDGT'],2024-01-12,9191711,352002537,3E3893,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+47191,47191,38815,SINCERE 02,['SDGT'],2024-01-12,9226011,352002984,3E4733,Oil Products Tanker,Kiribati,,,,broad_tag_only_REVIEW
+47213,47213,38837,Aristo,['RUSSIA-EO14024'],2024-01-18,9327413,636022549,5LJI7,Chemical/Products Tanker,Liberia,,,,not_iran
+47214,47214,38838,Hai II,['RUSSIA-EO14024'],2024-01-18,9259599,636016693,D5HH9,Crude Oil Tanker,Liberia,,,,not_iran
+47215,47215,38839,HS Arge,['RUSSIA-EO14024'],2024-01-18,9299745,636022360,5LIK5,Crude Oil Tanker,Liberia,,,,not_iran
+47216,47216,38840,HS Buraq,['RUSSIA-EO14024'],2024-01-18,9381732,636022364,5LIK9,Products Tanker,Liberia,,,,not_iran
+47217,47217,38841,HS Esberg,['RUSSIA-EO14024'],2024-01-18,9410894,636022386,5LIN6,Products Tanker,Liberia,,,,not_iran
+47218,47218,38842,HS Everett,['RUSSIA-EO14024'],2024-01-18,9410870,636022403,5LIP7,Crude Oil Tanker,Liberia,,,,not_iran
+47219,47219,38843,HS Glory,['RUSSIA-EO14024'],2024-01-18,9249087,636018127,D5OH4,Crude Oil Tanker,Liberia,,,,not_iran
+47220,47220,38844,HS Star,['RUSSIA-EO14024'],2024-01-18,9274446,636018885,D5RV6,Crude Oil Tanker,Liberia,,,,not_iran
+47221,47221,38845,La Pride,['RUSSIA-EO14024'],2024-01-18,9274616,636022251,5LHW6,Crude Oil Tanker,Liberia,,,,not_iran
+47222,47222,38846,Mona,['RUSSIA-EO14024'],2024-01-18,9314818,636022424,5LIS6,Chemical/Oil Tanker,Liberia,,,,not_iran
+47223,47223,38847,Nellis,['RUSSIA-EO14024'],2024-01-18,9322267,636022550,5LJI8,Chemical/Oil Tanker,Liberia,,,,not_iran
+47224,47224,38848,Osperous,['RUSSIA-EO14024'],2024-01-18,9412995,636022098,5LHE4,Crude Oil Tanker,Liberia,,,,not_iran
+47225,47225,38849,Peria,['RUSSIA-EO14024'],2024-01-18,9322827,636022479,5LIZ6,Crude Oil Tanker,Liberia,,,,not_iran
+47226,47226,38850,Sara II,['RUSSIA-EO14024'],2024-01-18,9301615,636022546,5LJI4,Chemical/Oil Tanker,Liberia,,,,not_iran
+47227,47227,38851,Sensus,['RUSSIA-EO14024'],2024-01-18,9296585,636022146,5LHJ7,Products Tanker,Liberia,,,,not_iran
+47228,47228,38852,Uze,['RUSSIA-EO14024'],2024-01-18,9323338,636022072,5LHB3,Chemical/Oil Tanker,Liberia,,,,not_iran
+47233,47233,38857,HS Legend,['RUSSIA-EO14024'],2024-01-18,9381744,636022362,5LIK7,Crude Oil Tanker,Liberia,,,,not_iran
+47305,47305,38929,BENDIGO,['IRAN-EO13846'],2024-10-11,9289491,314925000,8P2397,Crude Oil Tanker,Barbados,,,,iran_specific
+47309,47309,38933,Parine,['IRAN-EO13846'],2024-06-27,9257503,314642000,8PBL8,Crude Oil Tanker,Barbados,,,,iran_specific
+47310,47310,38934,Road,['IRAN-EO13846'],2024-06-27,9229362,314641000,8PBL7,Crude Oil Tanker,Barbados,,,,iran_specific
+47311,47311,38935,Berenice Pride,['IRAN-EO13846'],2024-06-27,9216559,357776000,3EEX7,Oil Products Tanker,Panama,,,,iran_specific
+47312,47312,38936,Harmony,['IRAN-EO13846'],2024-06-27,8400945,,D6A2833,Tug,Comoros,,,,iran_specific
+47314,47314,38938,Euro Viking,['IRAN-EO13846'],2024-06-27,9309239,341729000,V4XD4,Chemical/Oil Tanker,St. Kitts and Nevis,,,,iran_specific
+47315,47315,38939,Euro Fortune,['IRAN-EO13846'],2024-06-27,9281554,341675000,V4WB4,Chemical/Oil Tanker,St. Kitts and Nevis,,,,iran_specific
+47316,47316,38940,Arabian Energy,['IRAN-EO13846'],2024-06-27,9417490,352001565,3E3473,Chemical/Products Tanker,Panama,,,,iran_specific
+47319,47319,38943,Astra,['IRAN-EO13846'],2024-06-27,9162928,626152000,TRAA3,Chemical/Products Tanker,Gabon,,,,iran_specific
+47321,47321,38945,Baltic Horizon,['IRAN-EO13846'],2024-06-27,9263382,352004038,3E5422,Chemical/Products Tanker,Panama,,,,iran_specific
+47322,47322,38946,Nile,['IRAN-EO13846'],2024-06-27,9411288,518999154,E5U5135,Chemical/Products Tanker,Cook Islands,,,,iran_specific
+47323,47323,38947,Yamuna,['IRAN-EO13846'],2024-06-27,9572111,518999152,E5U5133,Oil Products Tanker,Cook Islands,,,,iran_specific
+47371,47371,38995,NS Leader,['RUSSIA-EO14024'],2024-02-08,9339301,636013272,A8LU7,Crude Oil Tanker,Gabon,,,,not_iran
+47661,47661,39285,OLYMPICS,['SDGT'],2024-03-15,9212759,750788000,8RCA6,Crude Oil Tanker,Guyana,,,,broad_tag_only_REVIEW
+47705,47705,39329,YORGOS,['SDGT'],2024-02-27,9150365,750177000,8RCL2,Crude Oil Tanker,Sint Maarten,,,,broad_tag_only_REVIEW
+47714,47714,39338,ALIREZA 1,['RUSSIA-EO14024'],2024-02-23,6703769,,UAYK,General Cargo,Russia,,1965,,not_iran
+47716,47716,39340,BALTIYSKIY-111,['RUSSIA-EO14024'],2024-02-23,7612448,,UDCC,General Cargo,Russia,,1980,,not_iran
+47719,47719,39343,SKIF-V,['RUSSIA-EO14024'],2024-02-23,8858087,,UBRK6,General Cargo,Russia,,1984,,not_iran
+47864,47864,39488,AKADEMIK ALEKSANDR KARPINSKIY,['RUSSIA-EO14024'],2024-02-23,8227238,,UIZO,Research Vessel,Russia,,1984,,not_iran
+47868,47868,39492,PROFESSOR LOGACHEV,['RUSSIA-EO14024'],2024-02-23,8834691,,UADZ,Research Vessel,Russia,,1970,,not_iran
+47871,47871,39495,AKADEMIK PRIMAKOV,['RUSSIA-EO14024'],2024-02-23,9187514,,UBCQ4,Research Vessel,Russia,,1999,,not_iran
+47874,47874,39498,AKADEMIK LAZEREV,['RUSSIA-EO14024'],2024-02-23,8408985,,UAJS,Research Vessel,Russia,,1987,,not_iran
+47876,47876,39500,AKADEMIK NEMCHINOV,['RUSSIA-EO14024'],2024-02-23,8409032,,UETM,Research Vessel,Russia,,1988,,not_iran
+47879,47879,39503,PROFESSOR RYABINKIN,['RUSSIA-EO14024'],2024-02-23,8504923,,UAJU,Research Vessel,Russia,,1989,,not_iran
+48031,48031,39655,BAVENIT,['RUSSIA-EO14024'],2024-02-23,8406573,,UAIO,Drilling Ship,Russia,,1986,,not_iran
+48034,48034,39658,GELENDZHIK,['RUSSIA-EO14024'],2024-02-23,8826230,,UFII,Research Vessel,Russia,,1989,,not_iran
+48037,48037,39661,YUZHMORGEOLOGIYA,['RUSSIA-EO14024'],2024-02-23,8724482,,UBSZ,Research Vessel,Russia,,1985,,not_iran
+48141,48141,39765,KOHANA,['SDGT'],2024-02-27,9254082,352002176,3E4115,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+48183,48183,39807,RENEEZ,['SDGT'],2024-03-06,9232450,511100508,T8A3663,Crude Oil Tanker,Palau,,,Reneez Shipping Limited,broad_tag_only_REVIEW
+48200,48200,39824,MOONBAY,['SDGT'],2024-03-06,9230907,750269000,8RCC2,Crude Oil Tanker,Guyana,,,,broad_tag_only_REVIEW
+48298,48298,39922,DAWN II,['SDGT'],2024-03-26,9185530,374100000,3FHW2,Crude Oil Tanker,Panama,,,Hassaleh International Company,broad_tag_only_REVIEW
+48405,48405,40029,HECATE,['SDGT'],2024-04-04,9233753,620999379,D6A3379,Crude Oil Tanker,Comoros,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48406,48406,40030,SIRI,['SDGT'],2024-04-04,9281683,620999315,D6A3314,Crude Oil Tanker,Comoros,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48407,48407,40031,BOREAS,['SDGT'],2024-04-04,9248497,620999316,D6A3315,Crude Oil Tanker,Comoros,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48409,48409,40033,CAPE GAS,['SDGT'],2024-04-04,9002491,620739000,D6A2739,LPG Tanker,Comoros,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48410,48410,40034,calypso gas,['SDGT'],2024-04-04,9131101,304563000,V2YC2,LPG Tanker,Antigua and Barbuda,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48411,48411,40035,meraki,['SDGT'],2024-04-04,9194139,304552000,V2YB7,Crude Oil Tanker,Antigua and Barbuda,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48412,48412,40036,elsa,['SDGT'],2024-04-04,9256468,312038000,V3RZ8,Crude Oil Tanker,Belize,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48414,48414,40038,demeter,['SDGT'],2024-04-04,9258674,370921000,HPGV,Oil Products Tanker,Panama,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48415,48415,40039,hebe,['SDGT'],2024-04-04,9259185,620999378,D6A3378,Crude Oil Tanker,Comoros,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48416,48416,40040,baxter,['SDGT'],2024-04-04,9282522,312513000,V3TF5,Oil Products Tanker,Belize,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48417,48417,40041,glaucus,['SDGT'],2024-04-04,9337389,620999422,D6A3421,Crude Oil Tanker,Comoros,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48418,48418,40042,ourea,['SDGT'],2024-04-04,9350422,518999021,E5U5002,LPG Tanker,Cook Islands,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48419,48419,40043,oceanus gas,['SDGT'],2024-04-04,9397080,620999373,D6A3372,LPG Tanker,Comoros,,,oceanlink maritime dmcc,broad_tag_only_REVIEW
+48695,48695,40319,LA PEARL,['SDGT'],2024-04-25,9174660,677070800,5IM808,Crude Oil Tanker,Tanzania,,,SAONE SHIPPING CORPORATION,broad_tag_only_REVIEW
+48713,48713,40337,CHEM,['SDGT'],2024-04-25,9240914,518998388,E5U4368,Chemical/Products Tanker,Cook Islands,,,,broad_tag_only_REVIEW
+48714,48714,40338,DANCY DYNAMIC,['SDGT'],2024-04-25,9158161,511100350,T8A3476,Oil Products Tanker,Palau,,,,broad_tag_only_REVIEW
+48715,48715,40339,K M A,['SDGT'],2024-04-25,9234616,518998425,E5U4542,Chemical/Products Tanker,Cook Islands,,,,broad_tag_only_REVIEW
+48716,48716,40340,CONRAD,['SDGT'],2024-04-25,9546722,518998562,E5U4542,Oil Products Tanker,Cook Islands,,,,broad_tag_only_REVIEW
+48804,48804,40428,AUDAX,['RUSSIA-EO14024'],2024-05-01,9763837,,9V9100,Heavy Lift Vessel,Singapore,,,,not_iran
+48806,48806,40430,PUGNAX,['RUSSIA-EO14024'],2024-05-01,9763849,,9V9102,Heavy Lift Vessel,Singapore,,,,not_iran
+48816,48816,40440,ARCTICA 1,['RUSSIA-EO14024'],2024-05-01,9228980,,UBDO8,General Cargo,Russia,,,TRANSSTROY LIMITED LIABILITY COMPANY,not_iran
+48818,48818,40442,MYS ZHELANIYA,['RUSSIA-EO14024'],2024-05-01,9366110,,UBQT4,General Cargo,Russia,,,TRANSSTROY LIMITED LIABILITY COMPANY,not_iran
+48819,48819,40443,VASILY LANOVOY,['RUSSIA-EO14024'],2024-05-01,9621601,,UBOZ8,Chemical/Products Tanker,Russia,,,TRANSSTROY LIMITED LIABILITY COMPANY,not_iran
+48853,48853,40477,Hunter Star,['RUSSIA-EO14024'],2024-05-01,9830769,,3E7518,Heavy Lift Vessel,Panama,,,,not_iran
+48856,48856,40480,Nan Feng Zhi Xing,['RUSSIA-EO14024'],2024-05-01,9934498,,3E2357,Heavy Lift Vessel,Panama,,,,not_iran
+48886,48886,40510,ARCTICA 2,['RUSSIA-EO14024'],2024-05-01,9243801,,UBTN7,General Cargo,Russia,,,,not_iran
+48888,48888,40512,BERING,['RUSSIA-EO14024'],2024-05-01,9267297,,UBHR6,General Cargo,Russia,,,,not_iran
+48890,48890,40514,MYS FLORA,['RUSSIA-EO14024'],2024-05-01,9433286,,UBHW2,Bulk Carrier,Russia,,,,not_iran
+48892,48892,40516,MYS DEZHNEVA,['RUSSIA-EO14024'],2024-05-01,9368340,,UBFV9,General Cargo,Russia,,,,not_iran
+48894,48894,40518,BARENTS,['RUSSIA-EO14024'],2024-05-01,9278600,,UBIP2,General Cargo,Russia,,,,not_iran
+48895,48895,40519,ANDREY OSIPOV,['RUSSIA-EO14024'],2024-05-01,8711306,,UBTN6,General Cargo,Russia,,,,not_iran
+48896,48896,40520,MIKHAIL BRITNEV,['RUSSIA-EO14024'],2024-05-01,9081370,,UBCW9,General Cargo,Russia,,,,not_iran
+48897,48897,40521,MYS SHMIDTA,['RUSSIA-EO14024'],2024-05-01,9243825,,UBIZ9,General Cargo,Russia,,,,not_iran
+48898,48898,40522,MANGAZEYA,['RUSSIA-EO14024'],2024-05-01,7741108,,UFRI,Fish Carrier,Russia,,,,not_iran
+49238,49238,40862,JANET,['SDGT'],2024-06-10,9220952,352003341,3E7497,Crude Oil Tanker,Panama,,,Lainey Shipping Limited,broad_tag_only_REVIEW
+49248,49248,40872,BELLA 1,['SDGT'],2024-06-10,9230880,352002277,3E3494,Crude Oil Tanker,Panama,,,LOUIS MARINE SHIPHOLDING ENTERPRISES S.A.,broad_tag_only_REVIEW
+49313,49313,40937,Sergei Witte,['RUSSIA-EO14024'],2024-06-12,9904687,,,LNG Carrier,Russia,,,,not_iran
+49321,49321,40945,Alexey Kosygin,['RUSSIA-EO14024'],2024-06-12,9904546,,,LNG Carrier,Russia,,,,not_iran
+49322,49322,40946,Pyotr Stolypin,['RUSSIA-EO14024'],2024-06-12,9904675,,,LNG Carrier,Russia,,,,not_iran
+49323,49323,40947,Zvezda 044,['RUSSIA-EO14024'],2024-06-12,9904699,,,LNG Carrier,Russia,,,,not_iran
+49324,49324,40948,Zvezda 047,['RUSSIA-EO14024'],2024-06-12,9918781,,,LNG Carrier,Russia,,,,not_iran
+49325,49325,40949,Zvezda 046,['RUSSIA-EO14024'],2024-06-12,9918779,,,LNG Carrier,Russia,,,,not_iran
+49326,49326,40950,Zvezda 045,['RUSSIA-EO14024'],2024-06-12,9904704,,,LNG Carrier,Russia,,,,not_iran
+49840,49840,41392,Wanji,['SDGT'],2024-07-18,9215103,351309000,3EQC8,Chemical/Products Tanker,Panama,,,,broad_tag_only_REVIEW
+49841,49841,41393,Oceanic II,['SDGT'],2024-07-18,9275995,477274300,VRJR3,Products Tanker,Hong Kong,,,,broad_tag_only_REVIEW
+49842,49842,41394,Tirex,['SDGT'],2024-07-18,9203772,352002811,3E5098,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+49845,49845,41397,Mirova Dynamic,['SDGT'],2024-07-18,9237618,,,Crude Oil Tanker,Unknown,,,,broad_tag_only_REVIEW
+49850,49850,41402,Kasper,['SDGT'],2024-07-18,9293143,352002776,3E5069,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+50092,50092,41604,Raha Gas,['SDGT'],2024-08-15,8818219,511101405,T8A4761,LPG Tanker,Palau,,,,broad_tag_only_REVIEW
+50101,50101,41631,DIVINE POWER,['SDGT'],2024-08-15,9171357,511101150,T8A4414,Chemical/Products Tanker,Palau,,,,broad_tag_only_REVIEW
+50103,50103,41633,LPG OM,['SDGT'],2024-08-15,9160475,511101151,T8A4415,LPG Tanker,Palau,,,,broad_tag_only_REVIEW
+50107,50107,41637,TINOS I,['IRAN-EO13902'],2025-04-22,9969821,352003638,3E5261,LPG Tanker,Panama,,,PEARL PETROCHEMICAL FZE,iran_specific
+50331,50331,41878,North Sky,['RUSSIA-EO14024'],2024-08-23,9953523,,3E6091,LNG Carrier,Panama,,,,not_iran
+50334,50334,41881,North Air,['RUSSIA-EO14024'],2024-08-23,9953509,,3E5919,LNG Carrier,Panama,,,,not_iran
+50337,50337,41884,North Mountain,['RUSSIA-EO14024'],2024-08-23,9953511,,3E5918,LNG Carrier,Panama,,,,not_iran
+50339,50339,41886,North Way,['RUSSIA-EO14024'],2024-08-23,9953535,,3E5924,LNG Carrier,Panama,,,,not_iran
+50453,50453,42000,FENGSHUN,['SDGT'],2024-08-15,9007386,374350000,H9ZK,LPG Tanker,Eswatini,,,KAI HENG LONG GLOBAL ENERGY LIMITED,broad_tag_only_REVIEW
+50454,50454,42001,VICTORIA,['SDGT'],2024-08-15,9113379,668116259,S9Z6,LPG Tanker,Sao Tome and Principe,,,KAI HENG LONG GLOBAL ENERGY LIMITED,broad_tag_only_REVIEW
+50455,50455,42002,LADY LIBERTY,['SDGT'],2024-08-15,9005065,668116262,3FTM2,LPG Tanker,Sao Tome and Principe,,,KAI HENG LONG GLOBAL ENERGY LIMITED,broad_tag_only_REVIEW
+50456,50456,42003,PARVATI,['SDGT'],2024-08-15,8519966,352002268,3E3842,LPG Tanker,Panama,,,KAI HENG LONG GLOBAL ENERGY LIMITED,broad_tag_only_REVIEW
+50523,50523,42035,Alpha Gas,['SDGT'],2024-09-11,8817693,677067100,51M771,,Tanzania,,,,broad_tag_only_REVIEW
+50525,50525,42037,Pioneer,['RUSSIA-EO14024'],2024-08-23,9256602,,T8A4750,LNG Carrier,Republic of Palau,,,,not_iran
+50526,50526,42038,Marina,['SDGT'],2024-09-11,9005493,677054300,51M643,,Tanzania,,,,broad_tag_only_REVIEW
+50527,50527,42039,Asya Energy,['RUSSIA-EO14024'],2024-08-23,9216298,,T8A4791,LNG Carrier,Republic of Palau,,,,not_iran
+50528,50528,42040,Everest Energy,['RUSSIA-EO14024'],2024-08-23,9243148,,T8A4820,LNG Carrier,Republic of Palau,,,,not_iran
+50583,50583,42095,boris kustodiev,['RUSSIA-EO14024'],2024-09-10,9103817,273191000,UFXZ,General Cargo,Russia,,,,not_iran
+50584,50584,42096,PORT olya-4,['RUSSIA-EO14024'],2024-09-10,9481934,273390550,UDHW,General Cargo,Russia,,,,not_iran
+50585,50585,42097,port olya-3,['RUSSIA-EO14024'],2024-09-10,9481910,273371920,UHEQ,General Cargo,Russia,,,,not_iran
+50586,50586,42098,kompozitor rakhmaninov,['RUSSIA-EO14024'],2024-09-10,8606616,273452650,UCXW,Roll-on Roll-off,Russia,,,,not_iran
+50590,50590,42102,VAFA,['RUSSIA-EO14024'],2024-09-10,8422670,,UFZS,General Cargo,Russia,,1984,,not_iran
+50591,50591,42103,VAFA-1,['RUSSIA-EO14024'],2024-09-10,8422682,,UHCT,General Cargo,Russia,,1984,,not_iran
+50593,50593,42105,omskiy-103,['RUSSIA-EO14024'],2024-09-10,8889385,,UGDX,General Cargo,Russia,,1978,,not_iran
+50594,50594,42106,Omskiy-119,['RUSSIA-EO14024'],2024-09-10,8926913,,UBSW7,General Cargo,Russia,,1980,,not_iran
+50595,50595,42107,Zakamsk,['RUSSIA-EO14024'],2024-09-10,8951413,,UBBT3,General Cargo,Russia,,1966,,not_iran
+50628,50628,42175,NEW ENERGY,['RUSSIA-EO14024'],2024-09-05,9324277,,T8A4832,LNG Carrier,Republic of Palau,,,,not_iran
+50629,50629,42176,MULAN,['RUSSIA-EO14024'],2024-09-05,9864837,,T8A4797,LNG Carrier,Republic of Palau,,,,not_iran
+50842,50842,42414,ETERNAL SUCCESS,['SDGT'],2024-09-25,9307633,352002970,3E4722,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+50843,50843,42415,ETERNAL PEACE,['SDGT'],2024-09-25,9259745,352002158,3E3831,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+50844,50844,42416,ETERNAL 8,['SDGT'],2024-09-25,9232448,352001640,3E3694,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+50848,50848,42420,Confidence P,['SDGT'],2024-09-25,9178044,357747000,3FGV5,Crude/Oil Products Tanker,Panama,,,,broad_tag_only_REVIEW
+50850,50850,42422,Tiyara,['SDGT'],2024-09-25,9231224,422471300,EPUN7,Crude Oil Tanker,,,,,broad_tag_only_REVIEW
+50851,50851,42423,Serene I,['SDGT'],2024-09-25,9197832,374483000,3EFX8,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+50852,50852,42424,Nova,['SDGT'],2024-09-25,9141259,668116245,S9U17,Crude/Oil Products Tanker,Sao Tome and Principe,,,,broad_tag_only_REVIEW
+50854,50854,42426,Rival,['SDGT'],2024-09-25,9117818,3708590000,3FZA2,Chemical/Products Tanker,Panama,,,,broad_tag_only_REVIEW
+50855,50855,42427,Feng Tai,['SDGT'],2024-09-25,9248473,352002635,3E4959,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+50971,50971,42543,Izumo,"['SDGT', 'IFSR']",2024-10-02,9249324,626466000,TRBQ9,Crude Oil Tanker,Gabon,,,,broad_tag_only_REVIEW
+50972,50972,42544,Frunze,"['SDGT', 'IFSR']",2024-10-02,9263643,518998343,E5U4323,Crude Oil Tanker,Cook Islands,,,,broad_tag_only_REVIEW
+51031,51031,42603,Crystal Rose,['IRAN-EO13846'],2024-10-11,9292228,352001298,3E4037,Crude Oil Tanker,Panama,,,,iran_specific
+51032,51032,42604,LUNA PRIME,['IRAN-EO13846'],2024-10-11,9174220,352001994,3E2167,Crude Oil Tanker,Panama,,,,iran_specific
+51033,51033,42605,Carina,['IRAN-EO13846'],2024-10-11,9240512,314872000,8P2232,Crude Oil Tanker,Barbados,,,,iran_specific
+51036,51036,42608,ELZA,['IRAN-EO13846'],2024-10-11,9221671,636018950,D5SE4,Crude Oil Tanker,Liberia,,,,iran_specific
+51039,51039,42611,Salvia,['IRAN-EO13846'],2024-10-11,9297319,268240702,T7BJ6,Crude Oil Tanker,San Marino,,,,iran_specific
+51040,51040,42612,Carnatic,['IRAN-EO13846'],2024-10-11,9304655,314926000,8P2398,Crude Oil Tanker,Barbados,,,,iran_specific
+51047,51047,42619,Satina,['IRAN-EO13846'],2024-10-11,9308778,352002316,3E2250,Products Tanker,Panama,,,,iran_specific
+51048,51048,42620,Aventus I,['IRAN-EO13846'],2024-10-11,9280873,352898820,3E2078,Crude Oil Tanker,Panama,,,,iran_specific
+51052,51052,42624,Dimitra II,['IRAN-EO13846'],2024-10-11,9208215,268249801,T7BI5,Crude Oil Tanker,San Marino,,,,iran_specific
+51053,51053,42625,Davina,['IRAN-EO13846'],2024-10-11,9259367,511101471,T8A4843,Crude Oil Tanker,Palau,,,,iran_specific
+51054,51054,42626,SPIRIT OF CASPER,['IRAN-EO13846'],2024-10-11,9224271,352003872,3E6116,Crude Oil Tanker,Panama,,,,iran_specific
+51055,51055,42627,Tyche I,['IRAN-EO13846'],2024-10-11,9247390,352002704,3E5017,Crude Oil Tanker,Panama,,,,iran_specific
+51057,51057,42629,Cross Ocean,['IRAN-EO13846'],2024-10-11,9251810,352002860,3E4640,Crude Oil Tanker,Panama,,,,iran_specific
+51058,51058,42630,GOODWIN,['IRAN-EO13846'],2024-10-11,9379703,518999041,E5U5022,Crude Oil Tanker,Cook Islands,,,,iran_specific
+51059,51059,42631,ANHONA,['IRAN-EO13846'],2024-10-11,9354521,312171000,V3GK3,Oil Products Tanker,Belize,,,,iran_specific
+51061,51061,42633,WEN YAO,['IRAN-EO13846'],2024-10-11,9288095,518999208,E5U5189,Crude Oil Tanker,Cook Islands,,,,iran_specific
+51064,51064,42636,Berg 1,['IRAN-EO13846'],2024-10-11,9262168,,3DCZ1,Crude Oil Tanker,Panama,,,,iran_specific
+51066,51066,42638,Voras,['IRAN-EO13846'],2024-10-11,9203265,613916701,TJM8VO,Crude Oil Tanker,Cameroon,,,,iran_specific
+51071,51071,42643,Hornet,['IRAN-EO13846'],2024-10-11,9197844,6987100,,Crude Oil Tanker,Eswatini,,,,iran_specific
+51074,51074,42646,Shanaye Queen,['IRAN-EO13846'],2024-10-11,9242118,533132105,9WNN6,Crude Oil Tanker,Malaysia,,,,iran_specific
+51077,51077,42649,Carol,['IRAN-EO13846'],2024-10-11,9070072,341575000,V4BC4,LPG Tanker,St. Kitts and Nevis,,,,iran_specific
+51082,51082,42654,Octans,['IRAN-EO13846'],2024-10-11,9224295,,S9A15,Crude Oil Tanker,Sao Tome and Principe,,,,iran_specific
+51312,51312,42898,Marbel,['SDGT'],2024-10-17,9220938,518998494,E5U4474,Chemical/Oil Tanker,Cook Islands,,,,broad_tag_only_REVIEW
+51314,51314,42900,Kukki,['SDGT'],2024-10-17,9247388,314823000,8PVO7,Chemical/Oil Tanker,Barbados,,,,broad_tag_only_REVIEW
+51315,51315,42901,Trophy,['SDGT'],2024-10-17,9220940,518998535,E5U4515,Chemical/Oil Tanker,Cook Islands,,,,broad_tag_only_REVIEW
+51316,51316,42902,Onyx,['SDGT'],2024-10-17,9252400,518998663,E5U4643,Products Tanker,Cook Islands,,,,broad_tag_only_REVIEW
+51317,51317,42903,Gratia,['SDGT'],2024-10-17,9260055,511101304,T8A4616,Chemical/Oil Tanker,Palau,,,,broad_tag_only_REVIEW
+51318,51318,42904,Juvenis,['SDGT'],2024-10-17,9260067,511101307,T8A4619,Chemical/Oil Tanker,Palau,,,,broad_tag_only_REVIEW
+51323,51323,42915,Kapok,['SDGT'],2024-10-17,9315654,352003068,3E6616,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+51349,51349,42941,TONIL,['IRAN-EO13902'],2024-12-03,9307932,352002482,3E2323,Crude Oil Tanker,Panama,,,,iran_specific
+51350,51350,42942,CERES I,['IRAN-EO13902'],2024-12-03,9229439,668116233,S9U4,Crude Oil Tanker,Sao Tome and Principe,,,,iran_specific
+51352,51352,42944,FIONA II,['IRAN-EO13902'],2024-12-03,9262766,351073000,HPOE,Crude Oil Tanker,Panama,,,,iran_specific
+51353,51353,42945,YURI,['IRAN-EO13902'],2024-12-03,9235737,518999249,E5U5230,Crude Oil Tanker,Cook Islands,,,,iran_specific
+51360,51360,42952,LADY LUCY,['IRAN-EO13902'],2024-12-03,9341512,636022783,5LKL2,Chemical/Products Tanker,Liberia,,,,iran_specific
+51361,51361,42953,ELVA,['IRAN-EO13902'],2024-12-03,9196644,668116202,S9A3,Crude Oil Tanker,Sao Tome and Principe,,,,iran_specific
+51365,51365,42957,JAYA,['IRAN-EO13902'],2024-12-03,9410387,538010982,V7A6410,Crude Oil Tanker,Marshall Islands,,,,iran_specific
+51367,51367,42959,MASAL,['IRAN-EO13902'],2024-12-03,9169421,422169700,EPHO6,Crude Oil Tanker,Iran,,,,iran_specific
+51368,51368,42960,FT ISLAND,['IRAN-EO13902'],2024-12-03,9166675,334017000,HQAI6,Crude Oil Tanker,Honduras,,,,iran_specific
+51372,51372,42964,PHONIX,['IRAN-EO13902'],2024-12-03,9198317,750308000,8RCY3,Crude Oil Tanker,Guyana,,,,iran_specific
+51374,51374,42966,LARA II,['IRAN-EO13902'],2024-12-03,9321421,374740000,3EQL7,Oil Products Tanker,Panama,,,,iran_specific
+51375,51375,42967,RIO NAPO,['IRAN-EO13902'],2024-12-03,9256913,518998389,E5U4369,Chemical/Oil Tanker,Cook Islands,,,,iran_specific
+51376,51376,42968,OLIVE,['IRAN-EO13902'],2024-12-03,9288265,518999290,E5U5271,Crude Oil Tanker,Cook Islands,,,,iran_specific
+51378,51378,42970,BLACK PANTHER,['IRAN-EO13902'],2024-12-03,9285756,372988000,3EZT6,Chemical/Products Tanker,Panama,,,,iran_specific
+51379,51379,42971,LIONESS,['IRAN-EO13902'],2024-12-03,9285744,353722000,3FLM9,Chemical/Products Tanker,Panama,,,,iran_specific
+51382,51382,42974,BERTHA,['IRAN-EO13902'],2024-12-03,9292163,518999103,E5U5084,Crude Oil Tanker,Cook Islands,,,,iran_specific
+51384,51384,42976,MIN HANG,"['IRAN-EO13902', 'RUSSIA-EO14024', 'UKRAINE-EO13662']",2024-12-03,9257137,518999094,E5U5075,Crude Oil Tanker,Cook Islands,,,,iran_specific
+51385,51385,42977,VESNA,"['IRAN-EO13902', 'RUSSIA-EO14024', 'UKRAINE-EO13662']",2024-12-03,9233349,312242000,V3MD7,Crude Oil Tanker,Belize,,,,iran_specific
+51387,51387,42979,MEROPE,"['IRAN-EO13902', 'RUSSIA-EO14024', 'UKRAINE-EO13662']",2024-12-03,9281891,352002495,3E2648,Crude Oil Tanker,Panama,,,,iran_specific
+51389,51389,42981,VERONICA III,['IRAN-EO13902'],2024-12-03,9326055,352002475,3E2317,Crude Oil Tanker,Panama,,,,iran_specific
+51479,51479,43071,Captain Kostichev,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9301392,352002205,3E4142,Crude Oil Tanker,Panama,,,,not_iran
+51480,51480,43072,Kapitan Gotsky,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9372559,273335010,UBCF2,Shuttle Tanker,Russia,,,,not_iran
+51481,51481,43073,Kirill Lavrov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9333682,273345750,UBOL9,Crude Oil Tanker,Russia,,,,not_iran
+51482,51482,43074,Mikhail Lazarev,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9837547,273212310,UBZS8,Shuttle Tanker,Russia,,,,not_iran
+51483,51483,43075,Mikhail Ulyanov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9333670,273328440,UBAL3,Crude Oil Tanker,Russia,,,,not_iran
+51484,51484,43076,Nikolay Zadornov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9901037,352002208,3E3485,Crude Oil Tanker,Panama,,,,not_iran
+51485,51485,43077,Okeansky Prospect,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9866380,273618730,UBFV,Crude Oil Tanker,Russia,,,,not_iran
+51486,51486,43078,Pathfinder,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9577094,314976000,8P2482,Crude Oil Tanker,Barbados,,,,not_iran
+51487,51487,43079,Pavel Chernysh,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9301380,352002195,3E4132,Crude Oil Tanker,Panama,,,,not_iran
+51488,51488,43080,Sirius,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9422445,314988000,8P2496,Crude Oil Tanker,Barbados,,,,not_iran
+51489,51489,43081,Shturman Albanov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9752084,273397870,UBXO2,Crude Oil Tanker,Russia,,,,not_iran
+51490,51490,43082,Shturman Ovtsyn,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9752101,273391790,UBEP3,Crude Oil Tanker,Russia,,,,not_iran
+51491,51491,43083,Shturman Malygin,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9752096,273398780,UHBP,Crude Oil Tanker,Russia,,,,not_iran
+51492,51492,43084,Timofey Guzhenko,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9372561,273330620,UBQF5,Crude Oil Tanker,Russia,,,,not_iran
+51493,51493,43085,Vasily Dinkov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9372547,273345020,UEVN,Crude Oil Tanker,Russia,,,,not_iran
+51494,51494,43086,Victor Konetsky,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9301421,352002197,3E4134,Shuttle Tanker,Panama,,,,not_iran
+51495,51495,43087,Viktor Titov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9301407,352002204,3E4141,Crude Oil Tanker,Panama,,,,not_iran
+51496,51496,43088,Zaliv Amerika,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9354301,352003366,3E7520,Crude Oil Tanker,Panama,,,,not_iran
+51497,51497,43089,Zaliv Baikal,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9360128,352002194,3E4131,Shuttle Tanker,Panama,,,,not_iran
+51498,51498,43090,Zaliv Vostok,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9360130,352002196,3E4133,Crude Oil Tanker,Panama,,,,not_iran
+51500,51500,43092,Boray,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9198783,273610900,UBGX6,Chemical/Oil Tanker,Russia,,,,not_iran
+51501,51501,43093,Sanar 7,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9211999,273615700,UBFX5,Crude Oil Tanker,Russia,,,,not_iran
+51502,51502,43094,Sanar 8,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9212008,273619700,UBFX8,Crude Oil Tanker,Russia,,,,not_iran
+51504,51504,43096,Dignity,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9283241,273253500,UBIZ6,Crude Oil Tanker,Russia,,,,not_iran
+51525,51525,43117,UMBA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9196620,273387920,UEIW,Floating Storage Tanker,Russia,,,,not_iran
+51528,51528,43120,BUK,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9201994,273318480,UBOE3,Tug,Russia,,,,not_iran
+51530,51530,43122,VYAZ,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9804057,273418480,UBXQ5,Tug,Russia,,,,not_iran
+51532,51532,43124,TIS,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9817779,273396740,UBXP4,Tug,Russia,,,,not_iran
+51534,51534,43126,KOLA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9217979,273414140,UBDQ5,Floating Storage Tanker,Russia,,,,not_iran
+51548,51548,43140,Panda,"['RUSSIA-EO14024', 'UKRAINE-EO13662', 'IRAN-EO13846']",2025-01-10,9284582,574005540,XVJG7,Crude Oil Tanker,Guyana,Vietnam,2004,,iran_specific
+51549,51549,43141,Ivy,"['RUSSIA-EO14024', 'UKRAINE-EO13662', 'IRAN-EO13846']",2025-01-10,9337133,574005380,XVJI7,Crude Oil Tanker,Vietnam,,2007,,iran_specific
+51550,51550,43142,Leopard,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9284594,574005550,XVKF7,Crude Oil Tanker,Vietnam,,,,not_iran
+51553,51553,43145,Owens,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9223540,373482000,H3XW,LPG Tanker,Panama,,,,not_iran
+51555,51555,43147,Alexander Beggrov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9876373,,,Products Tanker,Russia,,,,not_iran
+51564,51564,43156,Alexey Bogolyubov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9876361,,,Products Tanker,Russia,,,,not_iran
+51565,51565,43157,Ariadne,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9397547,314948000,8P2446,Chemical/Oil Tanker,Barbados,,2008,,not_iran
+51566,51566,43158,Diamond,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9385142,314946000,8P2444,Chemical/Oil Tanker,Barbados,,2009,,not_iran
+51568,51568,43160,Ivan Aivazovsky,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9876359,,,Products Tanker,Russia,,,,not_iran
+51569,51569,43161,Jupiter,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9397535,314931000,8P2425,Chemical/Oil Tanker,Barbados,,2009,,not_iran
+51571,51571,43163,NS Pride,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9322956,626399000,TRBI6,Chemical/Oil Tanker,Gabon,,2006,,not_iran
+51572,51572,43164,VANITY,['IRAN-EO13902'],2024-12-03,9371608,268241802,T7BL8,Crude Oil Tanker,San Marino,,,,iran_specific
+51573,51573,43165,NS Silver,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9309576,352003367,3E7521,Chemical/Oil Tanker,Panama,,2005,,not_iran
+51574,51574,43166,Premier,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9577082,314945000,8P2443,Products Tanker,Barbados,,2011,,not_iran
+51575,51575,43167,Aria,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9397559,314987000,8P2495,Chemical/Oil Tanker,Barbados,,2009,,not_iran
+51578,51578,43170,Tango,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9292058,314944000,8P2442,Products Tanker,Barbados,,2006,,not_iran
+51580,51580,43172,Fjord Seal,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9513139,352001925,3E3737,Crude Oil Tanker,Panama,,,,not_iran
+51581,51581,43173,Talisman,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9292060,314956000,8P2456,Products Tanker,Barbados,,2006,,not_iran
+51582,51582,43174,Corum,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9544281,352002588,3E2362,Products Tanker,Panama,,,,not_iran
+51583,51583,43175,Topaz,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9292034,314959000,8P2459,Products Tanker,Barbados,,2004,,not_iran
+51584,51584,43176,Salty Wolf,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9530917,352002280,3E3497,Crude Oil Tanker,Panama,,,,not_iran
+51586,51586,43178,Sakarya,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9524463,352002168,3E3835,Crude Oil Tanker,Panama,,,,not_iran
+51587,51587,43179,Trust,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9382798,314953000,8P2453,Products Tanker,Barbados,,2008,,not_iran
+51588,51588,43180,Sable,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9524451,352002179,3E4117,Crude Oil Tanker,Panama,,,,not_iran
+51589,51589,43181,Triumph,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9344033,314943000,8P2439,Products Tanker,Barbados,,2007,,not_iran
+51591,51591,43183,Cankiri,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9411331,352002456,3E4108,Crude Oil Tanker,Panama,,,,not_iran
+51592,51592,43184,Elegance,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9383950,352002791,3E5080,Crude Oil Tanker,Panama,,,,not_iran
+51594,51594,43186,Universal,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9384306,314954000,8P2454,Chemical/Oil Tanker,Barbados,,2009,,not_iran
+51596,51596,43188,Venture,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9832547,352003251,3E7423,Crude Oil Tanker,Panama,,,,not_iran
+51597,51597,43189,Valour,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9832559,352003207,3E6071,Products Tanker,Panama,,,,not_iran
+51600,51600,43192,Samsun,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9436006,352002486,3E2327,Crude Oil Tanker,Panama,,,,not_iran
+51603,51603,43195,Sivas,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9419137,352002488,3E2642,Crude Oil Tanker,Panama,,,,not_iran
+51605,51605,43197,Orient Vision,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9673202,352002707,3E5020,Bulk Carrier,Panama,,,,not_iran
+51609,51609,43201,DEYNA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9299903,352003718,3E5822,Crude Oil Tanker,Panama,,,,not_iran
+51610,51610,43202,Orient Harmony,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9620633,352002708,3E5021,Bulk Carrier,Panama,,,,not_iran
+51611,51611,43203,SIRIUS 1,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9285847,352003720,3E5824,Crude Oil Tanker,Panama,,,,not_iran
+51612,51612,43204,TURACO,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9247780,352002942,3E4698,Crude Oil Tanker,Panama,,,,not_iran
+51614,51614,43206,GAZPROMNEFT ZUID EAST,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9537109,273353580,UCSK,Chemical/Oil Tanker,Russia,,,,not_iran
+51615,51615,43207,OMSK,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9418509,273371330,UBZU,Chemical/Oil Tanker,Russia,,,,not_iran
+51616,51616,43208,TYMEN,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9422653,273334570,UBIK8,Chemical/Oil Tanker,Russia,,,,not_iran
+51617,51617,43209,OLANGA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9286463,273355340,UBVH4,Products Tanker,Russia,,,,not_iran
+51618,51618,43210,MURMANSK,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9167930,273430430,UBRR2,Chemical/Oil Tanker,Russia,,,,not_iran
+51619,51619,43211,DMITRY MENDELEEV,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9888182,273296810,UBJV8,Bunkering Tanker,Russia,,,,not_iran
+51620,51620,43212,SHTURMAN KOSHELEV,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9759939,273391160,UCMR,Products Tanker,Russia,,,,not_iran
+51621,51621,43213,SHTURMAN SHCHERBININ,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9759927,273385570,UEXZ,Products Tanker,Russia,,,,not_iran
+51622,51622,43214,SHTURMAN SKURATOV,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9759915,273392990,UBFP4,Products Tanker,Russia,,,,not_iran
+51623,51623,43215,GAZPROMNEFT NORDWEST,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9590137,273355640,UBAI2,Chemical/Products Tanker,Russia,,,,not_iran
+51624,51624,43216,Callisto,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9299692,314942000,8P2438,Crude Oil Tanker,Barbados,,,,not_iran
+51625,51625,43217,Christophe De Margerie,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9737187,352002442,8E4097,LNG Carrier,Panama,,,,not_iran
+51627,51627,43219,Leo,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9412347,314965000,8P2467,Crude Oil Tanker,Barbados,,,,not_iran
+51632,51632,43224,Liberty,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9339325,314889000,8P2253,Crude Oil Tanker,Barbados,,,,not_iran
+51633,51633,43225,Nereus Sophia,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9266853,352003763,3E5862,Crude Oil Tanker,Panama,,,,not_iran
+51638,51638,43230,Moskovsky Prospect,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9511521,626368000,TRBE7,Crude Oil Tanker,Gabon,,,,not_iran
+51639,51639,43231,Nurkez,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9253325,352002470,3E2311,Crude Oil Tanker,Panama,,,,not_iran
+51647,51647,43239,Olia,"['RUSSIA-EO14024', 'UKRAINE-EO13662', 'IRAN-EO13846']",2025-01-10,9268112,626450000,TRBO9,Crude Oil Tanker,Unknown,Gabon,2003,,iran_specific
+51653,51653,43245,Bolero,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9412335,314984000,8P2492,Crude Oil Tanker,Barbados,,,,not_iran
+51657,51657,43249,Pskov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9630028,314930000,8P2424,LNG Carrier,Barbados,,,,not_iran
+51660,51660,43252,Rigel,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9511533,314919000,8P2389,Crude Oil Tanker,Barbados,,,,not_iran
+51661,51661,43253,SAGA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9318553,314894000,8P2258,Chemical/Oil Tanker,Barbados,,,,not_iran
+51674,51674,43266,AMBER 6,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9235713,352001387,3E2141,Crude Oil Tanker,Panama,,,,not_iran
+51676,51676,43268,Olivia,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9233741,667002317,9LS2020,Crude Oil Tanker,Sierra Leone,,,,not_iran
+51682,51682,43274,Python,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9250531,314993000,8P2523,Crude Oil Tanker,Barbados,,,,not_iran
+51689,51689,43281,AQUATICA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9299769,352004367,3E6678,Crude Oil Tanker,Panama,,,,not_iran
+51690,51690,43282,APUS,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9280885,352001692,3E2712,Crude Oil Tanker,Panama,,,,not_iran
+51691,51691,43283,AQUILA II,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9281152,352001694,3E2714,Crude Oil Tanker,Panama,,,,not_iran
+51692,51692,43284,Serenade,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9318541,314897000,8P2363,Chemical/Oil Tanker,Barbados,,,,not_iran
+51697,51697,43289,EMILY S,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9321847,352001452,3E2473,Crude Oil Tanker,Panama,,,,not_iran
+51699,51699,43291,ATTICA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9436941,626278000,TRAT2,Crude Oil Tanker,Gabon,,,,not_iran
+51700,51700,43292,HEIDI A,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9321976,352001510,3E2523,Crude Oil Tanker,Panama,,,,not_iran
+51702,51702,43294,Success,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9333436,314893000,8P2257,Products Tanker,Barbados,,,,not_iran
+51705,51705,43297,LAUREN II,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9258521,355070000,3FCU5,Crude Oil Tanker,Panama,,,,not_iran
+51707,51707,43299,M SOPHIA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9289477,374933000,3FTT,Crude Oil Tanker,Panama,,,,not_iran
+51709,51709,43301,MINERVA M,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9282479,352001530,3E2537,Crude Oil Tanker,Panama,,,,not_iran
+51710,51710,43302,SAGITTA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9296822,352001616,3E3674,Crude Oil Tanker,Panama,,,,not_iran
+51711,51711,43303,Velikiy Novgorod,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9630004,314928000,8P2422,LNG Carrier,Barbados,,,,not_iran
+51712,51712,43304,TASCA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9313149,352002494,3E2647,Crude Oil Tanker,Panama,,,,not_iran
+51713,51713,43305,BOREY G,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9199127,352001461,3E2481,Products Tanker,Panama,,,,not_iran
+51720,51720,43312,Vostochny Prospect,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9866392,273611590,UBEZ2,LNG Carrier,Russia,,,,not_iran
+51723,51723,43315,CARL,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9288851,314975000,8P2479,Crude Oil Tanker,Barbados,,,,not_iran
+51724,51724,43316,Zaliv Aniva,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9418494,352002209,3E3486,Crude Oil Tanker,Panama,,,,not_iran
+51725,51725,43317,REX 1,['SDGT'],2024-11-14,9219056,372979000,3EUU2,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+51726,51726,43318,Zenith,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9610781,314950000,8P2448,Crude Oil Tanker,Barbados,,,,not_iran
+51730,51730,43322,Hyperion,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9322968,314958000,8P2458,Chemical/Oil Tanker,Barbados,,,,not_iran
+51732,51732,43324,Pegasus,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9276028,314951000,8P2449,Chemical/Oil Tanker,Barbados,,,,not_iran
+51735,51735,43327,CEPHEUS,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9299721,352001911,3E3724,Crude Oil Tanker,Panama,,,,not_iran
+51742,51742,43334,Symphony,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9309588,314947000,8P2445,Chemical/Oil Tanker,Barbados,,,,not_iran
+51747,51747,43339,Proxima,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9329655,314971000,8P2475,Chemical/Oil Tanker,Barbados,,,,not_iran
+51752,51752,43344,CLIO,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9238052,352001855,3E2767,Crude Oil Tanker,Panama,,,,not_iran
+51758,51758,43350,Atlas,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9413573,314895000,8P2259,Products Tanker,Barbados,,,,not_iran
+51761,51761,43353,CRIUS,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9251274,352002070,3E3759,Crude Oil Tanker,Panama,,,,not_iran
+51763,51763,43355,CUP,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9271327,304768000,V2Y16,Crude Oil Tanker,Antigua & Barbuda,,,,not_iran
+51765,51765,43357,Capella,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9341079,314949000,8P2447,Crude Oil Tanker,Barbados,,,,not_iran
+51769,51769,43361,Cassiopeia,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9341081,314964000,8P2466,Crude Oil Tanker,Barbados,,,,not_iran
+51771,51771,43363,Galaxy,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9826902,314905000,8P2373,Crude Oil Tanker,Barbados,,,,not_iran
+51780,51780,43372,Legacy,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9339337,314892000,8P2256,Crude Oil Tanker,Barbados,,,,not_iran
+51786,51786,43378,SI HE,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9378618,352002948,3E4703,Products Tanker,Panama,,,,not_iran
+51787,51787,43379,FREDA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9402469,352003485,3E5145,Crude Oil Tanker,Panama,,,,not_iran
+51790,51790,43382,Vanguard,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9311622,314967000,8P2469,Crude Oil Tanker,Barbados,,,,not_iran
+51795,51795,43387,Vladimir Arsenyev,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9901025,352002203,3E4140,Crude Oil Tanker,Panama,,,,not_iran
+51800,51800,43392,Voyager,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9843560,314906000,8P2374,Crude Oil Tanker,Barbados,,,,not_iran
+51803,51803,43395,Yuri Senkevich,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9301419,352002198,3E4135,Crude Oil Tanker,Panama,,,,not_iran
+51805,51805,43397,SURREY QUAYS,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9350654,352002589,3E2363,Crude Oil Tanker,Panama,,,,not_iran
+51807,51807,43399,HENG TAI,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9419448,352003963,3E5359,Crude Oil Tanker,Panama,,,,not_iran
+51810,51810,43402,THALIA III,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9259197,352002137,3E3812,Crude Oil Tanker,Panama,,,,not_iran
+51813,51813,43405,LELIA,['SDGT'],2024-11-14,9258870,314861000,8PAB1,Crude Oil Tanker,Barbados,,,,broad_tag_only_REVIEW
+51815,51815,43407,Aleksey Chirikov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9613551,273369290,UBXJ4,Supply Vessel,Russia,,,,not_iran
+51818,51818,43410,Gennadiy Nevelskoy,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9742120,273396990,UDFS,Supply Vessel,Russia,,,,not_iran
+51822,51822,43414,SCF Endeavour,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9335678,273312540,UIHP,Supply Vessel,Russia,,,,not_iran
+51826,51826,43418,KRISHNA 1,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9271585,352004581,TRAT4,Crude Oil Tanker,Panama,,,,not_iran
+51827,51827,43419,WEI FENG,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9388754,352002820,3E4609,Crude Oil Tanker,Panama,,,,not_iran
+51834,51834,43426,ELINE,['SDGT'],2024-11-14,9292486,314856000,8PAA5,Crude Oil Tanker,Barbados,,,,broad_tag_only_REVIEW
+51837,51837,43429,celine,['SDGT'],2024-11-14,9305609,352001369,3E2126,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+51838,51838,43430,SCF Endurance,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9335680,273314650,UIPN,Supply Vessel,Russia,,,,not_iran
+51841,51841,43433,SCF Enterprise,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9335692,273312060,UFHH2,Supply Vessel,Russia,,,,not_iran
+51847,51847,43439,Himalayan,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9392822,352002872,3E4651,Crude Oil Tanker,Panama,,,,not_iran
+51849,51849,43441,Joel,['SDGT'],2024-11-14,9198094,511101321,T8A4642,Crude Oil Tanker,Palau,,,,broad_tag_only_REVIEW
+51850,51850,43442,CHLOE,['SDGT'],2024-11-14,9173745,750656000,8RAX1,Crude Oil Tanker,Guyana,,,,broad_tag_only_REVIEW
+51854,51854,43446,Hui Hai Atlantic,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9312872,352002139,3E3814,Crude Oil Tanker,Panama,,,,not_iran
+51856,51856,43448,AKADEMIK GUBKIN,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9842190,273616040,UBZX4,Crude Oil Tanker,Russia,,,,not_iran
+51858,51858,43450,SCF Sakhalin,"['UKRAINE-EO13662', 'RUSSIA-EO14024']",2025-01-10,9307724,273318120,UHME,Supply Vessel,Russia,,,,not_iran
+51860,51860,43452,Huihai Pacific,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9346732,352002122,3E3800,Crude Oil Tanker,Panama,,,,not_iran
+51866,51866,43458,ROMINA,['SDGT'],2024-11-14,9114608,422278900,EPMH6,Crude Oil Tanker,Iran,,,,broad_tag_only_REVIEW
+51871,51871,43463,DOBRYNYA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,8730077,273449240,UBOO,Tug,Russia,,,,not_iran
+51873,51873,43465,Stepan Makarov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9753727,273392530,UAOZ,Supply Vessel,Russia,,,,not_iran
+51877,51877,43469,NURSULTAN NAZARBAYEV,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9842217,,,Crude Oil Tanker,Russia,,,,not_iran
+51878,51878,43470,LOTUS,['SDGT'],2024-11-14,9203784,422300300,EPNF3,Crude Oil Tanker,Iran,,,,broad_tag_only_REVIEW
+51879,51879,43471,Li Bai,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9589750,352002861,3E4641,Crude Oil Tanker,Panama,,,,not_iran
+51880,51880,43472,Vyacheslav Tikhonov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9538115,273350140,UBSH6,Research Vessel,Russia,,,,not_iran
+51882,51882,43474,OKEANSKY PROSPECT,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9898254,,,Crude Oil Tanker,Russia,,,,not_iran
+51884,51884,43476,Yevgeny Primakov,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9753741,273412440,UAUH,Supply Vessel,Russia,,,,not_iran
+51885,51885,43477,RN AMUR,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9653068,273333470,UIZU,Tug,Russia,,,,not_iran
+51886,51886,43478,Lyra,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9314088,352001732,3E2571,Crude Oil Tanker,Panama,,,,not_iran
+51888,51888,43480,Zaliv Amurskiy,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9354313,352003364,3E7519,Crude Oil Tanker,Panama,,,,not_iran
+51889,51889,43481,RN SAKHALIN,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9650016,273399390,UBCP8,Products Tanker,Russia,,,,not_iran
+51891,51891,43483,Makalu,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9314105,314001002,8P2533,Crude Oil Tanker,Barbados,,,,not_iran
+51893,51893,43485,RN USSURI,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9653070,273320710,UBTK3,Tug,Russia,,,,not_iran
+51896,51896,43488,SVYATOY KNYAZ VLADIMIR,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9678238,273393630,UBUP4,Passenger,Russia,,,,not_iran
+51899,51899,43491,Mermar,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9231212,352978243,3E3356,Crude Oil Tanker,Panama,,,,not_iran
+51903,51903,43495,VALENTIN PIKUL,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9885879,273259920,UAAA2,Crude Oil Tanker,Russia,,,,not_iran
+51905,51905,43497,VLADIMIR MONOMAKH,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9842176,273211040,UBUT6,Crude Oil Tanker,Russia,,,,not_iran
+51907,51907,43499,BARON,['SDGT'],2024-11-14,9080493,667001798,8RCB2,Chemical/Products Tanker,Guyana,,,,broad_tag_only_REVIEW
+51908,51908,43500,Meru,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9187227,667002333,9LS2036,Crude Oil Tanker,Sierra Leone,,,,not_iran
+51910,51910,43502,VLADIMIR VINOGRADOV,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9842188,273295230,UBTV8,Crude Oil Tanker,Russia,,,,not_iran
+51918,51918,43510,YARD NO.131040 ZVEZDA-DSME,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9842205,,,Crew/Supply Vessel,Russia,,,,not_iran
+51920,51920,43512,YARD NO.131080 ZVEZDA-DSME,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9908994,,,Crude Oil Tanker,Russia,,,,not_iran
+51924,51924,43516,Mum,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9315446,305026000,V2YP5,Crude Oil Tanker,Antigua and Barbuda,,,,not_iran
+51928,51928,43520,RAMONA I,['SDGT'],2024-11-14,9233222,750925000,8RPE6,Crude Oil Tanker,Guyana,,,,broad_tag_only_REVIEW
+51931,51931,43523,FEDOR USHAKOV,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9753739,273396260,UBAQ3,Supply Vessel,Russia,,,,not_iran
+51934,51934,43526,VITUS BERING,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9613549,273358680,UBGJ9,Supply Vessel,Russia,,,,not_iran
+51935,51935,43527,STAR 5,['SDGT'],2024-11-14,9150377,422362100,EPPV7,Crude Oil Tanker,Iran,,,,broad_tag_only_REVIEW
+51976,51976,43568,Onyx,['RUSSIA-EO14024'],2025-01-10,9236640,,TRBP2,Crude/Oil Products Tanker,Gabon,,,,not_iran
+51978,51978,43570,Pravasi,['RUSSIA-EO14024'],2025-01-10,9409467,,TRBO6,Oil Products Tanker,Gabon,,,,not_iran
+52034,52034,43626,OXIS,"['RUSSIA-EO14024', 'SDGT']",2025-01-10,9224805,613612000,TJMC232,Crude Oil Tanker,Cameroon,,,,broad_tag_only_REVIEW
+52251,52251,43843,Ocean 28,['RUSSIA-EO14024'],2025-01-10,1021570,,3E6850,General Cargo,Panama,,,,not_iran
+52271,52271,43863,MS Enola,['IRAN-EO13902'],2024-12-19,9251951,621819078,J2GJ,Crude Oil Tanker,Djibouti,,,,iran_specific
+52275,52275,43867,VIGOR,['IRAN-EO13846'],2024-12-19,9262156,356605000,H9ZT,Crude Oil Tanker,Panama,,,,iran_specific
+52285,52285,43872,MS ANGIA,['IRAN-EO13902'],2024-12-19,9246281,268241201,T7AX8,Crude Oil Tanker,San Marino,,,,iran_specific
+52287,52287,43874,MS MELENIA,['IRAN-EO13902'],2024-12-19,9302023,374128000,3FSO7,Crude Oil Tanker,Panama,,,,iran_specific
+52310,52310,43897,ALISSA,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9273052,626248000,TRAP2,Crude Oil Tanker,Gabon,,,,not_iran
+52313,52313,43900,ARJUN,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9297357,352002801,3E5088,Crude Oil Tanker,Panama,,,,not_iran
+52315,52315,43902,AULIS,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9233765,352003752,3E5853,Crude Oil Tanker,Panama,,,,not_iran
+52319,52319,43906,CANGJIE,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9299680,518999083,E5U5064,Crude Oil Tanker,Cook Islands,,,,not_iran
+52326,52326,43913,PROGRESS V,['IRAN-EO13846'],2024-12-19,9316701,314939000,8P2435,Crude Oil Tanker,Barbados,,,,iran_specific
+52327,52327,43914,TASCA,['IRAN-EO13846'],2024-12-19,9313149,352002494,3E2647,Crude Oil Tanker,Panama,,,,iran_specific
+52328,52328,43915,SCORPIUS,['IRAN-EO13846'],2024-12-19,9264893,314934000,8P2428,Crude Oil Tanker,Barbados,,,,iran_specific
+52329,52329,43916,ELIZA II,['IRAN-EO13846'],2024-12-19,9418078,352002497,3E2651,Crude Oil Tanker,Panama,,,,iran_specific
+52331,52331,43918,AVITAL,['IRAN-EO13846'],2024-12-19,9246279,613924409,TJM0052,Crude Oil Tanker,Cameroon,,,,iran_specific
+52334,52334,43921,SHUN TAI,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9242223,636022303,5LIC9,Crude Oil Tanker,Liberia,,,,not_iran
+52337,52337,43924,KAPAL CANTIK,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9224283,518998787,E5U4767,Crude Oil Tanker,Cook Islands,,,,not_iran
+52339,52339,43926,MERCURY,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9321706,626315000,TRAX8,Crude Oil Tanker,Gabon,,,,not_iran
+52341,52341,43928,MOTI,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9281011,621819067,J2JZ,Crude Oil Tanker,Djibouti,,,,not_iran
+52343,52343,43930,NANDA DEVI,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9274434,626279000,TRAT3,Crude Oil Tanker,Gabon,,,,not_iran
+52345,52345,43932,NEVE,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9224465,352003222,3E6083,Crude Oil Tanker,Panama,,,,not_iran
+52347,52347,43934,PING AN,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9378632,352002898,3E4672,Crude Oil Tanker,Panama,,,,not_iran
+52379,52379,43966,MISTRAL 1,"['RUSSIA-EO14024', 'UKRAINE-EO13662']",2025-01-10,9257993,268249200,T7AV4,Crude Oil Tanker,San Marino,,,,not_iran
+52543,52543,44110,CH BILLION,['IRAN-EO13902'],2025-02-06,9276585,352003955,3E5354,Crude Oil Tanker,Panama,,,,iran_specific
+52588,52588,44155,YATEEKA,['IRAN-EO13846'],2025-02-24,9191553,626246000,TRAO8,Chemical/Products Tanker,Gabon,,,BSM MARINE LIMITED LIABILITY PARTNERSHIP,iran_specific
+52589,52589,44156,URGANE I,['IRAN-EO13902'],2025-02-24,9231901,370207000,3FUU7,Crude Oil Tanker,Panama,,,Nycity ShipManagement Co Ltd,iran_specific
+52685,52685,44252,Amak,['IRAN-EO13846'],2025-02-24,9244635,669542000,3DBP1,Crude Oil Tanker,Eswatini,,,,iran_specific
+52686,52686,44253,Meng Xin,['IRAN-EO13846'],2025-02-24,9271406,352898783,3E2056,Crude Oil Tanker,Panama,,,,iran_specific
+52687,52687,44254,Phoenix I,['IRAN-EO13846'],2025-02-24,9236248,518999317,E5U5298,Crude Oil Tanker,Cook Islands,,,,iran_specific
+52818,52818,44385,gioiosa,['SDGT'],2025-02-06,9198082,352980833,3E3562,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+52854,52854,44404,STAR FOREST,['IRAN-EO13902'],2025-02-06,9237632,477949100,VRWB4,Crude Oil Tanker,Hong Kong,,,,iran_specific
+52937,52937,44444,CASINOVA,['IRAN-EO13902'],2025-02-24,9280366,314001045,8P2583,Crude Oil Tanker,Barbados,,,Le Monde Marine Services Limited,iran_specific
+52945,52945,44452,LYDIA II,['IRAN-EO13902'],2025-02-24,9365776,352002042,3E2202,Crude Oil Tanker,Panama,,,,iran_specific
+52948,52948,44455,AYDEN,['IRAN-EO13902'],2025-02-24,9365764,352002097,3E3779,Crude Oil Tanker,Panama,,,,iran_specific
+52951,52951,44458,FIONA,['IRAN-EO13902'],2025-02-24,9365752,352002219,3E2212,Crude Oil Tanker,Panama,,,,iran_specific
+52968,52968,44475,ASTERIX,['IRAN-EO13846'],2025-02-24,9181194,629009370,C5J382,Crude Oil Tanker,Gambia,,,OCEANEND SHIPPING LTD,iran_specific
+52970,52970,44477,VIOLET 1,['IRAN-EO13846'],2025-02-24,9154000,352900000,3FFR8,Crude/Oil Products Tanker,Panama,,,IMS Ltd,iran_specific
+52971,52971,44478,CHAMTANG,['IRAN-EO13846'],2025-02-24,9212400,357964000,3EXF5,Crude/Oil Products Tanker,Panama,,,IMS Ltd,iran_specific
+52972,52972,44479,PETERPAUL,['IRAN-EO13846'],2025-02-24,9163269,352900000,3FFR8,Chemical/Products Tanker,Panama,,,IMS Ltd,iran_specific
+53096,53096,44583,LEXI,['IRAN-EO13902'],2025-03-13,9203277,613806561,TJ04M,Crude Oil Tanker,Cameroon,,,Sea Services Providers NV,iran_specific
+53098,53098,44585,LYDYA N,['IRAN-EO13902'],2025-03-13,9153525,511100863,T8A4077,Crude Oil Tanker,Palau,,,Turquoise Sea Marine Limited,iran_specific
+53101,53101,44588,POLARIS 1,['IRAN-EO13902'],2025-03-13,9272694,422546600,EPXT5,Chemical/Oil Tanker,Iran,,,Fallon Shipping Company Limited,iran_specific
+53135,53135,44622,PEACE HILL,['IRAN-EO13902'],2025-03-13,9288019,477738400,VRGO9,Crude Oil Tanker,Hong Kong,,,,iran_specific
+53137,53137,44624,Seasky,['IRAN-EO13902'],2025-03-13,9237412,268242902,T7BN2,Crude Oil Tanker,San Marino,,,,iran_specific
+53140,53140,44627,NESO,['IRAN-EO13902'],2025-03-13,9257149,352003483,3E5143,Crude Oil Tanker,PANAMA,,,NEPTUNE MARINE LTD,iran_specific
+53141,53141,44628,Shannon II,['IRAN-EO13902'],2025-03-13,9237797,314903000,8P2369,Crude Oil Tanker,Barbados,,,,iran_specific
+53145,53145,44632,ITAUGUA,['IRAN-EO13902'],2025-03-13,9102277,620999528,D6A3529,Crude Oil Tanker,Comoros,,,,iran_specific
+53148,53148,44635,BLUE GULF,['IRAN-EO13902'],2025-03-13,9328716,511101436,T8A4799,Crude Oil Tanker,Palau,,,United Tankers Ltd,iran_specific
+53150,53150,44637,Corona Fun,['IRAN-EO13902'],2025-03-13,9276573,352003958,3E5355,Crude Oil Tanker,Panama,,,,iran_specific
+53154,53154,44641,MARINA VISION,['IRAN-EO13846'],2025-03-13,8106109,525010379,YDA3415,Tug,Indonesia,,,,iran_specific
+53155,53155,44642,CELEBES,['IRAN-EO13846'],2025-03-13,8710730,525018077,YDA3301,Tug,Indonesia,,,,iran_specific
+53156,53156,44643,MALILI,['IRAN-EO13846'],2025-03-13,9179921,525018442,YBEN,Tug,Indonesia,,,,iran_specific
+53322,53322,44789,Montrose,['IRAN-EO13902'],2025-03-20,9281695,268240502,T7BJ4,Crude Oil Tanker,San Marino,,,,iran_specific
+53327,53327,44794,VOLANS,['IRAN-EO13902'],2025-03-20,9422988,314679000,8PDO3,Crude Oil Tanker,Barbados,,,,iran_specific
+53329,53329,44796,TITAN,['IRAN-EO13902'],2025-03-20,9293741,,TJ03M,Crude Oil Tanker,Unknown,,,,iran_specific
+53333,53333,44800,AM THESEUS,['SDGT'],2025-04-02,9720263,273254900,UBKZ6,Bulk Carrier,Russia,,,AM Asia M6 Ltd,broad_tag_only_REVIEW
+53361,53361,44828,Natalina 7,['IRAN-EO13902'],2025-03-20,9310147,620999608,D6A3622,Crude Oil Tanker,Comoros,,,,iran_specific
+53379,53379,44846,CATALINA 7,['IRAN-EO13902'],2025-03-20,9310159,352001485,3E4129,Crude Oil Tanker,Panama,,,,iran_specific
+53571,53571,45038,BRAVA LAKE,['IRAN-EO13902'],2025-03-20,9232876,314867000,8P2225,Crude Oil Tanker,Barbados,,,,iran_specific
+53607,53607,45074,VIOLA,['IRAN-EO13902'],2025-03-20,9254915,354951000,3EHD8,Crude Oil Tanker,Panama,,,,iran_specific
+53611,53611,45078,AURORA RILEY,['IRAN-EO13902'],2025-03-20,9181649,356024000,HPKT,Crude Oil Tanker,Panama,,,,iran_specific
+53821,53821,45248,RESTON,['IRAN-EO13902'],2025-04-16,9265744,613464706,TJ4HG,Crude Oil Tanker,Cameroon,,,,iran_specific
+53878,53878,45285,AMOR,['IRAN-EO13846'],2025-04-10,9182291,613884000,TJMC800,Crude Oil Tanker,Cameroon,,,,iran_specific
+53883,53883,45290,Virgo,['IRAN-EO13846'],2025-04-10,9236250,629009436,C5J448,Crude Oil Tanker,Gambia,,,,iran_specific
+53885,53885,45292,GLOBAL ELEGANCE,['IRAN-EO13902'],2025-04-10,9232955,518998409,E5U4389,Chemical/Oil Tanker,,Cook Islands,,,iran_specific
+53886,53886,45293,GLOBAL EMERALD,['IRAN-EO13902'],2025-04-10,8982888,352001105,3E2462,Products Tanker,Panama,,,,iran_specific
+53887,53887,45294,GLOBAL PEAK,['IRAN-EO13902'],2025-04-10,9125712,354117000,3FBM7,Products Tanker,Panama,,,,iran_specific
+53888,53888,45295,GLOBAL RANI,['IRAN-EO13902'],2025-04-10,9136113,511101535,T8A4955,Chemical/Oil Tanker,Palau,,,,iran_specific
+53889,53889,45296,GLOBAL STAR,['IRAN-EO13902'],2025-04-10,9164500,354068000,3FYM8,Chemical/Oil Tanker,Panama,,,,iran_specific
+53890,53890,45297,GLOBAL ACE,['IRAN-EO13902'],2025-04-10,9190078,374808000,3FJW3,Chemical/Oil Tanker,Panama,,,,iran_specific
+53891,53891,45298,GLOBAL EVEREST,['IRAN-EO13902'],2025-04-10,9125724,352995000,3EUO4,Oil Products Tanker,Panama,,,,iran_specific
+53892,53892,45299,GLOBAL ANGEL,['IRAN-EO13902'],2025-04-10,9311309,353283000,3FVC9,Oil Products Tanker,Panama,,,,iran_specific
+53893,53893,45300,GLOBAL FALCON,['IRAN-EO13902'],2025-04-10,9399167,511101536,T8A4956,Chemical/Oil Tanker,Palau,,,,iran_specific
+53894,53894,45301,GLOBAL BEAUTY,['IRAN-EO13902'],2025-04-10,9221267,352004530,3E6819,Chemical/Products Tanker,Panama,,,,iran_specific
+53895,53895,45302,GLOBAL MAHARANI,['IRAN-EO13902'],2025-04-10,9546708,314932000,8P2426,Oil Products Tanker,Barbados,,,,iran_specific
+53896,53896,45303,GLOBAL DIGNITY,['IRAN-EO13902'],2025-04-10,9309227,352898795,3E2062,Chemical/Products Tanker,Panama,,,,iran_specific
+53897,53897,45304,GLORY STAR I,['IRAN-EO13902'],2025-04-10,9463528,352002878,3E4656,Oil Products Tanker,Panama,,,,iran_specific
+53898,53898,45305,HARMONY,['IRAN-EO13902'],2025-04-10,9397030,314825000,8PVO9,Oil Products Tanker,Barbados,,,,iran_specific
+53899,53899,45306,GLOBAL EAGLE,['IRAN-EO13902'],2025-04-10,9422847,620999538,D6A3537,Chemical/Products Tanker,Comoros,,,,iran_specific
+53900,53900,45307,GLOBAL HAWK,['IRAN-EO13902'],2025-04-10,9422859,518100966,E5U3877,Chemical/Oil Tanker,,Cook Islands,,,iran_specific
+53901,53901,45308,OCEAN PRINCESS 1,['IRAN-EO13902'],2025-04-10,8413306,373094000,3EVR9,Oil Products Tanker,Panama,,,,iran_specific
+53902,53902,45309,GLOBAL PEACE,['IRAN-EO13902'],2025-04-10,9555199,518100969,E5U3881,Oil Products Tanker,Cook Islands,,,,iran_specific
+53903,53903,45310,CHIL 1,['IRAN-EO13902'],2025-04-10,9171498,629009268,C5J280,Chemical/Oil Tanker,Gambia,,,,iran_specific
+53904,53904,45311,GLOBAL CREST,['IRAN-EO13902'],2025-04-10,9113094,372463000,3FHI8,Crude Oil Tanker,Panama,,,,iran_specific
+53905,53905,45312,GLOBAL ASPHALT,['IRAN-EO13902'],2025-04-10,9005338,354816424,3FZQ3,Oil Products Tanker,Panama,,,,iran_specific
+53906,53906,45313,GLOBAL DOMINANCE,['IRAN-EO13902'],2025-04-10,9672301,305290000,V2YZ5,Bunkering Tanker,Antigua & Barbuda,,,,iran_specific
+53907,53907,45314,MIRAGE,['IRAN-EO13902'],2025-04-10,9254422,314963000,8P2465,Chemical/Oil Tanker,Barbados,,,,iran_specific
+53908,53908,45315,GLOBAL GENESIS,['IRAN-EO13902'],2025-04-10,9451501,518100860,E5U3771,Oil Products Tanker,,Cook Islands,,,iran_specific
+53909,53909,45316,LUANDA 1,['IRAN-EO13902'],2025-04-10,9372705,357029000,3FWF5,Anchor Handling Vessel,Panama,,,,iran_specific
+53910,53910,45317,NADIYA,['IRAN-EO13902'],2025-04-10,9118745,352001151,3E3423,Oil Products Tanker,Panama,,,,iran_specific
+53911,53911,45318,PURNA,['IRAN-EO13902'],2025-04-10,9176656,629000928,C5J300,Oil Products Tanker,Gambia,,,,iran_specific
+53916,53916,45323,SIMRAN,['IRAN-EO13902'],2025-04-10,9136644,356762000,HO4539,Oil Products Tanker,Panama,,,,iran_specific
+53924,53924,45331,BESTLA,['IRAN-EO13902'],2025-04-16,9295593,352003044,3E6593,Crude Oil Tanker,Panama,,,,iran_specific
+53925,53925,45332,EGRET,['IRAN-EO13902'],2025-04-16,9283801,352001512,3E2524,Crude Oil Tanker,Panama,,,,iran_specific
+53928,53928,45335,RANI,['IRAN-EO13902'],2025-04-16,9250907,354907000,3EED4,Crude Oil Tanker,Panama,,,,iran_specific
+53931,53931,45338,NYANTARA,['IRAN-EO13902'],2025-04-16,9242120,352002259,3E2243,Crude Oil Tanker,Panama,,,,iran_specific
+54020,54020,45407,White Whale,['SDGT'],2025-04-28,9230426,374932000,H9HR,Crude/Oil Products Tanker,Panama,,,,broad_tag_only_REVIEW
+54033,54033,45420,SARAH,['SDGT'],2025-04-28,9014420,620800004,D604004,LPG Tanker,Unknown,Comoros,1993,,broad_tag_only_REVIEW
+54042,54042,45429,Maisan,['SDGT'],2025-04-28,9289776,352002675,3E4995,Products Tanker,Panama,,,,broad_tag_only_REVIEW
+54050,54050,45437,Eloise,['IRAN-EO13846'],2025-04-30,9233234,626143000,TRAD8,Crude Oil Tanker,Gabon,,2002,,iran_specific
+54118,54118,45505,Thane,['IRAN-EO13902'],2025-05-08,9237228,268246702,T7BR8,Crude Oil Tanker,San Marino,,2002,,iran_specific
+54120,54120,45507,Impalas,['IRAN-EO13902'],2025-05-08,9171448,668116257,S9Z4,Crude Oil Tanker,Sao Tome & Principe,,1999,,iran_specific
+54144,54144,45531,STAR TWINKLE 6,['IRAN-EO13902'],2025-05-08,9256987,352003519,3E5173,Crude Oil Tanker,Panama,,2004,,iran_specific
+54145,54145,45532,LAMD,['IRAN-EO13902'],2025-05-08,9320843,352003859,3E6106,Crude Oil Tanker,Panama,,2007,,iran_specific
+54146,54146,45533,SKADI,['IRAN-EO13902'],2025-05-08,9230971,352421000,HPPN,Crude Oil Tanker,Panama,,2001,,iran_specific
+54147,54147,45534,BIG MAG,['IRAN-EO13902'],2025-05-08,9263215,356336000,HORS,Crude Oil Tanker,Panama,,2002,,iran_specific
+54177,54177,45564,BALU,['SDGT'],2025-05-13,9235244,613469620,TJM0133,Floating Storage Tanker,Cameroon,,,,broad_tag_only_REVIEW
+54179,54179,45566,ROC,['SDGT'],2025-05-13,9275660,352004455,3E6750,Crude Oil Tanker,Panama,,,,broad_tag_only_REVIEW
+54276,54276,45663,THEMIS,['IRAN-EO13902'],2025-07-03,9264570,353744000,3EFU8,Crude Oil Tanker,Panama,,2002,,iran_specific
+54295,54295,45682,FOTIS,['IRAN-EO13902'],2025-07-03,9306548,620999948,D6A3948,LPG Tanker,Comoros,,2006,,iran_specific
+54318,54318,45705,VIZURI,['IRAN-EO13902'],2025-07-03,9197909,613742000,TJMC707,Crude Oil Tanker,Cameroon,,2000,,iran_specific
+54320,54320,45707,Honestar,"['IFSR', 'NPWMD']",2025-06-20,9187368,352003792,3E5884,Bulk Carrier,Unknown,Panama,1999,,broad_tag_only_REVIEW
+54336,54336,45723,Bianca Joysel,['IRAN-EO13902'],2025-07-03,9196632,352001069,3E2106,Crude Oil Tanker,Panama,,2002,,iran_specific
+54341,54341,45728,Ares,['IRAN-EO13902'],2025-08-21,9174397,518100992,E5U3903,Crude Oil Tanker,Cook Islands,,1999,Ares Shipping Limited,iran_specific
+54342,54342,45729,GIANT,['IRAN-EO13902'],2025-08-21,9238868,477722100,VRUF3,Crude Oil Tanker,Hong Kong,,2003,,iran_specific
+54343,54343,45730,KONGM,['IRAN-EO13902'],2025-08-21,9256975,353529000,3E5132,Crude Oil Tanker,Panama,,2003,,iran_specific
+54344,54344,45731,ADELINE G,['IRAN-EO13902'],2025-08-21,9234666,352002297,3E3513,Crude Oil Tanker,Panama,,2003,,iran_specific
+54403,54403,45772,GAS MARYAM,['SDGT'],2025-07-03,9108099,511101457,T8A4824,LPG Tanker,Palau,,1996,,broad_tag_only_REVIEW
+54405,54405,45774,ATILA,['SDGT'],2025-07-03,9262754,613769400,TJM0033,Crude Oil Tanker,Cameroon,,2003,,broad_tag_only_REVIEW
+54408,54408,45777,ELIZABET,['SDGT'],2025-07-03,9216717,613001301,TJMC263,Crude Oil Tanker,Cameroon,,2000,,broad_tag_only_REVIEW
+54410,54410,45779,DIJILAH,['IRAN-EO13902'],2025-07-03,9829629,538008147,V7A2015,Crude Oil Tanker,Marshall Islands,,2019,,iran_specific
+54419,54419,45788,RIEVERIA I,['IRAN-EO13846'],2025-07-03,9286229,268245201,T7BC7,Crude Oil Tanker,San Marino,,2004,Isle Innovation Inc,iran_specific
+54423,54423,45792,BATELEUR,['IRAN-EO13846'],2025-07-03,9045807,352980786,HOA5120,LPG Tanker,Panama,,1995,Sai Saburi Consulting Services Private Limited,iran_specific
+54424,54424,45793,NEEL,['IRAN-EO13846'],2025-07-03,9157478,352002246,3E2234,LPG Tanker,Panama,,1998,Sai Saburi Consulting Services Private Limited,iran_specific
+54425,54425,45794,ARTEMIS III,['IRAN-EO13846'],2025-07-03,9102241,334983000,HQZY4,Crude Oil Tanker,Honduras,,1996,Breeze Marine Asset Management Inc,iran_specific
+54507,54507,45854,Valente,['SDGT'],2025-06-20,9298272,511100949,T8A4170,Crude Oil Tanker,Palau,,2005,,broad_tag_only_REVIEW
+54542,54542,45889,Atlantis MZ,['SDGT'],2025-06-20,9218181,620800003,D604003,Crude Oil Tanker,Unknown,Comoros,2000,,broad_tag_only_REVIEW
+54785,54785,46152,TRIS GAS,['IRAN-EO13902'],2025-07-30,9041655,613003596,TJMC52,LPG Tanker,Cameroon,,1992,,iran_specific
+54791,54791,46158,XANTE,['IRAN-EO13902'],2025-07-30,9554834,352001745,3E2584,Asphalt/Bitumen Tanker,Panama,,2010,,iran_specific
+54795,54795,46162,YUG,['IRAN-EO13902'],2025-07-30,9288875,620999317,D6A3316,Crude Oil Tanker,Comoros,,2005,,iran_specific
+54796,54796,46163,ZALE,['IRAN-EO13902'],2025-07-30,9321718,352001929,3E3740,Crude Oil Tanker,Panama,,2006,,iran_specific
+54799,54799,46166,URANUS,['IRAN-EO13902'],2025-07-30,9248485,636014160,D5YQ2,Crude Oil Tanker,Tanzania,,2002,,iran_specific
+54801,54801,46168,TAGOR,['IRAN-EO13902'],2025-07-30,9282481,352002249,3E2235,Crude Oil Tanker,Panama,,2005,,iran_specific
+54804,54804,46171,Abhra,['IRAN-EO13902'],2025-07-30,9282041,352001312,3E4045,Crude Oil Tanker,Panama,,2004,,iran_specific
+54805,54805,46172,APATE,['IRAN-EO13902'],2025-07-30,9433016,352002102,3E3783,Oil Products Tanker,Panama,,2009,,iran_specific
+54806,54806,46173,NEMRUT,['IRAN-EO13902'],2025-07-30,9439541,636022766,5LKI8,Crude Oil Tanker,Liberia,,2009,,iran_specific
+54807,54807,46174,OMNI,['IRAN-EO13902'],2025-07-30,9400980,352001876,3E2785,Crude Oil Tanker,Panama,,2008,,iran_specific
+54808,54808,46175,AETHER,['IRAN-EO13902'],2025-07-30,9328170,352002230,3E2221,Crude Oil Tanker,Panama,,2007,,iran_specific
+54809,54809,46176,TOA PAYOH,['IRAN-EO13902'],2025-07-30,9298492,352002149,3E3823,Chemical/Oil Tanker,Panama,,2005,,iran_specific
+54811,54811,46178,BRIONT,['IRAN-EO13902'],2025-07-30,9252955,352002147,3E3821,Chemical/Oil Tanker,Panama,,2003,,iran_specific
+54813,54813,46180,MANASLU,['IRAN-EO13902'],2025-07-30,9388027,352002116,3E3794,Chemical/Oil Tanker,Panama,,2008,,iran_specific
+54815,54815,46182,TASSOS,['IRAN-EO13902'],2025-07-30,9408695,636022764,5LKI6,Crude Oil Tanker,Liberia,,2009,,iran_specific
+54817,54817,46184,CHARMINAR,['IRAN-EO13902'],2025-07-30,9318022,352002261,3E2245,Chemical/Oil Tanker,Panama,,2006,,iran_specific
+54820,54820,46187,EVENTIN,['IRAN-EO13902'],2025-07-30,9308065,,,Crude Oil Tanker,Unknown,Panama,2006,,iran_specific
+54823,54823,46190,SIMBA,['IRAN-EO13902'],2025-07-30,9719862,636021266,5LDC3,Container Ship,Liberia,,2015,,iran_specific
+54825,54825,46192,STAR,['IRAN-EO13902'],2025-07-30,9436484,636020787,5LAS4,Container Ship,Liberia,,2009,,iran_specific
+54827,54827,46194,TEX,['IRAN-EO13902'],2025-07-30,9246322,636021547,5LEL8,Container Ship,Liberia,,2003,,iran_specific
+54828,54828,46195,TIMON,['IRAN-EO13902'],2025-07-30,9415844,636021306,A8TH7,Container Ship,Liberia,,2009,,iran_specific
+54830,54830,46197,YOGI,['IRAN-EO13902'],2025-07-30,9307009,636020609,D5ZZ2,Container Ship,Liberia,,2006,,iran_specific
+54831,54831,46198,ZAGOR,['IRAN-EO13902'],2025-07-30,9313242,636020813,5LAV8,Container Ship,Liberia,,2006,,iran_specific
+54837,54837,46204,VANI,['IRAN-EO13902'],2025-07-30,9264881,268246102,T7BR2,Crude Oil Tanker,San Marino,,2004,,iran_specific
+54844,54844,46211,Elke,['IRAN-EO13902'],2025-07-30,9012886,511100419,T8A3562,LPG Tanker,Palau,,1993,,iran_specific
+54865,54865,46215,DHANU,['IRAN-EO13902'],2025-07-30,9122473,341652000,V4BP4,Container Ship,St. Kitts and Nevis,,2001,,iran_specific
+54866,54866,46216,AEOLUS,['IRAN-EO13902'],2025-07-30,9088524,636020878,5LBD8,Container Ship,Liberia,,1996,,iran_specific
+54868,54868,46218,CERUS,['IRAN-EO13902'],2025-07-30,9259408,341988000,V4EL4,Container Ship,St. Kitts and Nevis,,2003,,iran_specific
+54869,54869,46219,ACE,['IRAN-EO13902'],2025-07-30,9228538,376846000,J8B6221,Container Ship,St. Vincent and Grenadines,,2001,,iran_specific
+54871,54871,46221,ROB,['IRAN-EO13902'],2025-07-30,9236652,636019341,D5UB5,Container Ship,Liberia,,2001,,iran_specific
+54873,54873,46223,GAUJA,['IRAN-EO13902'],2025-07-30,9348493,372818000,3EKS9,Container Ship,Panama,,2006,,iran_specific
+54876,54876,46226,TB ANPING,['IRAN-EO13902'],2025-07-30,9237084,636023677,5LOW5,Container Ship,Liberia,,2002,,iran_specific
+54889,54889,46239,IRIS,['IRAN-EO13902'],2025-07-30,9247778,511100321,T8A3438,Crude Oil Tanker,Palau,,2002,,iran_specific
+54891,54891,46241,YODAN,['IRAN-EO13902'],2025-07-30,9304356,577006000,YJQZ9,Crude Oil Tanker,Vanuatu,,2005,,iran_specific
+54900,54900,46250,ETHERA,['IRAN-EO13902'],2025-07-30,9387279,352002120,3E3798,Chemical/Oil Tanker,Panama,,2008,,iran_specific
+54904,54904,46254,MISHELL,['IRAN-EO13902'],2025-07-30,9332315,352002151,3E3825,Chemical/Products Tanker,Panama,,2008,,iran_specific
+54905,54905,46255,MYRA,['IRAN-EO13902'],2025-07-30,9336490,352002021,3E2188,Oil Products Tanker,Panama,,2006,,iran_specific
+54906,54906,46256,BIGLI,['IRAN-EO13902'],2025-07-30,9307047,636020524,D5ZP3,Container Ship,Liberia,,2005,,iran_specific
+54907,54907,46257,BERTIE,['IRAN-EO13902'],2025-07-30,9241487,636020758,5LAO6,Container Ship,Liberia,,2003,,iran_specific
+54908,54908,46258,ANTARES I,['IRAN-EO13902'],2025-07-30,9382073,636022596,5LJ06,Oil Products Tanker,Liberia,,2008,,iran_specific
+54912,54912,46262,GUANYIN,['IRAN-EO13902'],2025-07-30,9299707,636012383,A8FD8,Crude Oil Tanker,Liberia,,2005,,iran_specific
+54913,54913,46263,IANTHE,['IRAN-EO13902'],2025-07-30,9554822,352001780,3E2611,Asphalt/Bitumen Tanker,Panama,,2012,,iran_specific
+54914,54914,46264,KANTI,['IRAN-EO13902'],2025-07-30,9282106,268243502,T7BN8,LPG Tanker,San Marino,,2004,,iran_specific
+54915,54915,46265,MAHADEV,['IRAN-EO13902'],2025-07-30,9571052,511101519,T8A4926,Asphalt/Bitumen Tanker,Palau,,2011,,iran_specific
+54916,54916,46266,KYLO,['IRAN-EO13902'],2025-07-30,9189146,620800028,D6A4028,Crude Oil Tanker,Comoros,,2001,,iran_specific
+54927,54927,46279,ALE,['IRAN-EO13902'],2025-07-30,9303754,636016895,D5IH3,Container Ship,Liberia,,2006,,iran_specific
+54931,54931,46283,Hakuna Matata,['IRAN-EO13902'],2025-07-30,9354167,636021002,5LBT7,Container Ship,Liberia,,2008,,iran_specific
+54932,54932,46284,Lidia,['IRAN-EO13902'],2025-07-30,9330501,636017505,D5LH5,Container Ship,Liberia,,2007,,iran_specific
+54933,54933,46285,Moana,['IRAN-EO13902'],2025-07-30,9292151,636021323,5LDK2,Container Ship,Liberia,,2004,,iran_specific
+54934,54934,46286,Pinocchio,['IRAN-EO13902'],2025-07-30,9400112,636020659,5LAB8,Container Ship,Liberia,,2009,,iran_specific
+54935,54935,46287,Pumba,['IRAN-EO13902'],2025-07-30,9302566,636021329,5LDK8,Container Ship,Liberia,,2006,,iran_specific
+54936,54936,46288,Rantanplan,['IRAN-EO13902'],2025-07-30,9307023,636021101,5LCH2,Container Ship,Liberia,,2006,,iran_specific
+54980,54980,46367,SEATURBO,['IRAN-EO13846'],2025-07-30,9204764,620834000,D6A2852,Crude Oil Tanker,Comoros,,2000,,iran_specific
+54981,54981,46368,TRUGEN,['IRAN-EO13846'],2025-07-30,9200861,616999482,D6IJ7,Oil Products Tanker,Comoros,,2000,,iran_specific
+54982,54982,46369,SEABASS,['IRAN-EO13846'],2025-07-30,9251640,620847000,D6A2856,Oil Products Tanker,Comoros,,2001,,iran_specific
+54983,54983,46370,SEAHAKER,['IRAN-EO13846'],2025-07-30,9255488,620999405,D6A3404,Oil Products Tanker,Comoros,,2003,,iran_specific
+54984,54984,46371,ZEAL,['IRAN-EO13846'],2025-07-30,9486805,626017000,TRAM4,Oil Products Tanker,Gabon,,2017,,iran_specific
+54985,54985,46372,MOLLY,['IRAN-EO13846'],2025-07-30,9531375,620693000,D6A2707,Chemical/Oil Tanker,Comoros,,2013,,iran_specific
+54986,54986,46373,SOFIA,['IRAN-EO13846'],2025-07-30,9531387,620525000,D6A2525,Chemical/Oil Tanker,Comoros,,2013,,iran_specific
+54987,54987,46374,COURAGE 7,['IRAN-EO13846'],2025-07-30,9553957,626046000,TRA050,Asphalt/Bitumen Tanker,Gabon,,2015,,iran_specific
+54990,54990,46377,TIFANI,['IRAN-EO13846'],2025-07-30,9273337,511101651,T8A5110,Crude Oil Tanker,Palau,,2003,,iran_specific
+54994,54994,46381,TONDA SOURCE,['IRAN-EO13846'],2025-07-30,9127667,371997000,HP7673,Chemical/Oil Tanker,Panama,,1997,,iran_specific
+55084,55084,46471,Adena,['IRAN-EO13902'],2025-09-02,9254862,636020606,D5ZY7,Crude Oil Tanker,Liberia,,2003,,iran_specific
+55086,55086,46473,Liliana,['IRAN-EO13902'],2025-09-02,9297905,636024578,AUHB,Crude Oil Tanker,Liberia,,2005,,iran_specific
+55090,55090,46477,Camilla,['IRAN-EO13902'],2025-09-02,9254850,636020658,5LAB7,Crude Oil Tanker,Liberia,,2003,,iran_specific
+55092,55092,46479,Delfina,['IRAN-EO13902'],2025-09-02,9256248,636022667,5LJW7,Crude Oil Tanker,Liberia,,2003,,iran_specific
+55094,55094,46481,Bianca,['IRAN-EO13902'],2025-09-02,9259927,636023688,5LOX8,Chemical/Products Tanker,Liberia,,2003,,iran_specific
+55096,55096,46483,Roberta,['IRAN-EO13902'],2025-09-02,9237008,636023554,5LOG7,Oil Products Tanker,Liberia,,2003,,iran_specific
+55097,55097,46484,Alexandra,['IRAN-EO13902'],2025-09-02,9273260,636023078,5LLV6,Crude Oil Tanker,Liberia,,2003,,iran_specific
+55098,55098,46485,Bellagio,['IRAN-EO13902'],2025-09-02,9299446,636024318,9V6969,Chemical/Products Tanker,Liberia,,2005,,iran_specific
+55100,55100,46487,Paola,['IRAN-EO13902'],2025-09-02,9299458,636024577,5LTG7,Chemical/Products Tanker,Liberia,,2006,,iran_specific
+55211,55211,46594,KATSUYA,['IRAN-EO13902'],2025-08-21,9178068,629009490,C5J502,Oil Products Tanker,Gambia,,1999,,iran_specific
+55212,55212,46595,VICTORY ARI,['IRAN-EO13902'],2025-08-21,9290919,305049000,V2YR4,Chemical/Oil Tanker,Antigua and Barbuda,,2005,,iran_specific
+55213,55213,46596,SONDOS,['IRAN-EO13902'],2025-08-21,9268186,305263000,V2YL4,Chemical/Oil Tanker,Antigua and Barbuda,,2002,,iran_specific
+55215,55215,46598,LAFIT,['IRAN-EO13902'],2025-08-21,9379698,668116369,S9A3169,Crude Oil Tanker,Sao Tome & Principe,,2009,,iran_specific
+55385,55385,46732,STAR MM,['SDGT'],2025-09-11,9186625,305077000,V2YT5,Crude Oil Tanker,Antigua and Barbuda,,1999,,broad_tag_only_REVIEW
+55386,55386,46733,NOBEL M,['SDGT'],2025-09-11,9228784,314001017,8P2547,Chemical/Oil Tanker,Barbados,,2002,,broad_tag_only_REVIEW
+55387,55387,46734,SHRIA,['SDGT'],2025-09-11,9179347,304135000,V2YH8,Chemical/Oil Tanker,Antigua and Barbuda,,1999,,broad_tag_only_REVIEW
+55388,55388,46735,BLACK ROCK,['SDGT'],2025-09-11,9196448,352986196,3E3938,Chemical/Oil Tanker,Panama,,1998,,broad_tag_only_REVIEW
+55617,55617,46979,APS 9,['IRAN-EO13902'],2025-10-09,9360001,565649000,9V6767,Tug,Singapore,,2005,,iran_specific
+55619,55619,46981,VOY,['IRAN-EO13902'],2025-10-09,9222443,668116375,S9A3175,Crude Oil Tanker,Sao Tome and Principe,,2000,,iran_specific
+55623,55623,46985,Madestar,['IRAN-EO13902'],2025-10-09,9289726,352004484,3E6775,Crude Oil Tanker,Panama,,2005,,iran_specific
+55626,55626,46988,Pioneer 92,['IRAN-EO13902'],2025-10-09,9340934,457133000,JVHQ7,Tug,Mongolia,,2004,,iran_specific
+55629,55629,46991,Purdue Stellar,['IRAN-EO13902'],2025-10-09,9275658,477965400,VRWD6,Crude Oil Tanker,Hong Kong,,2004,,iran_specific
+55631,55631,46993,SEA OPERA,['IRAN-EO13902'],2025-10-09,9000883,613490000,TJMC902,LPG Tanker,Cameroon,,1991,,iran_specific
+55632,55632,46994,TULIP,['IRAN-EO13902'],2025-10-09,8912558,613467106,TJM0150,LPG Tanker,Cameroon,,1990,,iran_specific
+55634,55634,46996,GAS MARTA,['IRAN-EO13902'],2025-10-09,9307748,511101638,T8A5099,LPG Tanker,Palau,,2006,,iran_specific
+55635,55635,46997,ADA,['IRAN-EO13902'],2025-10-09,9008108,,,LPG Tanker,Comoros,,1992,,iran_specific
+55636,55636,46998,SEA HERMES,['IRAN-EO13902'],2025-10-09,9031519,511101504,T8A4906,LPG Tanker,Palau,,1993,,iran_specific
+55637,55637,46999,GAS LEADER,['IRAN-EO13902'],2025-10-09,9114581,629009290,C5J302,LPG Tanker,Gambia,,1995,,iran_specific
+55638,55638,47000,GAS VISION,['IRAN-EO13902'],2025-10-09,9115303,629009412,C5J424,LPG Tanker,Gambia,,1996,,iran_specific
+55664,55664,47032,PAMIR,['IRAN-EO13902'],2025-10-09,9208239,620999947,D6A3647,LPG Tanker,Comoros,,2001,,iran_specific
+55667,55667,47035,SAPPHIRE GAS,['IRAN-EO13902'],2025-10-09,9320738,352005205,3E8359,LPG Tanker,Panama,,2007,,iran_specific
+55669,55669,47037,NEPTA,['IRAN-EO13902'],2025-10-09,9013701,620999910,D6A3909,LPG Tanker,Comoros,,1995,,iran_specific
+55671,55671,47039,GAS ZEINA,['IRAN-EO13902'],2025-10-09,8818843,629009292,C5J304,LPG Tanker,Gambia,,1990,,iran_specific
+55674,55674,47042,SIREN II,['IRAN-EO13902'],2025-10-09,9337195,477945800,VRWA9,Crude Oil Tanker,Hong Kong,,2008,,iran_specific
+55677,55677,47045,SONA,['IRAN-EO13902'],2025-10-09,9005053,629009408,C5J49620,LPG Tanker,Gambia,,1993,,iran_specific
+55699,55699,47067,SULLANA,['IRAN-EO13902'],2025-10-09,9180152,306400000,D6A3555,Crude Oil Tanker,Comoros,,2000,,iran_specific
+55700,55700,47068,VITA I,['IRAN-EO13902'],2025-10-09,9241114,352439000,H3OV,Crude Oil Tanker,Panama,,2003,,iran_specific
+55701,55701,47069,GALE,['IRAN-EO13902'],2025-10-09,9294240,477957100,VRWC5,Crude Oil Tanker,Gambia,Hong Kong,2005,,iran_specific
+55727,55727,47095,GAS DIOR,['IRAN-EO13902'],2025-10-09,9379404,352002012,3E2181,LPG Tanker,Panama,,2008,,iran_specific
+55733,55733,47101,MAX STAR,['IRAN-EO13902'],2025-10-09,9134165,511101486,T8A4869,LPG Tanker,Palau,,1996,,iran_specific
+55877,55877,47252,PK MARIT,['IRAN-EO13846'],2025-10-09,9235464,518999023,E5U5004,Chemical/Products Tanker,Cook Islands,,2001,,iran_specific
+55879,55879,47254,TRIMA,['IRAN-EO13846'],2025-10-09,9252072,518999269,E5U5250,Chemical/Products Tanker,Cook Islands,,2002,,iran_specific
+55881,55881,47256,PK PHOENIX,['IRAN-EO13846'],2025-10-09,9326902,371176000,3ETW4,Chemical/Products Tanker,Panama,,2007,,iran_specific
+55882,55882,47257,HAI LONG BRAVO,['IRAN-EO13846'],2025-10-09,9312353,356717000,H8DH,General Cargo,Panama,,2004,,iran_specific
+55884,55884,47259,LOANNA,['IRAN-EO13846'],2025-10-09,9251884,511101678,T8A5146,Chemical/Products Tanker,Palau,,2004,,iran_specific
+55885,55885,47260,WORLD COURAGE,['IRAN-EO13846'],2025-10-09,9289740,356027000,3EZV5,Chemical/Products Tanker,Panama,,2005,,iran_specific
+55889,55889,47264,WORLD PROGRESS,['IRAN-EO13846'],2025-10-09,9300996,518999494,E5U5475,Chemical/Products Tanker,Cook Islands,,2005,,iran_specific
+55891,55891,47266,WORLD PERFORMANCE,['IRAN-EO13846'],2025-10-09,9301005,518999058,E5U5039,Chemical/Products Tanker,Cook Islands,,2005,,iran_specific
+55892,55892,47267,TETHIS 7,['IRAN-EO13846'],2025-10-09,9251896,511101677,T8A5145,Chemical/Products Tanker,Palau,,2004,,iran_specific
+55893,55893,47268,THANASIS,['IRAN-EO13846'],2025-10-09,9239989,511101698,T8A5167,Chemical/Products Tanker,Palau,,2004,,iran_specific
+56244,56244,47651,White Crane,['VENEZUELA-EO13850'],2025-12-11,9323429,352003199,HOA6213,Crude Oil Tanker,Panama,,2007,Myra Marine Limited,not_iran
+56342,56342,47734,PIONEER SAM,['IRAN-EO13902'],2025-11-20,9232620,511100620,T8A3795,Crude Oil Tanker,Palau,,2002,,iran_specific
+56348,56348,47740,Tusitala,['IRAN-EO13902'],2025-11-20,8912546,629009404,C5J416,LPG Tanker,Gambia,,1992,,iran_specific
+56349,56349,47741,Nexo,['IRAN-EO13902'],2025-11-20,9014456,629009304,C5J316,LPG Tanker,Gambia,,1993,,iran_specific
+56350,56350,47742,Kaisa I,['IRAN-EO13902'],2025-11-20,9038763,374043000,3EJO4,LPG Tanker,Panama,,1992,,iran_specific
+56356,56356,47748,Gas Athena,['IRAN-EO13902'],2025-11-20,9267950,374041000,3FNK5,LPG Tanker,Panama,,2003,,iran_specific
+56391,56391,47783,Al Siddeeq,['IRAN-EO13846'],2025-11-20,9312509,352005939,3E8448,Crude Oil Tanker,Panama,,2007,,iran_specific
+56395,56395,47787,Ava 10,['IRAN-EO13846'],2025-11-20,9247986,620999909,D6A3908,Crude Oil Tanker,Comoros,,2003,,iran_specific
+56401,56401,47793,Bodhi,['IRAN-EO13846'],2025-11-20,9144782,613003728,TJM0106,Crude Oil Tanker,Cameroon,,1997,,iran_specific
+56417,56417,47809,Aquaris,['IRAN-EO13846'],2025-11-20,9251822,352003040,3E6590,Crude Oil Tanker,Panama,,2003,,iran_specific
+56547,56547,47934,GOLDEN EAGLE,['IRAN-EO13902'],2025-12-18,9255684,341313001,,Crude Oil Tanker,Unknown,Gambia,2004,EVEREST SEA NAVIGATION SA,iran_specific
+56549,56549,47936,Kurdos,['IRAN-EO13902'],2025-12-18,9236731,511101920,T8A5448,Chemical/Products Tanker,Palau,,2001,Kurdos Shipping Inc.,iran_specific
+56550,56550,47937,KASSIA,['IRAN-EO13902'],2025-12-18,9409986,352001708,3E2726,Chemical/Products Tanker,Panama,,2008,ADONIS SHIPPING INC,iran_specific
+56551,56551,47938,MAJESTY,['IRAN-EO13902'],2025-12-18,9430715,,E5U4288,Chemical/Products Tanker,Cook Islands,,2012,CONCORD SHIPPING INC.,iran_specific
+56552,56552,47939,Kurdos II,['IRAN-EO13902'],2025-12-18,9453729,511101194,T8A4469,Chemical/Products Tanker,Palau,,2008,Kurdos Shipping Inc.,iran_specific
+56553,56553,47940,Kurdos III,['IRAN-EO13902'],2025-12-18,9380570,511101819,T8A5317,Chemical/Products Tanker,Palau,,2008,Kurdos Shipping Inc.,iran_specific
+56556,56556,47943,NOMIKI,['IRAN-EO13902'],2025-12-18,9242443,352004062,3E7581,Chemical/Products Tanker,Panama,,2002,,iran_specific
+56557,56557,47944,MARUTI,['IRAN-EO13902'],2025-12-18,9546710,518998458,E5U4438,Products Tanker,Cook Islands,,2010,,iran_specific
+56562,56562,47949,SKYLIGHT,['IRAN-EO13902'],2025-12-18,9330020,511101102,T8A4356,Chemical/Products Tanker,Palau,,2006,RED SEA SHIP MANAGEMENT LLC,iran_specific
+56563,56563,47950,KHADIGA,['IRAN-EO13902'],2025-12-18,9321469,511100904,T8A4125,Chemical/Products Tanker,Palau,,2006,,iran_specific
+56564,56564,47951,M K A,['IRAN-EO13902'],2025-12-18,9269403,518998516,E5U4496,Chemical/Products Tanker,Cook Islands,,2003,M K A SHIPPING INC,iran_specific
+56567,56567,47954,Auroura,['IRAN-EO13902'],2025-12-18,9262912,352001225,3E3982,Oil Products Tanker,Panama,,2004,,iran_specific
+56586,56586,47973,H. CONSTANCE,['VENEZUELA-EO13850'],2025-12-11,9237773,352002009,3E2177,Crude Oil Tanker,Panama,,2002,POWEROY INVESTMENT LIMITED,not_iran
+56588,56588,47975,LATTAFA,['VENEZUELA-EO13850'],2025-12-11,9245794,,3E2298,Crude Oil Tanker,Panama,,2003,READY GREAT LIMITED,not_iran
+56590,56590,47977,TAMIA,['VENEZUELA-EO13850'],2025-12-11,9315642,477186300,VRXC8,Crude Oil Tanker,Hong Kong,,2006,SINO MARINE SERVICES LIMITED,not_iran
+56592,56592,47979,MONIQUE,['VENEZUELA-EO13850'],2025-12-11,9311270,518999141,E5U5122,Crude Oil Tanker,Cook Islands,,2005,FULL HAPPY LIMITED,not_iran
+56597,56597,47984,AETHER SAIL,['IRAN-EO13902'],2025-12-18,9277371,511101256,T8A4543,Chemical/Products Tanker,Palau,,2003,,iran_specific
+56598,56598,47985,NEBULA DRIFT,['IRAN-EO13902'],2025-12-18,9233973,511101749,T8A5231,Products Tanker,Palau,,2002,,iran_specific
+56599,56599,47986,VOYAGER HAVEN,['IRAN-EO13902'],2025-12-18,9271896,352004496,3E6786,Chemical/Products Tanker,Panama,,2004,,iran_specific
+56601,56601,47988,TIDAL RHYTHM,['IRAN-EO13902'],2025-12-18,9297101,352004719,3E6978,Asphalt/Bitumen Tanker,Panama,,2004,,iran_specific
+56602,56602,47989,ARIHANT,['IRAN-EO13902'],2025-12-18,9464156,511100268,T8A3376,Products Tanker,Palau,,2009,,iran_specific
+56606,56606,47993,RAMYA,['IRAN-EO13902'],2025-12-18,9363182,314001076,8PZQ3,Chemical/Products Tanker,Barbados,,2006,,iran_specific
+56607,56607,47994,FOSHAN,['IRAN-EO13902'],2025-12-18,9404572,352001366,3E2124,Chemical/Products Tanker,Panama,,2007,,iran_specific
+56608,56608,47995,HEMERA,['IRAN-EO13902'],2025-12-18,9263954,511101408,T8A4764,Asphalt/Bitumen Tanker,Palau,,2006,,iran_specific
+56638,56638,48025,SEA CITRINE VI,['IRAN-EO13902'],2025-12-18,9207273,511101409,T8A4765,Products Tanker,Palau,,1999,QATRAT ALNADA ALMASI SHIP MANAGEMENT L.L.C,iran_specific
+56639,56639,48026,SEA WISE,['IRAN-EO13902'],2025-12-18,9224570,511100774,T8A3980,Products Tanker,Palau,,2001,QATRAT ALNADA ALMASI SHIP MANAGEMENT L.L.C,iran_specific
+56640,56640,48027,SEAMULL,['IRAN-EO13902'],2025-12-18,9204776,511100317,T8A3433,Products Tanker,Palau,,2001,QATRAT ALNADA ALMASI SHIP MANAGEMENT L.L.C,iran_specific
+56641,56641,48028,SEA ROCK,['IRAN-EO13902'],2025-12-18,9140451,,,Products Tanker,,Palau,1996,QATRAT ALNADA ALMASI SHIP MANAGEMENT L.L.C,iran_specific
+56643,56643,48030,FLORA DOLCE,['IRAN-EO13902'],2025-12-18,9258595,314001081,8PZQ8,Chemical/Products Tanker,Barbados,,2004,,iran_specific
+56644,56644,48031,DIANA,['IRAN-EO13902'],2025-12-18,9255945,339000161,6YWV8,Crude Oil Tanker,Jamaica,,2004,,iran_specific
+56645,56645,48032,J M A,['IRAN-EO13902'],2025-12-18,9246487,518998202,E5U4180,Oil Products Tanker,Cook Islands,,2001,,iran_specific
+56646,56646,48033,S M A,['IRAN-EO13902'],2025-12-18,9273002,518100962,E5U3873,Asphalt/Bitumen Tanker,Cook Islands,,2003,,iran_specific
+56655,56655,48049,INTAN PREMIER,['IRAN-EO13902'],2025-12-18,9358802,511101645,T8A5105,Chemical/Products Tanker,Palau,,2009,RED SEA SHIP MANAGEMENT LLC,iran_specific
+56706,56706,48105,Nord Star,['VENEZUELA-EO13850'],2025-12-31,9323596,352003296,3E7463,Crude Oil Tanker,Panama,,2006,,not_iran
+56711,56711,48110,Albarraq Z,['SDGT'],2026-01-16,9252943,620800006,D604006,Crude Oil Tanker,Unknown,Comoros,2003,Albarraq Shipping Co,broad_tag_only_REVIEW
+56721,56721,48130,Della,['VENEZUELA-EO13850'],2025-12-31,9227479,477714500,VRUB7,Crude Oil Tanker,Hong Kong,,2001,,not_iran
+56722,56722,48131,Valiant,['VENEZUELA-EO13850'],2025-12-31,9409247,477206500,VRXH3,Crude Oil Tanker,Hong Kong,,2009,,not_iran
+56724,56724,48133,Rosalind,['VENEZUELA-EO13850'],2025-12-31,9277735,,,Oil Products Tanker,Guinea,,2004,Winky International Limited,not_iran
+56837,56837,48256,SEA BIRD,['IRAN-EO13902'],2026-01-23,9088536,511101458,T8A4825,LPG Tanker,Palau,,1995,,iran_specific
+56838,56838,48257,AVON,['IRAN-EO13902'],2026-01-23,9034705,620800259,D6A4259,LPG Tanker,Comoros,,1993,,iran_specific
+56839,56839,48258,AL DIAB II,['IRAN-EO13902'],2026-01-23,9053816,511100397,T8A3535,LPG Tanker,Palau,,1996,,iran_specific
+56852,56852,48271,NIBA,['IRAN-EO13902'],2026-02-25,9046784,511101558,T8A4992,LPG Tanker,Palau,,1993,,iran_specific
+56853,56853,48272,Luma,['IRAN-EO13902'],2026-02-25,9034690,577277000,YJQY4,LPG Tanker,Vanuatu,,1993,,iran_specific
+56856,56856,48275,CESARIA,['IRAN-EO13902'],2026-01-23,9251602,511101849,T8A5357,Crude Oil Tanker,Palau,,2003,Galeran Service Corp,iran_specific
+56857,56857,48276,LONGEVITY 7,['IRAN-EO13902'],2026-01-23,9240885,,,Chemical/Products Tanker,Unknown,Palau,2002,Longevity Shipping Limited,iran_specific
+56858,56858,48277,EASTERN HERO,['IRAN-EO13902'],2026-01-23,9353905,511101182,T8A4456,Chemical/Products Tanker,Palau,,2007,Odyssey Marine Inc.,iran_specific
+56859,56859,48278,AQUA SPIRIT,['IRAN-EO13902'],2026-01-23,9197727,352001226,3E3983,LPG Tanker,Panama,,1999,Benoil Shipping Inc,iran_specific
+56860,56860,48279,CHIRON 5,['IRAN-EO13902'],2026-01-23,9306665,620827000,D6A2827,Products Tanker,Comoros,,2005,Trade Bridge Global Inc.,iran_specific
+56861,56861,48280,KEEL,['IRAN-EO13902'],2026-01-23,9176929,620800174,D6A4174,Shuttle Tanker,Comoros,,2002,Trade Bridge Global Inc.,iran_specific
+56897,56897,48316,GAZ CRYSTAL,['IRAN-EO13846'],2026-02-06,9318618,352003562,3E5206,LPG Tanker,Panama,,2006,,iran_specific
+56900,56900,48319,GAS RIVER,['IRAN-EO13846'],2026-02-06,9369760,352002355,3E2285,LPG Tanker,Panama,,2008,,iran_specific
+56902,56902,48321,AQUA LIVE,['IRAN-EO13846'],2026-02-06,9282792,307031000,P4AE06,Crude Oil Tanker,Aruba,,2004,,iran_specific
+56905,56905,48324,FORTUNE GAS,['IRAN-EO13846'],2026-02-06,9471123,352002555,3E2335,LPG Tanker,Panama,,2010,,iran_specific
+56909,56909,48328,YONGHENG OCEAN,['IRAN-EO13846'],2026-02-06,9234472,314001129,8PZW8,Chemical/Oil Tanker,Barbados,,2002,,iran_specific
+56913,56913,48332,VICSCENE,['IRAN-EO13846'],2026-02-06,9290775,314857000,8PAA6,Crude Oil Tanker,Barbados,,2004,,iran_specific
+56915,56915,48334,ZEVS,['IRAN-EO13846'],2026-02-06,9168946,613833000,TJMC822,Crude Oil Tanker,Cameroon,,1999,,iran_specific
+56917,56917,48336,OCEAN GUARDIAN,['IRAN-EO13846'],2026-02-06,9267948,352004037,3E5421,Oil Products Tanker,Panama,,2003,,iran_specific
+56918,56918,48337,WHITE SHARK,['IRAN-EO13846'],2026-02-06,9155626,268257103,T7DB9,LPG Tanker,San Marino,,1998,,iran_specific
+56920,56920,48339,AL SAFA,['IRAN-EO13846'],2026-02-06,9222649,352978129,3E3958,Oil Products Tanker,Panama,,2001,,iran_specific
+56921,56921,48340,VETER,['IRAN-EO13846'],2026-02-06,9233739,613699000,TJMC657,Crude Oil Tanker,Cameroon,,2002,,iran_specific
+56924,56924,48343,BENLAI,['IRAN-EO13846'],2026-02-06,9312494,314146000,8PQJ,Crude Oil Tanker,Barbados,,2006,,iran_specific
+56925,56925,48344,RAYYAN GAS,['IRAN-EO13846'],2026-02-06,9133109,511101365,T8A4711,LPG Tanker,Palau,,1997,,iran_specific
+56927,56927,48346,BENEDICT,['IRAN-EO13846'],2026-02-06,9293155,613003709,TJMC128,Crude Oil Tanker,Cameroon,,2005,,iran_specific
+56934,56934,48353,LARA,['SDGT'],2026-02-10,9221475,,,General Cargo,St. Kitts & Nevis,,2000,,broad_tag_only_REVIEW
+56935,56935,48354,BRILLIANCE,['SDGT'],2026-02-10,9450715,,,Bulk Carrier,Panama,,1999,,broad_tag_only_REVIEW
+56951,56951,48370,SILVAR,['IRAN-EO13902'],2026-04-15,9291262,613414707,TJMA37,Crude Oil Tanker,Cameroon,,2005,,iran_specific
+56952,56952,48371,DAPHNE V,['IRAN-EO13902'],2026-04-15,9321677,352002063,3E3751,Crude Oil Tanker,Panama,,2006,,iran_specific
+56953,56953,48372,ANAYA,['IRAN-EO13902'],2026-04-15,9326885,352001906,3E3719,Oil Products Tanker,Panama,,2008,,iran_specific
+56954,56954,48373,VERSA,['IRAN-EO13902'],2026-04-15,9379301,352001907,3E3720,Crude Oil Tanker,Panama,,2008,,iran_specific
+56955,56955,48374,HORAE,['IRAN-EO13902'],2026-04-15,9413004,352179000,3FUU,Crude Oil Tanker,Panama,,2009,,iran_specific
+56957,56957,48376,AURA,['IRAN-EO13902'],2026-04-15,9274563,650000181,C9NA63,LPG Tanker,Mozambique,Palau,2003,,iran_specific
+56959,56959,48378,CAUVERI,['IRAN-EO13902'],2026-04-15,9282508,613271440,TJMOK5,Crude Oil Tanker,Cameroon,,2005,,iran_specific
+56998,56998,48429,ATEELA 1,['IRAN-EO13902'],2026-02-25,9548990,422044800,EPCF9,Products Tanker,Iran,,2009,,iran_specific
+56999,56999,48430,ATEELA 2,['IRAN-EO13902'],2026-02-25,9549009,422044900,EPCG2,Products Tanker,Iran,,2010,,iran_specific
+57005,57005,48436,HOOT,['IRAN-EO13902'],2026-02-25,9267962,371686000,3FIQ9,LPG Tanker,Panama,,2003,,iran_specific
+57006,57006,48437,REMIZ,['IRAN-EO13902'],2026-02-25,9223344,352005545,3E8793,Crude Oil Tanker,Panama,,2002,,iran_specific
+57007,57007,48438,DANUTA I,['IRAN-EO13902'],2026-02-25,9193721,511101556,T8A4990,LPG Tanker,Palau,,2000,,iran_specific
+57008,57008,48439,ALAA,['IRAN-EO13902'],2026-02-25,9155341,511101662,T8A5128,LPG Tanker,Palau,,1998,,iran_specific
+57009,57009,48440,GAS FATE,['IRAN-EO13902'],2026-02-25,9147394,352004577,3E6859,LPG Tanker,Panama,,1999,,iran_specific
+57014,57014,48445,OCEAN KOI,['IRAN-EO13902'],2026-02-25,9255933,314001038,8P2574,Crude Oil Tanker,Barbados,,2004,,iran_specific
+57015,57015,48446,NORTH STAR,['IRAN-EO13902'],2026-02-25,9299563,314109000,8PPB,Crude Oil Tanker,Barbados,,2005,,iran_specific
+57016,57016,48447,FELICITA,['IRAN-EO13902'],2026-02-25,9167162,620999032,D6A3040,Crude Oil Tanker,Comoros,,2000,,iran_specific
+57032,57032,48463,BELLARIS,['IRAN-EO13902'],2026-04-15,9332614,352001849,3E2763,Oil Products Tanker,Panama,,2008,,iran_specific
+57033,57033,48464,ANIKA,['IRAN-EO13902'],2026-04-15,9417464,352002243,3E2232,Crude/Oil Products Tanker,Panama,,2009,,iran_specific
+57126,57126,48545,Miraan,['IRAN-EO13902'],2026-04-24,9242481,620800322,D6A4322,Oil Products Tanker,Comoros,,2002,Mihir Shipping Inc.,iran_specific
+57127,57127,48546,Bangus,['IRAN-EO13902'],2026-04-24,9308998,314189000,8PRX,Crude/Oil Products Tanker,Barbados,,2005,Costin Shipping Limited,iran_specific
+57128,57128,48547,Galvin,['IRAN-EO13902'],2026-04-24,9387762,352002602,3E2372,LPG Tanker,Panama,,2009,Naxos Maritime and Trading S.A.,iran_specific
+57130,57130,48549,HH Glory,['IRAN-EO13902'],2026-04-24,9534614,352255000,3FCJ9,LPG Tanker,Panama,,2011,Skyros Maritime and Trading S.A.,iran_specific
+57132,57132,48551,Lin 9,['IRAN-EO13902'],2026-04-24,9240158,305697000,V2YG8,LPG Tanker,Antigua & Barbuda,,2003,Patriot Inc.,iran_specific
+57398,57398,48837,LISBOA,['IRAN-EO13902'],2026-04-24,9257711,353534000,HPQL,Chemical/Oil Tanker,Panama,,2003,,iran_specific
+57400,57400,48839,LPG Sevan,['IRAN-EO13902'],2026-04-24,9177806,352001983,3E2818,LPG Tanker,Panama,,1999,,iran_specific
+57402,57402,48841,Lynn,['IRAN-EO13902'],2026-04-24,9352559,477156400,VRWZ6,Crude Oil Tanker,Hong Kong,,2007,,iran_specific
+57404,57404,48843,Global Vivian,['IRAN-EO13902'],2026-04-24,9002908,373502000,HPLV,LPG Tanker,Panama,,1992,,iran_specific
+57437,57437,48869,Anshun II,['IRAN-EO13902'],2026-04-24,9253117,,3FWU9,Crude Oil Tanker,Panama,,2003,,iran_specific
+57438,57438,48870,SMD World,['IRAN-EO13902'],2026-04-24,9290086,371386000,3FRT9,Crude Oil Tanker,Panama,,2005,,iran_specific
+57439,57439,48871,EDOR,['IRAN-EO13902'],2026-04-24,9259317,538011855,V7A3569,Crude Oil Tanker,Marshall Islands,,2003,,iran_specific
+57440,57440,48872,Bentley,['IRAN-EO13902'],2026-04-24,9220914,518999247,E5U5228,Chemical/Oil Tanker,Cook Islands,,2001,,iran_specific
+57442,57442,48874,Covenio,['IRAN-EO13902'],2026-04-24,9263227,351165000,HOZX,Crude Oil Tanker,Panama,,2003,,iran_specific
+57444,57444,48876,Golden Sunrise,['IRAN-EO13902'],2026-04-24,9183362,620800080,D6A4080,Crude Oil Tanker,Comoros,,1999,,iran_specific
+57446,57446,48878,Zhen Zhu,['IRAN-EO13902'],2026-04-24,9290359,314100000,8POV,Crude Oil Tanker,Barbados,,2005,,iran_specific
+57451,57451,48883,MAGNOLIA,['IRAN-EO13902'],2026-04-24,9258519,477401400,VRSY6,Crude Oil Tanker,Hong Kong,,2004,,iran_specific
+57452,57452,48884,STELLAR BEVERLY,['IRAN-EO13902'],2026-04-24,9208069,,,Crude Oil Tanker,Mozambique (False),Gambia (False),2000,,iran_specific
+57453,57453,48885,SEEKER 8,['IRAN-EO13902'],2026-04-24,9294329,,YJRQ9,Crude Oil Tanker,Vanuatu,Panama,2005,,iran_specific
+57467,57467,48906,NEW FUSION,['IRAN-EO13846'],2026-05-01,9277723,352003203,3E6068,Oil Products Tanker,Panama,,2004,THRIVING TIMES INTERNATIONAL CO LTD,iran_specific
+57667,57667,49146,FEADSHIP,['IRAN-EO13902'],2026-05-19,9322279,577697000,YJRK9,Crude Oil Tanker,Vanuatu,,2007,,iran_specific
+57669,57669,49148,VASLATI,['IRAN-EO13902'],2026-05-19,9252333,,TJMA15,Crude Oil Tanker,Cameroon,,2003,,iran_specific
+57672,57672,49151,DAKUSH,['IRAN-EO13902'],2026-05-19,9278698,518999378,E5U5359,Chemical/Products Tanker,Cook Islands,,2004,,iran_specific
+57673,57673,49152,Gala Rose,['IRAN-EO13902'],2026-05-19,9126015,477524600,VROT2,Chemical/Oil Tanker,Hong Kong,,1997,Sparkling Courage Limited,iran_specific
+57675,57675,49154,TEJAS,['IRAN-EO13902'],2026-05-19,9326067,352002323,3E2257,Crude Oil Tanker,Panama,,2006,,iran_specific
+57676,57676,49155,Great Sail,['IRAN-EO13902'],2026-05-19,9177583,314001124,8PZW3,LPG Tanker,Barbados,,2000,Great Sail Shipping Limited,iran_specific
+57677,57677,49156,Ocean Wave,['IRAN-EO13902'],2026-05-19,9387152,511101945,T8A5483,Products Tanker,Palau,,2007,Ow Maritime Incorporated,iran_specific
+57678,57678,49157,Luna Luster,['IRAN-EO13902'],2026-05-19,9292187,667002478,9LS2181,Crude Oil Tanker,Sierra Leone,,2005,Global Fortune Shipping Limited,iran_specific
+57680,57680,49159,SWIFT FALCON,['IRAN-EO13902'],2026-05-19,9246803,374176000,3EMI9,Chemical/Oil Tanker,Panama,,2002,,iran_specific
+57682,57682,49161,MIGHTY NAVIGATOR,['IRAN-EO13902'],2026-05-19,9206396,477227800,VRXQ6,LPG Tanker,Hong Kong,,2001,,iran_specific
+57688,57688,49167,MIDAS,['IRAN-EO13902'],2026-05-19,9266841,352006683,3E8015,Crude Oil Tanker,Panama,,2003,,iran_specific
+57691,57691,49170,GAS ENDURANCE,['IRAN-EO13902'],2026-05-19,9240419,626480000,TRBS7,LPG Tanker,Gabon,,2003,,iran_specific
+57692,57692,49171,Ocean Radiance,['IRAN-EO13902'],2026-05-19,9194969,511101444,T8A4807,LPG Tanker,Palau,,2000,,iran_specific
+57693,57693,49172,Quantum Star,['IRAN-EO13902'],2026-05-19,9225342,352003912,3E5322,LPG Tanker,Panama,,2001,,iran_specific
+57694,57694,49173,Gas Strength,['IRAN-EO13902'],2026-05-19,9172636,626457000,TRBP8,LPG Tanker,Gabon,,1999,,iran_specific
+57705,57705,49184,Bright Gold,['IRAN-EO13902'],2026-05-19,9171503,374670000,3EEC9,Chemical/Oil Tanker,Panama,,1999,,iran_specific
+57706,57706,49185,Double In,['IRAN-EO13902'],2026-05-19,8917807,268252804,T7DJ2,LPG Tanker,San Marino,,1992,,iran_specific
+57707,57707,49186,Narsis,['IRAN-EO13902'],2026-05-19,9408358,613913606,TJM5238,Chemical/Oil Tanker,Cameroon,,2008,,iran_specific
+57708,57708,49187,G JADES,['IRAN-EO13902'],2026-05-19,9131096,620999798,D6A3797,LPG Tanker,Comoros,,1997,,iran_specific
+57763,57763,49262,MAYMEI,['IRAN-EO13846'],2026-05-28,9133082,511101961,T8A5501,Chemical/Products Tanker,Palau,,1997,,iran_specific
+57764,57764,49263,FLORA,['IRAN-EO13846'],2026-05-28,9133070,538006405,V7MJ8,Chemical/Oil Tanker,Marshall Islands,,1997,,iran_specific
+57766,57766,49265,THEA,['IRAN-EO13846'],2026-05-28,9298284,352005622,3E8853,Crude Oil Tanker,Panama,,2005,,iran_specific
+57774,57774,49273,ILL GAP,['IRAN-EO13846'],2026-05-28,9294305,352005534,3E8783,Crude Oil Tanker,Panama,,2004,,iran_specific
+57777,57777,49276,YONGAN OCEAN,['IRAN-EO13846'],2026-05-28,9288758,373336000,3EWR6,Chemical/Products Tanker,Panama,,2004,,iran_specific
+57780,57780,49279,HAUNCAYO,['IRAN-EO13846'],2026-05-28,9180164,620999556,D6A3556,Crude Oil Tanker,Comoros,,2000,,iran_specific
+57782,57782,49281,GAS NORA,['IRAN-EO13846'],2026-05-28,8813116,268245700,T7AQ9,LPG Tanker,San Marino,,1991,,iran_specific
+57784,57784,49283,RCELEBRA,['IRAN-EO13846'],2026-05-28,9286073,613902500,TJMQ3,Crude Oil Tanker,Cameroon,,2005,,iran_specific
+57883,57883,49382,MD 23,['IRAN-EO13902'],2026-06-05,9158240,511101848,T8A5356,LPG Tanker,Palau,,1998,,iran_specific
+57885,57885,49384,GLENDALE,['IRAN-EO13902'],2026-06-05,9139945,356634000,3FFP9,LPG Tanker,Panama,,1996,,iran_specific
+57887,57887,49386,AMIR GAS,['IRAN-EO13902'],2026-06-05,9167409,314550001,V4WK5,LPG Tanker,St. Kitts and Nevis,,1998,,iran_specific
+57888,57888,49387,GAS LAGOON,['IRAN-EO13902'],2026-06-05,9386304,352002989,3E4737,LPG Tanker,Panama,,2008,,iran_specific
+57892,57892,49391,MILE,['IRAN-EO13902'],2026-06-05,8910897,352002974,3E4726,LPG Tanker,Panama,,1991,,iran_specific
+57894,57894,49393,GAZ GMS,['IRAN-EO13902'],2026-06-05,9131539,352002853,3E4634,LPG Tanker,Panama,,1997,,iran_specific

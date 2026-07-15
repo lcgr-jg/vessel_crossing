@@ -1,0 +1,328 @@
+vessel_name,imo,flag,fleet,afra_class,dwt,controller,charterer,seller,loading_port,grade,loading_date,volume_bbl,last_enter,last_exit,in_out,days_since_enter,last_loading_state,trade_status,discharged,stuck_risk,exit_candidate,last_crossing_type,n_enter,n_exit
+IMOLA,1014876,LIBERIA,clean fleet,LR2,156906,,,SOMO,Al Basrah,Basrah,2026-07-19 04:41:00,960001.0,2026-07-10,,in,4.0,ballast,Scheduled,,False,False,Dark/Unknown Route,1,0
+METRO MISTRAL,1017048,GREECE,clean fleet,LR1,74949,,,,,,,,2026-07-09,,in,5.0,ballast,,Jubail Industrial Port,False,False,Dark/Unknown Route,1,0
+STOIC WARRIOR,1028762,LIBERIA,clean fleet,LR2,156885,,,SOMO,Al Basrah,Basrah Med.,2026-02-28 17:59:00,1012911.0,,2026-06-25,out,,laden,Delivered,MOH Corinth Refinery,False,False,Omani Route,0,1
+NAUTILUS,1030052,LIBERIA,clean fleet,LR1,74916,,,,,,,,2026-07-09,,in,5.0,ballast,,Ras Tanura,False,False,Dark/Unknown Route,1,0
+LARGO ATOM,1034747,LIBERIA,clean fleet,LR1,49740,,,,,,,,2026-07-04,,in,10.0,ballast,,Ras Laffan,True,False,Dark/Unknown Route,1,0
+ATOKOS,1037048,LIBERIA,clean fleet,VLCC,299985,GS Energy,GS Energy,ADNOC,ADCOP Fujairah,Murban,2026-06-03 12:38:00,1799999.0,,2026-04-15,out,,laden,Delivered,Geoje,False,False,Dark/Unknown Route,0,1
+ALIAKMON I,1038884,LIBERIA,clean fleet,VLCC,299992,,,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-04-28 00:00:00,1899994.0,2026-04-26,2026-05-02,out,79.0,laden,Delivered,Ras Markaz,False,False,Dark/Unknown Route,1,1
+NISSOS TIGANI,1044869,MARSHALL ISLANDS,clean fleet,LR2,156790,ETC,ETC,SOMO,Al Basrah,Basrah,2026-06-30 21:59:00,979996.0,2026-06-26,2026-07-04,out,18.0,laden,Delivered,Ain Sukhna,False,False,Dark/Unknown Route,1,1
+ATARAKTOS,1052880,MARSHALL ISLANDS,clean fleet,LR2,157000,Aramco,Aramco,Aramco,Ras Tanura,Arab,2026-07-09 03:39:00,1054738.0,2026-06-28,2026-07-14,out,16.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+QUAR,9112117,COMOROS,clean fleet,LR1,46166,,,,,,,,2026-04-04,,in,101.0,ballast,,Mideast Gulf,True,False,Dark/Unknown Route,1,0
+NOBLE,9162928,GUINEA,dark fleet,LR1,47198,,,"SOC,SOMO",Al Basrah,Basrah,2026-07-27 19:41:00,2124949.0,,2026-03-18,out,,ballast,Scheduled,,False,False,Dark/Unknown Route,0,1
+IMPALAS,9171448,SAO TOME AND PRINCIPE,dark fleet,VLCC,299167,,,NIOC,Kharg Island,Iran,2026-06-22 23:59:00,2003612.0,2026-06-18,2026-06-25,out,26.0,laden,In Transit,,False,False,Iranian Route,1,2
+STARK I,9171450,IRAN,dark fleet,LR2,159681,,,,,,,,,2026-03-05,out,,laden,,EOPL,False,False,Dark/Unknown Route,0,1
+SINOPA,9172038,IRAN,dark fleet,LR2,159681,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-11 00:00:00,1032679.0,2026-07-02,2026-07-14,out,12.0,laden,Delivered,Dongjiakou Oil Terminal,False,False,Dark/Unknown Route,2,2
+SILVIA I,9172052,IRAN,dark fleet,LR2,159711,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-16 00:00:00,1032679.0,2026-04-12,2026-06-01,out,93.0,laden,In Transit,,False,False,Dark/Unknown Route,1,2
+HELGA,9176993,COMOROS,clean fleet,VLCC,298620,,,SOMO,Al Basrah,Basrah,2026-07-21 07:41:00,1459997.0,2026-06-02,2026-06-15,out,42.0,ballast,Scheduled,,False,False,Dark/Unknown Route,2,2
+DESTINY,9177155,IRAN,dark fleet,VLCC,281050,,,,,,,,2026-03-05,,in,131.0,ballast,,South Pars,True,False,Dark/Unknown Route,1,0
+KATSUYA,9178068,GAMBIA,dark fleet,LR1,47053,,,,Iran,Iran,2026-06-26 00:00:00,326233.0,,2026-07-01,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+SULLANA,9180152,CURACAO,dark fleet,VLCC,306397,,,NIOC,Jask Oil Terminal,Iran,2026-07-11 05:35:00,2052012.0,2026-03-27,2026-04-09,out,109.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+HUMANITY,9180281,IRAN,dark fleet,VLCC,299990,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-07-08 00:00:00,1941494.0,2026-07-01,2026-07-12,out,13.0,laden,In Transit,,False,False,Dark/Unknown Route,2,2
+FELIX,9181194,GABON,dark fleet,VLCC,308491,,,NIOC,Jask Oil Terminal,Iran,2026-03-23 00:00:00,2009185.0,2026-07-08,,in,6.0,ballast,Delivered,Dongjiakou Oil Terminal,False,False,Iranian Route,1,0
+FELICITY,9183934,IRAN,dark fleet,VLCC,299990,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-25 00:00:00,2009122.0,2026-04-22,2026-06-19,out,83.0,laden,In Transit,,False,False,Dark/Unknown Route,2,2
+ARGO I,9187667,IRAN,dark fleet,AFRA,99094,,,,,,,,2026-03-30,,in,106.0,ballast,,Iran,True,False,Dark/Unknown Route,1,0
+KYLO,9189146,COMOROS,dark fleet,VLCC,160573,,,NIOC,Kharg Island,Iran,2026-03-28 00:00:00,1036070.0,,2026-04-01,out,,laden,Delivered,Dongjiakou Oil Terminal,False,False,Iranian Route,0,1
+DIVIT,9194139,COMOROS,dark fleet,AFRA,99123,,,NIOC,Kharg Island,Iran,2026-04-03 00:00:00,664549.0,2026-03-30,2026-04-05,out,106.0,laden,Delivered,Dongying,False,False,Iranian Route,1,1
+ELVA,9196644,GAMBIA,dark fleet,VLCC,298465,,,NIOC,Kharg Island,Iran,2026-05-06 00:00:00,2007462.0,2026-05-03,2026-06-22,out,72.0,laden,In Transit,,False,False,Iranian Route,1,1
+ANDROMEDA V,9197832,CURACAO,dark fleet,VLCC,281037,,,NIOC,Kharg Island,Iran,2026-03-01 00:00:00,1941249.0,,2026-04-03,out,,laden,Delivered,EOPL,False,False,Dark/Unknown Route,0,1
+HORNET,9197844,BENIN,dark fleet,VLCC,281050,,,NIOC,Kharg Island,Iran,2026-06-29 00:00:00,1494251.0,2026-06-22,2026-07-03,out,22.0,laden,In Transit,,False,False,Iranian Route,1,1
+ARHIMEDA,9197909,MALAWI,dark fleet,VLCC,309498,,,NIOC,Kharg Island,Iran,2026-04-20 00:00:00,2000002.0,2026-04-09,,in,96.0,ballast,In Transit,,True,True,Iranian Route,1,0
+LEXIE,9203277,BOTSWANA,dark fleet,VLCC,298911,,,,,,,,2026-06-01,,in,43.0,ballast,,,True,False,Dark/Unknown Route,1,0
+RHN,9208215,CURACAO,dark fleet,VLCC,298920,,,,,,,,2026-04-15,,in,90.0,ballast,,,True,False,Iranian Route,1,0
+OLYM,9212759,GUYANA,dark fleet,VLCC,160383,,,NIOC,Kharg Island,Iran,2026-03-29 00:00:00,1074614.0,2026-07-12,2026-04-04,in,2.0,ballast,Delivered,EOPL,False,False,Dark/Unknown Route,2,1
+HEDY,9212888,IRAN,dark fleet,VLCC,299242,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-08 00:00:00,2000002.0,,2026-03-18,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+HALTI,9212890,IRAN,dark fleet,VLCC,299261,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-06-30 00:00:00,2034200.0,2026-06-25,2026-07-04,out,19.0,laden,In Transit,,False,False,Dark/Unknown Route,2,2
+HAPPINESS I,9212905,IRAN,dark fleet,VLCC,299214,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-13 00:00:00,2034200.0,2026-04-05,2026-06-01,out,100.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+HASNA,9212917,IRAN,dark fleet,VLCC,299229,,,,,,,,2026-07-02,2026-03-10,in,12.0,ballast,,,True,False,Dark/Unknown Route,1,1
+HENNA,9212929,IRAN,dark fleet,VLCC,299242,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-06 00:00:00,2034200.0,,2026-04-02,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+VENTURA,9216559,GUYANA,dark fleet,LR1,68467,,,,,,,,2026-07-07,,in,7.0,ballast,,Bandar Mahshahr,False,False,Dark/Unknown Route,1,0
+DEVON,9218454,IRAN,dark fleet,VLCC,299500,,,,,,,,2026-04-01,,in,104.0,ballast,,,True,False,Dark/Unknown Route,1,0
+DOVER,9218466,IRAN,dark fleet,VLCC,296977,NIOC,NIOC,NIOC,FPSO Soroosh,Soroosh,2026-03-15 00:00:00,1600002.0,2026-03-01,,in,135.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+DIAMOND II,9218478,IRAN,dark fleet,VLCC,296977,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-29 00:00:00,2038458.0,2026-03-23,2026-04-02,out,113.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+DOWNY,9218480,IRAN,dark fleet,VLCC,296977,,,,,,,,2026-07-06,,in,8.0,ballast,,,False,False,Iranian Route,1,0
+DEEP SEA,9218492,IRAN,dark fleet,VLCC,296977,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-03 00:00:00,2000002.0,2026-04-01,2026-04-15,out,104.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+SOBAR,9221970,IRAN,dark fleet,VLCC,160183,,,,,,,,2026-06-23,,in,21.0,ballast,,,True,False,Iranian Route,1,0
+NICHOLA,9224271,GUYANA,dark fleet,VLCC,160288,,,NIOC,Kharg Island,Iran,2026-06-26 00:00:00,1036252.0,2026-06-22,2026-06-30,out,22.0,laden,In Transit,,False,False,Iranian Route,1,1
+PHOEBEII,9226011,GUYANA,dark fleet,LR1,47084,,,NIOC,Kharg Island,Iran,2026-05-22 00:00:00,326088.0,,2026-06-08,out,,laden,In Transit,,False,False,Iranian Route,0,1
+SARAK,9226968,IRAN,dark fleet,LR2,159885,,,,,,,,2026-06-23,,in,21.0,ballast,,,True,False,Iranian Route,1,0
+LUCIA A,9228655,SAN MARINO,clean fleet,LR2,159997,,,SOMO,Al Basrah,Basrah,2026-07-22 10:41:00,960001.0,2026-06-15,2026-06-23,out,29.0,ballast,Scheduled,,False,False,Dark/Unknown Route,1,1
+TIYARA,9231224,NICARAGUA,dark fleet,AFRA,112679,,,NIOC,Kharg Island,Iran,2026-03-30 00:00:00,755286.0,2026-03-27,2026-04-03,out,109.0,laden,Delivered,China,False,False,Dark/Unknown Route,1,1
+PING SHUN,9231901,ESWATINI,dark fleet,AFRA,112668,,,NIOC,Kharg Island,Iran,2026-03-05 00:00:00,603475.0,,2026-03-18,out,,laden,Delivered,Dongying,False,False,Dark/Unknown Route,0,1
+ATILA,9233753,GUYANA,dark fleet,VLCC,309064,,,NIOC,Kharg Island,Iran,2026-07-03 00:00:00,2000002.0,2026-06-22,2026-07-06,out,22.0,laden,In Transit,,False,False,Iranian Route,1,1
+NEBULA DRIFT,9233973,PALAU,dark fleet,LR1,45763,,,,,,,,2026-04-09,,in,96.0,laden,,Iran,True,True,Dark/Unknown Route,1,0
+COBA,9235737,CURACAO,dark fleet,VLCC,319360,,,NIOC,Kharg Island,Iran,2026-04-11 00:00:00,2000002.0,2026-03-29,,in,107.0,ballast,In Transit,,True,True,Iranian Route,1,0
+VIRGO,9236250,BOTSWANA,dark fleet,VLCC,305796,,,NIOC,Kharg Island,Iran,2026-04-25 00:00:00,2047993.0,2026-04-21,2026-06-22,out,84.0,laden,In Transit,,False,False,Iranian Route,1,1
+NORA,9237539,GUYANA,dark fleet,VLCC,298414,,,NIOC,Kharg Island,Iran,2026-03-08 00:00:00,2005078.0,,2026-03-15,out,,laden,In Transit,,False,False,Iranian Route,0,1
+TIMA,9237797,GUYANA,dark fleet,VLCC,317000,,,,,,,,2026-07-08,,in,6.0,ballast,,,False,False,Iranian Route,1,0
+NORDIC POLLUX,9239848,CAYMAN ISLANDS,clean fleet,LR2,150103,BPC,BPC,Aramco,Juaymah,Arab Lt.,2026-03-03 11:39:00,735002.0,2026-03-01,2026-06-21,out,135.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+DAFFODIL,9239927,SAUDI ARABIA,clean fleet,AFRA,99999,,,KPC,MAA Refinery,Kuwait SLt.,2026-04-20 19:19:00,678003.0,,2026-06-21,out,,ballast,Delivered,ENOC Condensate Refinery,False,False,Dark/Unknown Route,0,1
+YOKO 1,9241085,PANAMA,clean fleet,LR1,46684,,,,,,,,2026-07-10,,in,4.0,ballast,,Khor Al Zubair Port,False,False,Iranian Route,1,0
+AMAK,9244635,MADAGASCAR,dark fleet,VLCC,300405,,,NIOC,Kharg Island,Iran,2026-06-28 00:00:00,2071366.0,2026-06-24,2026-06-30,out,20.0,laden,In Transit,,False,False,IMO Route,1,1
+ANABEL,9246279,GAMBIA,dark fleet,VLCC,299997,,,NIOC,Kharg Island,Iran,2026-03-23 00:00:00,2000002.0,2026-07-14,2026-03-27,in,0.0,ballast,In Transit,,False,True,Iranian Route,2,1
+SWIFT FALCON,9246803,PANAMA,dark fleet,LR1,46308,,,,,,,,2026-07-04,2026-05-14,in,10.0,laden,,Hamriya,True,True,Iranian Route,1,1
+BREEZ,9247778,COMOROS,dark fleet,LR1,47038,,,,,,,,2026-06-21,2026-06-02,in,23.0,ballast,,,True,False,Dark/Unknown Route,2,1
+TAWANNA,9247780,CURACAO,dark fleet,AFRA,106500,,,NIOC,Kharg Island,Iran,2026-02-28 00:00:00,720988.0,,2026-03-29,out,,laden,Delivered,China,False,False,Iranian Route,0,1
+AVA 10,9247986,COMOROS,dark fleet,AFRA,105674,,,,,,,,2026-05-28,,in,47.0,ballast,,Bandar Mahshahr,True,False,Dark/Unknown Route,1,0
+AQUA,9248473,MALAWI,dark fleet,VLCC,299152,,,NIOC,Kharg Island,Iran,2026-04-13 00:00:00,2000002.0,2026-04-05,,in,100.0,ballast,In Transit,,True,True,Iranian Route,1,0
+URI,9248497,COMOROS,dark fleet,VLCC,299164,,,NIOC,Kharg Island,Iran,2026-04-11 00:00:00,2000002.0,2026-04-08,2026-06-21,out,97.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+LOANNA,9251884,CURACAO,dark fleet,LR1,46764,,,,,,,,2026-03-01,,in,135.0,ballast,,,True,False,Dark/Unknown Route,1,0
+MARAL,9251896,CURACAO,dark fleet,LR1,46764,,,,,,,,2026-07-11,2026-04-20,in,3.0,laden,,,False,True,Iranian Route,1,1
+FAROG,9252072,CURACAO,dark fleet,LR1,47355,,,,,,,,2026-03-01,,in,135.0,ballast,,,True,False,Dark/Unknown Route,1,0
+SCALER,9254915,MOZAMBIQUE,dark fleet,AFRA,106449,,,NIOC,Kharg Island,Iran,2026-06-09 00:00:00,713585.0,2026-06-06,2026-07-11,out,38.0,laden,In Transit,,False,False,IMO Route,1,1
+ATLANTIS II,9257503,IRAN,dark fleet,LR1,73004,,,,,,,,2026-04-30,2026-04-22,in,75.0,ballast,,Bandar Abbas,True,False,Iranian Route,1,1
+ASHLEY,9258466,ANTIGUA AND BARBUDA,clean fleet,LR1,68524,,,,,,,,2026-06-30,2026-06-20,in,14.0,ballast,,Khor Al Zubair Light.,True,False,Dark/Unknown Route,1,1
+LAUREN II,9258521,PANAMA,dark fleet,VLCC,298564,,,NIOC,Kharg Island,Iran,2026-06-21 00:00:00,2090462.0,2026-06-18,,in,26.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+UMA,9258870,GUYANA,dark fleet,AFRA,114761,,,NIOC,FPSO Soroosh,Soroosh,2026-04-27 00:00:00,751324.0,2026-03-31,,in,105.0,ballast,In Transit,,True,True,Iranian Route,1,0
+LENORE,9259367,CURACAO,dark fleet,VLCC,300976,,,NIOC,Kharg Island,Iran,2026-03-22 00:00:00,2011726.0,,2026-03-23,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+VIGOR,9262156,BOTSWANA,dark fleet,VLCC,299984,,,NIOC,Kharg Island,Iran,2026-04-30 00:00:00,2070699.0,2026-04-28,2026-06-22,out,77.0,laden,In Transit,,False,False,Iranian Route,1,1
+BERG 1,9262168,BENIN,dark fleet,VLCC,299984,,,NIOC,Kharg Island,Iran,2026-07-03 00:00:00,2070699.0,2026-06-30,2026-07-09,out,14.0,laden,In Transit,,False,False,Iranian Route,1,2
+ALBA,9268112,MOZAMBIQUE,dark fleet,AFRA,106360,,,NIOC,Kharg Island,Iran,2026-06-26 00:00:00,708842.0,2026-05-16,2026-06-30,out,59.0,laden,In Transit,,False,False,Omani Route,1,1
+SOUFIA 1,9273052,MOZAMBIQUE,dark fleet,AFRA,105850,,,NIOC,Kharg Island,Iran,2026-05-02 00:00:00,709578.0,2026-04-19,2026-07-06,out,86.0,laden,In Transit,Eastern Asia,False,False,Iranian Route,1,1
+TIFANI,9273337,PALAU,dark fleet,VLCC,299999,,,NIOC,Kharg Island,Iran,2026-04-06 00:00:00,2000002.0,2026-04-02,2026-04-09,out,103.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+SEAWAY,9273650,PANAMA,clean fleet,LR1,46101,,,,,,,,2026-07-01,2026-06-22,in,13.0,ballast,,Sohar,True,False,Iranian Route,3,3
+EPIK,9273832,PANAMA,clean fleet,LR1,46719,,,,,,,,2026-06-24,2026-04-12,in,20.0,ballast,,Hamriya,True,False,IMO Route,2,1
+FABULE,9276573,MALAWI,dark fleet,AFRA,103622,,,NIOC,Kharg Island,Iran,2026-03-14 00:00:00,694665.0,2026-02-28,2026-03-22,out,136.0,laden,Delivered,Dalian Changxing Oil Terminal,False,False,Dark/Unknown Route,1,1
+DING XIANG,9280366,CURACAO,dark fleet,LR1,71024,,,,,,,,2026-07-03,2026-07-10,out,11.0,laden,,,False,False,IMO Route,1,1
+LOUIZA,9281554,CURACAO,dark fleet,LR1,45557,,,,,,,,2026-06-19,2026-06-04,in,25.0,ballast,,Assaluyeh,True,False,Iranian Route,3,2
+BLAZE,9281566,PALAU,clean fleet,LR1,45592,,,,,,,,2026-06-27,2026-04-18,in,17.0,ballast,,Iran,True,False,Omani Route,1,1
+ALICIA,9281695,CURACAO,dark fleet,VLCC,281396,,,,,,,,2026-04-14,,in,91.0,ballast,,,True,False,Iranian Route,1,0
+KAVIZ,9282041,COMOROS,dark fleet,AFRA,115390,,,NIOC,Kharg Island,Iran,2026-05-06 00:00:00,779772.0,2026-04-28,,in,77.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+KUSH,9282522,COMOROS,dark fleet,LR1,46866,,,,,,,,2026-03-30,2026-03-25,in,106.0,ballast,,,True,False,Dark/Unknown Route,1,1
+OCEAN LILY,9284960,HONG KONG,clean fleet,VLCC,299170,Sinochem,Sinochem,"QatarEnergy,TotalEnergies",FSO Qatar Petroleum Al Shaheen II,Shaheen,2026-03-01 12:19:00,1051775.0,,2026-05-19,out,,laden,Delivered,Quanzhou Refinery,False,False,Iranian Route,0,1
+KIARA M,9285823,SAN MARINO,clean fleet,VLCC,319247,,,SOMO,Al Basrah,Basrah Hy.,2026-07-09 00:56:00,1917266.0,2026-07-04,2026-06-26,in,10.0,ballast,In Transit,,True,True,Dark/Unknown Route,4,3
+LAN JING,9288095,CURACAO,dark fleet,VLCC,298972,,,NIOC,Kharg Island,Iran,2026-02-28 00:00:00,2011726.0,2026-06-26,2026-03-11,in,18.0,ballast,Delivered,Dongjiakou Oil Terminal,True,False,Dark/Unknown Route,1,1
+BELMA,9289491,CURACAO,dark fleet,ULCC,320821,,,,,,,,2026-07-14,,in,0.0,ballast,,,False,False,Iranian Route,1,0
+MADESTAR,9289726,CAMEROON,dark fleet,VLCC,319180,,,,,,,,2026-07-11,,in,3.0,ballast,,,False,False,Iranian Route,1,0
+WORLD COURAGE,9289740,CURACAO,dark fleet,LR1,46992,,,,,,,,2026-03-13,,in,123.0,ballast,,,True,False,Dark/Unknown Route,1,0
+NEW VOYAGE,9290579,BAHAMAS,clean fleet,LR1,46187,,,ADNOC,ADCOP Fujairah,Murban,2026-06-19 03:39:00,631578.0,2026-07-06,2026-07-11,out,8.0,laden,Delivered,ExxonMobil PAC Refinery,False,False,Dark/Unknown Route,2,3
+VICTORY ARI,9290919,ANTIGUA AND BARBUDA,dark fleet,LR1,47120,,,NIOC,Kharg Island,Iran,2026-05-22 00:00:00,326327.0,2026-05-16,2026-06-25,out,59.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+GOLDCREST,9292486,MOZAMBIQUE,dark fleet,VLCC,306998,,,NIOC,Kharg Island,Iran,2026-06-05 00:00:00,2065177.0,2026-05-30,,in,45.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+TITAN,9293143,CURACAO,dark fleet,LR2,159195,,,NIOC,Kharg Island,Iran,2026-04-28 00:00:00,1066657.0,2026-04-24,2026-06-22,out,81.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+BENEDICT,9293155,CAMEROON,dark fleet,AFRA,106062,,,,,,,,2026-07-14,,in,0.0,ballast,,Khor Al Zubair Port,False,False,Iranian Route,1,0
+VIVIAN,9293741,BOTSWANA,dark fleet,VLCC,299097,,,,,,,,,2026-03-18,out,,laden,,,False,False,Dark/Unknown Route,0,1
+FELICITY,9297436,NORWAY,clean fleet,LR1,70955,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-25 00:00:00,2009122.0,2026-06-29,,in,15.0,ballast,In Transit,,True,True,Iranian Route,2,0
+DESH VAIBHAV,9297498,INDIA,clean fleet,VLCC,316409,,,,,,,,,2026-06-19,out,,laden,,Vadinar,False,False,Iranian Route,0,1
+ELKA APOLLON,9299111,LIBERIA,clean fleet,AFRA,101970,,,,,,,,2026-02-28,,in,136.0,ballast,,Jebel Ali,True,False,IMO Route,1,0
+SHEN ZHOU,9300996,CURACAO,dark fleet,LR1,51303,,,,,,,,2026-06-29,,in,15.0,ballast,,Khor Al Zubair Port,True,False,Iranian Route,1,0
+PEACE GULF,9304588,PANAMA,clean fleet,LR1,49999,,,,,,,,2026-05-11,2026-04-25,in,64.0,ballast,,Hamriya,True,False,Iranian Route,2,1
+MINERVA DOXA,9304617,GREECE,clean fleet,LR2,159438,TotalEnergies,TotalEnergies,TotalEnergies,Umm Lulu,Umm Lulu,2026-03-02 19:37:00,799994.0,2026-02-28,2026-05-31,out,136.0,laden,Delivered,IndianOil Vadinar SMPL,False,False,Dark/Unknown Route,1,1
+MUSIK,9305051,BAHAMAS,clean fleet,LR1,46792,,,,,,,,2026-07-03,2026-06-16,in,11.0,ballast,,Bandar Mahshahr,True,False,Iranian Route,3,3
+CELE,9306469,BARBADOS,clean fleet,LR1,46720,,,,,,,,2026-05-12,,in,63.0,laden,,,True,True,Dark/Unknown Route,1,0
+AMIL,9308778,MOZAMBIQUE,dark fleet,LR1,47999,,,NIOC,Kharg Island,Iran,2026-06-06 01:16:00,332158.0,2026-06-01,,in,43.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+MONACO LOYALTY,9312511,MARSHALL ISLANDS,clean fleet,VLCC,307284,,,QatarEnergy,FSO Qatar Petroleum Al Shaheen I,Shaheen,2026-06-01 12:54:00,2057944.0,,2026-06-21,out,,laden,Delivered,Linggi Light.,False,False,Dark/Unknown Route,0,1
+STELLA,9313761,NORWAY,clean fleet,LR1,45737,,,,,,,,2026-06-19,2026-05-10,in,25.0,ballast,,Khor Al Zubair Port,True,False,Iranian Route,1,1
+ECUADOR PROSPERITY,9315147,LIBERIA,clean fleet,VLCC,317826,,,SOMO,Al Basrah,Basrah Hy.,2026-07-06 09:57:00,1960049.0,2026-06-29,,in,15.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+CAMEROON PROSPERITY,9315159,LIBERIA,clean fleet,VLCC,317713,PTT,PTT,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-07-04 14:39:00,2000002.0,2026-07-03,2026-06-27,in,11.0,ballast,In Transit,,True,True,Omani Route,5,4
+ROMANIA PROSPERITY,9315161,LIBERIA,clean fleet,VLCC,317794,Trafigura,Trafigura,ADNOC,Jebel Dhanna,Murban,2026-07-15 00:00:00,2000002.0,2026-06-14,2026-06-07,in,30.0,ballast,In Transit,,True,True,Dark/Unknown Route,3,2
+TOWADA,9321213,JAPAN,clean fleet,VLCC,305801,Idemitsu,Idemitsu,Aramco,Ras Tanura,Arab XLt.,2026-03-04 07:37:00,699999.0,,2026-07-07,out,,laden,In Transit,Nagoya,False,False,Dark/Unknown Route,0,1
+FRANCE C,9322281,LIBERIA,clean fleet,VLCC,306506,ExxonMobil,ExxonMobil,ExxonMobil,Zirku,Zakum,2026-06-12 00:00:00,2052742.0,2026-06-27,2026-07-01,out,17.0,laden,In Transit,Oita,False,False,Omani Route,3,3
+LILA VADINAR,9324100,INDIA,clean fleet,VLCC,302478,IOC,IOC,"SOC,SOMO",Al Basrah,Basrah,2026-07-26 13:41:00,2107979.0,2026-06-26,2026-07-08,out,18.0,ballast,Scheduled,Paradip,False,False,Dark/Unknown Route,1,1
+TRONE,9326067,COMOROS,dark fleet,VLCC,298000,,,NIOC,Kharg Island,Iran,2026-07-12 00:00:00,2000002.0,2026-07-06,2026-07-14,out,8.0,laden,In Transit,,False,False,Iranian Route,1,1
+BAHAMAS PROSPERITY,9327114,LIBERIA,clean fleet,VLCC,300246,,,,,,,,2026-07-02,,in,12.0,ballast,,Dubai Area,True,False,Dark/Unknown Route,1,0
+SKYWAVE,9328716,BOTSWANA,dark fleet,VLCC,302481,,,NIOC,Kharg Island,Iran,2026-03-05 00:00:00,1999499.0,,2026-03-11,out,,laden,Delivered,Yantai,False,False,Iranian Route,0,1
+KAZIMAH III,9329693,KUWAIT,clean fleet,VLCC,317250,KPC,KPC,KPC,Mina Al-Ahmadi,Kuwait,2026-05-31 00:00:00,2000002.0,2026-05-25,,in,50.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+AL JABRIYAH II,9329708,KUWAIT,clean fleet,VLCC,317570,KPC,KPC,KPC,Mina Al-Ahmadi,Kuwait,2026-07-03 00:00:00,2119181.0,2026-06-27,2026-07-05,out,17.0,laden,In Transit,China,False,False,Dark/Unknown Route,2,2
+KIKU,9329796,PANAMA,clean fleet,VLCC,300866,,,"QatarEnergy,TotalEnergies",FSO Qatar Petroleum Al Shaheen II,Shaheen,2026-06-26 11:38:00,1198473.0,2026-07-12,2026-06-27,in,2.0,ballast,In Transit,Ningbo,False,True,Dark/Unknown Route,2,1
+KASHIMASAN,9329863,INDIA,clean fleet,VLCC,306033,IOC,IOC,ADNOC,ADCOP Fujairah,Murban,2026-06-26 22:58:00,888177.0,,2026-02-28,out,,laden,Delivered,Kochi Refinery,False,False,IMO Route,0,1
+SANMAR HERALD,9330563,INDIA,clean fleet,VLCC,309000,IOC,IOC,SOMO,Al Basrah,Basrah Hy.,2026-03-04 11:59:00,1000142.0,,2026-06-20,out,,laden,In Transit,Mumbai,False,False,Dark/Unknown Route,0,1
+NATSUMI,9331244,BARBADOS,clean fleet,VLCC,299235,,,,,,,,2026-06-26,,in,18.0,ballast,,Sharjah,True,False,Iranian Route,1,0
+IDEMITSU MARU,9334210,PANAMA,clean fleet,VLCC,300433,Idemitsu,Idemitsu,Aramco,Juaymah,Arab XLt.,2026-03-06 01:39:00,1300003.0,,2026-04-28,out,,laden,Delivered,Aichi,False,False,Iranian Route,0,1
+SHALAMAR,9336842,PAKISTAN,clean fleet,AFRA,105315,,,,FOTT,,2026-06-17 14:34:00,455080.0,2026-04-12,2026-04-16,out,93.0,laden,Delivered,Karachi Keamari,False,False,Iranian Route,1,2
+COSPEARL LAKE,9337171,HONG KONG,clean fleet,VLCC,298195,Sinopec,Sinopec,ADNOC,ADCOP Fujairah,Murban,2026-06-11 00:00:00,897801.0,,2026-04-11,out,,laden,Delivered,Rayong IRPC Refinery,False,False,Iranian Route,0,1
+TORKEL,9340635,HONG KONG,clean fleet,VLCC,297259,,,,,,,,2026-07-08,,in,6.0,ballast,,,False,False,Dark/Unknown Route,1,0
+TENJUN,9343390,PANAMA,clean fleet,VLCC,302107,ExxonMobil,ExxonMobil,QatarEnergy,FSO Qatar Petroleum Al Shaheen I,Shaheen,2026-02-28 05:18:00,911720.0,,2026-07-07,out,,laden,In Transit,,False,False,Iranian Route,0,1
+AEGEAN NOBILITY,9345441,GREECE,clean fleet,AFRA,115814,,,,,,,,,2026-02-28,out,,laden,,Mundra,False,False,IMO Route,0,1
+HUGE,9357183,IRAN,dark fleet,VLCC,317367,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-01 00:00:00,490240.0,2026-03-28,2026-04-05,out,108.0,laden,In Transit,Zhoushan,False,False,Dark/Unknown Route,1,1
+SEVIN,9357353,IRAN,dark fleet,VLCC,164154,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-01 00:00:00,999998.0,2026-03-28,2026-04-09,out,108.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+SONIA I,9357365,IRAN,dark fleet,VLCC,164154,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-09 00:00:00,1104075.0,2026-04-07,2026-04-13,out,98.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+SALINA,9357377,IRAN,dark fleet,VLCC,164154,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-17 00:00:00,560346.0,2026-07-02,2026-04-01,in,12.0,ballast,Delivered,China,True,False,Iranian Route,2,1
+HILDA I,9357389,IRAN,dark fleet,VLCC,317367,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-16 00:00:00,2000002.0,2026-04-10,2026-06-01,out,95.0,laden,In Transit,,False,False,Dark/Unknown Route,1,2
+HELM,9357391,IRAN,dark fleet,VLCC,317356,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-07-04 00:00:00,2126465.0,2026-06-26,2026-07-07,out,18.0,laden,In Transit,,False,False,Dark/Unknown Route,2,2
+AMBER,9357406,IRAN,dark fleet,VLCC,317356,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-16 00:00:00,2115005.0,2026-04-14,2026-06-01,out,91.0,laden,In Transit,Qingdao Huangdao,False,False,Dark/Unknown Route,1,2
+DORE,9357717,IRAN,dark fleet,VLCC,317850,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-25 00:00:00,2000002.0,2026-04-19,2026-06-21,out,86.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+DAN,9357729,IRAN,dark fleet,VLCC,319999,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-07-08 00:00:00,2000002.0,2026-06-27,2026-07-11,out,17.0,laden,In Transit,,False,False,Dark/Unknown Route,1,2
+PLATA CARRIER,9358280,LIBERIA,clean fleet,VLCC,307284,IOC,IOC,Aramco,Juaymah,Arab Hy.,2026-03-05 17:15:00,926080.0,,2026-06-24,out,,laden,Delivered,Paradip Refinery,False,False,Omani Route,0,1
+HERBY,9362059,IRAN,dark fleet,VLCC,317356,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-06-21 00:00:00,2000002.0,2026-06-19,2026-06-28,out,25.0,laden,In Transit,,False,False,Dark/Unknown Route,1,2
+HAWK,9362061,IRAN,dark fleet,VLCC,317367,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-22 00:00:00,2000002.0,2026-06-27,2026-03-30,in,17.0,ballast,Delivered,Yantai,True,False,Iranian Route,2,1
+HERO II,9362073,IRAN,dark fleet,VLCC,317355,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-31 00:00:00,2000002.0,2026-03-26,2026-04-05,out,110.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+YAKUMOSAN,9362877,MARSHALL ISLANDS,clean fleet,VLCC,302165,,,Aramco,Juaymah,Arab XLt.,2026-03-07 12:37:00,1199995.0,,2026-07-06,out,,laden,In Transit,Nagoya,False,False,IMO Route,0,1
+TOUR 2,9364112,IRAN,dark fleet,LR2,158817,,,NIOC,Kharg Island,Iran,2026-04-06 00:00:00,740530.0,2026-07-06,2026-04-09,in,8.0,ballast,Delivered,China,False,False,Iranian Route,2,1
+SURINAME PROSPERITY,9376749,LIBERIA,clean fleet,VLCC,297556,Shell,Shell,"SOC,SOMO",Al Basrah,Basrah,2026-07-21 07:41:00,2010305.0,2026-07-01,,in,13.0,ballast,Scheduled,,True,False,Dark/Unknown Route,1,0
+FINLAND PROSPERITY,9376751,LIBERIA,clean fleet,VLCC,297573,Trafigura,Trafigura,Aramco,Ras Tanura,Arab,2026-07-19 17:03:00,2010305.0,2026-07-01,,in,13.0,ballast,Scheduled,,True,False,Omani Route,1,0
+BARBADOS PROSPERITY,9377418,PANAMA,clean fleet,VLCC,297958,Mercuria,Mercuria,SOMO,Al Basrah,Basrah,2026-07-08 12:18:00,1980000.0,2026-07-01,,in,13.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+JAHAM,9378541,SAUDI ARABIA,clean fleet,VLCC,318000,,,Aramco,Juaymah,Arab Lt.,2026-02-28 13:37:00,1053341.0,,2026-06-18,out,,laden,In Transit,Ulsan,False,False,Dark/Unknown Route,0,1
+JIAOLONG,9379208,LIBERIA,clean fleet,LR2,159021,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-04-22 00:00:00,999998.0,2026-04-19,2026-04-24,out,86.0,laden,Delivered,Jamnagar Refinery,False,False,Dark/Unknown Route,1,1
+CORE AXIS,9379210,LIBERIA,clean fleet,LR2,159021,,,Aramco,Juaymah,Arab XLt.,2026-03-03 09:57:00,699999.0,2026-02-28,2026-03-06,out,136.0,laden,Delivered,Mumbai Refinery,False,False,Dark/Unknown Route,1,1
+NEW FUTURE,9379313,MARSHALL ISLANDS,clean fleet,LR1,50922,,,,,,,,2026-07-03,2026-04-13,in,11.0,laden,,Hamriya,True,True,Iranian Route,1,1
+CUMA,9379703,GUYANA,dark fleet,VLCC,296068,,,,,,,,,2026-03-09,out,,laden,,EOPL,False,False,Dark/Unknown Route,0,1
+MANIFA,9384198,SAUDI ARABIA,clean fleet,VLCC,319427,,,Aramco,Ras Tanura,Arab,2026-06-28 00:00:00,2112583.0,2026-06-23,2026-07-02,out,21.0,laden,In Transit,Zhoushan,False,False,Dark/Unknown Route,1,1
+JALADI,9384227,SAUDI ARABIA,clean fleet,VLCC,318000,,,Aramco,Ras Tanura,Arab,2026-06-30 21:34:00,2000002.0,2026-06-29,2026-07-03,out,15.0,laden,In Transit,Zhoushan,False,False,Dark/Unknown Route,1,1
+KARAN,9384239,SAUDI ARABIA,clean fleet,VLCC,319410,,,Aramco,Juaymah,Arab Hy.,2026-07-01 23:00:00,1049467.0,2026-06-24,2026-07-02,out,20.0,laden,In Transit,Zhoushan,False,False,Dark/Unknown Route,1,1
+LONG WIND,9385037,HONG KONG,clean fleet,ULCC,320141,,,Aramco,Juaymah,Arab XLt.,2026-03-01 21:57:00,560000.0,,2026-07-04,out,,laden,In Transit,South Korea,False,False,IMO Route,0,1
+BULGARIA PROSPERITY,9387566,LIBERIA,clean fleet,VLCC,318325,,,ADNOC,ADCOP Fujairah,Murban,2026-04-02 19:57:00,399994.0,2026-07-03,,in,11.0,ballast,Delivered,ExxonMobil PAC Refinery,True,False,Dark/Unknown Route,1,0
+NUSHEN,9387578,BARBADOS,clean fleet,VLCC,299999,,,,,,,,2026-04-04,,in,101.0,ballast,,,True,False,Dark/Unknown Route,1,0
+ARGENTINA B,9389021,LIBERIA,clean fleet,VLCC,299999,,,SOMO,Al Basrah,Basrah,2026-07-20 13:41:00,1459997.0,2026-07-12,2026-07-05,in,2.0,ballast,Scheduled,,False,False,Dark/Unknown Route,5,4
+BRUNEI PROSPERITY,9389899,LIBERIA,clean fleet,ULCC,321300,,,SOMO,Al Basrah,Basrah,2026-07-19 04:41:00,1459997.0,2026-07-05,,in,9.0,ballast,Scheduled,,False,False,Dark/Unknown Route,1,0
+KERALA,9390927,LIBERIA,clean fleet,LR1,74999,,,,,,,,2026-07-07,2026-07-02,in,7.0,ballast,,Dubai Light.,False,False,Dark/Unknown Route,4,3
+BASRAH ENERGY,9391775,PANAMA,clean fleet,VLCC,301583,,,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-05-29 00:00:00,1900000.0,2026-06-18,2026-06-14,in,26.0,ballast,In Transit,,True,True,Dark/Unknown Route,5,4
+MERCURY HOPE,9395290,PANAMA,clean fleet,VLCC,297221,Trafigura,Trafigura,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-03-05 20:17:00,699999.0,,2026-07-08,out,,laden,In Transit,Zhanjiang,False,False,IMO Route,0,1
+GERMANY B,9395317,LIBERIA,clean fleet,VLCC,296681,TotalEnergies,TotalEnergies,SOMO,Al Basrah,Basrah,2026-07-19 13:41:00,1459997.0,2026-07-02,,in,12.0,ballast,Scheduled,Eastern Asia,True,False,Dark/Unknown Route,1,0
+DOMINICA PROSPERITY,9395496,LIBERIA,clean fleet,VLCC,297274,Trafigura,Trafigura,Aramco,Juaymah,Arab,2026-07-10 20:19:00,637742.0,2026-07-02,,in,12.0,ballast,In Transit,,True,True,Omani Route,1,0
+AZUMASAN,9397157,SINGAPORE,clean fleet,VLCC,302068,NATIONAL SHIPPING CO OF SAUDI ARABIA BAHRI,NATIONAL SHIPPING CO OF SAUDI ARABIA BAHRI,Aramco,Juaymah,Arab M,2026-03-03 23:38:00,1999996.0,,2026-07-06,out,,laden,In Transit,Ningbo Area,False,False,IMO Route,0,1
+STALLION,9399478,LIBERIA,clean fleet,LR2,157048,,,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-04-27 09:19:00,699999.0,2026-02-28,,in,136.0,ballast,In Transit,Dubai Area,True,True,IMO Route,1,0
+OTTOMAN EQUITY,9404950,TURKIYE,clean fleet,LR2,149999,,,,,,,,2026-07-03,2026-06-21,in,11.0,ballast,,Dubai Area,True,False,Omani Route,2,1
+GRAND LADY,9406166,CYPRUS,clean fleet,VLCC,299999,,,SOMO,Al Basrah,Basrah,2026-07-01 00:00:00,1959999.0,2026-06-27,2026-07-05,out,17.0,laden,In Transit,Ain Sukhna,False,False,Dark/Unknown Route,2,2
+KAROLOS,9410208,LIBERIA,clean fleet,VLCC,162418,,,QatarEnergy,Halul Island,Qatar Land,2026-06-08 00:00:00,508858.0,2026-06-04,2026-06-10,out,40.0,laden,Delivered,Jamnagar Refinery,False,False,Dark/Unknown Route,2,2
+ZOUZOU N.,9410222,LIBERIA,clean fleet,VLCC,162204,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-04-16 00:00:00,999998.0,2026-04-10,2026-04-19,out,95.0,laden,Delivered,S-Oil Onsan,False,False,Dark/Unknown Route,1,1
+JAYA,9410387,CURACAO,dark fleet,VLCC,310084,,,NIOC,Kharg Island,Iran,2026-02-28 00:00:00,1999996.0,,2026-03-03,out,,laden,Delivered,Paradip Refinery,False,False,Dark/Unknown Route,0,1
+SERIFOS,9410399,LIBERIA,clean fleet,VLCC,309396,,,QatarEnergy,Halul Island,Qatar Mar.,2026-07-10 06:39:00,783402.0,2026-07-06,2026-07-11,out,8.0,laden,In Transit,Zhanjiang,False,False,Dark/Unknown Route,2,2
+TOGO PROSPERITY,9411032,LIBERIA,clean fleet,VLCC,318325,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-06-24 00:00:00,1900000.0,2026-07-01,2026-07-07,out,13.0,laden,In Transit,Jieyang,False,False,Omani Route,4,4
+TANZANIA PROSPERITY,9414931,LIBERIA,clean fleet,VLCC,296800,,,,,,,,2026-07-05,,in,9.0,ballast,,,False,False,Dark/Unknown Route,1,0
+OCEAN THUNDER,9416422,PANAMA,clean fleet,VLCC,164737,PETCO,PETCO,SOMO,Al Basrah,Basrah Hy.,2026-03-03 14:18:00,356883.0,,2026-04-05,out,,laden,Delivered,Petronas Melaka Refinery,False,False,Iranian Route,0,1
+TANI,9417464,COMOROS,dark fleet,AFRA,105188,,,,,,,,2026-06-20,,in,24.0,ballast,,Bandar Mahshahr,True,False,Dark/Unknown Route,1,0
+PERU PROSPERITY,9418066,LIBERIA,clean fleet,VLCC,318080,,,Aramco,Ras Tanura,Arab,2026-07-19 11:03:00,2000002.0,2026-07-02,,in,12.0,ballast,Scheduled,,True,False,Dark/Unknown Route,1,0
+NISSOS HERACLEA,9419618,LIBERIA,clean fleet,VLCC,313525,PTT,PTT,"QatarEnergy,TotalEnergies",FSO Qatar Petroleum Al Shaheen II,Shaheen,2026-07-08 12:59:00,1259867.0,2026-07-04,2026-07-09,out,10.0,laden,In Transit,,False,False,Dark/Unknown Route,2,2
+C.PRIMACY,9422160,PANAMA,clean fleet,VLCC,313874,,,,,,,,,2026-02-28,out,,laden,,Ningbo,False,False,IMO Route,0,1
+SUNDORO,9430181,MALTA,clean fleet,LR1,46851,,,,,,,,,2026-06-23,out,,laden,,Sohar,False,False,Dark/Unknown Route,0,1
+AL REEM,9430296,MARSHALL ISLANDS,clean fleet,LR1,46046,,,,,,,,2026-07-05,,in,9.0,ballast,,Ruwais,False,False,Dark/Unknown Route,1,0
+NORDIC CROSS,9438418,MARSHALL ISLANDS,clean fleet,LR2,158475,,,SOMO,Al Basrah,Basrah Med.,2026-03-03 21:19:00,1036887.0,,2026-06-22,out,,laden,In Transit,Le Havre,False,False,Dark/Unknown Route,0,1
+FPMC C LORD,9447574,LIBERIA,clean fleet,VLCC,301861,FPCC,FPCC,Aramco,Juaymah,Arab Lt.,2026-02-28 08:15:00,1202423.0,,2026-04-18,out,,laden,Delivered,FPCC Mailiao Refinery,False,False,Iranian Route,0,1
+APNOIA,9448152,MALTA,clean fleet,LR1,74812,,,,,,,,2026-07-12,,in,2.0,ballast,,Jubail Industrial Port,False,False,Dark/Unknown Route,1,0
+IKARIOTIKOS,9455703,LIBERIA,clean fleet,LR1,51678,,,,,,,,2026-07-05,,in,9.0,laden,,Hamriya,False,True,Dark/Unknown Route,1,0
+P.ALIKI,9460136,MARSHALL ISLANDS,clean fleet,AFRA,105304,,,ADNOC,ADCOP Fujairah,Murban,2026-05-16 10:59:00,430002.0,,2026-03-28,out,,laden,Delivered,Karachi Keamari,False,False,Iranian Route,0,1
+DESH GARIMA,9467756,INDIA,clean fleet,AFRA,114790,,,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-04-03 00:00:00,599997.0,,2026-04-18,out,,laden,Delivered,Mumbai Refinery,False,False,Iranian Route,0,1
+OLYMPIC TARGET,9468853,GREECE,clean fleet,VLCC,319861,,,SOMO,Al Basrah,Basrah Med.,2026-03-05 18:58:00,989318.0,,2026-06-21,out,,laden,In Transit,San Diego Port,False,False,Dark/Unknown Route,0,1
+NAVIG8 MONTIEL,9482861,SINGAPORE,clean fleet,LR1,75571,,,,,,,,2026-06-13,2026-05-29,in,31.0,ballast,,Ruwais,True,False,Dark/Unknown Route,2,1
+NISALAH,9484730,SAUDI ARABIA,clean fleet,VLCC,319329,,,Aramco,Ras Tanura,Arab,2026-07-02 06:38:00,2000002.0,2026-06-29,2026-07-03,out,15.0,laden,In Transit,Yeosu,False,False,Dark/Unknown Route,1,1
+BANI YAS,9487249,LIBERIA,clean fleet,LR1,74913,,,,,,,,2026-06-11,,in,33.0,laden,,Jebel Ali,True,True,Dark/Unknown Route,2,0
+DIYYINAH I,9487251,LIBERIA,clean fleet,LR1,74954,,,,,,,,2026-06-14,2026-05-20,in,30.0,ballast,,Ruwais,True,False,Dark/Unknown Route,2,1
+YAMILAH III,9487263,LIBERIA,clean fleet,LR1,74866,,,,,,,,2026-06-16,,in,28.0,ballast,,,True,False,Dark/Unknown Route,1,0
+MEZAIRA'A,9487275,LIBERIA,clean fleet,LR1,74854,,,,,,,,2026-06-18,2026-06-05,in,26.0,ballast,,Dubai Light.,True,False,Dark/Unknown Route,2,1
+POLA,9493767,LIBERIA,clean fleet,LR2,156446,,,,,,,,2026-03-02,2026-03-23,out,134.0,laden,,Singapore,False,False,Dark/Unknown Route,1,1
+SMYRNI,9493779,LIBERIA,clean fleet,LR2,156413,,,ADNOC,ADCOP Fujairah,Murban,2026-03-27 02:19:00,799994.0,2026-03-02,2026-03-12,out,134.0,laden,Delivered,SRC Jurong,False,False,Dark/Unknown Route,1,1
+HABRUT,9500730,MARSHALL ISLANDS,clean fleet,VLCC,319439,Shell,Shell,ADNOC,ADCOP Fujairah,Murban,2026-05-10 00:00:00,1849996.0,,2026-04-02,out,,laden,Delivered,Kiire,False,False,Dark/Unknown Route,0,1
+ROTTERDAM ENERGY,9508859,LIBERIA,clean fleet,VLCC,296659,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-07-14 17:59:00,1986831.0,2026-07-10,2026-07-01,in,4.0,ballast,In Transit,,False,True,Dark/Unknown Route,3,3
+NEW GIANT,9516947,LIBERIA,clean fleet,VLCC,319611,PetroChina,PetroChina,SOMO,Al Basrah,Basrah,2026-07-19 04:41:00,1459997.0,2026-07-13,,in,1.0,ballast,Scheduled,China,False,False,Dark/Unknown Route,1,0
+KIDAN,9519482,SAUDI ARABIA,clean fleet,ULCC,321050,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-03-01 22:59:00,432669.0,,2026-06-20,out,,laden,Delivered,Huizhou GPC Terminal,False,False,Dark/Unknown Route,0,1
+AWTAD,9519717,SAUDI ARABIA,clean fleet,VLCC,309988,,,Aramco,Ras Tanura,Arab Lt.,2026-03-07 03:18:00,547364.0,,2026-06-18,out,,laden,Delivered,Sinochem Xingzhong Aoshan Oil Terminal,False,False,Dark/Unknown Route,0,1
+ST NIKOLAS,9524475,MARSHALL ISLANDS,clean fleet,LR2,158573,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-04-03 00:00:00,1071972.0,,2026-06-27,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+WEDYAN,9524970,SAUDI ARABIA,clean fleet,ULCC,321234,,,Aramco,Ras Tanura,Arab,2026-07-03 14:19:00,2000002.0,2026-06-29,2026-07-11,out,15.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+SOUTH AFRICA PROSPERITY,9526461,LIBERIA,clean fleet,VLCC,299992,,,SOMO,Al Basrah,Basrah,2026-07-19 07:41:00,1459997.0,2026-06-22,,in,22.0,ballast,Scheduled,,True,False,Omani Route,1,0
+MACARENA,9532159,MARSHALL ISLANDS,clean fleet,AFRA,108993,,,,,,,,2026-07-06,,in,8.0,ballast,,Jubail Industrial Port,False,False,Dark/Unknown Route,1,0
+EGYPT PROSPERITY,9534004,LIBERIA,clean fleet,VLCC,318663,,,SOMO,Al Basrah,Basrah,2026-07-11 10:19:00,1960049.0,2026-07-05,,in,9.0,ballast,In Transit,,False,True,Dark/Unknown Route,1,0
+DAR SALWA,9534779,KUWAIT,clean fleet,VLCC,319761,KPC,KPC,KPC,Mina Al-Ahmadi,Kuwait,2026-07-02 00:00:00,2000002.0,2026-06-28,2026-07-07,out,16.0,laden,In Transit,Ulsan,False,False,Dark/Unknown Route,3,3
+AL RIQQA,9534808,KUWAIT,clean fleet,VLCC,319704,KPC,KPC,KPC,Mina Al-Ahmadi,Kuwait,2026-06-16 00:00:00,2000002.0,2026-06-10,2026-06-04,in,34.0,ballast,In Transit,,True,True,Dark/Unknown Route,2,1
+COSTA RICA PROSPERITY,9534858,LIBERIA,clean fleet,VLCC,297136,TotalEnergies,TotalEnergies,SOMO,Al Basrah,Basrah Med.,2026-07-08 04:59:00,2064969.0,2026-06-30,,in,14.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+EL BELLA,9561368,PANAMA,clean fleet,LR1,47975,,,,FOTT,Buzios,2026-03-26 00:00:00,331995.0,2026-07-07,,in,7.0,ballast,Delivered,Sriracha,False,False,Omani Route,1,0
+OMEGA TRADER,9567659,PANAMA,clean fleet,VLCC,305206,,,SOMO,Al Basrah,Basrah Med.,2026-03-05 05:18:00,1023528.0,,2026-07-06,out,,laden,In Transit,Sikka,False,False,Iranian Route,0,1
+SNOW,9569619,IRAN,dark fleet,VLCC,318021,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-29 00:00:00,2000002.0,2026-03-23,2026-04-01,out,113.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+STARLA,9569621,IRAN,dark fleet,VLCC,317473,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-06 00:00:00,2000002.0,2026-04-02,2026-04-10,out,103.0,laden,In Transit,Qingdao Huangdao,False,False,Dark/Unknown Route,1,1
+STREAM,9569633,IRAN,dark fleet,VLCC,317534,NIOC,NIOC,NIOC,FPSO Soroosh,Soroosh,2026-06-26 00:00:00,999998.0,2026-06-18,2026-06-30,out,26.0,laden,In Transit,,False,False,Dark/Unknown Route,1,2
+SERENA,9569645,IRAN,dark fleet,VLCC,317536,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-11 00:00:00,2000002.0,2026-07-02,2026-03-16,in,12.0,ballast,Delivered,Offshore Hong Kong,True,False,Iranian Route,1,1
+SEA CLIFF,9569657,IRAN,dark fleet,VLCC,317502,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-18 00:00:00,1499994.0,2026-03-10,2026-03-31,out,126.0,laden,Delivered,EOPL,False,False,Dark/Unknown Route,1,1
+DORENA,9569669,IRAN,dark fleet,VLCC,319260,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-03 00:00:00,2000002.0,2026-03-29,2026-04-09,out,107.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+DINO I,9569671,IRAN,dark fleet,VLCC,319300,,,,,,,,2026-03-04,2026-03-15,out,132.0,laden,,,False,False,Dark/Unknown Route,1,1
+DANIEL,9569683,IRAN,dark fleet,VLCC,319260,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-06 00:00:00,2000002.0,,2026-04-15,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+DIONA,9569695,IRAN,dark fleet,VLCC,319297,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-04-10 00:00:00,2130629.0,2026-04-07,2026-04-15,out,98.0,laden,Delivered,EOPL,False,False,Dark/Unknown Route,1,1
+DERYA,9569700,IRAN,dark fleet,VLCC,319295,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-03-29 00:00:00,2000002.0,2026-07-07,2026-04-03,in,7.0,ballast,In Transit,,False,True,Dark/Unknown Route,2,1
+DUNE,9569712,IRAN,dark fleet,VLCC,319247,NIOC,NIOC,NIOC,Kharg Island,Iran,2026-07-08 00:00:00,2000002.0,2026-06-30,2026-07-11,out,14.0,laden,In Transit,,False,False,Iranian Route,1,1
+ALMI HYDRA,9583720,LIBERIA,clean fleet,VLCC,319357,Aramco,Aramco,Aramco,Juaymah,Arab Hy.,2026-03-03 05:59:00,500002.0,,2026-06-25,out,,laden,In Transit,Houston,False,False,Omani Route,0,1
+CYPRUS PROSPERITY,9595216,LIBERIA,clean fleet,VLCC,299996,,,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-07-05 00:50:00,2071505.0,2026-07-03,2026-07-07,out,11.0,laden,In Transit,,False,False,Dark/Unknown Route,3,3
+BAHRAIN PROSPERITY,9596947,LIBERIA,clean fleet,VLCC,299999,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-07-07 00:00:00,2000002.0,2026-06-29,2026-07-10,out,15.0,laden,In Transit,Zhanjiang,False,False,Dark/Unknown Route,5,5
+EAGLE VERONA,9597264,SINGAPORE,clean fleet,ULCC,320122,Sinopec,Sinopec,SOMO,Al Basrah,Basrah Hy.,2026-02-28 02:58:00,828399.0,,2026-05-23,out,,laden,Delivered,Sinopec Maoming Oil Terminal,False,False,Dark/Unknown Route,0,1
+DUBAI ENERGY,9602928,LIBERIA,clean fleet,VLCC,319063,CPC Corporation,CPC Corporation,Aramco,Juaymah,Arab Hy.,2026-02-28 14:19:00,180001.0,,2026-06-23,out,,laden,In Transit,,False,False,Omani Route,0,1
+HE RONG HAI,9603192,CHINA,clean fleet,ULCC,320805,CNPC,CNPC,Aramco,Juaymah,Arab Hy.,2026-03-05 15:18:00,499995.0,,2026-04-11,out,,laden,Delivered,Made Island,False,False,Iranian Route,0,1
+MAGIC VICTORIA,9608867,MARSHALL ISLANDS,clean fleet,LR1,74902,Mitsui,Mitsui,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-04-23 08:18:00,249994.0,,2026-06-25,out,,laden,Delivered,Jamnagar Refinery,False,False,Omani Route,0,1
+DESH VIBHOR,9610298,INDIA,clean fleet,VLCC,316635,,,KPC,Mina Al-Ahmadi,Kuwait,2026-03-05 11:51:00,1022257.0,,2026-06-20,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+ANGOLA B,9623685,LIBERIA,clean fleet,VLCC,299999,,,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-06-29 19:38:00,1299613.0,2026-06-26,2026-07-01,out,18.0,laden,In Transit,,False,False,Omani Route,3,3
+ODESSA,9633458,MALTA,clean fleet,VLCC,162090,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-04-16 12:00:00,699999.0,2026-04-13,2026-04-17,out,92.0,laden,Delivered,Hyundai Daesan Refinery,False,False,Dark/Unknown Route,1,1
+VELOS TURQUOISE,9645786,MARSHALL ISLANDS,clean fleet,LR1,49990,,,,,,,,2026-06-27,,in,17.0,ballast,,Jubail Industrial Port,True,False,Omani Route,1,0
+AL FUNTAS,9653408,KUWAIT,clean fleet,VLCC,316648,Kuwait Energy,Kuwait Energy,KPC,Mina Al-Ahmadi,Kuwait,2026-07-05 00:00:00,2000002.0,2026-07-01,2026-07-06,out,13.0,laden,In Transit,,False,False,Dark/Unknown Route,3,3
+AL DERWAZAH,9653410,KUWAIT,clean fleet,VLCC,316884,Kuwait Energy,Kuwait Energy,KPC,Mina Al-Ahmadi,Kuwait,2026-06-21 00:00:00,2000002.0,2026-06-13,,in,31.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+AL YARMOUK,9653422,KUWAIT,clean fleet,VLCC,317033,Kuwait Energy,Kuwait Energy,KPC,Mina Al-Ahmadi,Kuwait,2026-03-05 07:38:00,2115621.0,,2026-06-03,out,,laden,Delivered,Gulf of Oman,False,False,Dark/Unknown Route,0,1
+AL KOUT,9653434,KUWAIT,clean fleet,VLCC,317019,Kuwait Energy,Kuwait Energy,KPC,Mina Al-Ahmadi,Kuwait,2026-06-24 00:00:00,2000002.0,2026-06-22,2026-06-28,out,22.0,laden,In Transit,Galveston Light.,False,False,Dark/Unknown Route,1,2
+BUBYAN,9656034,KUWAIT,clean fleet,LR1,46320,,,,,,,,2026-06-02,,in,42.0,ballast,,Al Zour,True,False,Dark/Unknown Route,1,0
+VL PRIME,9683685,LIBERIA,clean fleet,VLCC,319547,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-04-11 02:40:00,486837.0,,2026-06-24,out,,laden,Delivered,JPUT,False,False,Omani Route,0,1
+HELLAS NEMESIS,9722649,MALTA,clean fleet,LR1,49994,,,,,,,,2026-06-29,,in,15.0,laden,,Ruwais,True,True,Dark/Unknown Route,1,0
+SPAIN B,9722924,LIBERIA,clean fleet,VLCC,299446,,,Aramco,Juaymah,Arab,2026-07-13 21:38:00,2055742.0,2026-07-01,,in,13.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+KUWAIT PROSPERITY,9722936,LIBERIA,clean fleet,VLCC,299533,,,SOMO,Al Basrah,Basrah,2026-07-05 16:39:00,1980000.0,2026-06-27,,in,17.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+FUJAIRAH ENERGY,9723071,LIBERIA,clean fleet,VLCC,299999,,,SOMO,Al Basrah,Basrah Med.,2026-07-12 00:53:00,1040605.0,2026-06-24,2026-06-19,in,20.0,ballast,In Transit,,True,True,Dark/Unknown Route,2,2
+YUAN HUA HU,9723588,CHINA,clean fleet,VLCC,308663,Sinopec,Sinopec,SOMO,Al Basrah,Basrah Med.,2026-03-08 20:19:00,1978233.0,,2026-05-13,out,,laden,Delivered,Caofeidian,False,False,Iranian Route,0,1
+BELGIUM B,9728708,LIBERIA,clean fleet,VLCC,298991,,,Aramco,Juaymah,Arab,2026-07-06 20:59:00,2073008.0,2026-06-22,2026-07-10,out,22.0,laden,In Transit,,False,False,Dark/Unknown Route,1,1
+COLOMBIA PROSPERITY,9732553,LIBERIA,clean fleet,VLCC,299010,,,Aramco,Juaymah,Arab,2026-07-09 22:39:00,1996146.0,2026-06-30,,in,14.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+MOMBASA B,9739501,LIBERIA,clean fleet,VLCC,299392,ADNOC,ADNOC,ADNOC,Zirku,Zakum,2026-07-01 22:59:00,2002700.0,2026-06-29,2026-07-03,out,15.0,laden,In Transit,Made Island,False,False,Omani Route,4,4
+FIJI PROSPERITY,9740330,LIBERIA,clean fleet,VLCC,297638,,,,,,,,,2026-02-28,out,,laden,,Zhoushan,False,False,IMO Route,0,1
+PRUDENT WARRIOR,9753545,GREECE,clean fleet,LR2,149995,,,SOMO,Al Basrah,Basrah Med.,2026-03-02 20:39:00,1017710.0,,2026-06-24,out,,laden,In Transit,Corinth,False,False,Omani Route,0,1
+AGIOS FANOURIOS I,9759824,MALTA,clean fleet,VLCC,303123,GS Caltex,GS Caltex,ADNOC,ADCOP Fujairah,Murban,2026-06-22 10:58:00,799994.0,2026-04-15,2026-05-10,out,90.0,laden,In Transit,Yeosu,False,False,Iranian Route,1,1
+XIN LONG YANG,9761463,SINGAPORE,clean fleet,VLCC,308375,,,,,,,,,2026-02-28,out,,laden,,Zirku,False,False,IMO Route,0,1
+MARATHI,9772357,MALTA,clean fleet,LR2,149991,RIL,RIL,Aramco,Ras Tanura,Arab XLt.,2026-03-04 20:37:00,1058053.0,2026-02-28,2026-03-20,out,136.0,laden,Delivered,Jamnagar Refinery,False,False,Dark/Unknown Route,1,1
+SHADEN,9779848,SAUDI ARABIA,clean fleet,VLCC,298750,,,,,,,,,2026-06-18,out,,laden,,Okinawa,False,False,Dark/Unknown Route,0,1
+AMAD,9783693,SAUDI ARABIA,clean fleet,VLCC,298705,,,Aramco,Juaymah,Arab,2026-06-27 16:59:00,1999996.0,2026-06-24,2026-07-02,out,20.0,laden,In Transit,Kiire,False,False,Dark/Unknown Route,1,1
+MINERVA EVROPI,9785237,GREECE,clean fleet,LR2,159055,Shell,Shell,SOMO,Al Basrah,Basrah Med.,2026-03-03 22:39:00,512801.0,,2026-05-28,out,,laden,Delivered,Milazzo Refinery,False,False,Dark/Unknown Route,0,1
+MONTE URBASA,9785835,PORTUGAL,clean fleet,LR2,156400,,,Aramco,Ras Tanura,Arab XLt.,2026-02-28 09:18:00,299998.0,,2026-06-23,out,,laden,Delivered,HMEL Mundra Oil Terminal,False,False,Dark/Unknown Route,0,1
+GULF SUNRISE,9788887,PANAMA,clean fleet,VLCC,301528,,,Aramco,Juaymah,Arab XLt.,2026-03-06 23:18:00,2062208.0,,2026-06-21,out,,laden,In Transit,Kiire,False,False,Dark/Unknown Route,0,1
+CONGO PROSPERITY,9792266,LIBERIA,clean fleet,VLCC,300853,Suntech Ship Management Pte. Ltd,Suntech Ship Management Pte. Ltd,SOMO,Al Basrah,Basrah Med.,2026-07-07 08:39:00,2008676.0,2026-06-30,,in,14.0,ballast,In Transit,,True,True,Dark/Unknown Route,1,0
+GEM NO.5,9793741,PANAMA,clean fleet,VLCC,302650,Hyundai,Hyundai,KPC,Mina Al-Ahmadi,Kuwait,2026-03-06 13:35:00,1005445.0,,2026-07-04,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+MIRACLE HOPE,9794018,MARSHALL ISLANDS,clean fleet,VLCC,318747,,,,,,,,,2026-07-06,out,,laden,,Kiire,False,False,IMO Route,0,1
+UNIVERSAL GLORY,9794824,LIBERIA,clean fleet,VLCC,301123,,,Aramco,Juaymah,Arab XLt.,2026-02-28 07:39:00,999998.0,,2026-06-23,out,,laden,In Transit,Yeosu,False,False,Iranian Route,0,1
+NEW VISION,9799202,HONG KONG,clean fleet,VLCC,307434,,,,,,,,,2026-03-01,out,,laden,,Antifer,False,False,IMO Route,0,1
+KASOS,9800257,LIBERIA,clean fleet,LR2,156989,,,QatarEnergy,FSO Qatar Petroleum Al Shaheen I,Shaheen,2026-04-24 00:00:00,1058053.0,2026-04-19,2026-04-26,out,86.0,laden,Delivered,Hyundai Daesan Refinery,False,False,Dark/Unknown Route,1,1
+TILOS I,9800271,LIBERIA,clean fleet,LR2,149999,,,QatarEnergy,Halul Island,Qatar Land,2026-05-22 00:00:00,508883.0,2026-05-19,2026-05-23,out,56.0,laden,Delivered,Jamnagar Refinery,False,False,Dark/Unknown Route,1,1
+TONEGAWA,9802188,JAPAN,clean fleet,VLCC,312667,,,Aramco,Juaymah,Arab Hy.,2026-03-02 17:40:00,1999996.0,,2026-07-07,out,,laden,In Transit,Okinawa,False,False,IMO Route,0,1
+DALIA,9820324,IRAN,dark fleet,LR1,49000,,,,,,,,2026-07-02,2026-06-25,in,12.0,ballast,,Lavan,True,False,Iranian Route,4,4
+PETUNIA,9820336,IRAN,dark fleet,LR1,49288,,,,,,,,2026-07-08,2026-07-02,in,6.0,ballast,,Bandar Mahshahr,False,False,Iranian Route,1,1
+JARNAIN,9823546,LIBERIA,clean fleet,AFRA,114831,,,,,,,,2026-07-11,2026-07-03,in,3.0,ballast,,Ruwais,False,False,Dark/Unknown Route,3,2
+MAJRA,9830812,SAUDI ARABIA,clean fleet,ULCC,320784,Rongsheng Petrochemical,Rongsheng Petrochemical,Aramco,Juaymah,Arab M,2026-03-09 20:17:00,1499994.0,,2026-06-21,out,,laden,Delivered,Zhejiang Zhoushan Refinery and Petrochemical,False,False,Dark/Unknown Route,0,1
+UQAB,9830824,SAUDI ARABIA,clean fleet,VLCC,298998,Sinopec,Sinopec,Aramco,Juaymah,Arab,2026-07-02 11:38:00,1989838.0,2026-06-29,2026-07-03,out,15.0,laden,In Transit,Okinawa,False,False,Dark/Unknown Route,1,1
+KHK EMPRESS,9830965,SINGAPORE,clean fleet,VLCC,314014,,,,,,,,2026-02-28,2026-02-28,out,136.0,laden,,Mangalore,False,False,IMO Route,1,1
+FRONT SHANGHAI,9832262,HONG KONG,clean fleet,LR2,158006,,,,,,,,,2026-06-24,out,,laden,,Rotterdam,False,False,Dark/Unknown Route,0,1
+UNIVERSAL WINNER,9837602,REPUBLIC OF KOREA,clean fleet,VLCC,299981,,,KPC,Mina Al-Ahmadi,Kuwait,2026-03-04 08:28:00,2004002.0,,2026-05-20,out,,laden,Delivered,SK Ulsan,False,False,Iranian Route,0,1
+LION,9838577,LIBERIA,clean fleet,AFRA,114036,TotalEnergies,TotalEnergies,QatarEnergy,Halul Island,Qatar Mar.,2026-04-28 18:56:00,400245.0,,2026-06-22,out,,laden,In Transit,Fos,False,False,Dark/Unknown Route,0,1
+MAYASAN,9839856,JAPAN,clean fleet,VLCC,312006,,,Aramco,Ras Tanura,Arab Hy.,2026-02-28 09:39:00,988997.0,,2026-07-06,out,,laden,In Transit,Tomakomai,False,False,IMO Route,0,1
+YUAN GUI YANG,9843302,CHINA,clean fleet,VLCC,319702,Sinopec,Sinopec,SOMO,Al Basrah,Basrah Med.,2026-03-03 13:39:00,1850021.0,,2026-05-20,out,,laden,Delivered,Sinopec Maoming Oil Terminal,False,False,Dark/Unknown Route,0,1
+DELOS,9844851,LIBERIA,clean fleet,VLCC,318575,NATIONAL SHIPPING CO OF SAUDI ARABIA BAHRI,NATIONAL SHIPPING CO OF SAUDI ARABIA BAHRI,Aramco,Juaymah,Arab,2026-07-11 14:33:00,2122031.0,2026-07-07,2026-07-13,out,7.0,laden,In Transit,Qingdao Huangdao,False,False,Dark/Unknown Route,1,1
+FRONT SAMARA,9845130,MALTA,clean fleet,LR2,158018,,,SOMO,Al Basrah,Basrah Hy.,2026-02-28 21:39:00,963328.0,,2026-06-27,out,,laden,In Transit,Fos,False,False,Dark/Unknown Route,0,1
+TENZAN,9851593,LIBERIA,clean fleet,VLCC,312524,,,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-03-02 13:03:00,656467.0,,2026-06-18,out,,laden,Delivered,Cosmo Sakai Refinery,False,False,Iranian Route,0,1
+SEA EMERALD,9852119,GREECE,clean fleet,VLCC,300000,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-03-02 00:40:00,1799999.0,,2026-05-28,out,,laden,Delivered,Zhanjiang Terminal,False,False,Dark/Unknown Route,0,1
+AL SIDDEEQ,9853486,KUWAIT,clean fleet,ULCC,323514,Kuwait Energy,Kuwait Energy,KPC,Mina Al-Ahmadi,Kuwait,2026-06-14 00:00:00,2128352.0,2026-06-08,2026-06-19,out,36.0,laden,Delivered,Sinopec Zhanjiang Zhongke Refinery,False,False,Dark/Unknown Route,1,2
+QASBA,9853589,SAUDI ARABIA,clean fleet,VLCC,299499,,,Aramco,Juaymah,Arab,2026-06-27 07:59:00,1999996.0,2026-06-24,2026-07-02,out,20.0,laden,In Transit,Quanzhou,False,False,Dark/Unknown Route,1,1
+DAS,9854507,LIBERIA,clean fleet,VLCC,299995,NAVIG8 ASIA PTE LTD,NAVIG8 ASIA PTE LTD,"ADNOC,Moeve,OMV,Sonatrach,TotalEnergies",Umm Lulu,Umm Lulu,2026-07-15 00:00:00,1996429.0,2026-07-12,2026-07-07,in,2.0,ballast,In Transit,,False,True,Dark/Unknown Route,5,4
+ZAYNAH,9854703,SAUDI ARABIA,clean fleet,VLCC,300759,,,Aramco,Juaymah,Arab,2026-06-26 20:18:00,1999996.0,2026-06-24,2026-06-27,out,20.0,laden,In Transit,Lianyungang,False,False,Dark/Unknown Route,1,1
+NISSOS KEROS,9856074,MARSHALL ISLANDS,clean fleet,VLCC,318953,Vitol,Vitol,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-03-03 00:17:00,1799999.0,,2026-05-26,out,,laden,Delivered,Visakhapatnam Refinery,False,False,Dark/Unknown Route,0,1
+SANAM,9858486,SAUDI ARABIA,clean fleet,VLCC,299999,,,Aramco,Juaymah,Arab,2026-07-08 18:13:00,2065699.0,2026-07-07,,in,7.0,ballast,In Transit,,False,True,Dark/Unknown Route,1,0
+DAISEN,9874222,PANAMA,clean fleet,VLCC,311681,Mitsui,Mitsui,"ADNOC,BPCL,CNOOC,CNPC,Eni,INPEX,IOC,ONGC,TotalEnergies",Das Island,Das,2026-03-06 02:38:00,1599995.0,,2026-07-06,out,,laden,In Transit,Kiire,False,False,Iranian Route,0,1
+MIAOULIS 21,9886641,GREECE,clean fleet,LR2,158081,TotalEnergies,TotalEnergies,SOMO,Al Basrah,Basrah Med.,2026-02-28 03:58:00,504329.0,,2026-06-21,out,,laden,Delivered,Aster Bukom,False,False,Dark/Unknown Route,0,1
+PERTAMINA PRIDE,9888493,SINGAPORE,clean fleet,VLCC,301781,,,Aramco,Ras Tanura,Arab Lt.,2026-02-28 10:19:00,2014513.0,,2026-07-07,out,,laden,In Transit,Cilacap,False,False,Dark/Unknown Route,0,1
+DHALKUT,9888601,MARSHALL ISLANDS,clean fleet,VLCC,300000,CNPC,CNPC,Aramco,Juaymah,Arab Hy.,2026-02-28 02:58:00,1052266.0,,2026-04-02,out,,laden,Delivered,Made Island,False,False,Dark/Unknown Route,0,1
+NEW COROLLA,9900679,HONG KONG,clean fleet,VLCC,307552,,,,,,,,,2026-02-28,out,,laden,,Long Beach,False,False,IMO Route,0,1
+MARAN ANTIOPE,9901348,GREECE,clean fleet,VLCC,318600,,,,,,,,2026-07-02,,in,12.0,ballast,,,True,False,Dark/Unknown Route,1,0
+KARACHI,9903413,PAKISTAN,clean fleet,AFRA,109990,Gunvor,Gunvor,,FOTT,,2026-07-07 15:59:00,298231.0,,2026-03-15,out,,laden,Delivered,Karachi Keamari,False,False,Iranian Route,0,1
+CYPRES,9907445,BELGIUM,clean fleet,LR2,158388,,,SOMO,Al Basrah,Basrah Med.,2026-03-02 13:59:00,1037208.0,,2026-06-25,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+LEGIO X EQUESTRIS,9912256,MARSHALL ISLANDS,clean fleet,VLCC,299937,RIL,RIL,Aramco,Juaymah,Arab XLt.,2026-03-01 12:59:00,961730.0,,2026-06-23,out,,laden,In Transit,,False,False,Omani Route,0,1
+GRAND BONANZA,9915569,PANAMA,clean fleet,VLCC,299988,,,Aramco,Juaymah,Arab Lt.,2026-03-04 16:58:00,616502.0,2026-02-28,2026-06-25,out,136.0,laden,In Transit,Ulsan,False,False,IMO Route,1,1
+LORA,9917804,SAUDI ARABIA,clean fleet,LR1,55202,,,,,,,,2026-06-08,2026-06-01,in,36.0,ballast,,Jubail Industrial Port,True,False,Dark/Unknown Route,1,1
+NISSOS KEA,9920758,MARSHALL ISLANDS,clean fleet,VLCC,300323,,,QatarEnergy,Mesaieed,Qatar Land,2026-07-15 00:39:00,2048006.0,2026-07-09,2026-06-29,in,5.0,loading,Loading,,False,True,Dark/Unknown Route,2,1
+NISSOS NIKOURIA,9920760,MARSHALL ISLANDS,clean fleet,VLCC,300323,,,,,,,,,2026-02-28,out,,laden,,Thanh Hóa,False,False,IMO Route,0,1
+ENEOS ENDEAVOR,9924091,PANAMA,clean fleet,VLCC,312137,,,,,,,,,2026-05-13,out,,laden,,Kiire,False,False,Dark/Unknown Route,0,1
+VL BREEZE,9926738,REPUBLIC OF KOREA,clean fleet,VLCC,319202,HOB,HOB,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-04-30 01:59:00,1399998.0,,2026-06-24,out,,laden,In Transit,Daesan,False,False,IMO Route,0,1
+HAFEET,9928009,LIBERIA,clean fleet,VLCC,299425,NAVIG8 ASIA PTE LTD,NAVIG8 ASIA PTE LTD,"ADNOC,Moeve,OMV,Sonatrach,TotalEnergies",Umm Lulu,Umm Lulu,2026-07-01 15:59:00,1996461.0,2026-06-28,2026-07-05,out,16.0,laden,In Transit,Ko Sichang,False,False,Omani Route,5,5
+ADVANTAGE VICTORY,9933547,MARSHALL ISLANDS,clean fleet,VLCC,299468,Shell,Shell,SOMO,Al Basrah,Basrah Hy.,2026-03-02 14:19:00,213.0,,2026-05-27,out,,laden,Delivered,Maasvlakte Light.,False,False,Dark/Unknown Route,0,1
+EAGLE VELLORE,9933602,MALAYSIA,clean fleet,VLCC,299554,,,,,,,,,2026-02-28,out,,laden,,Daesan,False,False,IMO Route,0,1
+EAGLE VERACRUZ,9933626,SINGAPORE,clean fleet,VLCC,299525,,,,,,,,,2026-05-26,out,,laden,,Quanzhou,False,False,Dark/Unknown Route,0,1
+FRONT GANDER,9937098,MARSHALL ISLANDS,clean fleet,VLCC,300018,,,"ADNOC,Moeve,OMV,Sonatrach,TotalEnergies",Umm Lulu,Umm Lulu,2026-03-02 03:38:00,899996.0,,2026-06-26,out,,laden,In Transit,,False,False,Dark/Unknown Route,0,1
+FRONT BEAULY,9937103,MARSHALL ISLANDS,clean fleet,VLCC,300018,,,,,,,,,2026-06-26,out,,laden,,Bataan,False,False,Dark/Unknown Route,0,1
+AL BAHYAH,9937799,LIBERIA,clean fleet,VLCC,299425,,,"ADNOC,ExxonMobil,INPEX",Zirku,Zakum,2026-06-29 20:59:00,1899994.0,2026-06-26,2026-07-01,out,18.0,laden,Delivered,FOTT,False,False,Omani Route,4,4
+IXORA,9940459,LIBERIA,clean fleet,AFRA,111006,,,,,,,,2026-06-25,,in,19.0,ballast,,Mina Al-Ahmadi,True,False,Dark/Unknown Route,1,0
+ASIAN PROGRESS VII,9988683,SINGAPORE,clean fleet,VLCC,309000,,,Aramco,Ras Tanura,Arab XLt.,2026-03-03 18:37:00,979997.0,,2026-06-25,out,,laden,In Transit,Daesan,False,False,Omani Route,0,1
+Necleus,9371608,,dark fleet,,297395,,,,Iran,Iran,2026-07-26 21:41:00,2010305.0,,,outside_no_xing,,ballast,Scheduled,,False,False,,0,0
+Lila Jamnagar,9294575,,clean fleet,,298997,IOC,IOC,SOMO,Al Basrah,Basrah,2026-07-26 13:41:00,1459997.0,,,outside_no_xing,,ballast,Scheduled,East Coast India,False,False,,0,0
+Rawaq,9853591,,clean fleet,,299696,,,Aramco,Ras Tanura,Arab,2026-07-26 08:03:00,1994454.0,,,outside_no_xing,,ballast,Scheduled,,False,False,,0,0
+Jasmin Joy,9427471,,clean fleet,,104604,MRPL,MRPL,SOMO,Al Basrah,Basrah,2026-07-22 13:41:00,708628.0,,,outside_no_xing,,ballast,Scheduled,Mangalore,False,False,,0,0
+Lawhah,9783681,,clean fleet,,298794,Aramco,Aramco,Aramco,Ras Tanura,Arab,2026-07-22 08:03:00,2060447.0,,,outside_no_xing,,ballast,Scheduled,,False,False,,0,0
+Plata Singapore,9323936,,clean fleet,,307284,,,Aramco,Ras Tanura,Arab,2026-07-20 17:04:00,2054616.0,,,outside_no_xing,,ballast,Scheduled,,False,False,,0,0
+Al Samha,9380324,,clean fleet,,17510,ADNOC,ADNOC,ADNOC,Ruwais,Murban,2026-07-20 08:57:00,117839.0,,,outside_no_xing,,ballast,Scheduled,,False,False,,0,0
+Seeb,9500716,,clean fleet,,319439,NATIONAL SHIPPING CO OF SAUDI ARABIA BAHRI,NATIONAL SHIPPING CO OF SAUDI ARABIA BAHRI,Aramco,Ras Tanura,Arab,2026-07-19 14:15:00,1069557.0,,,outside_no_xing,,ballast,Scheduled,Eastern Asia,False,False,,0,0
+Front Nausta,9845714,,clean fleet,,318953,Chevron,Chevron,ADNOC,ADCOP Fujairah,Murban,2026-07-16 11:39:00,1050002.0,,,outside_no_xing,,ballast,Loading,Americas,False,False,,0,0
+New Honor,9799159,,clean fleet,,311080,Sinopec,Sinopec,ADNOC,ADCOP Fujairah,Murban,2026-07-16 00:57:00,1050002.0,,,outside_no_xing,,ballast,Loading,China,False,False,,0,0
+Daryabandar 4,9794355,,clean fleet,,295,,,NIOC,FPSO Soroosh,Soroosh,2026-07-15 21:31:00,52079.0,,,outside_no_xing,,ballast,Loading,,False,False,,0,0
