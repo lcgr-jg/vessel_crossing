@@ -1,0 +1,77 @@
+aoi,date,vessel_count,sensor,length_m,width_m,size_class,centroid_xy,angle_deg,berth,valid_px,diff_frac,blob_frac,hull_frac,hull_blob_frac,mean_ndwi,water_frac
+das_spm_1,2026-07-01,0,s2,,,none_detected,,,,,,,,,,
+das_spm_1,2026-07-04,0,s2,,,none_detected,,,,,,,,,,
+das_spm_1,2026-07-14,0,s2,,,none_detected,,,,,,,,,,
+das_spm_1,2026-07-19,0,s2,,,none_detected,,,,,,,,,,
+das_spm_1,2026-07-24,0,s2,,,none_detected,,,,,,,,,,
+das_spm_1,2026-07-29,0,s2,,,none_detected,,,,,,,,,,
+das_spm_1,2026-07-31,0,s2,,,none_detected,,,,,,,,,,
+das_spm_2,2026-07-01,0,s2,,,none_detected,,,,,,,,,,
+das_spm_2,2026-07-04,0,s2,,,none_detected,,,,,,,,,,
+das_spm_2,2026-07-14,0,s2,,,none_detected,,,,,,,,,,
+das_spm_2,2026-07-19,0,s2,,,none_detected,,,,,,,,,,
+das_spm_2,2026-07-24,0,s2,,,none_detected,,,,,,,,,,
+das_spm_2,2026-07-29,0,s2,,,none_detected,,,,,,,,,,
+das_spm_2,2026-07-31,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_1,2026-07-01,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_1,2026-07-04,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_1,2026-07-14,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_1,2026-07-19,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_1,2026-07-24,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_1,2026-07-29,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_1,2026-07-31,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_2,2026-07-01,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_2,2026-07-04,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_2,2026-07-14,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_2,2026-07-19,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_2,2026-07-24,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_2,2026-07-29,0,s2,,,none_detected,,,,,,,,,,
+zirku_spm_2,2026-07-31,0,s2,,,none_detected,,,,,,,,,,
+um_lulu_spm,2026-07-01,0,s2,,,none_detected,,,,,,,,,,
+um_lulu_spm,2026-07-04,0,s2,,,none_detected,,,,,,,,,,
+um_lulu_spm,2026-07-14,0,s2,,,none_detected,,,,,,,,,,
+um_lulu_spm,2026-07-19,0,s2,,,none_detected,,,,,,,,,,
+um_lulu_spm,2026-07-24,0,s2,,,none_detected,,,,,,,,,,
+um_lulu_spm,2026-07-29,0,s2,,,none_detected,,,,,,,,,,
+um_lulu_spm,2026-07-31,0,s2,,,none_detected,,,,,,,,,,
+yanbu_north_crude_terminal,2026-07-02,1,s2,400.0,,unclassified,"(82.0, 60.3)",,berth_2,979.0,0.8,0.711,0.143,0.097,-0.001,0.0
+yanbu_north_crude_terminal,2026-07-07,2,s2,400.0,,unclassified,"(82.5, 60.2)",,berth_2,1007.0,0.79,0.79,0.116,0.116,-0.006,0.0
+yanbu_north_crude_terminal,2026-07-07,2,s2,530.0,,unclassified,"(167.4, 103.2)",,berth_4,1463.0,0.127,0.118,0.163,0.163,-0.061,0.0
+yanbu_north_crude_terminal,2026-07-12,2,s2,400.0,,unclassified,"(82.3, 60.2)",,berth_2,967.0,0.771,0.68,0.031,0.031,-0.003,0.0
+yanbu_north_crude_terminal,2026-07-12,2,s2,530.0,,unclassified,"(166.5, 102.4)",,berth_4,1479.0,0.103,0.087,0.138,0.138,-0.048,0.0
+yanbu_north_crude_terminal,2026-07-22,1,s2,400.0,,unclassified,"(82.4, 60.5)",,berth_2,911.0,0.739,0.647,0.027,0.027,-0.002,0.0
+yanbu_north_crude_terminal,2026-07-27,1,s2,400.0,,unclassified,"(82.9, 59.3)",,berth_2,1053.0,0.749,0.737,0.075,0.075,-0.024,0.0
+yanbu_north_crude_terminal,2026-07-29,2,s2,520.0,,unclassified,"(44.6, 36.6)",,berth_1,1251.0,0.016,0.006,0.082,0.082,0.025,0.0
+yanbu_north_crude_terminal,2026-07-29,2,s2,400.0,,unclassified,"(82.8, 59.9)",,berth_2,1055.0,0.804,0.804,0.0,0.0,0.052,0.0
+yanbu_north_crude_terminal,2026-08-01,2,s2,400.0,,unclassified,"(83.0, 59.1)",,berth_2,1105.0,0.761,0.76,0.213,0.213,-0.07,0.0
+yanbu_north_crude_terminal,2026-08-01,2,s2,530.0,,unclassified,"(171.1, 100.2)",,berth_4,1529.0,0.199,0.173,0.024,0.024,0.022,0.0
+muajjiz,2026-07-02,3,s2,440.0,,unclassified,"(40.7, 34.1)",,berth_1,1406.0,0.312,0.257,0.179,0.149,-0.039,0.0
+muajjiz,2026-07-02,3,s2,430.0,,unclassified,"(74.5, 68.3)",,berth_2,1255.0,0.589,0.574,0.139,0.12,0.009,0.019
+muajjiz,2026-07-02,3,s2,470.0,,unclassified,"(116.1, 97.7)",,berth_3,1308.0,0.267,0.243,0.0,0.0,-0.03,0.0
+muajjiz,2026-07-07,3,s2,440.0,,unclassified,"(40.8, 35.0)",,berth_1,1272.0,0.237,0.116,0.208,0.158,-0.046,0.0
+muajjiz,2026-07-07,3,s2,430.0,,unclassified,"(72.7, 68.9)",,berth_2,1283.0,0.659,0.634,0.0,0.0,0.007,0.0
+muajjiz,2026-07-07,3,s2,470.0,,unclassified,"(113.3, 103.3)",,berth_3,1292.0,0.149,0.099,0.103,0.08,-0.017,0.0
+muajjiz,2026-07-12,2,s2,440.0,,unclassified,"(36.6, 33.6)",,berth_1,1090.0,0.117,0.028,0.118,0.118,-0.076,0.0
+muajjiz,2026-07-12,2,s2,430.0,,unclassified,"(71.7, 70.6)",,berth_2,1158.0,0.664,0.663,0.0,0.0,-0.026,0.0
+muajjiz,2026-07-22,2,s2,440.0,,unclassified,"(43.8, 34.9)",,berth_1,1280.0,0.141,0.078,0.145,0.082,-0.004,0.0
+muajjiz,2026-07-22,2,s2,430.0,,unclassified,"(73.5, 69.6)",,berth_2,1261.0,0.672,0.649,0.094,0.094,0.002,0.0
+muajjiz,2026-07-27,2,s2,440.0,,unclassified,"(43.4, 30.4)",,berth_1,1430.0,0.163,0.101,0.053,0.036,-0.058,0.0
+muajjiz,2026-07-27,2,s2,430.0,,unclassified,"(78.0, 66.5)",,berth_2,1199.0,0.382,0.359,0.0,0.0,-0.058,0.0
+muajjiz,2026-07-29,2,s2,440.0,,unclassified,"(44.2, 31.4)",,berth_1,1422.0,0.13,0.07,0.124,0.065,0.049,0.0
+muajjiz,2026-07-29,2,s2,430.0,,unclassified,"(71.3, 69.7)",,berth_2,1060.0,0.65,0.639,0.125,0.125,-0.056,0.0
+muajjiz,2026-08-01,3,s2,440.0,,unclassified,"(41.8, 35.1)",,berth_1,1355.0,0.191,0.147,0.087,0.069,-0.047,0.0
+muajjiz,2026-08-01,3,s2,430.0,,unclassified,"(75.5, 66.7)",,berth_2,1262.0,0.429,0.4,0.0,0.0,-0.07,0.0
+muajjiz,2026-08-01,3,s2,470.0,,unclassified,"(111.7, 103.8)",,berth_3,1420.0,0.175,0.077,0.163,0.163,-0.107,0.0
+cpc,2026-07-01,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-05,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-06,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-08,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-11,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-13,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-18,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-21,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-28,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-07-31,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-08-02,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-08-04,0,s2,,,none_detected,,,,,,,,,,
+cpc,2026-08-05,0,s2,,,none_detected,,,,,,,,,,
