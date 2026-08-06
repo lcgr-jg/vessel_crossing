@@ -182,13 +182,34 @@ def build_berth_slot_masks(shape: tuple[int, ...], slots_px: list[dict]) -> list
 
 def _largest_blob_frac(binary: np.ndarray, valid_px: int) -> float:
     """Fraction of valid pixels in the largest connected component."""
-    if valid_px <= 0 or binary.sum() == 0:
+    area, _, _, _ = _largest_blob_geom(binary, resolution=1.0)
+    if valid_px <= 0 or area <= 0:
         return 0.0
-    num_labels, _, stats, _ = cv2.connectedComponentsWithStats(binary, connectivity=8)
+    return area / valid_px
+
+
+def _largest_blob_geom(
+    binary: np.ndarray,
+    resolution: float = 10.0,
+) -> tuple[float, float, float | None, float | None]:
+    """Largest connected component: (area_px, length_m, cx, cy)."""
+    if binary.sum() == 0:
+        return 0.0, 0.0, None, None
+    num_labels, labels, stats, centroids = cv2.connectedComponentsWithStats(
+        binary.astype(np.uint8), connectivity=8
+    )
     if num_labels <= 1:
-        return 0.0
-    max_area = max(stats[i, cv2.CC_STAT_AREA] for i in range(1, num_labels))
-    return max_area / valid_px
+        return 0.0, 0.0, None, None
+    best = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
+    area = float(stats[best, cv2.CC_STAT_AREA])
+    component = (labels == best).astype(np.uint8)
+    contours, _ = cv2.findContours(component, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    length_m = 0.0
+    if contours:
+        (_, _), (rw, rh), _ = cv2.minAreaRect(contours[0])
+        length_m = max(rw, rh) * resolution
+    cx, cy = float(centroids[best][0]), float(centroids[best][1])
+    return area, length_m, cx, cy
 
 
 def _slot_valid_region(
@@ -205,6 +226,31 @@ def _slot_valid_region(
     return valid
 
 
+def _ndwi_vessel_mask(
+    ndwi: np.ndarray,
+    valid: np.ndarray,
+    params: dict,
+) -> tuple[np.ndarray, float]:
+    """
+    Low-NDWI anomaly mask inside the slot (ships << local water).
+
+    Threshold = min(percentile, median - delta) so empty water stays mostly above cut.
+    """
+    vals = ndwi[valid.astype(bool)]
+    finite = vals[np.isfinite(vals)]
+    empty = np.zeros(valid.shape, dtype=np.uint8)
+    if finite.size < 50:
+        return empty, float("nan")
+    pct = params.get("ndwi_vessel_pct", 15)
+    delta = params.get("ndwi_vessel_delta", 0.05)
+    thr = min(float(np.percentile(finite, pct)), float(np.median(finite)) - delta)
+    vessel = (np.isfinite(ndwi) & (ndwi <= thr) & valid.astype(bool)).astype(np.uint8)
+    k = np.ones((3, 3), np.uint8)
+    vessel = cv2.morphologyEx(vessel, cv2.MORPH_OPEN, k)
+    vessel = cv2.morphologyEx(vessel, cv2.MORPH_CLOSE, k, iterations=2)
+    return vessel, thr
+
+
 def _slot_signal(
     scene: np.ndarray,
     background: np.ndarray,
@@ -212,7 +258,8 @@ def _slot_signal(
     params: dict,
     ndwi: np.ndarray | None = None,
 ) -> tuple[bool, dict]:
-    """Decide if one berth slot is occupied using hull color + contiguous scene/background diff."""
+    """Decide if one berth slot is occupied (hull / diff / optional NDWI anomaly)."""
+    resolution = float(params.get("_resolution", 10))
     valid = _slot_valid_region(scene, slot_mask, params, ndwi)
     valid_px = int(valid.sum())
     if valid_px < params.get("slot_min_valid_px", 80):
@@ -228,11 +275,55 @@ def _slot_signal(
     diff_binary = ((diff >= abs_t) & valid.astype(bool)).astype(np.uint8)
     diff_frac = diff_binary.sum() / valid_px
     blob_frac = _largest_blob_frac(diff_binary, valid_px)
+    blob_px, blob_length_m, blob_cx, blob_cy = _largest_blob_geom(diff_binary, resolution)
 
     hull = (hull_color_mask(scene, valid.astype(np.uint8)) > 0).astype(np.uint8) & slot_mask
     hull = hull & valid.astype(np.uint8)
     hull_frac = hull.sum() / valid_px
     hull_blob_frac = _largest_blob_frac(hull, valid_px)
+    hull_px, hull_length_m, hull_cx, hull_cy = _largest_blob_geom(hull, resolution)
+
+    min_blob_px = params.get("slot_min_blob_px")
+    min_length_m = params.get("slot_min_length_m")
+    # Absolute size gates — stable on large SPM boxes where frac-of-slot stays tiny.
+    abs_diff_ok = False
+    if min_blob_px is not None or min_length_m is not None:
+        abs_diff_ok = True
+        if min_blob_px is not None:
+            abs_diff_ok = abs_diff_ok and blob_px >= min_blob_px
+        if min_length_m is not None:
+            abs_diff_ok = abs_diff_ok and blob_length_m >= min_length_m
+
+    abs_hull_ok = False
+    if min_blob_px is not None or min_length_m is not None:
+        abs_hull_ok = True
+        if min_blob_px is not None:
+            abs_hull_ok = abs_hull_ok and hull_px >= max(20, int(min_blob_px) // 4)
+        if min_length_m is not None:
+            # Painted-hull fragments are shorter than full LOA; allow ~60% of min length.
+            abs_hull_ok = abs_hull_ok and hull_length_m >= 0.6 * float(min_length_m)
+
+    ndwi_ok = False
+    ndwi_px = 0.0
+    ndwi_length_m = 0.0
+    ndwi_cx = ndwi_cy = None
+    ndwi_thr = float("nan")
+    if params.get("ndwi_vessel_enabled") and ndwi is not None:
+        ndwi_mask, ndwi_thr = _ndwi_vessel_mask(ndwi, valid, params)
+        ndwi_px, ndwi_length_m, ndwi_cx, ndwi_cy = _largest_blob_geom(ndwi_mask, resolution)
+        ndwi_size_ok = True
+        if min_blob_px is not None:
+            ndwi_size_ok = ndwi_size_ok and ndwi_px >= min_blob_px
+        else:
+            ndwi_size_ok = ndwi_size_ok and ndwi_px >= 80
+        if min_length_m is not None:
+            ndwi_size_ok = ndwi_size_ok and ndwi_length_m >= min_length_m
+        else:
+            ndwi_size_ok = ndwi_size_ok and ndwi_length_m >= 150
+        # Dual evidence cuts wake/glint FPs: NDWI blob alone is not enough.
+        support_px = params.get("ndwi_support_blob_px", 40)
+        rgb_support = blob_px >= support_px or hull_px >= max(15, support_px // 2)
+        ndwi_ok = bool(ndwi_size_ok and rgb_support)
 
     occupied = (
         hull_frac >= params.get("slot_hull_frac", 0.04)
@@ -242,14 +333,25 @@ def _slot_signal(
             diff_frac >= params.get("slot_diff_frac", 0.15)
             and blob_frac >= params.get("slot_diff_blob_frac", 0.14)
         )
+        or abs_diff_ok
+        or abs_hull_ok
+        or ndwi_ok
     )
     meta = {
         "valid_px": valid_px,
         "diff_frac": round(diff_frac, 3),
         "blob_frac": round(blob_frac, 3),
+        "blob_px": int(blob_px),
+        "blob_length_m": round(blob_length_m, 1),
         "hull_frac": round(hull_frac, 3),
         "hull_blob_frac": round(hull_blob_frac, 3),
+        "hull_px": int(hull_px),
+        "ndwi_ok": bool(ndwi_ok),
+        "ndwi_px": int(ndwi_px),
+        "ndwi_length_m": round(ndwi_length_m, 1),
     }
+    if np.isfinite(ndwi_thr):
+        meta["ndwi_thr"] = round(float(ndwi_thr), 3)
     if ndwi is not None and valid_px > 0:
         slot_ndwi = ndwi[valid.astype(bool)]
         min_ndwi = params.get("ndwi_water_min", 0.5)
@@ -258,16 +360,25 @@ def _slot_signal(
     if not occupied:
         return False, meta
 
-    signal = np.maximum(diff_binary, hull) * 255
-    m = cv2.moments(signal)
-    if m["m00"]:
-        cx, cy = m["m10"] / m["m00"], m["m01"] / m["m00"]
+    # Prefer NDWI / hull / diff centroid in that order when that path fired.
+    if ndwi_ok and ndwi_cx is not None:
+        cx, cy = ndwi_cx, ndwi_cy
+        length_m = ndwi_length_m
+    elif abs_hull_ok and hull_cx is not None:
+        cx, cy = hull_cx, hull_cy
+        length_m = hull_length_m
+    elif (abs_diff_ok or blob_frac > 0) and blob_cx is not None:
+        cx, cy = blob_cx, blob_cy
+        length_m = blob_length_m
     else:
+        signal = np.maximum(diff_binary, hull) * 255
+        m = cv2.moments(signal)
         ys, xs = np.where(valid)
-        cx, cy = xs.mean(), ys.mean()
-
-    ys, xs = np.where(valid)
-    length_m = max(xs.max() - xs.min(), ys.max() - ys.min()) * params.get("_resolution", 10)
+        if m["m00"]:
+            cx, cy = m["m10"] / m["m00"], m["m01"] / m["m00"]
+        else:
+            cx, cy = xs.mean(), ys.mean()
+        length_m = max(xs.max() - xs.min(), ys.max() - ys.min()) * resolution
 
     return True, {
         "length_m": round(float(length_m), 1),
@@ -289,6 +400,7 @@ def _apply_relative_slot_filter(signals: list[dict], params: dict) -> None:
         return
 
     max_blob = max((s.get("blob_frac", 0) for s in signals), default=0.0)
+    max_ndwi_px = max((s.get("ndwi_px", 0) for s in signals), default=0)
     ratio = params.get("slot_relative_blob_ratio", 0.4)
     min_blob = params.get("slot_min_blob_frac", 0.28)
     combo_blob = params.get("slot_diff_blob_frac", 0.14)
@@ -298,14 +410,101 @@ def _apply_relative_slot_filter(signals: list[dict], params: dict) -> None:
     for sig in signals:
         if not sig.get("prelim"):
             continue
+        # Absolute NDWI / size hits are not relative-filtered (SPM tankers).
+        if sig.get("ndwi_ok"):
+            continue
+        min_blob_px = params.get("slot_min_blob_px")
+        if min_blob_px is not None and sig.get("blob_px", 0) >= min_blob_px:
+            continue
         hull_ok = sig.get("hull_frac", 0) >= hull_frac_min or sig.get("hull_blob_frac", 0) >= hull_blob_min
         blob = sig.get("blob_frac", 0)
         strong_blob = blob >= min_blob
         relative_ok = max_blob > 0 and blob >= ratio * max_blob and blob >= combo_blob
-        if hull_ok or strong_blob or relative_ok:
+        ndwi_relative = max_ndwi_px > 0 and sig.get("ndwi_px", 0) >= ratio * max_ndwi_px
+        if hull_ok or strong_blob or relative_ok or ndwi_relative:
             continue
         sig["prelim"] = False
         sig["rejected_by"] = "relative_filter"
+
+
+def scene_slot_quality(
+    scene: np.ndarray,
+    slots_px: list[dict],
+    params: dict | None = None,
+) -> dict:
+    """
+    Cheap AOI quality gate. Low valid coverage → skip (don't call empty/occupied).
+
+    Bright-ship SCL holes and heavy cloud both shrink aoi_valid_mask.
+    """
+    params = params or {}
+    valid = aoi_valid_mask(scene)
+    slot_masks = build_berth_slot_masks(scene.shape, slots_px)
+    slot_px = 0
+    slot_valid = 0
+    for _, sm in slot_masks:
+        slot_px += int(sm.sum())
+        slot_valid += int((sm.astype(bool) & valid.astype(bool)).sum())
+    frac = (slot_valid / slot_px) if slot_px else 0.0
+    min_frac = params.get("scene_min_valid_frac", 0.55)
+    ok = frac >= min_frac and slot_valid >= params.get("slot_min_valid_px", 80)
+    return {
+        "quality": "ok" if ok else "skip",
+        "slot_valid_frac": round(frac, 3),
+        "slot_valid_px": int(slot_valid),
+        "slot_px": int(slot_px),
+    }
+
+
+def _s1_dets_in_slots(
+    s1_dets: list[dict],
+    shape: tuple[int, ...],
+    slots_px: list[dict],
+    resolution: float,
+) -> list[dict]:
+    """Map free S1 blob detections into berth slots by centroid."""
+    out = []
+    for name, slot_mask in build_berth_slot_masks(shape, slots_px):
+        hit = None
+        for det in s1_dets:
+            cx, cy = det["centroid_xy"]
+            x, y = int(round(cx)), int(round(cy))
+            if 0 <= y < slot_mask.shape[0] and 0 <= x < slot_mask.shape[1] and slot_mask[y, x]:
+                if hit is None or det["length_m"] > hit["length_m"]:
+                    hit = det
+        if hit is None:
+            continue
+        out.append(
+            {
+                "berth": name,
+                "length_m": hit["length_m"],
+                "width_m": hit.get("width_m"),
+                "size_class": hit["size_class"],
+                "centroid_xy": hit["centroid_xy"],
+                "angle_deg": hit.get("angle_deg"),
+                "sensor": "s1",
+                "quality": "ok",
+            }
+        )
+    return out
+
+
+def _merge_slot_detections(s2_dets: list[dict], s1_slot_dets: list[dict]) -> list[dict]:
+    """Union by berth: prefer S2 row, else S1; tag sensor as s2_s1 when both fire."""
+    by_berth: dict[str, dict] = {}
+    for d in s2_dets:
+        berth = d.get("berth")
+        if berth is None:
+            continue
+        row = {**d, "sensor": d.get("sensor", "s2"), "quality": d.get("quality", "ok")}
+        by_berth[berth] = row
+    for d in s1_slot_dets:
+        berth = d["berth"]
+        if berth in by_berth:
+            by_berth[berth]["sensor"] = "s2_s1"
+        else:
+            by_berth[berth] = d
+    return list(by_berth.values())
 
 
 def diagnose_berth_slots(
@@ -320,11 +519,18 @@ def diagnose_berth_slots(
     import pandas as pd
 
     params = {**(detect_params or {}), "_resolution": resolution}
+    quality = scene_slot_quality(scene, slots_px, params)
     rows = []
     for name, slot_mask in build_berth_slot_masks(scene.shape, slots_px):
         prelim, meta = _slot_signal(scene, background, slot_mask, params, ndwi)
-        rows.append({"berth": name, "prelim": prelim, **meta})
+        rows.append({"berth": name, "prelim": prelim, **meta, **quality})
     signals = rows
+    if quality["quality"] == "skip":
+        for row in signals:
+            row["occupied"] = False
+            row["prelim"] = False
+            row["rejected_by"] = "scene_quality"
+        return pd.DataFrame(signals)
     _apply_relative_slot_filter(signals, params)
     for row in signals:
         row["occupied"] = row.pop("prelim", False)
@@ -338,11 +544,30 @@ def detect_berth_slots(
     resolution: float = 10.0,
     detect_params: dict | None = None,
     ndwi: np.ndarray | None = None,
+    s1_vv_db: np.ndarray | None = None,
 ) -> list[dict]:
-    """One detection row per occupied berth slot."""
+    """One detection row per occupied berth slot (optional S1 second vote)."""
     params = {**(detect_params or {}), "_resolution": resolution}
     if scene.shape != background.shape:
         raise ValueError(f"scene/background shape mismatch: {scene.shape} vs {background.shape}")
+
+    quality = scene_slot_quality(scene, slots_px, params)
+    if quality["quality"] == "skip":
+        # Don't treat as empty — downstream should exclude from Kpler FP/FN scoring.
+        return [
+            {
+                "berth": None,
+                "length_m": None,
+                "width_m": None,
+                "size_class": "scene_skip",
+                "centroid_xy": None,
+                "angle_deg": None,
+                "sensor": "s2",
+                "quality": "skip",
+                "vessel_count_override": None,
+                **quality,
+            }
+        ]
 
     signals: list[dict] = []
     for name, slot_mask in build_berth_slot_masks(scene.shape, slots_px):
@@ -355,9 +580,16 @@ def detect_berth_slots(
     for sig in signals:
         if not sig.get("prelim"):
             continue
-        detections.append(
-            {k: v for k, v in sig.items() if k not in ("prelim", "rejected_by")}
-        )
+        row = {k: v for k, v in sig.items() if k not in ("prelim", "rejected_by")}
+        row["sensor"] = "s2"
+        row["quality"] = "ok"
+        detections.append(row)
+
+    if s1_vv_db is not None and params.get("s1_slot_vote", True):
+        s1_dets = detect_s1_vessels(s1_vv_db, resolution, params)
+        s1_slots = _s1_dets_in_slots(s1_dets, scene.shape, slots_px, resolution)
+        detections = _merge_slot_detections(detections, s1_slots)
+
     return detections
 
 
@@ -433,6 +665,17 @@ def detect_for_aoi(
         return detect_s1_vessels(s1_vv_db, resolution, detect_params)
 
     if mode == "berth_slots":
+        params = detect_params or {}
+        if aoi_cfg.get("detector") == "yolo" or params.get("use_yolo"):
+            from yolo_ship_detect import detect_berth_slots_yolo
+
+            return detect_berth_slots_yolo(
+                scene,
+                aoi_cfg["berth_slots_px"],
+                resolution,
+                params,
+            )
+        use_s1 = sensor in ("s2_s1", "s1") and s1_vv_db is not None
         return detect_berth_slots(
             scene,
             background,
@@ -440,6 +683,7 @@ def detect_for_aoi(
             resolution,
             detect_params,
             ndwi=ndwi,
+            s1_vv_db=s1_vv_db if use_s1 else None,
         )
 
     dets = detect_vessels(scene, background, resolution, detect_params)
@@ -447,4 +691,5 @@ def detect_for_aoi(
         return detect_s1_vessels(s1_vv_db, resolution, detect_params)
     for d in dets:
         d.setdefault("sensor", "s2")
+        d.setdefault("quality", "ok")
     return dets

@@ -99,8 +99,19 @@ def kpler_config(email: str, password: str):
     return Configuration(Platform.Liquids, email, password)
 
 
-def fetch_port_calls(config: LoadingGapConfig, *, email: str, password: str) -> pd.DataFrame:
-    """Pull berthing intervals for loadings at the configured location."""
+def fetch_port_calls(
+    config: LoadingGapConfig,
+    *,
+    email: str,
+    password: str,
+    require_berthing: bool = True,
+) -> pd.DataFrame:
+    """Pull loadings at the configured location.
+
+    When ``require_berthing`` is True (default), keep only rows with valid
+    start/end — required for occupancy / idle-gap math. Set False for voyage
+    slates that include fixtures / forecast rows without a berthing end.
+    """
     from kpler.sdk.resources.port_calls import PortCalls
 
     client = PortCalls(kpler_config(email, password))
@@ -141,9 +152,12 @@ def fetch_port_calls(config: LoadingGapConfig, *, email: str, password: str) -> 
     for col in ("start", "end"):
         df[col] = pd.to_datetime(df[col], errors="coerce")
 
-    # Realized loadings only — berthing timestamps required for occupancy math.
-    df = df.dropna(subset=["start", "end"])
-    df = df[df["end"] > df["start"]]
+    if require_berthing:
+        # Realized loadings only — berthing timestamps required for occupancy math.
+        df = df.dropna(subset=["start", "end"])
+        df = df[df["end"] > df["start"]]
+    else:
+        df = df.dropna(subset=["start"])
     return df.sort_values("start").reset_index(drop=True)
 
 
@@ -298,13 +312,25 @@ def aggregate_imagery_by_date(df_imagery: pd.DataFrame) -> pd.DataFrame:
     """Collapse long-format detection rows to one row per (aoi, date)."""
     if df_imagery.empty:
         return pd.DataFrame(
-            columns=["aoi", "date", "imagery_count", "sensor"]
+            columns=["aoi", "date", "imagery_count", "sensor", "quality"]
         )
     df = df_imagery.copy()
     df["date"] = pd.to_datetime(df["date"]).dt.normalize()
+    if "quality" not in df.columns:
+        df["quality"] = "ok"
+    # Scene skips are not occupancy evidence — drop before aggregating counts.
+    df = df.loc[df["quality"].astype(str) != "skip"].copy()
+    if df.empty:
+        return pd.DataFrame(
+            columns=["aoi", "date", "imagery_count", "sensor", "quality"]
+        )
     return (
         df.groupby(["aoi", "date"], as_index=False)
-        .agg(imagery_count=("vessel_count", "max"), sensor=("sensor", "first"))
+        .agg(
+            imagery_count=("vessel_count", "max"),
+            sensor=("sensor", "first"),
+            quality=("quality", "first"),
+        )
         .sort_values(["aoi", "date"])
         .reset_index(drop=True)
     )
@@ -512,41 +538,28 @@ def analyze_loading_gaps(
     }
 
 
-def plot_loading_gaps(
+def _draw_break_panel(
+    ax,
+    ax_r,
     config: LoadingGapConfig,
     analysis: dict,
-    export_flows: pd.Series,
     *,
-    events: list[tuple[date, str]] | None = None,
-    figsize: tuple[float, float] = (14, 8),
-) -> plt.Figure:
-    """Two-panel chart matching the Ras Laffan loading-break style."""
+    t_min: pd.Timestamp,
+    t_max: pd.Timestamp,
+) -> list:
+    """Shared break / idle-MA / arrival markers for 2- and 3-panel charts."""
     loc = config.location.label
     product = config.product
     ma = config.ma_days
-    flow_label = config.flow_unit
 
-    fig, (ax_top, ax_bot) = plt.subplots(
-        2,
-        1,
-        figsize=figsize,
-        sharex=True,
-        gridspec_kw={"height_ratios": [1.35, 1.0], "hspace": 0.08},
-    )
-
-    t_min = _as_ts(config.start_date)
-    t_max = _as_ts(config.end_date) + pd.Timedelta(hours=12)
-
-    # Active periods (>=1 vessel at berth).
     for seg in analysis["segments"]:
         if seg.occupancy >= 1:
-            ax_top.axvspan(seg.start, seg.end, color="#cfe8cf", alpha=0.55, lw=0)
+            ax.axvspan(seg.start, seg.end, color="#cfe8cf", alpha=0.55, lw=0)
 
-    # Idle gaps as red bars anchored at gap start.
     gap_hours = [g.hours for g in analysis["gaps"]]
     gap_starts = [g.start for g in analysis["gaps"]]
     if gap_hours:
-        ax_top.bar(
+        ax.bar(
             gap_starts,
             gap_hours,
             width=0.9,
@@ -556,31 +569,28 @@ def plot_loading_gaps(
             label="Break (all berths empty)",
         )
 
-    ax_top.set_ylabel("hours with all berths empty")
-    ax_top.set_title(f"{loc}: Breaks Between {product.title()} Loadings")
-    ax_top.set_xlim(t_min, t_max)
-    ax_top.yaxis.set_major_locator(MaxNLocator(nbins=6))
+    ax.set_ylabel("hours with all berths empty")
+    ax.set_title(f"{loc}: Breaks Between {product.title()} Loadings")
+    ax.set_xlim(t_min, t_max)
+    ax.yaxis.set_major_locator(MaxNLocator(nbins=6))
 
-    # 7d MA of daily idle hours on right axis.
-    ax_top_r = ax_top.twinx()
     idle_ma = analysis["daily_idle_ma"]
     if not idle_ma.empty:
-        ax_top_r.plot(
+        ax_r.plot(
             idle_ma.index,
             idle_ma.values,
             color="#9467bd",
             lw=2.0,
             label=f"hours/day empty ({ma}d MA)",
         )
-    ax_top_r.set_ylabel(f"hours/day empty ({ma}d MA)")
-    ax_top_r.set_ylim(0, 24)
-    ax_top_r.spines["top"].set_visible(False)
+    ax_r.set_ylabel(f"hours/day empty ({ma}d MA)")
+    ax_r.set_ylim(0, 24)
+    ax_r.spines["top"].set_visible(False)
 
-    # Arrival markers along the baseline.
-    y_marker = ax_top.get_ylim()[0]
+    y_marker = ax.get_ylim()[0]
     for arr in analysis["arrivals"]:
         color = "#1f4e79" if arr.occupancy_after >= 2 else "#bdbdbd"
-        ax_top.scatter(
+        ax.scatter(
             [arr.ts],
             [y_marker],
             marker="^",
@@ -590,7 +600,7 @@ def plot_loading_gaps(
             clip_on=False,
         )
 
-    legend_handles = [
+    return [
         Patch(facecolor="#d62728", alpha=0.85, label="Break (all berths empty)"),
         Patch(facecolor="#cfe8cf", alpha=0.55, label=">=1 vessel at berth"),
         plt.Line2D([0], [0], color="#9467bd", lw=2, label=f"hours/day empty ({ma}d MA)"),
@@ -613,35 +623,151 @@ def plot_loading_gaps(
             label="Arrival with >=2 vessels at berth",
         ),
     ]
-    ax_top.legend(handles=legend_handles, loc="upper left", fontsize=8, frameon=True)
 
-    # Bottom panel — export flows.
+
+def _draw_occupancy_panel(
+    ax,
+    analysis: dict,
+    *,
+    t_min: pd.Timestamp,
+    t_max: pd.Timestamp,
+) -> None:
+    """Continuous berth occupancy (Ras Laffan middle panel)."""
+    segments = analysis["segments"]
+    if segments:
+        xs = [segments[0].start]
+        ys = [segments[0].occupancy]
+        for seg in segments:
+            xs.extend([seg.start, seg.end])
+            ys.extend([seg.occupancy, seg.occupancy])
+        ax.fill_between(xs, ys, step="post", color="#9ecae1", alpha=0.55, label="occupancy")
+        ax.plot(xs, ys, color="#08519c", lw=1.2, drawstyle="steps-post")
+
+    for arr in analysis["arrivals"]:
+        ax.scatter(
+            [arr.ts],
+            [arr.occupancy_after],
+            marker="o",
+            s=18,
+            color="#08306b",
+            zorder=5,
+            label=None,
+        )
+
+    ax.set_ylabel("vessels at berth")
+    ax.set_title("Vessels at berth")
+    ax.set_xlim(t_min, t_max)
+    ax.set_ylim(bottom=0)
+    ax.yaxis.set_major_locator(MaxNLocator(integer=True, nbins=6))
+
+
+def _draw_export_panel(
+    ax,
+    config: LoadingGapConfig,
+    export_flows: pd.Series,
+    *,
+    t_min: pd.Timestamp,
+    t_max: pd.Timestamp,
+) -> None:
+    ma = config.ma_days
     if not export_flows.empty:
         export_ma = export_flows.rolling(ma, min_periods=1).mean()
-        ax_bot.plot(export_ma.index, export_ma.values, color="#1f77b4", lw=2)
-    ax_bot.set_ylabel(flow_label)
-    ax_bot.set_title(f"{loc} {product.title()} Exports ({ma}d moving avg)")
-    ax_bot.set_xlim(t_min, t_max)
+        ax.plot(export_ma.index, export_ma.values, color="#1f77b4", lw=2)
+    ax.set_ylabel(config.flow_unit)
+    ax.set_title(
+        f"{config.location.label} {config.product.title()} Exports ({ma}d moving avg)"
+    )
+    ax.set_xlim(t_min, t_max)
 
-    if events:
-        for ax in (ax_top, ax_bot):
-            for evt_date, label in events:
-                ax.axvline(_as_ts(evt_date), color="0.35", ls="--", lw=0.9, alpha=0.8)
-            # Label only on top panel to avoid clutter.
-        for evt_date, label in events:
-            ax_top.text(
-                _as_ts(evt_date) + pd.Timedelta(hours=8),
-                ax_top.get_ylim()[1] * 0.97,
-                label,
-                rotation=90,
-                va="top",
-                ha="left",
-                fontsize=7,
-                color="0.25",
-            )
+
+def _draw_events(
+    axes: list,
+    events: list[tuple[date, str]] | None,
+    label_ax,
+) -> None:
+    if not events:
+        return
+    for ax in axes:
+        for evt_date, _label in events:
+            ax.axvline(_as_ts(evt_date), color="0.35", ls="--", lw=0.9, alpha=0.8)
+    y_top = label_ax.get_ylim()[1]
+    for evt_date, label in events:
+        label_ax.text(
+            _as_ts(evt_date) + pd.Timedelta(hours=8),
+            y_top * 0.97,
+            label,
+            rotation=90,
+            va="top",
+            ha="left",
+            fontsize=7,
+            color="0.25",
+        )
+
+
+def plot_loading_gaps(
+    config: LoadingGapConfig,
+    analysis: dict,
+    export_flows: pd.Series,
+    *,
+    events: list[tuple[date, str]] | None = None,
+    figsize: tuple[float, float] = (14, 8),
+) -> plt.Figure:
+    """Two-panel chart (breaks + exports). Prefer ``plot_loading_gaps_report`` for reports."""
+    fig, (ax_top, ax_bot) = plt.subplots(
+        2,
+        1,
+        figsize=figsize,
+        sharex=True,
+        gridspec_kw={"height_ratios": [1.35, 1.0], "hspace": 0.08},
+    )
+
+    t_min = _as_ts(config.start_date)
+    t_max = _as_ts(config.end_date) + pd.Timedelta(hours=12)
+    ax_top_r = ax_top.twinx()
+    legend_handles = _draw_break_panel(
+        ax_top, ax_top_r, config, analysis, t_min=t_min, t_max=t_max
+    )
+    ax_top.legend(handles=legend_handles, loc="upper left", fontsize=8, frameon=True)
+    _draw_export_panel(ax_bot, config, export_flows, t_min=t_min, t_max=t_max)
+    _draw_events([ax_top, ax_bot], events, ax_top)
 
     ax_bot.xaxis.set_major_formatter(mdates.DateFormatter("%d %b"))
     ax_bot.xaxis.set_major_locator(mdates.WeekdayLocator(interval=2))
     fig.autofmt_xdate(rotation=0, ha="center")
     fig.subplots_adjust(left=0.08, right=0.92, top=0.93, bottom=0.08)
+    return fig
+
+
+def plot_loading_gaps_report(
+    config: LoadingGapConfig,
+    analysis: dict,
+    export_flows: pd.Series,
+    *,
+    events: list[tuple[date, str]] | None = None,
+    figsize: tuple[float, float] = (14, 10),
+) -> plt.Figure:
+    """Three-panel Ras Laffan-style chart: breaks, occupancy, exports."""
+    fig, (ax_top, ax_mid, ax_bot) = plt.subplots(
+        3,
+        1,
+        figsize=figsize,
+        sharex=True,
+        gridspec_kw={"height_ratios": [1.35, 1.0, 1.0], "hspace": 0.1},
+    )
+
+    t_min = _as_ts(config.start_date)
+    t_max = _as_ts(config.end_date) + pd.Timedelta(hours=12)
+    ax_top_r = ax_top.twinx()
+    legend_handles = _draw_break_panel(
+        ax_top, ax_top_r, config, analysis, t_min=t_min, t_max=t_max
+    )
+    ax_top.legend(handles=legend_handles, loc="upper left", fontsize=8, frameon=True)
+    _draw_occupancy_panel(ax_mid, analysis, t_min=t_min, t_max=t_max)
+    _draw_export_panel(ax_bot, config, export_flows, t_min=t_min, t_max=t_max)
+    _draw_events([ax_top, ax_mid, ax_bot], events, ax_top)
+
+    ax_bot.xaxis.set_major_formatter(mdates.DateFormatter("%d %b"))
+    ax_bot.xaxis.set_major_locator(mdates.WeekdayLocator(interval=2))
+    fig.autofmt_xdate(rotation=0, ha="center")
+    fig.subplots_adjust(left=0.08, right=0.92, top=0.95, bottom=0.06)
     return fig

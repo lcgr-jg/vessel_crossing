@@ -1,0 +1,90 @@
+# Terminal report registry.
+#
+# How to add another terminal (e.g. zirku, das, um_lulu):
+# 1. Add a top-level key under `terminals:` (snake_case id).
+# 2. Set kpler.name / kpler.kind to the zone or installation used in Kpler UI.
+# 3. Set imagery.aoi_key to the AOI name in copernicus_vessel_detection.ipynb
+#    AOI_CONFIG, and paste the same geojson polygon here (for raw scene fetch).
+# 4. Optional: imagery.show_debug + berth_slots_px for NDWI analyst panels (CPC-style).
+# 5. Optionally add terminal-specific events; shared events apply to all.
+# 6. Re-run terminal_report.ipynb with TERMINALS including the new id.
+#
+# Imagery detection counts are intentionally NOT used in the client-facing blurb.
+
+chart_start: 2026-02-01
+product: crude
+flow_unit: kbd
+ma_days: 7
+slate_back: 2
+slate_forward: 3
+sat_lookback_days: 45
+sat_max_cloud: 30
+
+# Shared vertical markers on gap charts (edit freely).
+events:
+  - date: 2026-02-28
+    label: Iran war started
+
+terminals:
+  yanbu_crude:
+    display_name: Yanbu Crude
+    kpler:
+      name: Yanbu Crude
+      kind: installation
+    imagery:
+      aoi_key: yanbu_north_crude_terminal
+      resolution_m: 10
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [38.221478, 23.945802]
+            - [38.239846, 23.936839]
+            - [38.237851, 23.933348]
+            - [38.219182, 23.942566]
+            - [38.221478, 23.945802]
+    events: []
+
+  muajjiz:
+    display_name: Muajjiz
+    kpler:
+      name: Muajjiz
+      kind: installation
+    imagery:
+      aoi_key: muajjiz
+      resolution_m: 10
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [38.395264, 23.810083]
+            - [38.398311, 23.812399]
+            - [38.410499, 23.801935]
+            - [38.407516, 23.799462]
+            - [38.395264, 23.810083]
+    events: []
+
+  cpc:
+    display_name: CPC
+    kpler:
+      name: CPC Terminal
+      kind: installation
+    imagery:
+      aoi_key: cpc
+      resolution_m: 10
+      # Analyst NDWI / low-NDWI mask panels (not used in the cover blurb).
+      show_debug: true
+      berth_slots_px:
+        - name: spm_left
+          box: [49, 47, 145, 105]
+        - name: spm_center
+          box: [271, 53, 349, 91]
+        - name: spm_right
+          box: [485, 129, 550, 173]
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [37.599936, 44.637086]
+            - [37.666883, 44.628779]
+            - [37.663364, 44.617722]
+            - [37.595644, 44.628596]
+            - [37.599936, 44.637086]
+    events: []
