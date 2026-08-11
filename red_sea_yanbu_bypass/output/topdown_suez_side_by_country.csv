@@ -1,0 +1,26 @@
+dest_region,destination_country,n,kbbl
+(blank),(blank/zone),11,15525.6
+Asia,South Korea,5,9282.3
+Asia,India,10,8825.9
+Asia,(blank/zone),5,7297.0
+Asia,China,3,6248.3
+Asia,Taiwan,3,4103.0
+Asia,Thailand,2,2111.8
+Asia,Japan,1,2047.1
+Asia,Pakistan,3,1897.5
+Asia,Singapore Republic,1,1042.5
+Asia,Jordan,1,1040.4
+Asia,Saudi Arabia,1,732.3
+Asia,Malaysia,1,213.8
+Europe,Poland,14,10300.6
+Europe,(blank/zone),5,5889.1
+Europe,Italy,9,5610.9
+Europe,Greece,5,4183.8
+Europe,Turkey,5,2601.4
+Europe,Lithuania,2,1473.7
+Europe,Gibraltar,1,1056.7
+Europe,Spain,2,950.3
+Other,Brazil,1,2131.5
+Other,Egypt,1,45.8
+USA,United States,7,9136.6
+USA,(blank/zone),3,3177.6

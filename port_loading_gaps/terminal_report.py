@@ -107,11 +107,12 @@ class TerminalSection:
     asof: date
     blurb: str
     slate: pd.DataFrame
-    chart_fig: Any
+    chart_fig: Any | None
     satellite: SatelliteScene
     idle_hours_7d: float | None = None
     export_ma_latest: float | None = None
     events: list[tuple[date, str]] = field(default_factory=list)
+    unallocated_installation: bool = False
 
 
 def load_registry(path: Path | None = None) -> dict[str, Any]:
@@ -229,6 +230,28 @@ def _trade_destination(row: pd.Series) -> str:
     return ""
 
 
+def _installation_blank(series: pd.Series) -> pd.Series:
+    """True where Kpler has not assigned an installation yet."""
+    text = series.astype(str).str.strip()
+    return series.isna() | text.eq("") | text.str.lower().isin({"nan", "none"})
+
+
+def filter_trades(
+    trades: pd.DataFrame,
+    *,
+    require_blank_installation: bool = False,
+) -> pd.DataFrame:
+    """Optional slate filters (reusable for any zone that parks unallocated cargos)."""
+    if trades is None or trades.empty:
+        return trades if trades is not None else pd.DataFrame()
+    df = trades.copy()
+    if require_blank_installation:
+        if "installation_origin_name" not in df.columns:
+            return df.iloc[0:0].copy()
+        df = df.loc[_installation_blank(df["installation_origin_name"])].copy()
+    return df
+
+
 def build_slate(
     trades: pd.DataFrame,
     asof: date,
@@ -269,10 +292,22 @@ def build_slate(
     if slate.empty:
         return pd.DataFrame(columns=cols)
 
-    inst = slate.get("installation_origin_name")
-    if inst is None:
-        inst = slate.get("origin_location_name", pd.Series("", index=slate.index))
-    slate = slate.assign(_installation=inst.astype(str).replace({"nan": ""}))
+    # Prefer installation; if blank, show zone/origin with TBD so unallocated rows are visible.
+    inst_raw = slate.get("installation_origin_name")
+    if inst_raw is None:
+        inst_raw = pd.Series([None] * len(slate), index=slate.index)
+    origin = slate.get("origin_location_name")
+    if origin is None:
+        origin = slate.get("zone_origin_name", pd.Series([""] * len(slate), index=slate.index))
+    labels: list[str] = []
+    for inst_val, origin_val in zip(inst_raw, origin, strict=False):
+        inst_txt = _clean_str(inst_val)
+        if inst_txt:
+            labels.append(inst_txt)
+        else:
+            origin_txt = _clean_str(origin_val) or "zone"
+            labels.append(f"{origin_txt} (TBD)")
+    slate = slate.assign(_installation=labels)
     slate = slate.drop_duplicates(
         subset=["vessel_name", "load_date", "_installation"], keep="first"
     )
@@ -307,9 +342,18 @@ def draft_blurb(
     slate: pd.DataFrame,
     asof: date,
     satellite: SatelliteScene,
+    *,
+    unallocated_installation: bool = False,
+    include_satellite: bool = True,
 ) -> str:
     """Soft-language desk blurb — review before sending."""
     lines = [display_name, ""]
+    if unallocated_installation:
+        lines.append(
+            "Kpler zone cargos with installation not yet assigned "
+            "(may later resolve to a child installation)."
+        )
+        lines.append("")
 
     if slate.empty:
         lines.append("No recent / forward loadings in the Kpler pull.")
@@ -343,26 +387,27 @@ def draft_blurb(
             names = ", ".join(later["vessel"].astype(str).tolist())
             lines.append(f"Further forward: {names}.")
 
-    lines.append("")
-    if satellite.scene_date is None:
-        lines.append(
-            "Satellite: no clear Sentinel-2 scene in lookback "
-            "(or credentials / sentinelhub unavailable)."
-        )
-    else:
-        age = satellite.age_days if satellite.age_days is not None else "?"
-        cloud = (
-            f", cloud≈{satellite.cloud_cover:.0f}%"
-            if satellite.cloud_cover is not None
-            else ""
-        )
-        lines.append(
-            f"Latest clear Copernicus scene: {satellite.scene_date:%d-%m-%Y} "
-            f"({age}d stale{cloud}). Auto vessel count not used — "
-            "human read: [add loadings / approach note]."
-        )
-    if satellite.note:
-        lines.append(satellite.note)
+    if include_satellite:
+        lines.append("")
+        if satellite.scene_date is None:
+            lines.append(
+                "Satellite: no clear Sentinel-2 scene in lookback "
+                "(or credentials / sentinelhub unavailable)."
+            )
+        else:
+            age = satellite.age_days if satellite.age_days is not None else "?"
+            cloud = (
+                f", cloud≈{satellite.cloud_cover:.0f}%"
+                if satellite.cloud_cover is not None
+                else ""
+            )
+            lines.append(
+                f"Latest clear Copernicus scene: {satellite.scene_date:%d-%m-%Y} "
+                f"({age}d stale{cloud}). Auto vessel count not used — "
+                "human read: [add loadings / approach note]."
+            )
+        if satellite.note:
+            lines.append(satellite.note)
     return "\n".join(lines)
 
 
@@ -730,8 +775,14 @@ def build_terminal_section(
     product = registry.get("product", "crude")
     flow_unit = registry.get("flow_unit", "kbd")
     ma_days = int(registry.get("ma_days", 7))
-    n_back = int(registry.get("slate_back", 2))
-    n_forward = int(registry.get("slate_forward", 3))
+    slate_cfg = cfg.get("slate") or {}
+    report_cfg = cfg.get("report") or {}
+    n_back = int(slate_cfg.get("back", registry.get("slate_back", 2)))
+    n_forward = int(slate_cfg.get("forward", registry.get("slate_forward", 3)))
+    require_blank = bool(slate_cfg.get("require_blank_installation", False))
+    include_gap_chart = bool(report_cfg.get("include_gap_chart", True))
+    include_flows = bool(report_cfg.get("include_flows", True))
+    include_satellite = bool(report_cfg.get("include_satellite", True))
     events = _merged_events(registry, cfg)
 
     # Trades slate: recent realized + scheduled fixtures (matches Kpler Voyages UI).
@@ -748,9 +799,6 @@ def build_terminal_section(
         only_realized_flows=True,
     )
 
-    realized = fetch_port_calls(
-        gap_cfg, email=email, password=password, require_berthing=True
-    )
     trades = fetch_trades_slate(
         location,
         product=product,
@@ -759,13 +807,35 @@ def build_terminal_section(
         email=email,
         password=password,
     )
-    flows = fetch_export_flows(gap_cfg, email=email, password=password)
-    analysis = analyze_loading_gaps(realized, gap_cfg)
-    fig = plot_loading_gaps_report(gap_cfg, analysis, flows, events=events)
-
+    trades = filter_trades(trades, require_blank_installation=require_blank)
     slate = build_slate(trades, asof, n_back=n_back, n_forward=n_forward)
 
-    if fetch_satellite and cfg.get("imagery"):
+    fig = None
+    analysis: dict[str, Any] = {
+        "daily_idle_hours": pd.Series(dtype=float),
+        "daily_idle_ma": pd.Series(dtype=float),
+        "segments": [],
+        "gaps": [],
+        "arrivals": [],
+    }
+    flows = pd.Series(dtype=float)
+    if include_gap_chart or include_flows:
+        # Gap/flow math needs realized berthings; skip for zone-TBD slate-only sections.
+        if include_gap_chart:
+            realized = fetch_port_calls(
+                gap_cfg, email=email, password=password, require_berthing=True
+            )
+            if require_blank and "installation_name" in realized.columns:
+                realized = realized.loc[
+                    _installation_blank(realized["installation_name"])
+                ].copy()
+            analysis = analyze_loading_gaps(realized, gap_cfg)
+        if include_flows:
+            flows = fetch_export_flows(gap_cfg, email=email, password=password)
+        if include_gap_chart:
+            fig = plot_loading_gaps_report(gap_cfg, analysis, flows, events=events)
+
+    if fetch_satellite and include_satellite and cfg.get("imagery"):
         satellite = latest_satellite_scene(
             cfg["imagery"],
             asof,
@@ -783,13 +853,20 @@ def build_terminal_section(
         )
 
     idle_7d = None
-    if not analysis["daily_idle_hours"].empty:
+    if include_gap_chart and not analysis["daily_idle_hours"].empty:
         idle_7d = float(analysis["daily_idle_hours"].tail(7).sum())
     export_latest = None
-    if not flows.empty:
+    if include_flows and not flows.empty:
         export_latest = float(flows.rolling(ma_days, min_periods=1).mean().iloc[-1])
 
-    blurb = draft_blurb(display, slate, asof, satellite)
+    blurb = draft_blurb(
+        display,
+        slate,
+        asof,
+        satellite,
+        unallocated_installation=require_blank,
+        include_satellite=include_satellite and fetch_satellite,
+    )
     return TerminalSection(
         terminal_id=terminal_id,
         display_name=display,
@@ -801,6 +878,7 @@ def build_terminal_section(
         idle_hours_7d=idle_7d,
         export_ma_latest=export_latest,
         events=events,
+        unallocated_installation=require_blank,
     )
 
 
@@ -870,14 +948,21 @@ def render_html(
             parts.append(f'<p class="meta">{" · ".join(kpi)}</p>')
         parts.append(f'<pre class="blurb">{html.escape(sec.blurb)}</pre>')
         parts.append("<h3>Loading slate</h3>")
+        if sec.unallocated_installation:
+            parts.append(
+                '<p class="note">Zone cargos with blank installation in Kpler '
+                "(installation TBD).</p>"
+            )
         parts.append(_slate_to_html(sec.slate))
-        parts.append("<h3>Breaks / occupancy / exports</h3>")
-        parts.append(
-            f'<img class="chart" alt="chart" src="data:image/png;base64,{_fig_to_base64(sec.chart_fig)}"/>'
-        )
-        parts.append("<h3>Latest Copernicus scene (raw)</h3>")
+        if sec.chart_fig is not None:
+            parts.append("<h3>Breaks / occupancy / exports</h3>")
+            parts.append(
+                f'<img class="chart" alt="chart" '
+                f'src="data:image/png;base64,{_fig_to_base64(sec.chart_fig)}"/>'
+            )
         sat = sec.satellite
         if sat.scene_date and sat.rgb is not None:
+            parts.append("<h3>Latest Copernicus scene (raw)</h3>")
             parts.append(
                 f'<p class="meta">{sat.aoi_key} — {sat.scene_date:%Y-%m-%d}'
                 f" · age {sat.age_days}d"
@@ -905,12 +990,12 @@ def render_html(
                     f'<img class="sat" alt="ndwi-debug" '
                     f'src="data:image/png;base64,{_fig_to_base64(sat.debug_fig)}"/>'
                 )
-        else:
+            if sat.note:
+                parts.append(f'<p class="note">{html.escape(sat.note)}</p>')
+        elif sat.note and sat.note != "Satellite fetch skipped.":
             parts.append(
-                f"<p><em>{html.escape(sat.note or 'No satellite scene.')}</em></p>"
+                f"<p><em>{html.escape(sat.note)}</em></p>"
             )
-        if sat.note and sat.rgb is not None:
-            parts.append(f"<p class=\"note\">{html.escape(sat.note)}</p>")
 
     parts.append("</body></html>")
     return "\n".join(parts)

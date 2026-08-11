@@ -1,0 +1,65 @@
+load_ts,vessel_name,vessel_imo,vessel_type,status,closest_ancestor_grade,origin_best,dest_best,kbbl,dest_ain_sukhna
+2026-07-16 04:39:00,Niban,9484716,VLCC,Delivered,Arab,Yanbu Crude,Ain Sukhna,2130.553,True
+2026-07-16 07:39:00,Sea Emerald,9852119,VLCC,In Transit,Arab,Muajjiz,Taoyuan,998.23,False
+2026-07-16 07:39:00,Sea Emerald,9852119,VLCC,In Transit,Arab,Muajjiz,Kaohsiung,998.23,False
+2026-07-16 10:19:00,Adebola Adeline,9427627,LR3,Delivered,Arab Lt.,Yanbu Crude,Petronas Melaka Refinery,213.828,False
+2026-07-17 03:39:00,Front Gaula,9933652,VLCC,In Transit,Arab,Yanbu Crude,Houston,1092.653,False
+2026-07-17 03:39:00,Front Gaula,9933652,VLCC,Delivered,Arab,Yanbu Crude,Ain Sukhna,964.611,True
+2026-07-17 17:34:00,Sophia,9776559,VLCC,In Transit,Arab,Muajjiz,Ulsan,2128.66,False
+2026-07-17 23:42:00,Amzan,9693745,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,2141.428,True
+2026-07-18 00:00:00,Merbabu,9388364,LR2,Delivered,Arab,Yanbu Crude,New Mangalore Refinery,716.214,False
+2026-07-18 11:39:00,Xin Long Yang,9761463,VLCC,Delivered,Arab,Yanbu Crude,CNPC Qinzhou Refinery,2055.742,False
+2026-07-18 22:19:00,Cosnew Lake,9804289,VLCC,In Transit,Arab,Yanbu Crude,Huizhou,2135.0,False
+2026-07-19 05:59:00,Farhah,9484742,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,2150.001,True
+2026-07-19 07:19:00,Encelia,9240172,LR2,Delivered,Arab,Yanbu Crude,Jizan Refinery,732.335,False
+2026-07-19 17:19:00,Lahore,9913511,LR2,Delivered,Arab,Muajjiz,Karachi Keamari,757.695,False
+2026-07-20 01:39:00,Rodos,1024948,LR2,Delivered,Arab,Muajjiz,New Mangalore Refinery,776.338,False
+2026-07-20 09:59:00,New Explorer,1090777,VLCC,Delivered,Arab,Yanbu Crude,SRC Jurong,1042.485,False
+2026-07-20 20:58:00,Amazon,9476654,LR3,In Transit,Arab,Muajjiz,Chennai,1074.079,False
+2026-07-21 00:00:00,Olympic Luck,9424211,VLCC,In Transit,Arab,Muajjiz,,1200.001,False
+2026-07-21 02:59:00,Alhaya,9939163,LR2,In Transit,Arab,Yanbu Crude,,780.615,False
+2026-07-21 16:58:00,Dht Mustang,9823003,VLCC,In Transit,Arab,Muajjiz,Americas,1174.295,False
+2026-07-21 16:58:00,Dht Mustang,9823003,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,948.566,True
+2026-07-22 00:00:00,Khuzama,9384215,VLCC,Delivered,Arab,Yanbu Crude,Ain Sukhna,2139.051,True
+2026-07-22 03:59:00,Ninemia,9946702,LR2,In Transit,Arab,Muajjiz,,769.514,False
+2026-07-22 19:39:00,Karachi,9903413,LR2,Delivered,Arab,Yanbu Crude,Karachi Keamari,433.789,False
+2026-07-23 00:00:00,Dht Gazelle,1055155,VLCC,In Transit,Arab,Yanbu Crude,Western Europe,1081.935,False
+2026-07-23 00:00:00,Fpmc C Lord,9447574,VLCC,In Transit,Arab,Yanbu Crude,FPCC Mailiao Refinery,2106.514,False
+2026-07-23 05:57:00,Desh Vaibhav,9297498,VLCC,In Transit,Arab,Yanbu Crude,Mumbai,970.794,False
+2026-07-23 05:57:00,Desh Vaibhav,9297498,VLCC,Delivered,Arab,Yanbu Crude,BORL Jamnagar Oil Terminal,1140.688,False
+2026-07-23 08:00:00,Dht Puma,9728837,VLCC,Delivered,Arab,Yanbu Crude,Ain Sukhna,2065.001,True
+2026-07-24 00:00:00,New Pearl,9468322,VLCC,In Transit,Arab,Yanbu Crude,Nagoya,2047.088,False
+2026-07-25 00:00:00,Amzan,9693745,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,2141.428,True
+2026-07-25 00:00:00,Front Empire,9788332,VLCC,In Transit,Arab,Muajjiz,South-Central Asia,1200.001,False
+2026-07-25 00:00:00,New Discovery,9269075,LR3,In Transit,Arab,Yanbu Crude,Jordan,1040.403,False
+2026-07-25 00:00:00,Niban,9484716,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,2000.002,True
+2026-07-26 00:00:00,Farhah,9484742,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,2000.002,True
+2026-07-26 00:00:00,Lesvos,9772321,LR3,Delivered,Arab Lt.,Yanbu Crude,HMEL Mundra Oil Terminal,1017.76,False
+2026-07-27 00:00:00,Layla,9336098,VLCC,Delivered,Arab Lt.,Muajjiz,Ain Sukhna,2120.842,True
+2026-07-28 00:00:00,Ethiopia Prosperity,9602289,VLCC,Delivered,Arab,Yanbu Crude,Ain Sukhna,2132.843,True
+2026-07-29 00:00:00,Alexandros,9905459,VLCC,In Transit,Arab,Muajjiz,Cochin,299.998,False
+2026-07-29 00:00:00,Alexandros,9905459,VLCC,Delivered,Arab,Muajjiz,BORL Jamnagar Oil Terminal,999.998,False
+2026-07-29 00:00:00,Desert Rose,9239939,LR2,In Transit,Arab,Yanbu Crude,,395.899,False
+2026-07-29 00:00:00,Morocco Prosperity,9597252,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,2137.271,True
+2026-07-31 00:00:00,Kenya B,9723069,VLCC,In Transit,Arab,Yanbu Crude,Ain Sukhna,2006.242,True
+2026-07-31 00:00:00,Sea Majesty,9783344,VLCC,In Transit,Arab,Muajjiz,Europe,1005.803,False
+2026-08-01 00:00:00,Dht Puma,9728837,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,2065.001,True
+2026-08-01 00:00:00,Khuzama,9384215,VLCC,In Transit,Arab,Yanbu Crude,Ain Sukhna,2139.051,True
+2026-08-01 00:00:00,Roberta B,9563237,VLCC,Delivered,Arab,Muajjiz,Ain Sukhna,1989.102,True
+2026-08-05 00:00:00,V.Glory,9849851,VLCC,In Transit,Arab,Yanbu Crude,South Korea,996.488,False
+2026-08-05 00:00:00,V.Glory,9849851,VLCC,In Transit,Arab,Yanbu Crude,Ain Sukhna,996.488,True
+2026-08-07 00:00:00,Morocco Prosperity,9597252,VLCC,In Transit,Arab,Yanbu,Ain Sukhna,2137.271,True
+2026-08-08 00:00:00,Gabon Prosperity,9457543,VLCC,In Transit,Arab,Yanbu,Ain Sukhna,2077.952,True
+2026-08-08 00:00:00,Seavoice,9877755,VLCC,In Transit,Arab,Yanbu,Eastern Asia,1032.9,False
+2026-08-12 07:00:00,Roberta B,9563237,VLCC,Scheduled,Arab,Yanbu,,1989.102,False
+2026-08-12 09:00:00,Sahba,9388273,VLCC,Scheduled,Arab,Yanbu,,2119.131,False
+2026-08-13 00:00:00,New Vanguard,9445631,VLCC,Scheduled,Arab,Yanbu,China,2057.573,False
+2026-08-13 03:00:00,Ghazal,9387009,VLCC,Scheduled,Arab,Yanbu,,2119.804,False
+2026-08-13 12:00:00,Plata Glory,9384590,VLCC,Scheduled,Arab,Yanbu,,2012.38,False
+2026-08-13 14:28:00,Minerva Zenobia,9787182,LR2,Scheduled,Arab,Yanbu,Mangalore,774.948,False
+2026-08-14 09:00:00,Andromeda,9352561,VLCC,Scheduled,Arab,Yanbu,Ulsan,2165.009,False
+2026-08-14 12:00:00,Mount Vision,1043035,VLCC,Scheduled,Arab,Yanbu,Ulsan,1989.448,False
+2026-08-14 15:00:00,Lila Marseille,9418614,LR3,Scheduled,Arab,Yanbu,,1059.222,False
+2026-08-15 09:00:00,Shalamar,9336842,LR2,Scheduled,Arab,Yanbu,Karachi,705.999,False
+2026-08-18 18:00:00,Maran Leo,9602473,VLCC,Scheduled,Arab,Yanbu,Eastern Asia,2139.384,False
+2026-08-21 08:45:00,Quantum Harmony,9418054,VLCC,Scheduled,Arab,Yanbu,,2142.862,False

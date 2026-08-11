@@ -3,11 +3,14 @@
 # How to add another terminal (e.g. zirku, das, um_lulu):
 # 1. Add a top-level key under `terminals:` (snake_case id).
 # 2. Set kpler.name / kpler.kind to the zone or installation used in Kpler UI.
-# 3. Set imagery.aoi_key to the AOI name in copernicus_vessel_detection.ipynb
-#    AOI_CONFIG, and paste the same geojson polygon here (for raw scene fetch).
-# 4. Optional: imagery.show_debug + berth_slots_px for NDWI analyst panels (CPC-style).
-# 5. Optionally add terminal-specific events; shared events apply to all.
-# 6. Re-run terminal_report.ipynb with TERMINALS including the new id.
+# 3. Set imagery.aoi_key + geojson if you want a satellite panel.
+# 4. Optional: imagery.show_debug + berth_slots_px for NDWI analyst panels.
+# 5. Optional zone "installation TBD" section (see yanbu_unallocated):
+#      kpler: { name: <Zone>, kind: zone }
+#      slate: { require_blank_installation: true }
+#      report: { include_gap_chart: false, include_flows: false, include_satellite: false }
+# 6. Optionally add terminal-specific events; shared events apply to all.
+# 7. Re-run terminal_report.ipynb with TERMINALS including the new id.
 #
 # Imagery detection counts are intentionally NOT used in the client-facing blurb.
 
@@ -26,6 +29,23 @@ events:
     label: Iran war started
 
 terminals:
+  # Consolidated zone view (Yanbu Crude + Muajjiz + installation TBD).
+  # Satellite stays on the installation sections only.
+  yanbu:
+    display_name: Yanbu (zone)
+    kpler:
+      name: Yanbu
+      kind: zone
+    slate:
+      back: 2
+      forward: 8
+    report:
+      include_gap_chart: true
+      include_flows: true
+      include_satellite: false
+    related_installations: [Yanbu Crude, Muajjiz]
+    events: []
+
   yanbu_crude:
     display_name: Yanbu Crude
     kpler:
@@ -60,6 +80,24 @@ terminals:
             - [38.410499, 23.801935]
             - [38.407516, 23.799462]
             - [38.395264, 23.810083]
+    events: []
+
+  # Zone-level cargos Kpler has not yet assigned to Yanbu Crude / Muajjiz.
+  # Reuse this pattern for any zone that parks fixtures before installation resolve.
+  yanbu_unallocated:
+    display_name: Yanbu — installation TBD
+    kpler:
+      name: Yanbu
+      kind: zone
+    slate:
+      require_blank_installation: true
+      back: 2
+      forward: 12
+    report:
+      include_gap_chart: false
+      include_flows: false
+      include_satellite: false
+    related_installations: [Yanbu Crude, Muajjiz]
     events: []
 
   cpc:

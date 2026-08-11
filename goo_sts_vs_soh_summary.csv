@@ -1,0 +1,17 @@
+metric,mbbl,notes
+SOH crude exit volume (all),332.034965,2026-06-17 -> 2026-08-11
+UNACCOUNTED Hormuz candidates (primary),54.385523,§8c decision metric
+Unaccounted / SoH exits (%),16.379456603312846,"value is percent share, not mbbl"
+SOH exits excl. east-coast load origin,332.034965,comparable Hormuz flow
+SOH exits with east-coast load origin,0.0,loaded east of strait; review shuttles
+Regional STS total (all zones),168.126631,Fujairah/Sohar/GoO named pairs
+STS with load IMO in SoH exits,7.06716,downstream of counted exits; not additive
+Unmatched STS — east-coast load origin,25.649834,exclude from SoH compare
+Unmatched STS — hormuz-side load origin,17.930741,undercount candidate
+Unmatched STS — unknown origin,117.478896,undercount candidate / review
+Undercount candidate (hormuz+unknown unmatched),135.409637,named ShipToShips only
+Unknown-partner PortCall STS (total),48.372376,is_sts with no ShipToShips pair
+Unknown-partner — receiver also SoH exit,11.287649,dark signal; not additive to SoH
+Unknown-partner — receiver NOT in SoH exits,37.084727,strongest SoH undercount candidate
+SOH exit volume that later STS,0.0,lag<=5d; attributed once
+SOH exit volume with no STS hop,332.034965,direct sail-away or STS outside pull

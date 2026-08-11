@@ -1,0 +1,8 @@
+cut,kbbl,n,notes
+TOP-DOWN Yanbu zone total,94173.5,64,all dests
+TOP-DOWN Yanbu -> Ain Sukhna,38482.7,20,potential bypass ceiling
+TOP-DOWN Sidi Kerir loads,51234.9,58,all Sidi origin crude
+TOP-DOWN Sidi on Yanbu-overlap IMOs,5315.3,6,Sidi kbbl where vessel also loaded Yanbu
+BOTTOM-UP journeys to-Ain (load kbbl),41746.1,20,collapsed; dest/ain evidence
+BOTTOM-UP full_cycle + sidi_topup (Sidi kbbl),5315.3,6,classified Med re-entry
+BOTTOM-UP ain_sukhna_only (Ain kbbl),23158.4,11,stuck at Ain (7d+)
