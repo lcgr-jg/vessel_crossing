@@ -89,15 +89,63 @@ _DEBUG_NDWI_PARAMS = {
 
 
 @dataclass
-class SatelliteScene:
+class SatellitePanel:
+    """One Copernicus crop (e.g. a single SPM)."""
+
     aoi_key: str
-    scene_date: date | None
-    cloud_cover: float | None
-    age_days: int | None
+    label: str = ""
+    scene_date: date | None = None
+    cloud_cover: float | None = None
+    age_days: int | None = None
     rgb: np.ndarray | None = None
     ndwi: np.ndarray | None = None
     debug_fig: Any = None
     note: str = ""
+
+    @property
+    def title(self) -> str:
+        return self.label or self.aoi_key
+
+
+@dataclass
+class SatelliteScene:
+    """One or more satellite panels for a facility (side-by-side for multi-SPM)."""
+
+    panels: list[SatellitePanel] = field(default_factory=list)
+    note: str = ""
+
+    @property
+    def aoi_key(self) -> str:
+        return self.panels[0].aoi_key if self.panels else ""
+
+    @property
+    def scene_date(self) -> date | None:
+        dates = [p.scene_date for p in self.panels if p.scene_date is not None]
+        return max(dates) if dates else None
+
+    @property
+    def cloud_cover(self) -> float | None:
+        return self.panels[0].cloud_cover if self.panels else None
+
+    @property
+    def age_days(self) -> int | None:
+        return self.panels[0].age_days if self.panels else None
+
+    @property
+    def rgb(self) -> np.ndarray | None:
+        return self.panels[0].rgb if self.panels else None
+
+    @property
+    def debug_fig(self) -> Any:
+        return self.panels[0].debug_fig if self.panels else None
+
+    @property
+    def has_rgb(self) -> bool:
+        return any(p.rgb is not None and p.scene_date is not None for p in self.panels)
+
+
+def _satellite_skipped(note: str = "Satellite fetch skipped.") -> SatelliteScene:
+    return SatelliteScene(note=note)
 
 
 @dataclass
@@ -389,25 +437,40 @@ def draft_blurb(
 
     if include_satellite:
         lines.append("")
-        if satellite.scene_date is None:
+        ok_panels = [p for p in satellite.panels if p.scene_date is not None]
+        if not ok_panels:
             lines.append(
                 "Satellite: no clear Sentinel-2 scene in lookback "
                 "(or credentials / sentinelhub unavailable)."
             )
-        else:
-            age = satellite.age_days if satellite.age_days is not None else "?"
+        elif len(ok_panels) == 1:
+            p = ok_panels[0]
+            age = p.age_days if p.age_days is not None else "?"
             cloud = (
-                f", cloud≈{satellite.cloud_cover:.0f}%"
-                if satellite.cloud_cover is not None
+                f", cloud≈{p.cloud_cover:.0f}%"
+                if p.cloud_cover is not None
                 else ""
             )
             lines.append(
-                f"Latest clear Copernicus scene: {satellite.scene_date:%d-%m-%Y} "
+                f"Latest clear Copernicus scene: {p.scene_date:%d-%m-%Y} "
                 f"({age}d stale{cloud}). Auto vessel count not used — "
                 "human read: [add loadings / approach note]."
             )
+        else:
+            bits = []
+            for p in ok_panels:
+                age = p.age_days if p.age_days is not None else "?"
+                bits.append(f"{p.title} {p.scene_date:%d-%m-%Y} ({age}d)")
+            lines.append(
+                "Latest clear Copernicus scenes: "
+                + "; ".join(bits)
+                + ". Auto vessel count not used — human read: [add loadings / approach note]."
+            )
         if satellite.note:
             lines.append(satellite.note)
+        for p in satellite.panels:
+            if p.note:
+                lines.append(f"{p.title}: {p.note}")
     return "\n".join(lines)
 
 
@@ -666,40 +729,78 @@ def build_ndwi_debug_figure(
     return fig
 
 
-def latest_satellite_scene(
-    imagery_cfg: dict[str, Any],
+def _imagery_panel_cfgs(imagery_cfg: dict[str, Any]) -> list[dict[str, Any]]:
+    """Normalize single-AOI or multi-SPM ``panels`` config into a panel list."""
+    panels = imagery_cfg.get("panels")
+    if panels:
+        out = []
+        for i, p in enumerate(panels):
+            cfg = dict(p)
+            cfg.setdefault("label", cfg.get("aoi_key", f"panel_{i+1}"))
+            # Facility-level show_debug applies unless panel overrides.
+            if "show_debug" not in cfg and "show_debug" in imagery_cfg:
+                cfg["show_debug"] = imagery_cfg["show_debug"]
+            if "resolution_m" not in cfg and "resolution_m" in imagery_cfg:
+                cfg["resolution_m"] = imagery_cfg["resolution_m"]
+            out.append(cfg)
+        return out
+    if imagery_cfg.get("aoi_key") and imagery_cfg.get("geojson"):
+        return [
+            {
+                "aoi_key": imagery_cfg["aoi_key"],
+                "label": imagery_cfg.get("label", imagery_cfg["aoi_key"]),
+                "geojson": imagery_cfg["geojson"],
+                "resolution_m": imagery_cfg.get("resolution_m", 10),
+                "show_debug": imagery_cfg.get("show_debug", False),
+                "berth_slots_px": imagery_cfg.get("berth_slots_px") or [],
+            }
+        ]
+    return []
+
+
+def _fetch_one_satellite_panel(
+    panel_cfg: dict[str, Any],
     asof: date,
     *,
     env: dict[str, str],
-    lookback_days: int = 45,
-    max_cloud: float = 30,
-) -> SatelliteScene:
-    aoi_key = imagery_cfg["aoi_key"]
-    geojson = imagery_cfg["geojson"]
-    resolution_m = float(imagery_cfg.get("resolution_m", 10))
-    show_debug = bool(imagery_cfg.get("show_debug"))
-    slots_px = imagery_cfg.get("berth_slots_px") or []
+    lookback_days: int,
+    max_cloud: float,
+) -> SatellitePanel:
+    aoi_key = panel_cfg.get("aoi_key")
+    if not aoi_key:
+        return SatellitePanel(
+            aoi_key="",
+            label=str(panel_cfg.get("label") or "panel"),
+            note="Panel config missing aoi_key in terminals.yaml.",
+        )
+    label = str(panel_cfg.get("label") or aoi_key)
+    geojson = panel_cfg.get("geojson")
+    if not geojson:
+        return SatellitePanel(
+            aoi_key=aoi_key,
+            label=label,
+            note="Panel config missing geojson in terminals.yaml.",
+        )
+    resolution_m = float(panel_cfg.get("resolution_m", 10))
+    show_debug = bool(panel_cfg.get("show_debug"))
+    slots_px = list(panel_cfg.get("berth_slots_px") or [])
     start = asof - timedelta(days=lookback_days)
 
     try:
         hits = search_scene_catalog(
             geojson, start, asof, env=env, max_cloud=max_cloud
         )
-    except Exception as exc:  # noqa: BLE001 — report should degrade gracefully
-        return SatelliteScene(
+    except Exception as exc:  # noqa: BLE001
+        return SatellitePanel(
             aoi_key=aoi_key,
-            scene_date=None,
-            cloud_cover=None,
-            age_days=None,
+            label=label,
             note=f"Catalog search failed: {exc}",
         )
 
     if not hits:
-        return SatelliteScene(
+        return SatellitePanel(
             aoi_key=aoi_key,
-            scene_date=None,
-            cloud_cover=None,
-            age_days=None,
+            label=label,
             note="No Sentinel-2 scenes under cloud threshold in lookback.",
         )
 
@@ -715,8 +816,9 @@ def latest_satellite_scene(
             want_ndwi=show_debug,
         )
     except Exception as exc:  # noqa: BLE001
-        return SatelliteScene(
+        return SatellitePanel(
             aoi_key=aoi_key,
+            label=label,
             scene_date=scene_date,
             cloud_cover=hit.get("cloud_cover"),
             age_days=(asof - scene_date).days,
@@ -725,21 +827,24 @@ def latest_satellite_scene(
 
     debug_fig = None
     note = ""
-    if show_debug and rgb is not None and ndwi is not None and slots_px:
+    if show_debug and rgb is not None and ndwi is not None:
+        # Full-AOI fallback when slots not tuned yet (common for single-SPM crops).
+        if not slots_px:
+            h, w = rgb.shape[:2]
+            slots_px = [{"name": "spm", "box": [2, 2, max(3, w - 3), max(3, h - 3)]}]
         try:
             debug_fig = build_ndwi_debug_figure(
                 rgb,
                 ndwi,
                 slots_px,
-                title=f"{aoi_key} {hit['date']}",
+                title=f"{label} {hit['date']}",
             )
         except Exception as exc:  # noqa: BLE001
             note = f"Debug NDWI panel failed: {exc}"
-    elif show_debug and not slots_px:
-        note = "show_debug set but berth_slots_px missing in terminals.yaml."
 
-    return SatelliteScene(
+    return SatellitePanel(
         aoi_key=aoi_key,
+        label=label,
         scene_date=scene_date,
         cloud_cover=hit.get("cloud_cover"),
         age_days=(asof - scene_date).days,
@@ -748,6 +853,31 @@ def latest_satellite_scene(
         debug_fig=debug_fig,
         note=note,
     )
+
+
+def latest_satellite_scene(
+    imagery_cfg: dict[str, Any],
+    asof: date,
+    *,
+    env: dict[str, str],
+    lookback_days: int = 45,
+    max_cloud: float = 30,
+) -> SatelliteScene:
+    panel_cfgs = _imagery_panel_cfgs(imagery_cfg)
+    if not panel_cfgs:
+        return SatelliteScene(note="No imagery AOI / panels configured.")
+
+    panels = [
+        _fetch_one_satellite_panel(
+            cfg,
+            asof,
+            env=env,
+            lookback_days=lookback_days,
+            max_cloud=max_cloud,
+        )
+        for cfg in panel_cfgs
+    ]
+    return SatelliteScene(panels=panels)
 
 
 def build_terminal_section(
@@ -844,13 +974,7 @@ def build_terminal_section(
             max_cloud=float(registry.get("sat_max_cloud", 30)),
         )
     else:
-        satellite = SatelliteScene(
-            aoi_key=cfg.get("imagery", {}).get("aoi_key", ""),
-            scene_date=None,
-            cloud_cover=None,
-            age_days=None,
-            note="Satellite fetch skipped.",
-        )
+        satellite = _satellite_skipped()
 
     idle_7d = None
     if include_gap_chart and not analysis["daily_idle_hours"].empty:
@@ -929,6 +1053,10 @@ def render_html(
         "table.slate th,table.slate td{border:1px solid #ddd;padding:6px 8px;text-align:left;}",
         "table.slate th{background:#f0f0f0;}",
         "img.chart,img.sat{max-width:100%;height:auto;border:1px solid #e0e0e0;}",
+        ".sat-row{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0 16px;}",
+        ".sat-col{flex:1 1 280px;min-width:240px;}",
+        ".sat-col h4{margin:0 0 6px;font-size:0.95rem;}",
+        ".sat-col .meta{margin:0 0 6px;}",
         ".meta{color:#555;font-size:0.9rem;margin:4px 0 12px;}",
         ".note{color:#666;font-size:0.85rem;font-style:italic;}",
         "</style></head><body>",
@@ -961,37 +1089,63 @@ def render_html(
                 f'src="data:image/png;base64,{_fig_to_base64(sec.chart_fig)}"/>'
             )
         sat = sec.satellite
-        if sat.scene_date and sat.rgb is not None:
-            parts.append("<h3>Latest Copernicus scene (raw)</h3>")
-            parts.append(
-                f'<p class="meta">{sat.aoi_key} — {sat.scene_date:%Y-%m-%d}'
-                f" · age {sat.age_days}d"
-                + (
-                    f" · cloud {sat.cloud_cover:.0f}%"
-                    if sat.cloud_cover is not None
-                    else ""
-                )
-                + "</p>"
+        rgb_panels = [p for p in sat.panels if p.rgb is not None and p.scene_date is not None]
+        if rgb_panels:
+            heading = (
+                "Latest Copernicus scenes (raw)"
+                if len(rgb_panels) > 1
+                else "Latest Copernicus scene (raw)"
             )
-            parts.append(
-                f'<img class="sat" alt="satellite" src="data:image/png;base64,{_rgb_to_base64(sat.rgb)}"/>'
-            )
+            parts.append(f"<h3>{heading}</h3>")
             parts.append(
                 '<p class="note">Human eyeball only — approaching traffic outside '
                 "berths/SPMs is not scored.</p>"
             )
-            if sat.debug_fig is not None:
+            parts.append('<div class="sat-row">')
+            for p in rgb_panels:
+                cloud = (
+                    f" · cloud {p.cloud_cover:.0f}%"
+                    if p.cloud_cover is not None
+                    else ""
+                )
+                parts.append('<div class="sat-col">')
+                parts.append(f"<h4>{html.escape(p.title)}</h4>")
+                parts.append(
+                    f'<p class="meta">{html.escape(p.aoi_key)} — '
+                    f"{p.scene_date:%Y-%m-%d} · age {p.age_days}d{cloud}</p>"
+                )
+                parts.append(
+                    f'<img class="sat" alt="{html.escape(p.title)}" '
+                    f'src="data:image/png;base64,{_rgb_to_base64(p.rgb)}"/>'
+                )
+                parts.append("</div>")
+            parts.append("</div>")
+
+            debug_panels = [p for p in rgb_panels if p.debug_fig is not None]
+            if debug_panels:
                 parts.append("<h3>Analyst appendix — NDWI debug</h3>")
                 parts.append(
-                    '<p class="note">Low-NDWI mask inside SPM slots aids eyeballing; '
+                    '<p class="note">Low-NDWI mask aids eyeballing; '
                     "not used for the cover blurb or auto counts.</p>"
                 )
-                parts.append(
-                    f'<img class="sat" alt="ndwi-debug" '
-                    f'src="data:image/png;base64,{_fig_to_base64(sat.debug_fig)}"/>'
-                )
+                parts.append('<div class="sat-row">')
+                for p in debug_panels:
+                    parts.append('<div class="sat-col">')
+                    parts.append(f"<h4>{html.escape(p.title)} — NDWI</h4>")
+                    parts.append(
+                        f'<img class="sat" alt="ndwi-{html.escape(p.title)}" '
+                        f'src="data:image/png;base64,{_fig_to_base64(p.debug_fig)}"/>'
+                    )
+                    parts.append("</div>")
+                parts.append("</div>")
             if sat.note:
                 parts.append(f'<p class="note">{html.escape(sat.note)}</p>')
+            for p in sat.panels:
+                if p.note:
+                    parts.append(
+                        f'<p class="note">{html.escape(p.title)}: '
+                        f"{html.escape(p.note)}</p>"
+                    )
         elif sat.note and sat.note != "Satellite fetch skipped.":
             parts.append(
                 f"<p><em>{html.escape(sat.note)}</em></p>"

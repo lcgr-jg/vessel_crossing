@@ -1,5 +1,9 @@
 vessel_name,vessel_imo,zone_name,location_name,installation_name,start,end,is_sts,cargo_origin_barrels_split_by_product,closest_ancestor_grade,closest_ancestor_product,port_call_id,voyage_id,vessel_key,pc_volume_bbl,sts_zone,matched_named_pair,receiver_in_soh_exits
+Olympic Life,9844277,Gulf of Oman,Gulf of Oman,,2026-08-15,2026-08-16 00:00:00,True,2000002,ME,Crude,399560544,49323456,OLYMPIC LIFE,2000002,Gulf of Oman,False,False
+Advantage Verdict,9933535,Gulf of Oman,Gulf of Oman,,2026-08-13,2026-08-14 00:00:00,True,2000002,ME,Crude,399088562,49101986,ADVANTAGE VERDICT,2000002,Gulf of Oman,False,False
+Universal Frontier,9829382,Fujairah Light.,Fujairah Light.,,2026-08-13,2026-08-14 00:00:00,True,1999996,ME,Crude,397431364,48526301,UNIVERSAL FRONTIER,1999996,Fujairah Light,False,True
 Novo,9633446,Gulf of Oman,Gulf of Oman,,2026-08-09,2026-08-10 00:00:00,True,1017760,ME,Crude,398394651,48781285,NOVO,1017760,Gulf of Oman,False,False
+Argentina B,9389021,Gulf of Oman,Gulf of Oman,,2026-08-08,2026-08-09 00:00:00,True,-1959999,Basrah,Crude,399569367,46423812,ARGENTINA B,-1959999,Gulf of Oman,False,True
 Gulf Loyalty,9441245,Gulf of Oman,Gulf of Oman,,2026-08-07,2026-08-08 00:00:00,True,2000002,ME,Crude,397431327,48831569,GULF LOYALTY,2000002,Gulf of Oman,False,False
 Africa,9905320,Gulf of Oman,Gulf of Oman,,2026-08-05,2026-08-06 00:00:00,True,999998,ME,Crude,397473072,48347834,AFRICA,999998,Gulf of Oman,False,False
 Dar Salwa,9534779,Gulf of Oman,Gulf of Oman,,2026-08-04,2026-08-05 00:00:00,True,2000002,ME,Crude,398566047,48861634,DAR SALWA,2000002,Gulf of Oman,False,True
@@ -12,10 +16,11 @@ Caspar,9926661,Gulf of Oman,Gulf of Oman,,2026-07-29,2026-07-30 00:00:00,True,19
 Universal Leader,9837597,Gulf of Oman,Gulf of Oman,,2026-07-29,2026-07-30 00:00:00,True,2000002,ME,Crude,397253497,48244928,UNIVERSAL LEADER,2000002,Gulf of Oman,False,True
 Nissos Nikouria,9920760,Gulf of Oman,Gulf of Oman,,2026-07-29,2026-07-30 00:00:00,True,2000002,ME,Crude,395382544,47976888,NISSOS NIKOURIA,2000002,Gulf of Oman,False,True
 Sanmar Herald,9330563,Gulf of Oman,Gulf of Oman,,2026-07-27,2026-07-28 00:00:00,True,1999996,ME,Crude,397410681,48318684,SANMAR HERALD,1999996,Gulf of Oman,False,True
+Front Clyde,1116038,Gulf of Oman,Gulf of Oman,,2026-07-26,2026-07-27 00:00:00,True,2000002,ME,Crude,399107185,48597808,FRONT CLYDE,2000002,Gulf of Oman,False,False
 Maran Taurus,9519494,Gulf of Oman,Gulf of Oman,,2026-07-25,2026-07-26 00:00:00,True,2000002,ME,Crude,396014716,47636649,MARAN TAURUS,2000002,Gulf of Oman,False,False
 Togo Prosperity,9411032,Gulf of Oman,Gulf of Oman,,2026-07-21,2026-07-22 00:00:00,True,2000002,ME,Crude,397052471,48150454,TOGO PROSPERITY,2000002,Gulf of Oman,False,True
-Nave Allegro,9876414,Gulf of Oman,Gulf of Oman,,2026-07-18,2026-07-18 12:00:00,True,999998,ME,Crude,395198344,47139449,NAVE ALLEGRO,999998,Gulf of Oman,False,False
 Navig8 Perseverance,9853266,Gulf of Oman,Gulf of Oman,,2026-07-18,2026-07-19 00:00:00,True,-603758,Zakum,Crude,397894589,48545359,NAVIG8 PERSEVERANCE,-603758,Gulf of Oman,False,True
+Nave Allegro,9876414,Gulf of Oman,Gulf of Oman,,2026-07-18,2026-07-18 12:00:00,True,1999996,ME,Crude,395198344,47139449,NAVE ALLEGRO,1999996,Gulf of Oman,False,False
 Singapore Prosperity,9419967,Fujairah Light.,Fujairah Light.,,2026-07-16,2026-07-17 00:00:00,True,-914211,Das,Crude,394863497,45377721,SINGAPORE PROSPERITY,-914211,Fujairah Light,False,False
 Shirayuki,9398084,Gulf of Oman,Gulf of Oman,,2026-07-14,2026-07-15 00:00:00,True,2000002,ME,Crude,391538339,46678371,SHIRAYUKI,2000002,Gulf of Oman,False,True
 Sea Pearl,9779604,Gulf of Oman,Gulf of Oman,,2026-07-10,2026-07-11 00:00:00,True,1999996,ME,Crude,393521751,46501422,SEA PEARL,1999996,Gulf of Oman,False,False
@@ -29,13 +34,13 @@ Kazimah III,9329693,Gulf of Oman,Gulf of Oman,,2026-07-02,2026-07-03 00:00:00,Tr
 Maran Leo,9602473,Gulf of Oman,Gulf of Oman,,2026-07-01,2026-07-02 00:00:00,True,1999996,ME,Crude,391406111,45633765,MARAN LEO,1999996,Gulf of Oman,False,False
 Gem No.1,9735361,Gulf of Oman,Gulf of Oman,,2026-06-30,2026-06-30 12:00:00,True,1999996,ME,Crude,391395004,45571489,GEM NO.1,1999996,Gulf of Oman,False,False
 Angola Prosperity,9896414,Gulf of Oman,Gulf of Oman,,2026-06-27,2026-06-28 00:00:00,True,1999996,Kuwait,Crude,391342932,45551013,ANGOLA PROSPERITY,1999996,Gulf of Oman,False,False
-Malaysia Prosperity,9395305,Gulf of Oman,Gulf of Oman,,2026-06-24,2026-06-25 00:00:00,True,2000002,ME,Crude,391126288,45451449,MALAYSIA PROSPERITY,2000002,Gulf of Oman,False,False
 Seaking,9602916,Gulf of Oman,Gulf of Oman,,2026-06-24,2026-06-25 00:00:00,True,1999996,ME,Crude,391124213,45450702,SEAKING,1999996,Gulf of Oman,False,True
+Malaysia Prosperity,9395305,Gulf of Oman,Gulf of Oman,,2026-06-24,2026-06-25 00:00:00,True,2000002,ME,Crude,391126288,45451449,MALAYSIA PROSPERITY,2000002,Gulf of Oman,False,False
 Front Castor,9780251,Gulf of Oman,Gulf of Oman,,2026-06-24,2026-06-25 00:00:00,True,266241,ME,Crude,391362390,45558708,FRONT CASTOR,266241,Gulf of Oman,False,False
 Caribbean Glory,9788875,Gulf of Oman,Gulf of Oman,,2026-06-24,2026-06-25 00:00:00,True,1999996,ME,Crude,391116141,45447771,CARIBBEAN GLORY,1999996,Gulf of Oman,False,False
 Harbour Splendor,9575096,Gulf of Oman,Gulf of Oman,,2026-06-23,2026-06-24 00:00:00,True,2000002,ME,Crude,390846157,45447753,HARBOUR SPLENDOR,2000002,Gulf of Oman,False,False
 Angola B,9623685,Gulf of Oman,Gulf of Oman,,2026-06-23,2026-06-25 00:00:00,True,-2009185,Das,Crude,391241765,45417469,ANGOLA B,-2009185,Gulf of Oman,False,True
 C.Galaxy,9404924,Gulf of Oman,Gulf of Oman,,2026-06-21,2026-06-22 00:00:00,True,1000004,ME,Crude,391069301,45430885,C.GALAXY,1000004,Gulf of Oman,False,False
 Argentina B,9389021,Gulf of Oman,Gulf of Oman,,2026-06-20,2026-06-21 00:00:00,True,2000002,ME,Crude,391354281,46501615,ARGENTINA B,2000002,Gulf of Oman,False,True
-Tong Zhou Gong Ji,9646986,Gulf of Oman,Gulf of Oman,,2026-06-18,2026-06-19 00:00:00,True,1991360,ME,Crude,390750154,45400137,TONG ZHOU GONG JI,1991360,Gulf of Oman,False,False
 Seapassion,9783734,Gulf of Oman,Gulf of Oman,,2026-06-18,2026-06-19 00:00:00,True,1999996,ME,Crude,390895211,48624245,SEAPASSION,1999996,Gulf of Oman,False,False
+Tong Zhou Gong Ji,9646986,Gulf of Oman,Gulf of Oman,,2026-06-18,2026-06-19 00:00:00,True,1991360,ME,Crude,390750154,45400137,TONG ZHOU GONG JI,1991360,Gulf of Oman,False,False

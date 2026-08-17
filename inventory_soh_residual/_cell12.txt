@@ -1,0 +1,90 @@
+import importlib
+import residual as R
+from datetime import date 
+R = importlib.reload(R)
+
+# Kayrros shape id + matching Kpler zone/installation (edit these two).
+KAYRROS_SHAPE = "zirku"   # or dasIslandTerminal_adnoc
+KPLER_NAME = "Zirku Island"                          # or Das Island
+KPLER_KIND = "installation"                           # zone | installation
+
+wide, compare = R.tank_draw_vs_kpler(
+    shape_id=KAYRROS_SHAPE,
+    kpler_name=KPLER_NAME,
+    kpler_kind=KPLER_KIND,
+    start=START,
+    end=END,
+    email=email,
+    password=password,
+    session=session,
+    product=cfg["product"],
+    refresh=True#REFRESH_KAYRROS,
+)
+
+R.OUT.mkdir(parents=True, exist_ok=True)
+safe = KAYRROS_SHAPE.replace("/", "_")
+wide.to_csv(R.OUT / f"tbt_{safe}_kb.csv")
+compare.to_csv(R.OUT / f"tbt_{safe}_vs_kpler.csv")
+
+print(f"{KAYRROS_SHAPE}  tanks={wide.shape[1] - 2}")
+display(wide.round(0).head(10))
+print("table_compare (draw vs Kpler loadings, kb):")
+display(compare.round(1).tail(15))
+
+# --- Chart 1: standalone builds vs draws ---
+fig1, ax1 = plt.subplots(figsize=(11, 4.2))
+ax1.fill_between(wide.index, 0, wide["total_build"], color="#2e7d32", alpha=0.35, label="total_build")
+ax1.fill_between(wide.index, 0, wide["total_draw"], color="#c62828", alpha=0.35, label="total_draw")
+wide["total_build"].plot(ax=ax1, color="#2e7d32", lw=1.0)
+wide["total_draw"].plot(ax=ax1, color="#c62828", lw=1.0)
+ax1.axhline(0, color="0.7", lw=0.8)
+ax1.set_ylabel("kb / day")
+ax1.set_title(f"{KAYRROS_SHAPE} — tank builds vs draws")
+ax1.legend(loc="upper left")
+fig1.tight_layout()
+
+# --- Chart 2: window compare + cumulative + kbd rates ---
+if not compare.empty:
+    x = compare.index
+    abs_draw = compare["tank_draw_kb"].abs()
+    # kb -> kbd using length of each observation window
+    window_days = (compare.index.to_series() - compare["from_date"]).dt.days.clip(lower=1)
+    build_kbd = compare["tank_build_kb"] / window_days
+    draw_kbd = abs_draw / window_days
+    kpler_kbd = compare["kpler_loadings_kb"] / window_days
+
+    fig2, axes = plt.subplots(3, 1, figsize=(11, 10.5), sharex=False)
+
+    axes[0].bar(x, abs_draw, width=2.0, color="#c62828", alpha=0.55, label="|tank_draw|")
+    axes[0].bar(x, compare["kpler_loadings_kb"], width=1.0, color="#1f4e79", alpha=0.8, label="Kpler loadings")
+    axes[0].plot(x, compare["gap_kb"], color="0.2", marker="o", ms=3, lw=1.0, label="gap (|draw| - Kpler)")
+    axes[0].axhline(0, color="0.7", lw=0.8)
+    axes[0].set_ylabel("kb / observation window")
+    axes[0].set_title(f"{KPLER_NAME} — inventory draw vs Kpler loadings")
+    axes[0].legend(loc="upper left")
+
+    cum_draw = abs_draw.cumsum()
+    cum_kpler = compare["kpler_loadings_kb"].cumsum()
+    cum_gap = compare["gap_kb"].cumsum()
+    axes[1].plot(x, cum_draw, color="#c62828", lw=1.5, label="cumulative |tank_draw|")
+    axes[1].plot(x, cum_kpler, color="#1f4e79", lw=1.5, label="cumulative Kpler loadings")
+    axes[1].plot(x, cum_gap, color="0.25", lw=1.2, ls="--", marker="o", ms=3, label="cumulative gap")
+    axes[1].axhline(0, color="0.7", lw=0.8)
+    axes[1].set_ylabel("kb cumulative")
+    axes[1].set_title(f"{KPLER_NAME} — cumulative draw vs Kpler (lag check)")
+    axes[1].legend(loc="upper left")
+
+    axes[2].plot(x, build_kbd, color="#2e7d32", lw=1.5, marker="o", ms=3, label="build rate")
+    axes[2].plot(x, draw_kbd, color="#c62828", lw=1.5, marker="o", ms=3, label="draw rate")
+    axes[2].plot(x, kpler_kbd, color="#1f4e79", lw=1.5, marker="o", ms=3, label="Kpler loading rate")
+    axes[2].axhline(0, color="0.7", lw=0.8)
+    axes[2].set_ylabel("kbd")
+    axes[2].set_title(f"{KPLER_NAME} — build / draw / loading rates (kb per day in window)")
+    axes[2].legend(loc="upper left")
+    fig2.tight_layout()
+
+print(
+    f"Window totals: |tank_draw|={compare['tank_draw_kb'].abs().sum():.0f} kb  "
+    f"Kpler={compare['kpler_loadings_kb'].sum():.0f} kb  "
+    f"gap={compare['gap_kb'].sum():.0f} kb"
+)

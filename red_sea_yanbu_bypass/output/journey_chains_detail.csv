@@ -9,7 +9,7 @@ load_date,vessel,imo,vessel_class,grade,origin,load_status,load_kbbl,capacity_kb
 2026-07-17,Amzan,9693745,VLCC,Arab,Muajjiz,Delivered,2141.428,2174.037921,Ain Sukhna,True,2026-07-21 18:59:00,2026-07-21,2141.428,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.985000297977783,ain_sukhna_only,realized
 2026-07-18,Merbabu,9388364,LR2,Arab,Yanbu Crude,Delivered,716.214,727.1197493999999,New Mangalore Refinery,False,,,,,,,,,,,,,,,,New Mangalore Refinery,0.9850014397092102,other,realized
 2026-07-18,Xin Long Yang,9761463,VLCC,Arab,Yanbu Crude,Delivered,2055.742,2087.0436971999998,CNPC Qinzhou Refinery,False,,,,,,,,,,,,,,,,CNPC Qinzhou Refinery,0.9850018965860685,other,realized
-2026-07-18,Cosnew Lake,9804289,VLCC,Arab,Yanbu Crude,In Transit,2135.0,2167.5091085999998,Huizhou,False,,,,,,,,,,,,,,,,Huizhou,0.9850016276882003,other,realized
+2026-07-18,Cosnew Lake,9804289,VLCC,Arab,Yanbu Crude,Delivered,2135.0,2167.5091085999998,Huizhou Refinery,False,,,,,,,,,,,,,,,,Huizhou Refinery,0.9850016276882003,other,realized
 2026-07-19,Farhah,9484742,VLCC,Arab,Muajjiz,Delivered,2150.001,2182.7367144,Ain Sukhna,True,2026-07-23 17:16:00,2026-07-23,2150.001,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.9850024447822612,ain_sukhna_only,realized
 2026-07-19,Encelia,9240172,LR2,Arab,Yanbu Crude,Delivered,732.335,743.485809,Jizan Refinery,False,,,,,,,,,,,,,,,,Jizan Refinery,0.9850019881146111,other,realized
 2026-07-19,Lahore,9913511,LR2,Arab,Muajjiz,Delivered,757.695,769.2299604,Karachi Keamari,False,,,,,,,,,,,,,,,,Karachi Keamari,0.9850045357125693,other,realized
@@ -23,7 +23,7 @@ load_date,vessel,imo,vessel_class,grade,origin,load_status,load_kbbl,capacity_kb
 2026-07-22,Khuzama,9384215,VLCC,Arab,Yanbu Crude,Delivered,2139.051,2171.6226377999997,Ain Sukhna,True,2026-07-27 21:59:00,2026-07-27,2139.051,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.9850012441236121,ain_sukhna_only,realized
 2026-07-22,Ninemia,9946702,LR2,Arab,Muajjiz,In Transit,769.514,781.2308988,,False,,,,,,,,,,,,,,,,,0.9850020028419286,other,realized
 2026-07-22,Karachi,9903413,LR2,Arab,Yanbu Crude,Delivered,433.789,768.6198498,Karachi Keamari,False,,,,,,,,,,,,,,,,Karachi Keamari,0.5643739230945893,other,realized
-2026-07-23,Dht Gazelle,1055155,VLCC,Arab,Yanbu Crude,In Transit,1081.935,2033.2030092,Western Europe,False,,,,,,,2026-08-05 08:19:00,2026-08-05,612.407,Western Europe,In Transit,trade,,,,Western Europe,0.5321332867915175,sidi_topup,realized
+2026-07-23,Dht Gazelle,1055155,VLCC,Arab,Yanbu Crude,In Transit,1081.935,2033.2030092,Brazil,False,,,,,,,2026-08-05 08:19:00,2026-08-05,612.407,Brazil,In Transit,trade,,,,Brazil,0.5321332867915175,sidi_topup,realized
 2026-07-23,Fpmc C Lord,9447574,VLCC,Arab,Yanbu Crude,In Transit,2106.514,2138.5886081999997,FPCC Mailiao Refinery,False,,,,,,,,,,,,,,,,FPCC Mailiao Refinery,0.9850019736956347,other,realized
 2026-07-23,Desh Vaibhav,9297498,VLCC,Arab,Yanbu Crude,In Transit,970.794,2143.6330277999996,Mumbai,False,,,,,,,,,,,,,,,,Mumbai,0.45287322382615147,other,realized
 2026-07-23,Desh Vaibhav,9297498,VLCC,Arab,Yanbu Crude,Delivered,1140.688,2143.6330277999996,BORL Jamnagar Oil Terminal,False,,,,,,,,,,,,,,,,BORL Jamnagar Oil Terminal,0.5321283938094026,other,realized
@@ -31,7 +31,7 @@ load_date,vessel,imo,vessel_class,grade,origin,load_status,load_kbbl,capacity_kb
 2026-07-24,New Pearl,9468322,VLCC,Arab,Yanbu Crude,In Transit,2047.088,2078.2568466,Nagoya,False,,,,,,,,,,,,,,,,Nagoya,0.9850024087970687,other,realized
 2026-07-25,Amzan,9693745,VLCC,Arab,Muajjiz,Delivered,2141.428,2174.037921,Ain Sukhna,True,2026-07-31 05:54:00,2026-07-31,2141.428,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.985000297977783,ain_sukhna_only,realized
 2026-07-25,Front Empire,9788332,VLCC,Arab,Muajjiz,In Transit,1200.001,2033.2030092,South-Central Asia,False,,,,,,,2026-08-06 10:58:00,2026-08-06,802.705,South-Central Asia,In Transit,trade,,,,South-Central Asia,0.5902022545560572,sidi_topup,realized
-2026-07-25,New Discovery,9269075,LR3,Arab,Yanbu Crude,In Transit,1040.403,1056.2461139999998,Jordan,False,,,,,,,,,,,,,,,,Jordan,0.9850005469463912,other,realized
+2026-07-25,New Discovery,9269075,LR3,Arab,Yanbu Crude,In Transit,1040.403,1056.2461139999998,,False,,,,,,,,,,,,,,,,,0.9850005469463912,other,realized
 2026-07-25,Niban,9484716,VLCC,Arab,Muajjiz,Delivered,2000.002,2162.9930321999996,Ain Sukhna,True,2026-07-29 02:35:00,2026-07-29,2000.002,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.9246456045980787,ain_sukhna_only,realized
 2026-07-26,Farhah,9484742,VLCC,Arab,Muajjiz,Delivered,2000.002,2182.7367144,Ain Sukhna,True,2026-07-31 20:17:00,2026-07-31,2000.002,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.9162818340872454,ain_sukhna_only,realized
 2026-07-26,Lesvos,9772321,LR3,Arab Lt.,Yanbu Crude,Delivered,1017.76,1033.256895,HMEL Mundra Oil Terminal,False,,,,,,,,,,,,,,,,HMEL Mundra Oil Terminal,0.9850018953902069,other,realized
@@ -39,27 +39,29 @@ load_date,vessel,imo,vessel_class,grade,origin,load_status,load_kbbl,capacity_kb
 2026-07-28,Ethiopia Prosperity,9602289,VLCC,Arab,Yanbu Crude,Delivered,2132.843,2165.3202582,Ain Sukhna,True,2026-08-03 01:36:00,2026-08-03,2132.843,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.9850011756565756,ain_sukhna_only,realized
 2026-07-29,Alexandros,9905459,VLCC,Arab,Muajjiz,In Transit,299.998,2073.8225376,Cochin,False,,,,,,,,,,,,,,,,Cochin,0.14465943664937822,other,realized
 2026-07-29,Alexandros,9905459,VLCC,Arab,Muajjiz,Delivered,999.998,2073.8225376,BORL Jamnagar Oil Terminal,False,,,,,,,,,,,,,,,,BORL Jamnagar Oil Terminal,0.48220037243749936,other,realized
-2026-07-29,Desert Rose,9239939,LR2,Arab,Yanbu Crude,In Transit,395.899,724.1069352,,False,,,,,,,,,,,,,,,,,0.5467410692464253,other,realized
+2026-07-29,Desert Rose,9239939,LR2,Arab,Yanbu Crude,Delivered,395.899,724.1069352,Rabigh Power,False,,,,,,,,,,,,,,,,Rabigh Power,0.5467410692464253,other,realized
 2026-07-29,Morocco Prosperity,9597252,VLCC,Arab,Muajjiz,Delivered,2137.271,2169.8174652,Ain Sukhna,True,2026-08-02 06:16:00,2026-08-02,2137.271,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.9850003672096908,ain_sukhna_only,realized
-2026-07-31,Kenya B,9723069,VLCC,Arab,Yanbu Crude,In Transit,2006.242,2036.7881952,Ain Sukhna,True,2026-08-13 21:00:00,2026-08-13,2006.242,trade_dest+ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.9850027630403658,in_progress,realized
-2026-07-31,Sea Majesty,9783344,VLCC,Arab,Muajjiz,In Transit,1005.803,2087.0436971999998,Europe,False,,,,,,,2026-08-11 08:58:00,2026-08-11,1049.939,Europe,Loading,trade,,,,Europe,0.4819271399776613,sidi_topup,realized
+2026-07-31,Kenya B,9723069,VLCC,Arab,Yanbu Crude,Delivered,2006.242,2036.7881952,Ain Sukhna,True,2026-08-13 06:57:00,2026-08-13,2006.242,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.9850027630403658,in_progress,realized
+2026-07-31,Sea Majesty,9783344,VLCC,Arab,Muajjiz,In Transit,1005.803,2087.0436971999998,Ceuta,False,,,,,,,2026-08-11 08:58:00,2026-08-11,1049.939,Ceuta,In Transit,trade,,,,Ceuta,0.4819271399776613,sidi_topup,realized
 2026-08-01,Dht Puma,9728837,VLCC,Arab,Muajjiz,Delivered,2065.001,2096.4469482,Ain Sukhna,True,2026-08-10 08:17:00,2026-08-10,2065.001,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.985000360621098,in_progress,realized
 2026-08-01,Khuzama,9384215,VLCC,Arab,Yanbu Crude,In Transit,2139.051,2171.6226377999997,Ain Sukhna,True,2026-08-13 18:00:00,2026-08-13,2139.051,trade_dest+ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.9850012441236121,in_progress,realized
 2026-08-01,Roberta B,9563237,VLCC,Arab,Muajjiz,Delivered,1989.102,2019.3906083999998,Ain Sukhna,True,2026-08-07 21:35:00,2026-08-07,1989.102,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.9850011145570307,in_progress,realized
-2026-08-05,V.Glory,9849851,VLCC,Arab,Yanbu Crude,In Transit,996.488,2023.3217333999999,South Korea,False,2026-08-14 12:00:00,2026-08-14,996.488,ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.49250101135695146,in_progress,realized
-2026-08-05,V.Glory,9849851,VLCC,Arab,Yanbu Crude,In Transit,996.488,2023.3217333999999,Ain Sukhna,True,2026-08-14 12:00:00,2026-08-14,996.488,trade_dest+ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.49250101135695146,in_progress,realized
-2026-08-07,Morocco Prosperity,9597252,VLCC,Arab,Yanbu,In Transit,2137.271,2169.8174652,Ain Sukhna,True,2026-08-11 17:00:00,2026-08-11,2137.271,trade_dest+ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.9850003672096908,in_progress,realized
-2026-08-08,Gabon Prosperity,9457543,VLCC,Arab,Yanbu,In Transit,2077.952,2109.5926302,Ain Sukhna,True,2026-08-12 09:00:00,2026-08-12,2077.952,trade_dest+ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.9850015449679497,in_progress,realized
+2026-08-05,V.Glory,9849851,VLCC,Arab,Yanbu Crude,In Transit,1099.138,2023.3217333999999,,False,2026-08-12 08:09:00,2026-08-12,893.838,ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,205.29999999999995,,,,,,,,,,,0.5432344158894606,in_progress,realized
+2026-08-05,V.Glory,9849851,VLCC,Arab,Yanbu Crude,Delivered,893.838,2023.3217333999999,Ain Sukhna,True,2026-08-12 08:09:00,2026-08-12,893.838,trade_dest+ain_dest_trade+port_call,Ain Sukhna | Ain Sukhna | Ain Sukhna,0.0,,,,,,,,,,,0.44176760682444216,in_progress,realized
+2026-08-07,Morocco Prosperity,9597252,VLCC,Arab,Yanbu,In Transit,2137.271,2169.8174652,Ain Sukhna,True,2026-08-14 18:00:00,2026-08-14,2137.271,trade_dest+ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.9850003672096908,in_progress,realized
+2026-08-08,Gabon Prosperity,9457543,VLCC,Arab,Yanbu,In Transit,2077.952,2109.5926302,Ain Sukhna,True,2026-08-15 12:00:00,2026-08-15,2077.952,trade_dest+ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.9850015449679497,in_progress,realized
 2026-08-08,Seavoice,9877755,VLCC,Arab,Yanbu,In Transit,1032.9,2097.2583323999997,Eastern Asia,False,,,,,,,,,,,,,,,,Eastern Asia,0.4925001293560245,other,realized
-2026-08-12,Roberta B,9563237,VLCC,Arab,Yanbu,Scheduled,1989.102,2019.3906083999998,,False,,,,,,,,,,,,,,,,,0.9850011145570307,other,forecast
-2026-08-12,Sahba,9388273,VLCC,Arab,Yanbu,Scheduled,2119.131,2151.4009307999995,,False,,,,,,,,,,,,,,,,,0.9850005034682214,other,forecast
-2026-08-13,New Vanguard,9445631,VLCC,Arab,Yanbu,Scheduled,2057.573,2088.9054779999997,China,False,,,,,,,,,,,,,,,,China,0.9850005285878235,other,forecast
-2026-08-13,Ghazal,9387009,VLCC,Arab,Yanbu,Scheduled,2119.804,2152.0802292,,False,,,,,,,,,,,,,,,,,0.9850023113627144,other,forecast
-2026-08-13,Plata Glory,9384590,VLCC,Arab,Yanbu,Scheduled,2012.38,2043.0213869999998,,False,,,,,,,,,,,,,,,,,0.9850019254840039,other,forecast
-2026-08-13,Minerva Zenobia,9787182,LR2,Arab,Yanbu,Scheduled,774.948,786.7470534,Mangalore,False,,,,,,,,,,,,,,,,Mangalore,0.9850027358234017,other,forecast
-2026-08-14,Andromeda,9352561,VLCC,Arab,Yanbu,Scheduled,2165.009,2197.9768998,Ulsan,False,,,,,,,,,,,,,,,,Ulsan,0.9850007978687129,other,forecast
-2026-08-14,Mount Vision,1043035,VLCC,Arab,Yanbu,Scheduled,1989.448,2019.7428372,Ulsan,False,,,,,,,,,,,,,,,,Ulsan,0.985000646299111,other,forecast
+2026-08-11,C.Glory,9419620,VLCC,Arab,Muajjiz,In Transit,2107.998,2140.0981601999997,,False,,,,,,,,,,,,,,,,,0.9850006131508473,other,realized
+2026-08-11,Daffodil,9239927,LR2,Arab,Yanbu Crude,In Transit,678.003,688.3305528,,False,,,,,,,,,,,,,,,,,0.9849962307237571,other,realized
+2026-08-14,Plata West,9400681,VLCC,Arab,Yanbu,Scheduled,2012.38,2043.0213869999998,Ain Sukhna,True,2026-08-18 18:19:00,2026-08-18,2012.38,trade_dest+ain_dest_trade,Ain Sukhna,0.0,,,,,,,,,,,0.9850019254840039,in_progress,forecast
 2026-08-14,Lila Marseille,9418614,LR3,Arab,Yanbu,Scheduled,1059.222,1075.3545264,,False,,,,,,,,,,,,,,,,,0.9849979462549832,other,forecast
 2026-08-15,Shalamar,9336842,LR2,Arab,Yanbu,Scheduled,705.999,716.7478692,Karachi,False,,,,,,,,,,,,,,,,Karachi,0.9850032770770601,other,forecast
+2026-08-15,Mount Vision,1043035,VLCC,Arab,Yanbu,Scheduled,1989.448,2019.7428372,Ulsan,False,,,,,,,,,,,,,,,,Ulsan,0.985000646299111,other,forecast
+2026-08-15,Roberta B,9563237,VLCC,Arab,Yanbu,Scheduled,1989.102,2019.3906083999998,,False,,,,,,,,,,,,,,,,,0.9850011145570307,other,forecast
+2026-08-15,Plata Glory,9384590,VLCC,Arab,Yanbu,Scheduled,2012.38,2043.0213869999998,,False,,,,,,,,,,,,,,,,,0.9850019254840039,other,forecast
+2026-08-16,Ghazal,9387009,VLCC,Arab,Yanbu,Scheduled,2119.804,2152.0802292,,False,,,,,,,,,,,,,,,,,0.9850023113627144,other,forecast
 2026-08-18,Maran Leo,9602473,VLCC,Arab,Yanbu,Scheduled,2139.384,2171.962287,Eastern Asia,False,,,,,,,,,,,,,,,,Eastern Asia,0.9850005282343101,other,forecast
-2026-08-21,Quantum Harmony,9418054,VLCC,Arab,Yanbu,Scheduled,2142.862,2175.4908648,,False,,,,,,,,,,,,,,,,,0.985001607992043,other,forecast
+2026-08-20,Front Tana,9933640,VLCC,Arab,Yanbu,Scheduled,1997.668,2028.0894018,,False,,,,,,,,,,,,,,,,,0.9849999700343585,other,forecast
+2026-08-20,Safeen Elizabeth,9524449,LR3,Arab,Yanbu,Scheduled,1057.027,1073.1216473999998,MED Sea,False,,,,,,,,,,,,,,,,MED Sea,0.9850020289507769,other,forecast
+2026-08-21,Quantum Harmony,9418054,VLCC,Arab,Yanbu,Scheduled,2142.862,2175.4908648,West Coast India,False,,,,,,,,,,,,,,,,West Coast India,0.985001607992043,other,forecast
+2026-08-25,Front Neiden,9877779,VLCC,Arab,Yanbu,Scheduled,1996.379,2026.7748335999997,,False,,,,,,,,,,,,,,,,,0.9850028562146639,other,forecast

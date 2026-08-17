@@ -1,0 +1,223 @@
+=== PortCalls.get_columns() ===
+n_columns=41
+                                       id                         name                                                                                           description  deprecated                       type
+0                             vessel_name                       Vessel                                                                                    Name of the vessel       False                     string
+2                                     eta                          ETA                                                Estimated date and time of arrival at next destination       False  datetime yyyy-MM-dd HH:mm
+3                                   start                        Start                                        Date and Time when the vessel started berthing at the terminal       False  datetime yyyy-MM-dd HH:mm
+4                                     end                          End                                                   Date and Time of vessel departure from the terminal       False  datetime yyyy-MM-dd HH:mm
+5   cargo_origin_barrels_split_by_product                 Volume (bbl)                                                                                                  None       False                       long
+6                 closest_ancestor_family                       Family                                                                                        Product family       False                     string
+7                  closest_ancestor_group                        Group                                                                                         Product group       False                     string
+8                closest_ancestor_product                      Product                                                                                                  None       False                     string
+9                  closest_ancestor_grade                        Grade                                                                                         Product grade       False                     string
+10           vessel_capacity_cubic_meters                Capacity (m3)                                                    The maximum capacity of the vessel in cubic meters       False                       long
+11     cargo_origin_tons_split_by_product                 Cargo (tons)                                                     Quantity (tons) loaded/discharged at the terminal       False                       long
+12                      vessel_cargo_type          Cargo type (vessel)                                                                 The specific cargo type of the vessel       False                     string
+13                          chartererName                    Charterer                                                                      Current controller of the vessel       False                     string
+15                         continent_name                    Continent                                                       Zone location where the port call is registered       False                     string
+18              multiple_forecasted_zones             Forecasted Zones                                                                            A list of system forecasts       False             list of string
+19   multiple_forecasted_zones_confidence  Forecasted Zones Confidence                                                  A list of confidences (in %) of the system forecasts       False              list of float
+20             closest_ancestor_grade_api                    Grade API                                                                              API grade of the product       False                      float
+21          closest_ancestor_grade_sulfur                 Grade Sulfur                                                                          Sulphur grade of the product       False                      float
+22                             vessel_imo                 IMO (vessel)                                                                                          IMO (vessel)       False                       long
+25                              vessel_id                  Id (vessel)                                                                   Identifier in the database of Kpler       False                       long
+26                              voyage_id                  Id (voyage)                                                                   Identifier in the database of Kpler       False                       long
+27                                zone_id                    Id (zone)                                                                   Identifier in the database of Kpler       False                       long
+29                            vessel_mmsi                MMSI (vessel)                                         The Maritime Mobile Service Identity of the vessel (9 digits)       False                       long
+30                       is_partial_cargo                 PartialCargo                                                                TRUE if the vessel is partially loaded       False                    boolean
+36                      installation_type          Type (installation)                                                                         Specific type of installation       False                     string
+37                        vessel_type_alt      Vessel Type Alternative  Type of the vessel in the Oil classification (Product Tanker, Panamax, Aframax, Suezmax, VLCC, ULCC)       False                     string
+38                            vessel_type                  Vessel type                                                                   Type of vessel (Q-Flex,Q-Max, etc.)       False                     string
+39             flow_quantity_cubic_meters                  Volume (m3)                                                                                                  None       False                     double
+40                              zone_name                         zone                                                                Area where the port call is registered       False                     string
+
+ALL column ids:
+vessel_name, installation_name, eta, start, end, cargo_origin_barrels_split_by_product, closest_ancestor_family, closest_ancestor_group, closest_ancestor_product, closest_ancestor_grade, vessel_capacity_cubic_meters, cargo_origin_tons_split_by_product, vessel_cargo_type, chartererName, confidence, continent_name, country_name, is_forecasted, multiple_forecasted_zones, multiple_forecasted_zones_confidence, closest_ancestor_grade_api, closest_ancestor_grade_sulfur, vessel_imo, installation_id, port_call_id, vessel_id, voyage_id, zone_id, location_name, vessel_mmsi, is_partial_cargo, is_reexport, is_sts, installation_status, installation_storage_capacity, sub_continent_name, installation_type, vessel_type_alt, vessel_type, flow_quantity_cubic_meters, zone_name
+
+=== Excel window 2026-08-12..2026-08-13 ===
+rows=10 unique_imo=10
+Direction:
+Direction
+Entered MEG    5
+Exited MEG     5
+Loading State:
+Loading State
+Ballast    6
+Laden      4
+Crossing Type:
+Crossing Type
+Dark/Unknown Route    7
+Iranian Route         3
+
+=== PortCalls Strait of Hormuz 2026-08-12..2026-08-13 columns=all with_empty_volume=True ===
+shape=(13, 41)
+columns=['is_forecasted', 'confidence', 'port_call_id', 'vessel_name', 'location_name', 'installation_name', 'zone_name', 'country_name', 'eta', 'start', 'end', 'closest_ancestor_family', 'closest_ancestor_group', 'closest_ancestor_product', 'closest_ancestor_grade', 'flow_quantity_cubic_meters', 'cargo_origin_barrels_split_by_product', 'cargo_origin_tons_split_by_product', 'chartererName', 'is_reexport', 'is_partial_cargo', 'is_sts', 'vessel_imo', 'vessel_mmsi', 'vessel_capacity_cubic_meters', 'vessel_cargo_type', 'vessel_type', 'vessel_id', 'installation_id', 'zone_id', 'installation_type', 'sub_continent_name', 'continent_name', 'installation_storage_capacity', 'installation_status', 'voyage_id', 'closest_ancestor_grade_api', 'closest_ancestor_grade_sulfur', 'vessel_type_alt', 'multiple_forecasted_zones', 'multiple_forecasted_zones_confidence']
+
+head(10):
+   is_forecasted  confidence  port_call_id           vessel_name     location_name installation_name         zone_name country_name eta               start                 end closest_ancestor_family closest_ancestor_group closest_ancestor_product closest_ancestor_grade  flow_quantity_cubic_meters  cargo_origin_barrels_split_by_product  cargo_origin_tons_split_by_product chartererName  is_reexport  is_partial_cargo  is_sts  vessel_imo  vessel_mmsi  vessel_capacity_cubic_meters vessel_cargo_type   vessel_type  vessel_id  installation_id  zone_id installation_type sub_continent_name continent_name  installation_storage_capacity installation_status   voyage_id  closest_ancestor_grade_api  closest_ancestor_grade_sulfur vessel_type_alt multiple_forecasted_zones multiple_forecasted_zones_confidence
+0          False         NaN     399065490                 Trend  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-13 19:12:00 2026-08-13 19:12:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9477177    671446100                          9871               NaN  Small Tanker     115743              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN  45906286.0                         NaN                            NaN    Small Tanker                       NaN                                  NaN
+1          False         NaN     399086385                 Renad  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-13 18:29:00 2026-08-13 18:29:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9310161    636024319                         51200               NaN            MR      74944              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN         NaN                         NaN                            NaN  Product Tanker                       NaN                                  NaN
+2          False         NaN     399062223              Explorer  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-13 15:18:00 2026-08-13 15:18:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9213909    314001096                         50706               NaN            MR      69408              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN         NaN                         NaN                            NaN  Product Tanker                       NaN                                  NaN
+3          False         NaN     399045044  Singapore Prosperity  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-13 05:06:00 2026-08-13 05:06:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9419967    636014907                        326311               NaN          VLCC      81117              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN         NaN                         NaN                            NaN            VLCC                       NaN                                  NaN
+4          False         NaN     398918963                 Musik  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-13 03:49:00 2026-08-13 03:49:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9305051    311000493                         52321               NaN            MR      74638              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN  48160678.0                         NaN                            NaN  Product Tanker                       NaN                                  NaN
+5          False         NaN     399138282              On Pride  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-13 00:00:00 2026-08-13 00:00:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN          ONEX        False             False   False     9945318    636021574                        120108               NaN           LR2     118722              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN         NaN                         NaN                            NaN         Aframax                       NaN                                  NaN
+6          False         NaN     398861038          Lumina Ocean  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-12 21:09:00 2026-08-12 21:09:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9430715    306077000                         16043               NaN            GP      81759              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN  48466916.0                         NaN                            NaN  Product Tanker                       NaN                                  NaN
+7          False         NaN     398852593            Argo Maris  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-12 19:02:00 2026-08-12 19:02:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9041643    306745000                          1084               NaN  Small Tanker     116861              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN  48338261.0                         NaN                            NaN    Small Tanker                       NaN                                  NaN
+8          False         NaN     398881251        Ottoman Equity  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-12 19:01:00 2026-08-12 19:01:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9404950    271002613                        166671               NaN           LR3      80173              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN         NaN                         NaN                            NaN         Suezmax                       NaN                                  NaN
+9          False         NaN     398779017                 Sea V  Strait of Hormuz               NaN  Strait of Hormuz          NaN NaT 2026-08-12 00:53:00 2026-08-12 00:53:00                     NaN                    NaN                      NaN                    NaN                         NaN                                    NaN                                 NaN           NaN        False             False   False     9332535    477155300                        342287               NaN          VLCC      76448              NaN   107647               NaN        Middle East           Asia                            NaN                 NaN         NaN                         NaN                            NaN            VLCC                       NaN                                  NaN
+
+null rates (top):
+confidence                               100.0
+country_name                             100.0
+eta                                      100.0
+installation_name                        100.0
+flow_quantity_cubic_meters               100.0
+closest_ancestor_product                 100.0
+closest_ancestor_grade                   100.0
+closest_ancestor_family                  100.0
+closest_ancestor_group                   100.0
+installation_storage_capacity            100.0
+installation_status                      100.0
+closest_ancestor_grade_api               100.0
+closest_ancestor_grade_sulfur            100.0
+multiple_forecasted_zones_confidence     100.0
+cargo_origin_barrels_split_by_product    100.0
+cargo_origin_tons_split_by_product       100.0
+multiple_forecasted_zones                100.0
+installation_id                          100.0
+installation_type                        100.0
+vessel_cargo_type                        100.0
+chartererName                             84.6
+voyage_id                                 61.5
+is_forecasted                              0.0
+vessel_name                                0.0
+location_name                              0.0
+zone_name                                  0.0
+port_call_id                               0.0
+vessel_imo                                 0.0
+is_sts                                     0.0
+is_partial_cargo                           0.0
+is_reexport                                0.0
+start                                      0.0
+end                                        0.0
+vessel_capacity_cubic_meters               0.0
+vessel_mmsi                                0.0
+continent_name                             0.0
+vessel_id                                  0.0
+vessel_type                                0.0
+sub_continent_name                         0.0
+zone_id                                    0.0
+
+value_counts[installation_name]:
+installation_name
+NaN    13
+
+value_counts[zone_name]:
+zone_name
+Strait of Hormuz    13
+
+value_counts[closest_ancestor_family]:
+closest_ancestor_family
+NaN    13
+
+value_counts[closest_ancestor_group]:
+closest_ancestor_group
+NaN    13
+
+value_counts[closest_ancestor_product]:
+closest_ancestor_product
+NaN    13
+
+value_counts[cargo_origin_barrels_split_by_product]:
+cargo_origin_barrels_split_by_product
+NaN    13
+
+value_counts[cargo_origin_tons_split_by_product]:
+cargo_origin_tons_split_by_product
+NaN    13
+
+value_counts[is_partial_cargo]:
+is_partial_cargo
+False    13
+
+value_counts[vessel_cargo_type]:
+vessel_cargo_type
+NaN    13
+
+value_counts[installation_id]:
+installation_id
+NaN    13
+
+value_counts[zone_id]:
+zone_id
+107647    13
+
+value_counts[installation_type]:
+installation_type
+NaN    13
+
+value_counts[installation_storage_capacity]:
+installation_storage_capacity
+NaN    13
+
+value_counts[installation_status]:
+installation_status
+NaN    13
+
+value_counts[voyage_id]:
+voyage_id
+NaN           8
+45906286.0    1
+48160678.0    1
+48466916.0    1
+48338261.0    1
+46103144.0    1
+
+value_counts[multiple_forecasted_zones]:
+multiple_forecasted_zones
+NaN    13
+
+value_counts[multiple_forecasted_zones_confidence]:
+multiple_forecasted_zones_confidence
+NaN    13
+
+IMO overlap: api=13 excel=10 intersection=10 api_only=3 excel_only=0
+api_only sample: [9395496, 9596947, 9945318]
+
+=== Vessels.get_columns() relevant ===
+                                           id                     name                                                                                           description  deprecated    type
+0                                 vessel_name                     Name                                                                                    Name of the vessel       False  string
+2                last_port_call_location_name           Last port-call                                                                      Vessel’s last port call location       False  string
+5                  next_destination_zone_name              Destination                                                                                      Next destination       False  string
+9   next_forecasted_destination_location_name   Forecasted destination                                                                           Next forecasted destination       False  string
+19                                 vessel_imo                      IMO                                                                                            Vessel IMO       False    long
+21             current_vessel_controller_name       Current controller                                                                 Name of the current vessel controller       False  string
+22                               Owners_names                   Owners                                                                                                  None       False  string
+23                            Operators_names                Operators                                                                                                  None       False  string
+24                             Builders_names                 Builders                                                                                                  None       False  string
+25                          vessel_build_year               Build year                                                                    Year of construction of the vessel       False    long
+26                                vessel_type              Vessel type                                                                                    Type of the vessel       False  string
+28                           vessel_flag_name                Flag name                                                                                          Country flag       False  string
+29                         vessel_dead_weight          Dead weight (t)                                                                                   Dead weight in tons       False    long
+36                               Builders_ids              Builders_id                                                                                                  None       False  string
+42                          vessel_cargo_type               Cargo type                                                                 The specific cargo type of the vessel       False  string
+43                        vessel_carrier_type             Carrier type                                                                                         Ocean/Coastal       False  string
+44                                        odw              Dead weight                                                                                   Dead weight in tons        True    long
+45                         vessel_engine_type              Engine type                                                                                           Engine type       False  string
+49                            vessel_type_alt  Vessel Type Alternative  Type of the vessel in the Oil classification (Product Tanker, Panamax, Aframax, Suezmax, VLCC, ULCC)       False  string
+
+ALL vessels column ids:
+vessel_name, vessel_status, last_port_call_location_name, last_port_call_end, cargo_on_board_barrels, next_destination_zone_name, last_raw_destination, next destination eta, next_destination_source, next_forecasted_destination_location_name, next_forecasted_eta, next_forecast_confidence, is_floating_storage, last_speed_kn, vessel_availability_status, vessel_availability_open, vessel_availibility_until, vessel_availibility_delivery, vessel_availibility_redelivery, vessel_imo, vessel_mmsi, current_vessel_controller_name, Owners_names, Operators_names, Builders_names, vessel_build_year, vessel_type, vessel_capacity_cubic_meters, vessel_flag_name, vessel_dead_weight, vessel_id, last_port_call_id, next_forecasted_port_call_id, vessel_availability_id, Owners_ids, Operators_ids, Builders_ids, loaded_days_in_2016, loaded_days_in_2017, loaded_days_in_2018, odc, vessel_cargo_system, vessel_cargo_type, vessel_carrier_type, odw, vessel_engine_type, vessel_gross_tonnage, ols, cargo_on_board_tons, vessel_type_alt, loaded_days_in_2019, loaded_days_in_2020, loaded_days_in_2021
+
+=== FleetMetricsVessels loaded_vessels MEG+GoO 2026-08-12..2026-08-13 ===
+type=<class 'pandas.core.frame.DataFrame'> shape=(469, 13)
+columns=['Date', 'IMO', 'Name', 'Dead Weight Tonnage', 'Quantity (kb)', 'Family', 'Group', 'Product', 'Grade', 'Current Continent', 'Current Subcontinent', 'Current Country', 'Current Sea']
+        Date      IMO           Name  Dead Weight Tonnage  Quantity (kb) Family      Group          Product   Grade Current Continent Current Subcontinent       Current Country   Current Sea
+0 2026-08-12  9287871     Ab Victory                 5872             35    DPP     Resids  Bitumen/Asphalt     NaN              Asia          Middle East                  Iran  Mideast Gulf
+1 2026-08-12  9416329        Abc Sun                 6822             44    DPP  Fuel Oils              NaN     NaN              Asia          Middle East  United Arab Emirates  Gulf of Oman
+2 2026-08-12  9489027  Abu Dhabi III               105131            548  Clean        NaN              NaN     NaN              Asia          Middle East                 Qatar  Mideast Gulf
+3 2026-08-12  1087524       Acheloos               306000           1960  Dirty   Crude/Co            Crude  Basrah              Asia          Middle East  United Arab Emirates  Gulf of Oman
+4 2026-08-12  9203784         Aditya               160373           1083  Dirty   Crude/Co            Crude    Iran              Asia          Middle East                  Iran  Mideast Gulf
+5 2026-08-12  9987029        Aisopos               115621            776  Dirty   Crude/Co            Crude  Murban              Asia          Middle East  United Arab Emirates  Gulf of Oman
+6 2026-08-12  9653410    Al Derwazah               316884           2000  Dirty   Crude/Co            Crude  Kuwait              Asia          Middle East                  Oman  Gulf of Oman
+7 2026-08-12  9290294     Al Habibah               105946            718    DPP  Fuel Oils               FO    HSFO              Asia          Middle East  United Arab Emirates  Gulf of Oman

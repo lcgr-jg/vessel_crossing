@@ -1,0 +1,46 @@
+from __future__ import annotations
+
+import sys
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+import pandas as pd
+from IPython.display import display
+
+HERE = Path.cwd()
+for cand in [HERE, HERE / "inventory_soh_residual", HERE.parent / "inventory_soh_residual"]:
+    if (cand / "residual.py").exists():
+        HERE = cand
+        break
+if str(HERE) not in sys.path:
+    sys.path.insert(0, str(HERE))
+
+import importlib
+import residual as R
+R = importlib.reload(R)
+
+plt.rcParams.update(
+    {
+        "figure.facecolor": "white",
+        "axes.facecolor": "white",
+        "axes.grid": True,
+        "grid.alpha": 0.25,
+        "axes.spines.top": False,
+        "axes.spines.right": False,
+        "font.size": 10,
+    }
+)
+
+cfg = R.load_config()
+# Refuse Copernicus even if someone flips the yaml flag.
+if cfg.get("fetch_satellite"):
+    raise R.SatelliteFetchBlocked("Set fetch_satellite: false — this notebook does not pull imagery.")
+
+REFRESH_KAYRROS = False  # True only when you want a fresh COI pull
+RUN_SAT_VS_KPLER = True  # uses cached detections + Kpler port calls, not Sentinel Hub
+
+START, END = R.analysis_window(cfg)
+START="2025-12-31"
+print(f"Window {START} → {END}")
+print("Satellite fetch:", cfg["fetch_satellite"], "(must stay False)")
+R.mapping_table(cfg)

@@ -1,6 +1,9 @@
-﻿.env
+.env
 sdn_advanced_2026-07-13.xml
 .venv/
 __pycache__/
 *.pyc
 .cache/
+inventory_soh_residual/cache/
+kpler_vs_soh/cache/
+kpler_vs_soh/data/

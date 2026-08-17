@@ -1,0 +1,229 @@
+# Strait of Hormuz inventory residual — Kayrros COI vs Kpler vs SoH crossings.
+# No Copernicus / Sentinel Hub calls. Satellite overlay is cached detections only.
+
+start_date: 2026-01-01
+# null -> last date in soh_crossing_hist.xlsx
+end_date: null
+product: crude
+ma_days: 7
+# Typical load -> strait steaming time for the S_t lag comparison
+soh_lag_days: 3
+# Production is treated as locally constant over this window when scoring S_t
+s_band_days: 28
+
+# Hard guard: this project must not hit Sentinel Hub / Copernicus.
+fetch_satellite: false
+
+paths:
+  crossing: soh_crossing_hist.xlsx
+  afra: afra_scale_mapping.xlsx
+  detections: port_loading_gaps/vessel_detections.csv
+  env: .env
+
+kayrros:
+  # Daily onshore series is in barrels (Ras Tanura ~13e6 = 13 mbbl).
+  onshore_unit: bbl
+  # Floating MEG series is in kbbl (~15e3–23e3 = 15–23 mbbl).
+  floating_unit: kbbl
+  floating_shape: middle_east_gulf
+  floating_idle_days: 10
+  daily: true
+
+# Country COI that sits inside the Gulf system (Hormuz-side tanks).
+countries_inside_gulf:
+  - saudiArabia
+  - iraq
+  - iran
+  - kuwait
+  - qatar
+  - unitedArabEmirates
+  - bahrain
+
+# Subtract these location stocks from country totals so I_inside
+# does not include Red Sea / east-coast / Ceyhan tanks.
+bypass_kayrros_ids:
+  # Saudi Red Sea (East-West pipeline destination + local Red Sea)
+  - yanbuTerminal_saudiAramco
+  - muajjizTerminal_saudiAramco
+  - yanbuRefinery_saudiAramco
+  - yanbuRefinery_samref
+  - yanbuRefinery_yasref
+  - jeddahRefinery_saudiAramco
+  - rabighRefinery_petrorabigh
+  - jazanRefinery_saudiAramco
+  # UAE east of Hormuz (ADCOP)
+  - fujairahTerminal_adcop
+  - fujairahOilTerminal
+  - fujairahRefinery_vitol
+  # Iran Hormuz bypass
+  - jaskTerminal_pedec
+  # Iraq north / Ceyhan (never SoH)
+  - it-1aTerminal_inoc
+  - k1Terminal_inoc
+
+# Country-level Kpler crude exports. Oman is east of Hormuz — omit.
+kpler_inside_countries:
+  - Saudi Arabia
+  - Iraq
+  - United Arab Emirates
+  - Kuwait
+  - Qatar
+  - Iran
+  - Bahrain
+
+# Seaborne loadings that never cross SoH (subtract from country exports).
+kpler_bypass:
+  - name: Yanbu
+    kind: zone
+    bucket: red_sea
+  - name: Jask
+    kind: zone
+    bucket: jask
+  - name: Fujairah
+    kind: zone
+    bucket: adcop
+
+# Per-terminal residual (implied offtake = -ΔI vs Kpler loadings).
+# role:
+#   tank_fed       — onshore tanks feed the SPM/berth; residual is meaningful
+#   offshore_weak  — some Kayrros tanks exist but field-to-SPM can skip them
+#   no_kayrros     — sat overlay only
+#   bypass         — not a Hormuz loading point (shown separately)
+terminals:
+  ras_tanura:
+    display_name: Ras Tanura / Juaymah
+    role: tank_fed
+    kpler:
+      name: Ras Tanura
+      kind: zone
+    kayrros_ids:
+      - rasTanuraTerminal_saudiAramco
+      - juaymahTerminal_saudiAramco
+    sat_aois: []
+
+  mina_al_ahmadi:
+    display_name: Mina Al-Ahmadi
+    role: tank_fed
+    kpler:
+      name: Mina Al-Ahmadi
+      kind: zone
+    kayrros_ids:
+      - ahmadiNorthTankfarm_kuwait
+      - ahmadiSouthTankfarm_kuwait
+    sat_aois: []
+
+  al_basrah:
+    display_name: Al Basrah (south export tanks)
+    role: tank_fed
+    kpler:
+      name: Al Basrah
+      kind: zone
+    kayrros_ids:
+      - faoTerminal_inoc
+      - tubaTerminal_inoc
+      - zubairTerminal_inoc
+      - zubair2Terminal_inoc
+      - ps1Terminal_inoc
+      - buzurganTerminal_inoc
+    sat_aois: []
+
+  mesaieed:
+    display_name: Mesaieed
+    role: tank_fed
+    kpler:
+      name: Mesaieed
+      kind: zone
+    kayrros_ids:
+      - mesaieedTerminal_qatar
+    sat_aois: []
+
+  kharg:
+    display_name: Kharg Island
+    role: tank_fed
+    kpler:
+      name: Kharg Island
+      kind: zone
+    kayrros_ids:
+      - khargIslandTerminal_nioc
+    sat_aois: []
+
+  jebel_dhanna:
+    display_name: Jebel Dhanna
+    role: tank_fed
+    kpler:
+      name: Jebel Dhanna
+      alt_names: [Jebel Dhana, Jebel Dhanna Terminal]
+      kind: zone
+    kayrros_ids:
+      - jebelDhannaTerminal_adnoc
+    sat_aois: []
+
+  khafji:
+    display_name: Khafji
+    role: offshore_weak
+    note: Kayrros site is the Ras al-Khafji refinery, not the SPM tanks.
+    kpler:
+      name: Khafji
+      kind: zone
+    kayrros_ids:
+      - rasAl-khafjiRefinery_aramcooc
+    sat_aois: []
+
+  das:
+    display_name: Das Island
+    role: offshore_weak
+    kpler:
+      name: Das Island
+      kind: zone
+    kayrros_ids:
+      - dasIslandTerminal_adnoc
+    sat_aois: [das_spm_1, das_spm_2]
+
+  zirku:
+    display_name: Zirku
+    role: offshore_weak
+    kpler:
+      name: Zirku
+      kind: zone
+    kayrros_ids:
+      - zirkuIslandTerminal_adnoc
+    sat_aois: [zirku_spm_1, zirku_spm_2]
+
+  halul:
+    display_name: Halul Island
+    role: offshore_weak
+    kpler:
+      name: Halul Island
+      kind: installation
+    kayrros_ids:
+      - halulIslandTerminal_qatar
+    sat_aois: []
+
+  umm_lulu:
+    display_name: Umm Lulu
+    role: no_kayrros
+    kpler:
+      name: Umm Lulu
+      kind: installation
+    kayrros_ids: []
+    sat_aois: [um_lulu_spm]
+
+  shaheen:
+    display_name: Al Shaheen
+    role: no_kayrros
+    kpler:
+      name: Al Shaheen
+      kind: zone
+    kayrros_ids: []
+    sat_aois: []
+
+  yanbu:
+    display_name: Yanbu (Red Sea bypass)
+    role: bypass
+    kpler:
+      name: Yanbu
+      kind: zone
+    kayrros_ids:
+      - yanbuTerminal_saudiAramco
+      - muajjizTerminal_saudiAramco
+    sat_aois: [yanbu_north_crude_terminal, muajjiz]

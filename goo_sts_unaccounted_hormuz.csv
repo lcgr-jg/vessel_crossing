@@ -1,4 +1,6 @@
 event_date,event_ts,component,vessel,vessel_imo,counterparty,counterparty_imo,sts_zone,grade,origin_bucket,volume_bbl,notes
+2026-08-15,2026-08-15 00:00:00,unknown_partner_not_soh,Olympic Life,9844277,,,Gulf of Oman,ME,unknown_mother,2000002,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
+2026-08-13,2026-08-13 00:00:00,unknown_partner_not_soh,Advantage Verdict,9933535,,,Gulf of Oman,ME,unknown_mother,2000002,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-08-09,2026-08-09 00:00:00,unknown_partner_not_soh,Novo,9633446,,,Gulf of Oman,ME,unknown_mother,1017760,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-08-07,2026-08-07 00:00:00,unknown_partner_not_soh,Gulf Loyalty,9441245,,,Gulf of Oman,ME,unknown_mother,2000002,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-08-05,2026-08-05 00:00:00,unknown_partner_not_soh,Africa,9905320,,,Gulf of Oman,ME,unknown_mother,999998,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
@@ -6,8 +8,9 @@ event_date,event_ts,component,vessel,vessel_imo,counterparty,counterparty_imo,st
 2026-08-01,2026-08-01 00:00:00,unknown_partner_not_soh,Sea Avon,1058030,,,Gulf of Oman,ME,unknown_mother,1061367,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-07-30,2026-07-30 00:00:00,unknown_partner_not_soh,G.Dream,9931329,,,Gulf of Oman,ME,unknown_mother,2000002,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-07-29,2026-07-29 00:00:00,unknown_partner_not_soh,Caspar,9926661,,,Gulf of Oman,ME,unknown_mother,1999996,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
+2026-07-26,2026-07-26 00:00:00,unknown_partner_not_soh,Front Clyde,1116038,,,Gulf of Oman,ME,unknown_mother,2000002,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-07-25,2026-07-25 00:00:00,unknown_partner_not_soh,Maran Taurus,9519494,,,Gulf of Oman,ME,unknown_mother,2000002,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
-2026-07-18,2026-07-18 00:00:00,unknown_partner_not_soh,Nave Allegro,9876414,,,Gulf of Oman,ME,unknown_mother,999998,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
+2026-07-18,2026-07-18 00:00:00,unknown_partner_not_soh,Nave Allegro,9876414,,,Gulf of Oman,ME,unknown_mother,1999996,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-07-16,2026-07-16 00:00:00,unknown_partner_not_soh,Singapore Prosperity,9419967,,,Fujairah Light,Das,unknown_mother,914211,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-07-10,2026-07-10 00:00:00,unknown_partner_not_soh,Sea Pearl,9779604,,,Gulf of Oman,ME,unknown_mother,1999996,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-07-09,2026-07-09 00:00:00,unknown_partner_not_soh,Malaysia Prosperity,9395305,,,Gulf of Oman,ME,unknown_mother,2000002,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
@@ -21,13 +24,18 @@ event_date,event_ts,component,vessel,vessel_imo,counterparty,counterparty_imo,st
 2026-06-24,2026-06-24 00:00:00,unknown_partner_not_soh,Caribbean Glory,9788875,,,Gulf of Oman,ME,unknown_mother,1999996,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-06-23,2026-06-23 00:00:00,unknown_partner_not_soh,Harbour Splendor,9575096,,,Gulf of Oman,ME,unknown_mother,2000002,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-06-21,2026-06-21 00:00:00,unknown_partner_not_soh,C.Galaxy,9404924,,,Gulf of Oman,ME,unknown_mother,1000004,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
-2026-06-18,2026-06-18 00:00:00,unknown_partner_not_soh,Tong Zhou Gong Ji,9646986,,,Gulf of Oman,ME,unknown_mother,1991360,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
 2026-06-18,2026-06-18 00:00:00,unknown_partner_not_soh,Seapassion,9783734,,,Gulf of Oman,ME,unknown_mother,1999996,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
-2026-08-10,2026-08-10 18:19:00,named_sts_giver_not_soh,Baltic Loyalty,9411953,Suriname Prosperity,9376749.0,Fujairah Light,Basrah Med.,unknown,1147500,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
-2026-08-10,2026-08-10 00:59:00,named_sts_giver_not_soh,Tamba,9343405,Gulf Loyalty,9441245.0,Sohar Light,ME,unknown,1788872,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
-2026-08-07,2026-08-07 12:18:00,named_sts_giver_not_soh,Poliegos,9746621,Baltic Loyalty,9411953.0,Sohar Light,Basrah,unknown,1065431,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
-2026-08-07,2026-08-07 04:16:00,named_sts_giver_not_soh,Bam Sandy,9326914,Albi,9444821.0,Fujairah Light,Jones Creek,unknown,22127,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
-2026-08-07,2026-08-07 04:16:00,named_sts_giver_not_soh,Bam Sandy,9326914,Albi,9444821.0,Fujairah Light,Meleck,unknown,22127,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-06-18,2026-06-18 00:00:00,unknown_partner_not_soh,Tong Zhou Gong Ji,9646986,,,Gulf of Oman,ME,unknown_mother,1991360,PortCall is_sts with no ShipToShips pair; receiver not in SoH exits
+2026-08-16,2026-08-16 18:18:00,named_sts_giver_not_soh,Renad,9310161,Aljalaa,9343338.0,Sohar Light,,unknown,51809,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-16,2026-08-16 18:18:00,named_sts_giver_not_soh,Renad,9310161,Aljalaa,9343338.0,Sohar Light,Khafji,unknown,8944,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-16,2026-08-16 02:39:00,named_sts_giver_not_soh,Ocean Loyalty,9375238,Gulf Loyalty,9441245.0,Sohar Light,ME,unknown,708798,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-14,2026-08-14 20:17:00,named_sts_giver_not_soh,Takaoka,9478664,Caribbean Loyalty,9501150.0,Sohar Light,ME,unknown,2000002,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-14,2026-08-14 02:19:00,named_sts_giver_not_soh,Aljalaa,9343338,Navara,9241798.0,Sohar Light,,unknown,51809,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-14,2026-08-14 02:19:00,named_sts_giver_not_soh,Aljalaa,9343338,Navara,9241798.0,Sohar Light,Khafji,unknown,8944,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-10,2026-08-10 06:53:00,named_sts_giver_not_soh,Seaway,9273650,Albi,9444821.0,Fujairah Light,Meleck,unknown,22127,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-10,2026-08-10 06:53:00,named_sts_giver_not_soh,Seaway,9273650,Albi,9444821.0,Fujairah Light,Jones Creek,unknown,22127,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-10,2026-08-10 00:59:00,named_sts_giver_not_soh,Tamba,9343405,Gulf Loyalty,9441245.0,Sohar Light,ME,unknown,1291203,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
+2026-08-07,2026-08-07 12:18:00,named_sts_giver_not_soh,Poliegos,9746621,Baltic Loyalty,9411953.0,Sohar Light,Basrah,unknown,881667,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
 2026-08-06,2026-08-06 22:18:00,named_sts_giver_not_soh,Bobcat,9422457,Gelor,9185528.0,Sohar Light,Urals,unknown,1047096,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
 2026-07-27,2026-07-27 00:17:00,named_sts_giver_not_soh,Tony,9432036,Ocean Loyalty,9375238.0,Fujairah Light,Murban,unknown,999998,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load
 2026-07-22,2026-07-22 03:19:00,named_sts_giver_not_soh,Odessa,9633458,Gulf Loyalty,9441245.0,Fujairah Light,Das,unknown,888555,Giver not in SoH exits; receiver also not a known SoH exit; excl. east-coast load

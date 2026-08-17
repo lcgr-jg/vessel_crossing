@@ -1,0 +1,111 @@
+load_date,vessel,imo,vessel_class,origin,destination,destination_country,destination_continent,dest_region,kbbl,status,suez_source
+2026-07-17,Aqualoyalty,9594664,LR2,Sidi Kerir,PBF Paulsboro,United States,Americas,USA,598.1,Delivered,sidi_kerir
+2026-07-17,Aqualoyalty,9594664,LR2,Sidi Kerir,PBF Paulsboro,United States,Americas,USA,168.0,Delivered,sidi_kerir
+2026-07-17,Front Gaula,9933652,VLCC,Yanbu Crude,Houston,United States,Americas,USA,1092.7,In Transit,yanbu_ex_ain
+2026-07-18,Dht Nokota,9826110,VLCC,Sidi Kerir,Galveston Light.,United States,Americas,USA,2128.5,In Transit,sidi_kerir
+2026-07-21,Dht Mustang,9823003,VLCC,Muajjiz,Americas,,Americas,USA,1174.3,In Transit,yanbu_ex_ain
+2026-07-23,Advantage Victory,9933547,VLCC,Sidi Kerir,Houston,United States,Americas,USA,2052.5,In Transit,sidi_kerir
+2026-07-27,Front Gaula,9933652,VLCC,Sidi Kerir,Houston,United States,Americas,USA,964.6,In Transit,sidi_kerir
+2026-07-29,Dht Mustang,9823003,VLCC,Sidi Kerir,Americas,,Americas,USA,948.6,In Transit,sidi_kerir
+2026-07-30,Vl Prosperity,9683697,VLCC,Sidi Kerir,Houston,United States,Americas,USA,2132.3,In Transit,sidi_kerir
+2026-08-07,Gh Christie,1043669,LR3,Sidi Kerir,Northern America,,Americas,USA,1054.7,In Transit,sidi_kerir
+2026-07-16,Levantine Sea,9815616,LR2,Sidi Kerir,Gdansk Naftoport PERN,Poland,Europe,Europe,769.7,Delivered,sidi_kerir
+2026-07-16,Parthenon Ts,9724348,LR2,Sidi Kerir,Gdansk Naftoport PERN,Poland,Europe,Europe,761.1,Delivered,sidi_kerir
+2026-07-16,Sebarok Spirit,9572264,LR2,Sidi Kerir,Tupras Izmit Refinery,Turkey,Europe,Europe,127.1,Delivered,sidi_kerir
+2026-07-16,Sebarok Spirit,9572264,LR2,Sidi Kerir,Tupras Aliaga Izmir Refinery,Turkey,Europe,Europe,257.8,Delivered,sidi_kerir
+2026-07-17,Atlantic Diamond,1022457,LR2,Sidi Kerir,Gdansk Naftoport PERN,Poland,Europe,Europe,770.0,Delivered,sidi_kerir
+2026-07-18,Sea Jaguar,9482627,LR2,Sidi Kerir,Trieste,Italy,Europe,Europe,328.4,Delivered,sidi_kerir
+2026-07-19,Atlantic Gem,1022469,LR2,Sidi Kerir,Gdansk Naftoport PERN,Poland,Europe,Europe,769.7,Delivered,sidi_kerir
+2026-07-19,Vallesina,9417311,LR2,Sidi Kerir,Sonatrach Augusta Refinery,Italy,Europe,Europe,765.8,Delivered,sidi_kerir
+2026-07-20,Ithaki Df,9953494,LR2,Sidi Kerir,Gdansk Naftoport PERN,Poland,Europe,Europe,776.3,Delivered,sidi_kerir
+2026-07-21,Sabrina Glory,9959929,LR2,Sidi Kerir,Gdansk Naftoport PERN,Poland,Europe,Europe,783.1,Delivered,sidi_kerir
+2026-07-22,Nissos Tinos,9886782,LR3,Sidi Kerir,MOH Corinth Refinery,Greece,Europe,Europe,1061.4,Delivered,sidi_kerir
+2026-07-22,Seastar,9373656,LR2,Sidi Kerir,Milazzo Refinery,Italy,Europe,Europe,557.1,Delivered,sidi_kerir
+2026-07-23,Njord Df,9953468,LR2,Sidi Kerir,Butinge,Lithuania,Europe,Europe,776.3,Delivered,sidi_kerir
+2026-07-27,Barcelona Spirit,9578634,LR3,Sidi Kerir,Sonatrach Augusta Refinery,Italy,Europe,Europe,457.2,Delivered,sidi_kerir
+2026-07-27,Pacific Diamond,9893046,LR2,Sidi Kerir,Butinge,Lithuania,Europe,Europe,382.5,In Transit,sidi_kerir
+2026-07-27,Pacific Diamond,9893046,LR2,Sidi Kerir,Gdansk Naftoport PERN,Poland,Europe,Europe,382.5,Delivered,sidi_kerir
+2026-07-28,Afrapearl II,9437672,LR2,Sidi Kerir,Tupras Aliaga Izmir Refinery,Turkey,Europe,Europe,493.8,Delivered,sidi_kerir
+2026-07-28,Eagle Louisiana,9518892,LR2,Sidi Kerir,Butinge,Lithuania,Europe,Europe,697.4,In Transit,sidi_kerir
+2026-07-28,Front Vega,9767338,LR2,Sidi Kerir,Gdansk,Poland,Europe,Europe,749.8,In Transit,sidi_kerir
+2026-07-29,Clear Stars,9868778,LR2,Sidi Kerir,Gdansk,Poland,Europe,Europe,769.6,In Transit,sidi_kerir
+2026-07-29,Marianna V.V.,9259707,LR1,Sidi Kerir,Aspropyrgos,Greece,Europe,Europe,256.4,Delivered,sidi_kerir
+2026-07-30,Sti Rambla,9730880,LR2,Sidi Kerir,Gibraltar-San Roque Refinery,Spain,Europe,Europe,444.4,Delivered,sidi_kerir
+2026-07-30,Zangazur,9420617,LR2,Sidi Kerir,Pachi,Greece,Europe,Europe,720.6,Delivered,sidi_kerir
+2026-07-31,Cedar,9907433,LR3,Sidi Kerir,Gibraltar,Gibraltar,Europe,Europe,1056.7,In Transit,sidi_kerir
+2026-07-31,Jasmin Joy,9427471,LR2,Sidi Kerir,Falconara Refinery,Italy,Europe,Europe,482.2,Delivered,sidi_kerir
+2026-07-31,Sea Majesty,9783344,VLCC,Muajjiz,Ceuta,Spain,Europe,Europe,1005.8,In Transit,yanbu_ex_ain
+2026-08-01,Front Castor,9780251,LR2,Sidi Kerir,Repsol Cartagena Refinery,Spain,Europe,Europe,505.9,Delivered,sidi_kerir
+2026-08-01,Sebarok Spirit,9572264,LR2,Sidi Kerir,Sonatrach Augusta Refinery,Italy,Europe,Europe,741.1,Delivered,sidi_kerir
+2026-08-02,Front Capella,9790995,LR2,Sidi Kerir,Butinge,Lithuania,Europe,Europe,743.4,In Transit,sidi_kerir
+2026-08-02,Minerva Eleftheria,9787168,LR2,Sidi Kerir,Europe,,Europe,Europe,551.8,In Transit,sidi_kerir
+2026-08-03,Catalan Sea,9577044,LR2,Sidi Kerir,Trieste,Italy,Europe,Europe,437.5,In Transit,sidi_kerir
+2026-08-03,Seastar,9373656,LR2,Sidi Kerir,Trieste,Italy,Europe,Europe,777.9,Delivered,sidi_kerir
+2026-08-04,Folegandros,9793753,LR3,Sidi Kerir,Pachi,Greece,Europe,Europe,1069.5,Delivered,sidi_kerir
+2026-08-04,Prudent Warrior,9753545,LR3,Sidi Kerir,STAR Refinery,Turkey,Europe,Europe,1017.7,Delivered,sidi_kerir
+2026-08-04,T.Kurucesme,9692478,LR2,Sidi Kerir,Tupras Aliaga Izmir Refinery,Turkey,Europe,Europe,705.0,Delivered,sidi_kerir
+2026-08-05,Front Leopard,9703320,LR2,Sidi Kerir,Gdansk,Poland,Europe,Europe,742.5,In Transit,sidi_kerir
+2026-08-06,Al Agaila,9415404,LR3,Sidi Kerir,Pachi,Greece,Europe,Europe,1076.0,Delivered,sidi_kerir
+2026-08-06,Summit Spirit,9404833,LR3,Sidi Kerir,Gdansk,Poland,Europe,Europe,572.4,In Transit,sidi_kerir
+2026-08-08,Mh Gladiator,1023932,LR2,Sidi Kerir,Gdansk,Poland,Europe,Europe,776.3,In Transit,sidi_kerir
+2026-08-09,Sea Condor,1025590,LR2,Sidi Kerir,Gdansk,Poland,Europe,Europe,764.9,In Transit,sidi_kerir
+2026-08-10,Seavoyager,9907653,LR3,Sidi Kerir,Aliaga,Turkey,Europe,Europe,1063.8,In Transit,sidi_kerir
+2026-08-11,Sea Jaguar,9482627,LR2,Sidi Kerir,Thessaloniki Refinery,Greece,Europe,Europe,574.8,In Transit,sidi_kerir
+2026-08-11,Sea Majesty,9783344,VLCC,Sidi Kerir,Ceuta,Spain,Europe,Europe,1049.9,In Transit,sidi_kerir
+2026-08-12,Sea Puma,9802176,LR2,Sidi Kerir,Gdansk,Poland,Europe,Europe,773.7,Loading,sidi_kerir
+2026-07-16,Adebola Adeline,9427627,LR3,Yanbu Crude,Petronas Melaka Refinery,Malaysia,Asia,Asia,213.8,Delivered,yanbu_ex_ain
+2026-07-16,Sea Emerald,9852119,VLCC,Muajjiz,Taoyuan,Taiwan,Asia,Asia,998.2,In Transit,yanbu_ex_ain
+2026-07-16,Sea Emerald,9852119,VLCC,Muajjiz,Kaohsiung,Taiwan,Asia,Asia,998.2,In Transit,yanbu_ex_ain
+2026-07-17,Sophia,9776559,VLCC,Muajjiz,Ulsan,South Korea,Asia,Asia,2128.7,In Transit,yanbu_ex_ain
+2026-07-18,Cosnew Lake,9804289,VLCC,Yanbu Crude,Huizhou Refinery,China,Asia,Asia,2135.0,Delivered,yanbu_ex_ain
+2026-07-18,Merbabu,9388364,LR2,Yanbu Crude,New Mangalore Refinery,India,Asia,Asia,716.2,Delivered,yanbu_ex_ain
+2026-07-18,Xin Long Yang,9761463,VLCC,Yanbu Crude,CNPC Qinzhou Refinery,China,Asia,Asia,2055.7,Delivered,yanbu_ex_ain
+2026-07-19,Encelia,9240172,LR2,Yanbu Crude,Jizan Refinery,Saudi Arabia,Asia,Asia,732.3,Delivered,yanbu_ex_ain
+2026-07-19,Lahore,9913511,LR2,Muajjiz,Karachi Keamari,Pakistan,Asia,Asia,757.7,Delivered,yanbu_ex_ain
+2026-07-20,Amazon,9476654,LR3,Muajjiz,Chennai,India,Asia,Asia,1074.1,In Transit,yanbu_ex_ain
+2026-07-20,New Explorer,1090777,VLCC,Yanbu Crude,SRC Jurong,Singapore Republic,Asia,Asia,1042.5,Delivered,yanbu_ex_ain
+2026-07-20,Rodos,1024948,LR2,Muajjiz,New Mangalore Refinery,India,Asia,Asia,776.3,Delivered,yanbu_ex_ain
+2026-07-22,Karachi,9903413,LR2,Yanbu Crude,Karachi Keamari,Pakistan,Asia,Asia,433.8,Delivered,yanbu_ex_ain
+2026-07-23,Desh Vaibhav,9297498,VLCC,Yanbu Crude,Mumbai,India,Asia,Asia,970.8,In Transit,yanbu_ex_ain
+2026-07-23,Desh Vaibhav,9297498,VLCC,Yanbu Crude,BORL Jamnagar Oil Terminal,India,Asia,Asia,1140.7,Delivered,yanbu_ex_ain
+2026-07-23,Fpmc C Lord,9447574,VLCC,Yanbu Crude,FPCC Mailiao Refinery,Taiwan,Asia,Asia,2106.5,In Transit,yanbu_ex_ain
+2026-07-24,New Pearl,9468322,VLCC,Yanbu Crude,Nagoya,Japan,Asia,Asia,2047.1,In Transit,yanbu_ex_ain
+2026-07-25,Front Empire,9788332,VLCC,Muajjiz,South-Central Asia,,Asia,Asia,1200.0,In Transit,yanbu_ex_ain
+2026-07-26,Lesvos,9772321,LR3,Yanbu Crude,HMEL Mundra Oil Terminal,India,Asia,Asia,1017.8,Delivered,yanbu_ex_ain
+2026-07-29,Alexandros,9905459,VLCC,Muajjiz,Cochin,India,Asia,Asia,300.0,In Transit,yanbu_ex_ain
+2026-07-29,Alexandros,9905459,VLCC,Muajjiz,BORL Jamnagar Oil Terminal,India,Asia,Asia,1000.0,Delivered,yanbu_ex_ain
+2026-07-29,Desert Rose,9239939,LR2,Yanbu Crude,Rabigh Power,Saudi Arabia,Asia,Asia,395.9,Delivered,yanbu_ex_ain
+2026-08-01,Bidbid,1085473,VLCC,Sidi Kerir,Ulsan,South Korea,Asia,Asia,2002.7,In Transit,sidi_kerir
+2026-08-06,Front Empire,9788332,VLCC,Sidi Kerir,South-Central Asia,,Asia,Asia,802.7,In Transit,sidi_kerir
+2026-08-07,Desh Ujaala,9297486,VLCC,Sidi Kerir,Sikka,India,Asia,Asia,2110.2,In Transit,sidi_kerir
+2026-08-08,Delta Mariner,9579573,LR3,Sidi Kerir,Rayong,Thailand,Asia,Asia,1056.7,In Transit,sidi_kerir
+2026-08-08,Seavoice,9877755,VLCC,Yanbu,Eastern Asia,,Asia,Asia,1032.9,In Transit,yanbu_ex_ain
+2026-08-09,Delta Amazon,9748916,VLCC,Sidi Kerir,Japan,Japan,Asia,Asia,1069.5,In Transit,sidi_kerir
+2026-08-09,Delta Amazon,9748916,VLCC,Sidi Kerir,Nagoya,Japan,Asia,Asia,1069.5,In Transit,sidi_kerir
+2026-08-15,Mount Vision,1043035,VLCC,Yanbu,Ulsan,South Korea,Asia,Asia,1989.4,Scheduled,yanbu_ex_ain
+2026-08-15,Shalamar,9336842,LR2,Yanbu,Karachi,Pakistan,Asia,Asia,706.0,Scheduled,yanbu_ex_ain
+2026-08-18,Maran Leo,9602473,VLCC,Yanbu,Eastern Asia,,Asia,Asia,2139.4,Scheduled,yanbu_ex_ain
+2026-08-21,Dht Stallion,9813448,VLCC,Sidi Kerir,Eastern Asia,,Asia,Asia,2122.0,Scheduled,sidi_kerir
+2026-08-21,Quantum Harmony,9418054,VLCC,Yanbu,West Coast India,India,Asia,Asia,2142.9,Scheduled,yanbu_ex_ain
+2026-08-23,Sanmar Herald,9330563,VLCC,Sidi Kerir,Sikka,India,Asia,Asia,2138.4,Scheduled,sidi_kerir
+2026-08-25,He Ping Hai,9614048,VLCC,Sidi Kerir,China,China,Asia,Asia,2162.0,Scheduled,sidi_kerir
+2026-07-23,Dht Gazelle,1055155,VLCC,Yanbu Crude,Brazil,Brazil,Americas,Other,1081.9,In Transit,yanbu_ex_ain
+2026-08-05,Dht Gazelle,1055155,VLCC,Sidi Kerir,Brazil,Brazil,Americas,Other,612.4,In Transit,sidi_kerir
+2026-08-12,Vl Bright,9926740,VLCC,Sidi Kerir,Egypt,Egypt,Africa,Other,2123.8,Loading,sidi_kerir
+2026-08-20,Safeen Elizabeth,9524449,LR3,Yanbu,MED Sea,,,Other,1057.0,Scheduled,yanbu_ex_ain
+2026-07-21,Alhaya,9939163,LR2,Yanbu Crude,,,,(blank),780.6,In Transit,yanbu_ex_ain
+2026-07-21,Olympic Luck,9424211,VLCC,Muajjiz,,,,(blank),1200.0,In Transit,yanbu_ex_ain
+2026-07-22,Ninemia,9946702,LR2,Muajjiz,,,,(blank),769.5,In Transit,yanbu_ex_ain
+2026-07-25,New Discovery,9269075,LR3,Yanbu Crude,,,,(blank),1040.4,In Transit,yanbu_ex_ain
+2026-08-03,Olympic Luck,9424211,VLCC,Sidi Kerir,,,,(blank),937.1,In Transit,sidi_kerir
+2026-08-05,V.Glory,9849851,VLCC,Yanbu Crude,,,,(blank),1099.1,In Transit,yanbu_ex_ain
+2026-08-11,C.Glory,9419620,VLCC,Muajjiz,,,,(blank),2108.0,In Transit,yanbu_ex_ain
+2026-08-11,Daffodil,9239927,LR2,Yanbu Crude,,,,(blank),678.0,In Transit,yanbu_ex_ain
+2026-08-12,Nordic Hawk,9749491,LR3,Sidi Kerir,,,,(blank),1064.5,In Transit,sidi_kerir
+2026-08-13,Cape Ermoupolis,1064376,LR3,Sidi Kerir,,,,(blank),1061.4,Scheduled,sidi_kerir
+2026-08-14,Lila Marseille,9418614,LR3,Yanbu,,,,(blank),1059.2,Scheduled,yanbu_ex_ain
+2026-08-15,Plata Glory,9384590,VLCC,Yanbu,,,,(blank),2012.4,Scheduled,yanbu_ex_ain
+2026-08-15,Roberta B,9563237,VLCC,Yanbu,,,,(blank),1989.1,Scheduled,yanbu_ex_ain
+2026-08-16,Ghazal,9387009,VLCC,Yanbu,,,,(blank),2119.8,Scheduled,yanbu_ex_ain
+2026-08-20,Front Tana,9933640,VLCC,Yanbu,,,,(blank),1997.7,Scheduled,yanbu_ex_ain
+2026-08-25,Front Neiden,9877779,VLCC,Yanbu,,,,(blank),1996.4,Scheduled,yanbu_ex_ain

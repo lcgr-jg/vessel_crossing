@@ -3,8 +3,9 @@
 # How to add another terminal (e.g. zirku, das, um_lulu):
 # 1. Add a top-level key under `terminals:` (snake_case id).
 # 2. Set kpler.name / kpler.kind to the zone or installation used in Kpler UI.
-# 3. Set imagery.aoi_key + geojson if you want a satellite panel.
-# 4. Optional: imagery.show_debug + berth_slots_px for NDWI analyst panels.
+# 3. Set imagery.aoi_key + geojson for one crop, OR imagery.panels: [...] for
+#    multi-SPM facilities (Das / Zirku) — side-by-side raw + NDWI in the HTML.
+# 4. Optional: imagery.show_debug (+ berth_slots_px per panel) for NDWI appendix.
 # 5. Optional zone "installation TBD" section (see yanbu_unallocated):
 #      kpler: { name: <Zone>, kind: zone }
 #      slate: { require_blank_installation: true }
@@ -18,7 +19,7 @@ chart_start: 2026-02-01
 product: crude
 flow_unit: kbd
 ma_days: 7
-slate_back: 2
+slate_back: 3
 slate_forward: 3
 sat_lookback_days: 45
 sat_max_cloud: 30
@@ -84,21 +85,21 @@ terminals:
 
   # Zone-level cargos Kpler has not yet assigned to Yanbu Crude / Muajjiz.
   # Reuse this pattern for any zone that parks fixtures before installation resolve.
-  yanbu_unallocated:
-    display_name: Yanbu — installation TBD
-    kpler:
-      name: Yanbu
-      kind: zone
-    slate:
-      require_blank_installation: true
-      back: 2
-      forward: 12
-    report:
-      include_gap_chart: false
-      include_flows: false
-      include_satellite: false
-    related_installations: [Yanbu Crude, Muajjiz]
-    events: []
+  #yanbu_unallocated:
+  #  display_name: Yanbu — installation TBD
+  #  kpler:
+  #    name: Yanbu
+  #    kind: zone
+  #  slate:
+  #    require_blank_installation: true
+  #    back: 2
+  #    forward: 12
+  #  report:
+  #    include_gap_chart: false
+  #    include_flows: false
+  #    include_satellite: false
+  #  related_installations: [Yanbu Crude, Muajjiz]
+  #  events: []
 
   cpc:
     display_name: CPC
@@ -126,3 +127,328 @@ terminals:
             - [37.595644, 44.628596]
             - [37.599936, 44.637086]
     events: []
+  
+  umm_lulu:
+    display_name: Umm Lulu
+    kpler:
+      name: Umm Lulu
+      kind: installation
+    imagery:
+      aoi_key: umm_lulu
+      show_debug: true
+      resolution_m: 10
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [53.001652,25.058544]
+            - [53.001652,25.072733]
+            - [53.026929,25.072733]
+            - [53.026929,25.058544]
+            - [53.001652,25.058544]
+    events: []
+
+  das:
+    display_name: Das Island
+    kpler:
+      name: Das Island
+      kind: zone
+    imagery:
+      aoi_key: das_island
+      show_debug: true
+      resolution_m: 10
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [52.938952,25.12683]
+            - [52.892432,25.12683]
+            - [52.892432,25.159735]
+            - [52.938952,25.159735]
+            - [52.938952,25.12683]
+    events: []
+
+  zirku:
+    display_name: Zirku
+    kpler:
+      name: Zirku
+      kind: zone
+    imagery:
+      aoi_key: zirku_island
+      show_debug: true
+      resolution_m: 10
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [53.019333,25.041749]
+            - [52.96629,25.041749]
+            - [52.96629,24.99975]
+            - [53.019333,24.99975]
+            - [53.019333,25.041749]
+    events: []
+
+  mesaieed:
+    display_name: Mesaieed
+    kpler:
+      name: Mesaieed
+      kind: zone
+    imagery:
+      show_debug: true
+      resolution_m: 10
+      panels:
+        - aoi_key: mesaieed_spm_1
+          label: SPM 1
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [51.568279, 24.90699]
+                - [51.602354,24.90699]
+                - [51.602354,24.87647]
+                - [51.568279,24.87647]
+                - [51.568279,24.90699]
+        - aoi_key: mesaieed_port
+          label: Port
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [51.551832,24.893998]
+                - [51.558022,24.893998]
+                - [51.558022,24.900451]
+                - [51.551832,24.900451]
+                - [51.551832,24.893998]
+    events: []
+
+  halul_island:
+    display_name: Halul Island
+    kpler:
+      name: Halul Island
+      kind: installation
+    imagery:
+      aoi_key: halul_island
+      show_debug: true
+      resolution_m: 10
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [52.434311,25.635955]
+            - [52.434311,25.654912]
+            - [52.470188,25.654912]
+            - [52.470188,25.635955]
+            - [52.434311,25.635955]
+    events: []
+
+  # Multi-SPM facility: one Kpler zone, two tight Copernicus crops side-by-side.
+
+  shaheen:
+    display_name: Shaheen
+    kpler:
+      name: Al Shaheen
+      kind: zone
+    imagery:
+      show_debug: true
+      resolution_m: 10
+      panels:
+        - aoi_key: shaheen_1
+          label: Shaheen 1
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [51.878386,26.663721]
+                - [51.878386,26.681438]
+                - [51.913404,26.681438]
+                - [51.913404,26.663721]
+                - [51.878386,26.663721]
+        - aoi_key: shaheen_2
+          label: Shaheen 2
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [52.007217,26.578395]
+                - [52.007217,26.604491]
+                - [52.059746,26.604491]
+                - [52.059746,26.578395]
+                - [52.007217,26.578395]
+    events: []
+
+  ras_tanura_zone:
+    display_name: Ras Tanura Zone
+    kpler:
+      name: Ras Tanura
+      kind: zone
+    imagery:
+      show_debug: true
+      resolution_m: 10
+      panels:
+        - aoi_key: ras_tanura_berth
+          label: Ras Tanura Berth
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [50.170741,26.657393]
+                - [50.170741,26.679099]
+                - [50.195546,26.679099]
+                - [50.195546,26.657393]
+                - [50.170741,26.657393]
+        - aoi_key: juaymanh
+          label: Juaymanh
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [50.022469,26.968131]
+                - [50.12392,26.968131]
+                - [50.12392,26.917937]
+                - [50.022469,26.917937]
+                - [50.022469,26.968131]
+    events: []
+
+  khafji:
+    display_name: Khafji
+    kpler:
+      name: Khafji
+      kind: zone
+    imagery:
+      aoi_key: khafji
+      resolution_m: 10
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [48.587208,28.444242]
+            - [48.662825,28.444242]
+            - [48.662825,28.478877]
+            - [48.587208,28.478877]
+            - [48.587208,28.444242]
+    events: []
+  
+  mina_al_ahmadi:
+    display_name: Mina Al-Ahmadi
+    kpler:
+      name: Mina Al-Ahmadi
+      kind: zone
+    imagery:
+      aoi_key: mina_al_ahmadi
+      resolution_m: 10
+      geojson:
+
+        coordinates:
+          - - [48.357868,29.116925]
+            - [48.254013,29.116925]
+            - [48.254013,29.151262]
+            - [48.357868,29.151262]
+            - [48.357868,29.116925]
+    events: []
+
+  al_basrah:
+    display_name: Al Basrah
+    kpler:
+      name: Al Basrah
+      kind: zone
+    imagery:
+      aoi_key: al_basrah
+      resolution_m: 10
+      panels:
+        - aoi_key: al_basrah_1
+          label: Al Basrah North
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [48.787537,29.672841]
+                - [48.787537,29.711687]
+                - [48.82556,29.711687]
+                - [48.82556,29.672841]
+                - [48.787537,29.672841]
+        - aoi_key: al_basrah_2
+          label: Al Basrah South
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [48.819208,29.671796]
+                - [48.877831,29.671796]
+                - [48.877831,29.630846]
+                - [48.819208,29.630846]
+                - [48.819208,29.671796]
+    events: []
+
+  kharg_island:
+    display_name: Kharg Island
+    kpler:
+      name: Kharg Island
+      kind: zone
+    imagery:
+      aoi_key: kharg_island
+      resolution_m: 10
+      panels:
+        - aoi_key: kharg_island_right_berth
+          label: Kharg Island Right Berth
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [50.332575,29.221025]
+                - [50.332575,29.240275]
+                - [50.350857,29.240275]
+                - [50.350857,29.221025]
+                - [50.332575,29.221025]
+        - aoi_key: kharg_island_left_berth
+          label: Kharg Island Left Berth
+          geojson:
+            type: Polygon
+            coordinates:
+              - - [50.277987,29.218853]
+                - [50.277987,29.237429]
+                - [50.295582,29.237429]
+                - [50.295582,29.218853]
+                - [50.277987,29.218853]
+    events: []
+
+
+  jask:
+    display_name: Jask Oil Terminal
+    kpler:
+      name: Jask Oil Terminal
+      kind: zone
+    imagery:
+      aoi_key: jask
+      resolution_m: 10
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [57.251859,25.853122]
+            - [57.233319,25.853122]
+            - [57.233319,25.8386]
+            - [57.251859,25.8386]
+            - [57.251859,25.853122]
+    events: []
+
+  #das:
+  #  display_name: Das Island
+  #  kpler:
+  #    name: Das Island
+  #    kind: zone
+  #  imagery:
+  #    show_debug: true
+  #    resolution_m: 10
+  #    panels:
+  #      - aoi_key: das_spm_1
+  #        label: SPM 1
+  #        geojson:
+  #          type: Polygon
+  #          coordinates:
+  #            - - [52.937965, 25.129744]
+  #              - [52.921314, 25.129744]
+  #              - [52.921314, 25.140934]
+  #              - [52.937965, 25.140934]
+  #              - [52.937965, 25.129744]
+  #        berth_slots_px:
+  #          - name: spm
+  #            box: [20, 20, 120, 120]
+  #      - aoi_key: das_spm_2
+  #        label: SPM 2
+  #        geojson:
+  #          type: Polygon
+  #          coordinates:
+  #            - - [53.001223, 25.072306]
+  #              - [53.023195, 25.072306]
+  #              - [53.023195, 25.061732]
+  #              - [53.001223, 25.061732]
+  #              - [53.001223, 25.072306]
+  #        berth_slots_px:
+  #          - name: spm
+  #            box: [69, 25, 196, 88]
+  #  events: []

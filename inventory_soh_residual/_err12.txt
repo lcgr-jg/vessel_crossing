@@ -1,0 +1,36 @@
+TypeError
+unsupported operand type(s) for -: 'str' and 'datetime.timedelta'
+[31m---------------------------------------------------------------------------[39m
+[31mTypeError[39m                                 Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[121][39m[32m, line 11[39m
+[32m      8[39m KPLER_NAME = [33m"[39m[33mZirku Island[39m[33m"[39m                          [38;5;66;03m# or Das Island[39;00m
+[32m      9[39m KPLER_KIND = [33m"[39m[33minstallation[39m[33m"[39m                           [38;5;66;03m# zone | installation[39;00m
+[32m---> [39m[32m11[39m wide, compare = [43mR[49m[43m.[49m[43mtank_draw_vs_kpler[49m[43m([49m
+[32m     12[39m [43m    [49m[43mshape_id[49m[43m=[49m[43mKAYRROS_SHAPE[49m[43m,[49m
+[32m     13[39m [43m    [49m[43mkpler_name[49m[43m=[49m[43mKPLER_NAME[49m[43m,[49m
+[32m     14[39m [43m    [49m[43mkpler_kind[49m[43m=[49m[43mKPLER_KIND[49m[43m,[49m
+[32m     15[39m [43m    [49m[43mstart[49m[43m=[49m[43mSTART[49m[43m,[49m
+[32m     16[39m [43m    [49m[43mend[49m[43m=[49m[43mEND[49m[43m,[49m
+[32m     17[39m [43m    [49m[43memail[49m[43m=[49m[43memail[49m[43m,[49m
+[32m     18[39m [43m    [49m[43mpassword[49m[43m=[49m[43mpassword[49m[43m,[49m
+[32m     19[39m [43m    [49m[43msession[49m[43m=[49m[43msession[49m[43m,[49m
+[32m     20[39m [43m    [49m[43mproduct[49m[43m=[49m[43mcfg[49m[43m[[49m[33;43m"[39;49m[33;43mproduct[39;49m[33;43m"[39;49m[43m][49m[43m,[49m
+[32m     21[39m [43m    [49m[43mrefresh[49m[43m=[49m[38;5;28;43;01mTrue[39;49;00m[38;5;66;43;03m#REFRESH_KAYRROS,[39;49;00m
+[32m     22[39m [43m)[49m
+[32m     24[39m R.OUT.mkdir(parents=[38;5;28;01mTrue[39;00m, exist_ok=[38;5;28;01mTrue[39;00m)
+[32m     25[39m safe = KAYRROS_SHAPE.replace([33m"[39m[33m/[39m[33m"[39m, [33m"[39m[33m_[39m[33m"[39m)
+
+[36mFile [39m[32mc:\Users\luiscarlos.gaitan\OneDrive - Jain Global\Coding\vessel_crossing\inventory_soh_residual\residual.py:310[39m, in [36mtank_draw_vs_kpler[39m[34m(shape_id, kpler_name, kpler_kind, start, end, email, password, session, product, refresh, daily)[39m
+[32m    299[39m [38;5;250m[39m[33;03m"""Excel-style compare: Kayrros tank draws vs Kpler loadings (kb).[39;00m
+[32m    300[39m 
+[32m    301[39m [33;03mReturns[39;00m
+[32m   (...)[39m[32m    307[39m [33;03mmore offtake than Kpler booked (possible missed loading).[39;00m
+[32m    308[39m [33;03m"""[39;00m
+[32m    309[39m session = session [38;5;129;01mor[39;00m kayrros_session()
+[32m--> [39m[32m310[39m fetch_start = [43mstart[49m[43m [49m[43m-[49m[43m [49m[43mtimedelta[49m[43m([49m[43mdays[49m[43m=[49m[32;43m3[39;49m[43m)[49m
+[32m    311[39m tbt = fetch_tbt_series(
+[32m    312[39m     session, shape_id, start=fetch_start, end=end, daily=daily, refresh=refresh
+[32m    313[39m )
+[32m    314[39m [38;5;28;01mif[39;00m tbt.empty:
+
+[31mTypeError[39m: unsupported operand type(s) for -: 'str' and 'datetime.timedelta'

@@ -1,0 +1,52 @@
+date,terminal_id,display_name,aoi,size_class,sat_vessels,kpler_occupancy,sat_only
+2026-07-02,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,Suezmax,1,0,1
+2026-07-02,yanbu,Yanbu (Red Sea bypass),muajjiz,Suezmax,3,0,1
+2026-07-02,yanbu,Yanbu (Red Sea bypass),muajjiz,Suezmax,3,0,1
+2026-07-02,yanbu,Yanbu (Red Sea bypass),muajjiz,Aframax,3,0,1
+2026-07-07,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,smaller/unclassified,2,1,0
+2026-07-07,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,VLCC,2,1,0
+2026-07-07,yanbu,Yanbu (Red Sea bypass),muajjiz,Suezmax,3,1,0
+2026-07-07,yanbu,Yanbu (Red Sea bypass),muajjiz,Suezmax,3,1,0
+2026-07-07,yanbu,Yanbu (Red Sea bypass),muajjiz,smaller/unclassified,3,1,0
+2026-07-12,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,smaller/unclassified,2,2,0
+2026-07-12,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,Suezmax,2,2,0
+2026-07-12,yanbu,Yanbu (Red Sea bypass),muajjiz,Aframax,2,2,0
+2026-07-12,yanbu,Yanbu (Red Sea bypass),muajjiz,VLCC,2,2,0
+2026-07-14,das,Das Island,das_spm_2,unclassified,1,0,1
+2026-07-14,umm_lulu,Umm Lulu,um_lulu_spm,unclassified,1,1,0
+2026-07-14,zirku,Zirku,zirku_spm_1,unclassified,1,2,0
+2026-07-14,zirku,Zirku,zirku_spm_2,unclassified,1,2,0
+2026-07-19,das,Das Island,das_spm_1,unclassified,1,0,1
+2026-07-19,das,Das Island,das_spm_2,unclassified,1,0,1
+2026-07-19,umm_lulu,Umm Lulu,um_lulu_spm,smaller/unclassified,1,0,1
+2026-07-19,zirku,Zirku,zirku_spm_1,unclassified,1,0,1
+2026-07-19,zirku,Zirku,zirku_spm_2,unclassified,1,0,1
+2026-07-22,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,smaller/unclassified,2,4,0
+2026-07-22,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,VLCC,2,4,0
+2026-07-22,yanbu,Yanbu (Red Sea bypass),muajjiz,smaller/unclassified,2,4,0
+2026-07-22,yanbu,Yanbu (Red Sea bypass),muajjiz,Suezmax,2,4,0
+2026-07-24,das,Das Island,das_spm_1,VLCC,1,0,1
+2026-07-24,das,Das Island,das_spm_2,Aframax,1,0,1
+2026-07-24,umm_lulu,Umm Lulu,um_lulu_spm,unclassified,1,0,1
+2026-07-27,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,Aframax,3,2,0
+2026-07-27,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,smaller/unclassified,3,2,0
+2026-07-27,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,VLCC,3,2,0
+2026-07-27,yanbu,Yanbu (Red Sea bypass),muajjiz,smaller/unclassified,3,2,0
+2026-07-27,yanbu,Yanbu (Red Sea bypass),muajjiz,VLCC,3,2,0
+2026-07-27,yanbu,Yanbu (Red Sea bypass),muajjiz,smaller/unclassified,3,2,0
+2026-07-29,das,Das Island,das_spm_1,VLCC,1,1,0
+2026-07-29,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,Aframax,3,3,0
+2026-07-29,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,Suezmax,3,3,0
+2026-07-29,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,VLCC,3,3,0
+2026-07-29,yanbu,Yanbu (Red Sea bypass),muajjiz,smaller/unclassified,2,3,0
+2026-07-29,yanbu,Yanbu (Red Sea bypass),muajjiz,VLCC,2,3,0
+2026-07-31,das,Das Island,das_spm_1,unclassified,1,2,0
+2026-07-31,das,Das Island,das_spm_2,unclassified,1,2,0
+2026-07-31,umm_lulu,Umm Lulu,um_lulu_spm,unclassified,1,1,0
+2026-07-31,zirku,Zirku,zirku_spm_1,smaller/unclassified,1,2,0
+2026-08-01,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,VLCC,2,3,0
+2026-08-01,yanbu,Yanbu (Red Sea bypass),yanbu_north_crude_terminal,smaller/unclassified,2,3,0
+2026-08-01,yanbu,Yanbu (Red Sea bypass),muajjiz,smaller/unclassified,3,3,0
+2026-08-01,yanbu,Yanbu (Red Sea bypass),muajjiz,unclassified,3,3,0
+2026-08-01,yanbu,Yanbu (Red Sea bypass),muajjiz,VLCC,3,3,0
+2026-08-03,das,Das Island,das_spm_1,unclassified,1,1,0
